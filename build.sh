@@ -14,6 +14,10 @@ do
 
     echo "Depoly $ff to production/"
     cp ./development/$ff.json ./production/$ff.json
+
+    echo "Compress $ff in production/"
+    npx json-minify ./production/$ff.json > ./temp/compressed.json
+    mv ./temp/compressed.json ./production/$ff.json
 done
 
 rm ./temp/schema.json
