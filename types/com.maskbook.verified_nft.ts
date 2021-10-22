@@ -1,5 +1,9 @@
 type Schema = {
     name: string
     iconURL: string
-    contractAddress: string    
+    collectionURL: string
+    contractAddress: string
+    slugs: {
+        opensea: string
+    }
 }[]
