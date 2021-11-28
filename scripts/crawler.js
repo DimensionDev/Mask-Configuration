@@ -139,15 +139,13 @@ async function crawlProjects() {
         ...projects[i],
         ...info,
       };
-      const key = (combined.name ?? combined.id ?? "")
-        .toLowerCase()
-        .trim()
-        .replace(/ /g, "-");
-      fs.writeFile(
-        `./development/com.maskbook.dao.${key}.json`,
-        JSON.stringify(combined, null, 2)
-      );
-      data.push();
+      if (combined.twitter) {
+        fs.writeFile(
+          `./development/com.maskbook.dao-${combined.twitter.toLowerCase()}.json`,
+          JSON.stringify(combined, null, 2)
+        );
+        data.push(combined);
+      }
     } catch (err) {
       console.log(err);
     }
