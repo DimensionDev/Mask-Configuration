@@ -8,16 +8,23 @@ do
     fn="${f##*/}" # file name with ext
     ff="${fn%.*}" # file name only
 
-    echo "Validate $f in development/"
-    npx typescript-json-schema ./types/$ff.ts Schema > ./temp/schema.json
-    npx ajv validate -s ./temp/schema.json -d ./development/$ff.json > /dev/null
+    for jsonfile in ./development/$ff*.json; do 
+        echo "Validate $jsonfile in development/"
+        npx typescript-json-schema ./types/$ff.ts Schema > ./temp/schema.json
+        npx ajv validate -s ./temp/schema.json -d $jsonfile > /dev/null
+    done
 
-    echo "Depoly $ff to production/"
-    cp ./development/$ff.json ./production/$ff.json
+    for jsonfile in ./development/$ff*.json; do
+        echo "Depoly $jsonfile to production/"
+        name="${jsonfile##*/}"
+        cp $jsonfile ./production/$name
+    done
 
-    echo "Compress $ff in production/"
-    npx json-minify ./production/$ff.json > ./temp/compressed.json
-    mv ./temp/compressed.json ./production/$ff.json
+    for jsonfile in ./production/$ff*.json; do
+        echo "Compress $jsonfile in production/"
+        npx json-minify $jsonfile > ./temp/compressed.json
+        mv ./temp/compressed.json $jsonfile
+    done
 done
 
 rm ./temp/schema.json

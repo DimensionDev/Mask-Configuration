@@ -48,16 +48,23 @@ type FundingCycle= {
 }
 
 type Schema = {
-  name: string;
-  logo: string;
-  media: Media;
-  description: string;
-  valume: BNString;
-  in_juicebox: BNString;
-  in_wallet: BNString;
-  volume_track: VolumeTrack;
-  $people_tokens: PeopleTokens,
-  activities: Activity[];
-  funding_cycle: 
-}[];
+  createdAt: string
+  creator: string
+  currentBalance: string
+  handle: string
+  id: string
+  totalPaid: string
+  totalRedeemed: string
+  uri: string
+  name: string
+  description: string
+  logoUri: string
+  infoUri: string
+  twitter: string
+  discord: string
+  payButton: string
+  payDisclosure: string
+  tokens: any[],
+  version: number
+}
 

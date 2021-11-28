@@ -5,7 +5,7 @@ enum DataProvider {
 
 type EnumRecord<T extends number, U> = {
   [K in T]: U;
-};
+}
 
 type Schema = EnumRecord<
   DataProvider,
@@ -14,4 +14,4 @@ type Schema = EnumRecord<
     provider_id: string;
     contract_address?: string;
   }[]
->;
+>
