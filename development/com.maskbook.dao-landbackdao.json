@@ -1,10 +1,10 @@
 {
   "createdAt": "1636958058",
   "creator": "0x050920eda4014e25ded17c346b425239a468d63d",
-  "currentBalance": "240000000000000000",
+  "currentBalance": "351111000000000000",
   "handle": "0x6c616e646261636b000000000000000000000000000000000000000000000000",
   "id": "37",
-  "totalPaid": "240000000000000000",
+  "totalPaid": "351111000000000000",
   "totalRedeemed": "0",
   "uri": "QmVitxbUWdxXjGPc8RkyJHAuUpf6ZY4YZXS1thYg4qkhEX",
   "name": "LandBack DAO",
@@ -16,5 +16,53 @@
   "payButton": "",
   "payDisclosure": "10% of all funds raised go towards funding Indigenous artists to create exclusive content for LandBackDAO members",
   "tokens": [],
-  "version": 3
+  "version": 3,
+  "overflow": null,
+  "duration": "Not set",
+  "reserved": 0.1,
+  "payEvents": [
+    {
+      "amount": "111111000000000000",
+      "beneficiary": "0xec41a0aaea12ad8f588e5ad0e71a837d83e05792",
+      "id": "0x366a4536393c587faddca82a721750d4ec77e90d1b4fff2adb55cccc406b8a14-63",
+      "note": null,
+      "timestamp": "1638190480",
+      "txHash": "0x366a4536393c587faddca82a721750d4ec77e90d1b4fff2adb55cccc406b8a14"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x2293cec7c95bd9f929937185e9ff8f0899577d81",
+      "id": "0x00d605fd0c56fdea48729cd74f65dd04f42078d82c8fa7040341d4a51fd10bdc-454",
+      "note": null,
+      "timestamp": "1637706589",
+      "txHash": "0x00d605fd0c56fdea48729cd74f65dd04f42078d82c8fa7040341d4a51fd10bdc"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xc17ac26b5f793d91c7bc411796e6cc5044452ca5",
+      "id": "0xfed0b3014a2137e1d026397cd11bf458c03f7c4fb1b2b19eea27a2202a7ef531-107",
+      "note": "Skoden!",
+      "timestamp": "1637332190",
+      "txHash": "0xfed0b3014a2137e1d026397cd11bf458c03f7c4fb1b2b19eea27a2202a7ef531"
+    },
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0x748e56db8a0b50ab45e5ee166d768b0f068a17d9",
+      "id": "0x18220a8ea4fec811812487c5d5d7ce86a1e3f12ba3d2b2ca310df4faa0d7fabd-454",
+      "note": null,
+      "timestamp": "1637089938",
+      "txHash": "0x18220a8ea4fec811812487c5d5d7ce86a1e3f12ba3d2b2ca310df4faa0d7fabd"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x050920eda4014e25ded17c346b425239a468d63d",
+      "id": "0x74800659c4c1e263ed5b1572a754a24d927e3f7314f7ea953a10343fb09c3c6b-372",
+      "note": "LANDBACK launch!",
+      "timestamp": "1636958549",
+      "txHash": "0x74800659c4c1e263ed5b1572a754a24d927e3f7314f7ea953a10343fb09c3c6b"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

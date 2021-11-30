@@ -1,0 +1,57 @@
+name: Crawl every hour
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 100
+          ref: master
+      - name: Use node_modules cache
+        uses: actions/cache@v2
+        id: yarn-cache
+        with:
+          path: |
+            node_modules
+          key: yarn-${{ hashFiles('package.json') }}-${{ hashFiles('yarn.lock') }}
+
+      - name: Yarn install
+        run: yarn install
+        if: steps.yarn-cache.outputs.cache-hit != 'true'
+
+      - name: Crawl
+        run: yarn crawl
+
+      - name: Get Changes
+        run: |
+          echo "CONTENT<<EOF" >> $GITHUB_ENV
+          echo "## Updates" >> $GITHUB_ENV
+          echo "" >> $GITHUB_ENV
+          echo "\`\`\`" >> $GITHUB_ENV
+          git diff --stat $BASE $HEAD ':(exclude).github' ':(exclude)scripts' >> $GITHUB_ENV
+          echo "\`\`\`" >> $GITHUB_ENV
+          echo "" >> $GITHUB_ENV
+          echo "https://github.com/${{ github.repository }}/compare/${BASE}..${HEAD}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+
+          # Issue creation will be skipped if no diff
+          echo "GIT_DIFF<<EOF" >> $GITHUB_ENV
+          git diff --stat $BASE $HEAD ':(exclude).github' ':(exclude)scripts' >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - uses: actions-ecosystem/action-create-issue@v1
+        if: ${{ env.GIT_DIFF != '' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          title: ${{ env.TITLE }}
+          body: ${{ env.CONTENT }}
+          assignees: |
+            guanbinrui
+            unclebill

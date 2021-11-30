@@ -16,5 +16,18 @@
   "payButton": "",
   "payDisclosure": "",
   "tokens": [],
-  "version": 3
+  "version": 3,
+  "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x2d96e1fe38ff45cc8910c617b3c5e0b6298a81f3",
+      "id": "0xbef614c2bfdac18a2ecc00785997ac173e93e3a0022f540baec1dcce9ea4a3c1-399",
+      "note": "make this world accessible to all",
+      "timestamp": "1638089670",
+      "txHash": "0xbef614c2bfdac18a2ecc00785997ac173e93e3a0022f540baec1dcce9ea4a3c1"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

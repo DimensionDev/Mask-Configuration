@@ -16,5 +16,25 @@
   "tokens": [],
   "version": 3,
   "payButton": "Contribute",
-  "payDisclosure": "Please see kanyebeardao.com for details of this DAO"
+  "payDisclosure": "Please see kanyebeardao.com for details of this DAO",
+  "overflow": null,
+  "target": "1000000000000000000000000",
+  "duration": "Not set",
+  "reserved": 0,
+  "discount": 0,
+  "toETH": 1,
+  "bondingCurve": 1,
+  "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x6cc098f33f36b698887b29c1b3207198c499aa0e",
+      "id": "0x289ed2c54975c1f0e56365011b9cf6dabac644d0ac9419813d36d524aaec1674-560",
+      "note": null,
+      "timestamp": "1637259426",
+      "txHash": "0x289ed2c54975c1f0e56365011b9cf6dabac644d0ac9419813d36d524aaec1674"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
 }
