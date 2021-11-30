@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5377992155342591422403",
+  "currentBalance": "5381170155342591422403",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5494789797641430086769",
+  "totalPaid": "5497967797641430086769",
   "totalRedeemed": "5970536032529308012",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -19,6 +19,7 @@
   "overflow": null,
   "fundingCycles": [
     {
+      "toETHSymbol": "PEOPLE",
       "target": "45100000000000000000000",
       "duration": "14 days",
       "start": "11-21-21 3:19am",
@@ -29,9 +30,115 @@
       "bondingCurve": 0.6
     }
   ],
+  "inWallet": "0",
+  "jbx": "0",
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2350777680",
+  "totalSupply": "2351912634",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x57b0ad508cd592484a8f5f408985e25629e26e59",
+      "id": "0x76a48d982e9440e01e84d2425d19861af11f8d58d4c3109c9c53233d3854c74b-575",
+      "note": null,
+      "timestamp": "1638277377",
+      "txHash": "0x76a48d982e9440e01e84d2425d19861af11f8d58d4c3109c9c53233d3854c74b"
+    },
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0xa3b12a4124c8265b8bdb63196ba9404de902ad22",
+      "id": "0xfa7a2509b312618a350da5ebd6d2c50fe6534d6e638fff41a63abcc302bdf85b-204",
+      "note": "very good！",
+      "timestamp": "1638277173",
+      "txHash": "0xfa7a2509b312618a350da5ebd6d2c50fe6534d6e638fff41a63abcc302bdf85b"
+    },
+    {
+      "amount": "48000000000000000",
+      "beneficiary": "0x5b79a99c9fd504aeb05ca75949fa17a1b6d851bf",
+      "id": "0xc18a5d593247c590d84ea158bd14a62c5028c09a1e1f6814f47df0be8def4745-217",
+      "note": "Great project. Good luck!!",
+      "timestamp": "1638275871",
+      "txHash": "0xc18a5d593247c590d84ea158bd14a62c5028c09a1e1f6814f47df0be8def4745"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xac0ab72b69b1b84ce28507f441727e708478244c",
+      "id": "0x3f1bbd2f023a89d50e8a1c13d6715d104d954e28dd5806d26384da5d09408c78-137",
+      "note": null,
+      "timestamp": "1638274317",
+      "txHash": "0x3f1bbd2f023a89d50e8a1c13d6715d104d954e28dd5806d26384da5d09408c78"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xd0ad9d756e4cc19a2fb7cdfc981e32269595583f",
+      "id": "0x429c4a571312124de200a38956a22ac4f0f30a00411315868344a11a6cf3835a-119",
+      "note": null,
+      "timestamp": "1638273201",
+      "txHash": "0x429c4a571312124de200a38956a22ac4f0f30a00411315868344a11a6cf3835a"
+    },
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0x7de3050da8e153abeebaf5eb4f199577e80ff2c1",
+      "id": "0x12614e2d3c0e44b5833fbc53dc53026f6b748d17667f7a6aff01d5c08475e046-599",
+      "note": null,
+      "timestamp": "1638272296",
+      "txHash": "0x12614e2d3c0e44b5833fbc53dc53026f6b748d17667f7a6aff01d5c08475e046"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x6c37643aab76bc5f5707eff7bdb591cfebddcf8a",
+      "id": "0xb177de826d280dfa9d0cd35c837df31c4902a0e5c41337c7fd3f18c9bd778bab-427",
+      "note": "good luck ",
+      "timestamp": "1638272161",
+      "txHash": "0xb177de826d280dfa9d0cd35c837df31c4902a0e5c41337c7fd3f18c9bd778bab"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xf1d6fba5c239beb43eb880c79795bd13c8a4b933",
+      "id": "0x811a2c5713e4d2855e653433b26967d5418bac8836e6b1702b60bb797418ccd8-308",
+      "note": "0xfu.com",
+      "timestamp": "1638271962",
+      "txHash": "0x811a2c5713e4d2855e653433b26967d5418bac8836e6b1702b60bb797418ccd8"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xf1d6fba5c239beb43eb880c79795bd13c8a4b933",
+      "id": "0x05953c18d6241b070f59ed912f767f510ae5d76843475974cfba0c8af5e3cfee-371",
+      "note": "0xfu.com",
+      "timestamp": "1638271962",
+      "txHash": "0x05953c18d6241b070f59ed912f767f510ae5d76843475974cfba0c8af5e3cfee"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xf1d6fba5c239beb43eb880c79795bd13c8a4b933",
+      "id": "0x83b2a1c22180e138b2c75c683cfa7580129f291b89c6a4ab920ac442444b1930-361",
+      "note": null,
+      "timestamp": "1638271960",
+      "txHash": "0x83b2a1c22180e138b2c75c683cfa7580129f291b89c6a4ab920ac442444b1930"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xebf5b2396508a6ed120fae68338b1d6f994687e3",
+      "id": "0x5770dd04b8c93f2d6c622e63255d8c5fe8bb49aefc74542aa9a1063b03188045-27",
+      "note": null,
+      "timestamp": "1638269838",
+      "txHash": "0x5770dd04b8c93f2d6c622e63255d8c5fe8bb49aefc74542aa9a1063b03188045"
+    },
+    {
+      "amount": "2270000000000000000",
+      "beneficiary": "0xf4eccc4fd78a22d78044b83531228af04703ee72",
+      "id": "0x32ed8fdc6f4dbfd23992271859994a7c103670082fcdc0081ae8183fb87d0e09-466",
+      "note": null,
+      "timestamp": "1638268346",
+      "txHash": "0x32ed8fdc6f4dbfd23992271859994a7c103670082fcdc0081ae8183fb87d0e09"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x083593f78d876d68fd42bbd8c9f316882e415718",
+      "id": "0xc5ff455eef771b4a0325d0319b3484172519dde792206b7167f86f9f110dbc66-76",
+      "note": "Good Luck!",
+      "timestamp": "1638265027",
+      "txHash": "0xc5ff455eef771b4a0325d0319b3484172519dde792206b7167f86f9f110dbc66"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0xdc78a36d1f8d041de9da5ec442c27013cd77a7f0",
@@ -327,110 +434,6 @@
       "note": "Paid",
       "timestamp": "1638204863",
       "txHash": "0x0e2101ea157aba896bbd41868cb031a074d5325978313a65d6502b6f6fcd5075"
-    },
-    {
-      "amount": "600000000000000000",
-      "beneficiary": "0x3d4473db9a6fc6bd82d14e04affad6224f592dea",
-      "id": "0x1eb4eea496c3b23e59a3f13dee98323368c8f18fe4aba93cdcc8f102e5cf7660-149",
-      "note": "KD",
-      "timestamp": "1638204714",
-      "txHash": "0x1eb4eea496c3b23e59a3f13dee98323368c8f18fe4aba93cdcc8f102e5cf7660"
-    },
-    {
-      "amount": "300000000000000000",
-      "beneficiary": "0x467ec8f1a958a6bf7656b24bc1d184a5bd68a96b",
-      "id": "0xd9f6ba8297a59570dada5a81bdc93b107e5024a2d3b22174530c9021bc084f6a-139",
-      "note": "gh",
-      "timestamp": "1638204658",
-      "txHash": "0xd9f6ba8297a59570dada5a81bdc93b107e5024a2d3b22174530c9021bc084f6a"
-    },
-    {
-      "amount": "910000000000000000",
-      "beneficiary": "0xf433344118e4a9f6870330cfa7e8d42bf7fb74af",
-      "id": "0x552661909032aaf02e295c5bd1f2bc2bc4ff56dfec2848441c38db38614bd8ab-501",
-      "note": null,
-      "timestamp": "1638204535",
-      "txHash": "0x552661909032aaf02e295c5bd1f2bc2bc4ff56dfec2848441c38db38614bd8ab"
-    },
-    {
-      "amount": "69046130000000000",
-      "beneficiary": "0x9ae6c4735790c4f6a250e85bcaf390dda02b5a81",
-      "id": "0x6be065f1be43e49d12459a88984a03b5e7866df314f6df58c6258f31a622f86a-305",
-      "note": "Go juicebox go!",
-      "timestamp": "1638204203",
-      "txHash": "0x6be065f1be43e49d12459a88984a03b5e7866df314f6df58c6258f31a622f86a"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xf433344118e4a9f6870330cfa7e8d42bf7fb74af",
-      "id": "0x60a314e8bd052f83f219e692fe0b14655a49746ce6d22bb7c0cbeff27e265a5f-349",
-      "note": null,
-      "timestamp": "1638203087",
-      "txHash": "0x60a314e8bd052f83f219e692fe0b14655a49746ce6d22bb7c0cbeff27e265a5f"
-    },
-    {
-      "amount": "850000000000000000",
-      "beneficiary": "0x6219be03301d44932dc56f0ce8bf4945db4ec781",
-      "id": "0xaf19d11e01290d46a94dd667265b0fce8cf2aac5285a7621e1811778e7c8f30d-285",
-      "note": null,
-      "timestamp": "1638202815",
-      "txHash": "0xaf19d11e01290d46a94dd667265b0fce8cf2aac5285a7621e1811778e7c8f30d"
-    },
-    {
-      "amount": "545500000000000000",
-      "beneficiary": "0x63b539c08a9711d8aa73d696091a70c441c1f43e",
-      "id": "0xeb4bcf61e03ac7e1a2dc5ca47094b2705e9df95172a4d081b2d0f56097e1878d-115",
-      "note": null,
-      "timestamp": "1638202069",
-      "txHash": "0xeb4bcf61e03ac7e1a2dc5ca47094b2705e9df95172a4d081b2d0f56097e1878d"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0x9ee41ea35da2fd1e01d136ec06f8951e50156175",
-      "id": "0xe5f7d06521081031e52c96867103af87b53611acf5f77ee2ff3bd8000290fd9a-379",
-      "note": null,
-      "timestamp": "1638201522",
-      "txHash": "0xe5f7d06521081031e52c96867103af87b53611acf5f77ee2ff3bd8000290fd9a"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0x824f3d3e0a2238ecf9e448e11c568b3e1bc28ce3",
-      "id": "0x193ada8874cdd0bfb14280f98f56291d50969356a6b247329a7744bc2f9ced54-72",
-      "note": "thanks",
-      "timestamp": "1638201344",
-      "txHash": "0x193ada8874cdd0bfb14280f98f56291d50969356a6b247329a7744bc2f9ced54"
-    },
-    {
-      "amount": "300000000000000000",
-      "beneficiary": "0x467ec8f1a958a6bf7656b24bc1d184a5bd68a96b",
-      "id": "0x3211b82e1d4ad963228d23f6c62c3c64e0c914de3d9edbef9bce8d647e3759f2-21",
-      "note": "gh\n",
-      "timestamp": "1638200636",
-      "txHash": "0x3211b82e1d4ad963228d23f6c62c3c64e0c914de3d9edbef9bce8d647e3759f2"
-    },
-    {
-      "amount": "46280800000000000",
-      "beneficiary": "0xd74e01546f40f5e739b21f33c61cb328c39d30f5",
-      "id": "0xc46b099095d1a36cacfd6693076ec805326225f88a85a36bdd19479a7c94cd25-333",
-      "note": null,
-      "timestamp": "1638200417",
-      "txHash": "0xc46b099095d1a36cacfd6693076ec805326225f88a85a36bdd19479a7c94cd25"
-    },
-    {
-      "amount": "220000000000000000",
-      "beneficiary": "0xdf8d5824f121a1731ad92dc401bf34abffb456a0",
-      "id": "0xa61273b8247caa7259c25c469eb74cddbfcc999f14c22d3ae61cee94f9f8d2ee-77",
-      "note": null,
-      "timestamp": "1638200318",
-      "txHash": "0xa61273b8247caa7259c25c469eb74cddbfcc999f14c22d3ae61cee94f9f8d2ee"
-    },
-    {
-      "amount": "250000000000000000",
-      "beneficiary": "0x24d2454b71740a63142a3a93592b2d5b7d1d0b62",
-      "id": "0x0989d9efe89cfc342f913a18723afc698476a34bd3c7653d9851b2952a4f9ddf-332",
-      "note": null,
-      "timestamp": "1638197901",
-      "txHash": "0x0989d9efe89cfc342f913a18723afc698476a34bd3c7653d9851b2952a4f9ddf"
     }
   ],
   "redeemEvents": [

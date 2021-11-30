@@ -1,25 +1,26 @@
 {
   "createdAt": "1638248440",
   "creator": "0x4729b4a69042c3696fc26f0d0f405451f2d00800",
-  "currentBalance": "23008389813487295",
+  "currentBalance": "2523008389813487295",
   "handle": "0x686f6c6465727364616f00000000000000000000000000000000000000000000",
   "id": "112",
-  "totalPaid": "1022896900000000000",
+  "totalPaid": "3522896900000000000",
   "totalRedeemed": "0",
-  "uri": "QmdGYZYcFDR8DNw7KQzftf6TEt48re4KmESH4SRzrQyhmN",
+  "uri": "QmaWbFYso5JgSLoSm1MnGYTy9RhKxRmvUkRx8SA6Y4Yeaq",
   "name": "HoldersDao",
-  "infoUri": "https://holdersdao.org",
+  "description": "We buy, we hold;\nTogether we hold longer;\nWe never sell;\nWhen THE Liquidation happens, \nEvery $HOLD token holder will get a relative portion from THE Vault.\n\nSell $HOLD at sushiswap anytime: \nhttps://bit.ly/3p7IVWu\n\n$HOLD token contract address:\n0x07b68e17d3253cbcfc1520f1b1e8ef75b0d1f6d2",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmUM6H9QEwKFooobieRqz8fMH8U5mVvBSvagHgFC15tHPB",
-  "description": "HoldersDao.org\nWe buy, we hold;\nTogether we hold longer;\nWe never sell;\nWhen THE Liquidation happens, \nEvery $HOLD token holder will get a relative portion from THE Vault.",
+  "infoUri": "https://holdersdao.org",
   "twitter": "HoldersDao",
   "discord": "https://discord.gg/XR3GaxRFHk",
+  "payButton": "Contribute",
+  "payDisclosure": "The fund you paid will be used for purchasing valuable TOKENs that's worth for a longterm holding. Once THE Liquidation happens, \nevery $HOLD token holder will get a relative portion of TOKENs from THE Vault.\nBut you can go sell $HOLD any time at Sushiswap: https://bit.ly/3p7IVWu",
   "tokens": [],
   "version": 3,
-  "payButton": "Contribute",
-  "payDisclosure": "The fund you paid will be used for purchasing valuable TOKENs that's worth for a longterm holding. Once THE Liquidation happens, \nevery $HOLD token holder will get a relative portion of TOKENs from THE Vault.",
   "overflow": null,
   "fundingCycles": [
     {
+      "toETHSymbol": "PEOPLE",
       "target": "1000000000000000000000000",
       "duration": "30 days",
       "start": "11-30-21 1:00pm",
@@ -27,9 +28,27 @@
       "reserved": 0.1
     }
   ],
+  "inWallet": "0",
+  "jbx": "0",
   "tokenAddress": "0x07B68e17D3253cBcFC1520f1B1E8ef75B0d1f6d2",
-  "totalSupply": "1022897",
+  "totalSupply": "3522897",
   "payEvents": [
+    {
+      "amount": "2000000000000000000",
+      "beneficiary": "0xa28b5a10f6b1c8ba8450c0e26985aa118b541118",
+      "id": "0xa20b1c9b8d01c4d61134c6919b54942d0b73e816959974791bcb2daee52d6ffe-418",
+      "note": "Would love to see how this VentureDao works.",
+      "timestamp": "1638276680",
+      "txHash": "0xa20b1c9b8d01c4d61134c6919b54942d0b73e816959974791bcb2daee52d6ffe"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xb411b974c0ac75c88e5039ea0bf63a84aa7b5377",
+      "id": "0x38cad1ba04d62ecc7f60a5c4b01547ea9f2a323042e86973b1bdb94a9607a0e4-511",
+      "note": "Can we use VAULT ETH to play Radio Raca?",
+      "timestamp": "1638273504",
+      "txHash": "0x38cad1ba04d62ecc7f60a5c4b01547ea9f2a323042e86973b1bdb94a9607a0e4"
+    },
     {
       "amount": "22896900000000000",
       "beneficiary": "0x34234f2ab33bcc4c896ae3c17b8c6627d26076b1",

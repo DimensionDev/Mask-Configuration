@@ -161,82 +161,85 @@ async function crawl(juiceId) {
     `,
   });
 
-  const fundingCycle = await [...cells].reduce(async (pending, cell) => {
-    let label = await cell.evaluate(
-      (el) => el.querySelector(labelSelector).textContent
-    );
-    label = label.toLowerCase().trim();
-    const result = await pending;
-    switch (label) {
-      case "target":
-        return {
-          ...result,
-          target: parseEther(
-            await cell.evaluate((el) =>
-              el.querySelector(valueSelector).textContent.slice(1)
-            )
-          ),
-        };
-      case "duration":
-        return {
-          ...result,
-          duration: await cell.evaluate(
-            (el) => el.querySelector(valueSelector).textContent
-          ),
-        };
-      case "start":
-        return {
-          ...result,
-          start: await cell.evaluate(
-            (el) => el.querySelector(valueSelector).textContent
-          ),
-        };
-      case "end":
-        return {
-          ...result,
-          end: await cell.evaluate(
-            (el) => el.querySelector(valueSelector).textContent
-          ),
-        };
-      case "discount rate":
-        return {
-          ...result,
-          discount: parsePercent(
-            await cell.evaluate(
-              (el) => el.querySelector(valueSelector).textContent
-            )
-          ),
-        };
-      case "reserved":
-        return {
-          ...result,
-          reserved: parsePercent(
-            await cell.evaluate(
-              (el) => el.querySelector(valueSelector).textContent
-            )
-          ),
-        };
-      case "bonding curve":
-        return {
-          ...result,
-          bondingCurve: parsePercent(
-            await cell.evaluate(
-              (el) => el.querySelector(valueSelector).textContent
-            )
-          ),
-        };
-      default:
-        if (label.endsWith("/eth")) {
+  const fundingCycle = await [...cells].reduce(
+    async (pending, cell) => {
+      let label = await cell.evaluate(
+        (el) => el.querySelector(labelSelector).textContent
+      );
+      label = label.toLowerCase().trim();
+      const result = await pending;
+      switch (label) {
+        case "target":
           return {
             ...result,
-            toETH: await cell.evaluate((el) =>
-              parseInt(el.querySelector(valueSelector).textContent, 10)
+            target: parseEther(
+              await cell.evaluate((el) =>
+                el.querySelector(valueSelector).textContent.slice(1)
+              )
             ),
           };
-        }
-    }
-    return result;
-  }, {});
+        case "duration":
+          return {
+            ...result,
+            duration: await cell.evaluate(
+              (el) => el.querySelector(valueSelector).textContent
+            ),
+          };
+        case "start":
+          return {
+            ...result,
+            start: await cell.evaluate(
+              (el) => el.querySelector(valueSelector).textContent
+            ),
+          };
+        case "end":
+          return {
+            ...result,
+            end: await cell.evaluate(
+              (el) => el.querySelector(valueSelector).textContent
+            ),
+          };
+        case "discount rate":
+          return {
+            ...result,
+            discount: parsePercent(
+              await cell.evaluate(
+                (el) => el.querySelector(valueSelector).textContent
+              )
+            ),
+          };
+        case "reserved":
+          return {
+            ...result,
+            reserved: parsePercent(
+              await cell.evaluate(
+                (el) => el.querySelector(valueSelector).textContent
+              )
+            ),
+          };
+        case "bonding curve":
+          return {
+            ...result,
+            bondingCurve: parsePercent(
+              await cell.evaluate(
+                (el) => el.querySelector(valueSelector).textContent
+              )
+            ),
+          };
+        default:
+          if (label.endsWith("/eth")) {
+            return {
+              ...result,
+              toETH: await cell.evaluate((el) =>
+                parseInt(el.querySelector(valueSelector).textContent, 10)
+              ),
+            };
+          }
+      }
+      return result;
+    },
+    { toETHSymbol: "PEOPLE" }
+  );
 
   const { address: tokenAddress, totalSupply } =
     (await crawlPeopleTokens(page)) ?? {};
@@ -249,8 +252,8 @@ async function crawl(juiceId) {
     volume,
     inJuicebox,
     overflow,
-    inWallet,
-    jbx,
+    inWallet: inWallet ?? "0",
+    jbx: jbx ?? "0",
     fundingCycles: [fundingCycle],
     tokenAddress,
     totalSupply,
@@ -360,7 +363,7 @@ async function crawlPeopleTokens(page) {
     address,
     ...result,
   };
-  console.log({ result, finalResult });
+  console.log({ finalResult });
 
   return finalResult;
 }
@@ -417,6 +420,8 @@ async function crawlProjects() {
               fundingCycles: dataInPage.fundingCycles,
               // strategy: dataInPage.strategy,
               // strategyDescription: dataInPage.strategyDescription,
+              inWallet: dataInPage.inWallet,
+              jbx: dataInPage.jbx,
               tokenAddress: dataInPage.tokenAddress,
               totalSupply: dataInPage.totalSupply,
             });
