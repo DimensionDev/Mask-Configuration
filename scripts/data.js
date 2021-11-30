@@ -24,6 +24,8 @@ const twitterIdMap = {
   ethmovie: "theinfinitemachinemovie",
   drprocrast: "junglemedicalaiddao",
   missapeworlds: "missapeyachtclub",
+  ajeffersondao: "jeffersondao",
+  beetsdao: "eyez",
 };
 
 module.exports = {

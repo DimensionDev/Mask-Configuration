@@ -48,6 +48,34 @@ type FundingCycle = {
   list_ids: string[];
 };
 
+interface PayEvent {
+  amount: BNString;
+  beneficiary: HexAddress;
+  id: HexString;
+  note: string;
+  timestamp: string;
+  txHash: HexString;
+}
+
+interface RedeemEvent {
+  amount: BNString;
+  beneficiary: HexAddress;
+  id: HexString;
+  returnAmount: BNString;
+  timestamp: string;
+  txHash: HexString;
+}
+
+interface WithdrawEvent {
+  beneficiary: HexAddress;
+  beneficiaryTransferAmount: BNString;
+  caller: HexAddress;
+  fundingCycleId: string;
+  netTransferAmount: BNString;
+  timestamp: string;
+  txHash: HexString;
+}
+
 type Schema = {
   createdAt: string;
   creator: string;
@@ -67,4 +95,16 @@ type Schema = {
   payDisclosure: string;
   tokens: any[];
   version: number;
+  overflow: PercentRate;
+  target: BNString;
+  duration: string;
+  reserved: PercentRate;
+  discount: PercentRate;
+  toETH: BNString;
+  bondingCurve: PercentRate;
+  tokenAddress: HexAddress;
+  totalSupply: BNString;
+  payEvents: PayEvent[];
+  redeemEvents: RedeemEvent[];
+  withdrawEvents: WithdrawEvent[];
 };

@@ -1,10 +1,10 @@
 {
   "createdAt": "1636958058",
   "creator": "0x050920eda4014e25ded17c346b425239a468d63d",
-  "currentBalance": "351111000000000000",
+  "currentBalance": "361111000000000000",
   "handle": "0x6c616e646261636b000000000000000000000000000000000000000000000000",
   "id": "37",
-  "totalPaid": "351111000000000000",
+  "totalPaid": "361111000000000000",
   "totalRedeemed": "0",
   "uri": "QmVitxbUWdxXjGPc8RkyJHAuUpf6ZY4YZXS1thYg4qkhEX",
   "name": "LandBack DAO",
@@ -20,7 +20,17 @@
   "overflow": null,
   "duration": "Not set",
   "reserved": 0.1,
+  "tokenAddress": "0xc07880AeCceAB794188E5B837203CEE6CC3E91C4",
+  "totalSupply": "361111",
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xa4a740b11202ae17e2112166f59500a6794aa18d",
+      "id": "0xb70dbb691d813380fb5c9b511a4912854263dc5118567647249236dee4f6ecce-196",
+      "note": "landbacklandbacklandbasfisdaadsng",
+      "timestamp": "1638245426",
+      "txHash": "0xb70dbb691d813380fb5c9b511a4912854263dc5118567647249236dee4f6ecce"
+    },
     {
       "amount": "111111000000000000",
       "beneficiary": "0xec41a0aaea12ad8f588e5ad0e71a837d83e05792",

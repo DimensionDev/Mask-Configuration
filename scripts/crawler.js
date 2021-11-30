@@ -24,7 +24,7 @@ function parseEther(eth) {
   const value = eth.replace(/,/g, "");
   const bn = new BN(value, 10);
   const result = bn.mul(new BN(10, 10).pow(new BN(18))).toString(10);
-  console.log(eth, "=>", result);
+  // console.log(eth, "=>", result);
   return result;
 }
 
@@ -50,9 +50,8 @@ let browser;
 async function launchBrowser() {
   if (browser) return browser;
   browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     defaultViewport: {
-      // important for layout
       width: 1800,
       height: 900,
     },
@@ -71,6 +70,7 @@ async function crawl(juiceId) {
   await page.goto(url, {
     waitUntil: "networkidle2",
   });
+  await page.waitForTimeout(1000);
   await page.waitForSelector(".ant-layout-content");
   const contentEl = await page.$(".ant-layout-content");
   const content = await contentEl.evaluate((el) => el.textContent);
@@ -86,11 +86,11 @@ async function crawl(juiceId) {
   const data = await title.evaluate((el) => {
     const name = el.textContent;
     const logo =
-      el.parentElement.previousElementSibling.querySelector("img").src;
+      el.parentElement.previousElementSibling?.querySelector("img")?.src ?? "";
     const nextRow = el.nextElementSibling;
     const id = nextRow.firstElementChild.textContent.slice(1);
-    const website = nextRow.firstElementChild.nextElementSibling.href;
-    const twitter = nextRow.querySelector('a[href*="twitter.com"]').href;
+    const website = nextRow.firstElementChild.nextElementSibling?.href;
+    const twitter = nextRow.querySelector('a[href*="twitter.com"]')?.href;
     const discord =
       nextRow.querySelector('a[href*="discord.gg"]')?.href ?? null;
 
@@ -161,7 +161,6 @@ async function crawl(juiceId) {
     `,
   });
 
-  console.log("cells", cells.length);
   const { target, duration, discount, reserved, bondingCurve, toETH } = await [
     ...cells,
   ].reduce(async (pending, cell) => {
@@ -170,7 +169,6 @@ async function crawl(juiceId) {
     );
     label = label.toLowerCase().trim();
     const result = await pending;
-    console.log({ label, result });
     switch (label) {
       case "target":
         return {
@@ -227,62 +225,11 @@ async function crawl(juiceId) {
     }
     return result;
   }, {});
-  console.log({ target, duration, discount, reserved, bondingCurve, toETH });
 
-  // const targetEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[1]/div/table/tbody/tr[1]/td[1]/div/span[2]'
-  // );
-  // const target = targetEl[0]
-  //   ? await targetEl[0].evaluate((el) => parseEther(el.textContent.slice(1)))
-  //   : null;
-  //
-  // const durationEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[1]/div/table/tbody/tr[2]/td/div/span[2]'
-  // );
-  // const duration = durationEl[0]
-  //   ? await durationEl[0].evaluate((el) => el.textContent)
-  //   : null;
-  //
-  // const reservedEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[1]/div/table/tbody/tr[3]/td/div/span[2]'
-  // );
-  // const reserved = reservedEl[0]
-  //   ? await reservedEl[0].evaluate((el) => parsePercent(el.textContent))
-  //   : null;
-  //
-  // const discountEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[1]/div/table/tbody/tr[4]/td/div/span[2]'
-  // );
-  // const discount = discountEl[0]
-  //   ? await discountEl[0].evaluate((el) => parsePercent(el.textContent))
-  //   : null;
-  //
-  // const toETHEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[1]/div/table/tbody/tr[5]/td/div/span[2]'
-  // );
-  // const toETH = toETHEl[0]
-  //   ? await toETHEl[0].evaluate((el) => parseInt(el.textContent, 10))
-  //   : null;
-  //
-  // const bondingCurveEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[1]/div/table/tbody/tr[6]/td/div/span[2]'
-  // );
-  // const bondingCurve = bondingCurveEl[0]
-  //   ? await bondingCurveEl[0].evaluate((el) => parsePercent(el.textContent))
-  //   : null;
-  //
-  // const strategyEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[2]/text()'
-  // );
-  // const strategy = strategyEl[0]
-  //   ? await strategyEl[0].evaluate((el) => el.textContent)
-  //   : null;
-  // const strategyDescriptionEl = await page.$x(
-  //   '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[3]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div/div[2]/div/div'
-  // );
-  // const strategyDescription = strategyDescriptionEl[0]
-  //   ? await strategyDescriptionEl[0].evaluate((el) => el.textContent)
-  //   : null;
+  const { address: tokenAddress, totalSupply } =
+    (await crawlPeopleTokens(page)) ?? {};
+
+  console.log({ tokenAddress, totalSupply });
 
   await page.close();
   return {
@@ -298,6 +245,8 @@ async function crawl(juiceId) {
     discount,
     toETH,
     bondingCurve,
+    tokenAddress,
+    totalSupply,
     // strategy,
     // strategyDescription,
   };
@@ -359,6 +308,56 @@ async function crawlReservesEvents(projectId) {
   return events;
 }
 
+async function crawlPeopleTokens(page) {
+  const sectionEl = await page.$x(
+    '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[2]/div/div'
+  );
+
+  if (!sectionEl[0]) return null;
+  const addressEl = await page.$x(
+    '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr[1]/td/div/span[2]/div/span'
+  );
+  let address = null;
+  if (addressEl[0]) {
+    await addressEl[0].hover();
+    await page.waitForSelector(".ant-tooltip");
+    await page.waitForTimeout(300);
+    const tooltipEl = await page.$(".ant-tooltip");
+    address = await tooltipEl.evaluate((el) => el.textContent.trim());
+  } else {
+    console.log("No address element");
+  }
+  const result = await sectionEl[0].evaluate((secEl) => {
+    const cells = [...secEl.querySelectorAll(".ant-descriptions-item")];
+    return (
+      cells.reduce((map, cell) => {
+        let label = cell.querySelector(window.labelSelector).textContent;
+        let valueEl = cell.querySelector(window.valueSelector);
+        label = label.toLowerCase();
+        switch (label) {
+          case "total supply":
+            return {
+              ...map,
+              totalSupply:
+                valueEl.firstElementChild.firstChild.textContent.replace(
+                  /,/g,
+                  ""
+                ),
+            };
+        }
+        return map;
+      }, {}) ?? {}
+    );
+  });
+  const finalResult = {
+    address,
+    ...result,
+  };
+  console.log({ result, finalResult });
+
+  return finalResult;
+}
+
 async function fetchInfo(url) {
   const rsp = await fetch(url, {
     headers: {
@@ -416,6 +415,8 @@ async function crawlProjects() {
               bondingCurve: dataInPage.bondingCurve,
               strategy: dataInPage.strategy,
               strategyDescription: dataInPage.strategyDescription,
+              tokenAddress: dataInPage.tokenAddress,
+              totalSupply: dataInPage.totalSupply,
             });
           }
         } catch (err) {

@@ -1,0 +1,58 @@
+{
+  "createdAt": "1638248440",
+  "creator": "0x4729b4a69042c3696fc26f0d0f405451f2d00800",
+  "currentBalance": "23008389813487295",
+  "handle": "0x686f6c6465727364616f00000000000000000000000000000000000000000000",
+  "id": "112",
+  "totalPaid": "1022896900000000000",
+  "totalRedeemed": "0",
+  "uri": "QmdGYZYcFDR8DNw7KQzftf6TEt48re4KmESH4SRzrQyhmN",
+  "name": "HoldersDao",
+  "infoUri": "https://holdersdao.org",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmUM6H9QEwKFooobieRqz8fMH8U5mVvBSvagHgFC15tHPB",
+  "description": "HoldersDao.org\nWe buy, we hold;\nTogether we hold longer;\nWe never sell;\nWhen THE Liquidation happens, \nEvery $HOLD token holder will get a relative portion from THE Vault.",
+  "twitter": "HoldersDao",
+  "discord": "https://discord.gg/XR3GaxRFHk",
+  "tokens": [],
+  "version": 3,
+  "payButton": "Contribute",
+  "payDisclosure": "The fund you paid will be used for purchasing valuable TOKENs that's worth for a longterm holding. Once THE Liquidation happens, \nevery $HOLD token holder will get a relative portion of TOKENs from THE Vault.",
+  "overflow": null,
+  "target": "1000000000000000000000000",
+  "duration": "30 days",
+  "reserved": 0.1,
+  "tokenAddress": "0x07B68e17D3253cBcFC1520f1B1E8ef75B0d1f6d2",
+  "totalSupply": "1022897",
+  "payEvents": [
+    {
+      "amount": "22896900000000000",
+      "beneficiary": "0x34234f2ab33bcc4c896ae3c17b8c6627d26076b1",
+      "id": "0x49f3ce1e1d7ef38b8a68fc3c66f60456091ffbb22b9f475250203c6fa77fbb61-427",
+      "note": null,
+      "timestamp": "1638253651",
+      "txHash": "0x49f3ce1e1d7ef38b8a68fc3c66f60456091ffbb22b9f475250203c6fa77fbb61"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xc45e28ffbaa9afd811c37494a07c49a6d16a727d",
+      "id": "0x473e727ace8dd92359b3f7ffb58cfe50d2577462ffdf1d7263aa9aa161d69350-123",
+      "note": "Sounds exciting...am I the first contributor?",
+      "timestamp": "1638250293",
+      "txHash": "0x473e727ace8dd92359b3f7ffb58cfe50d2577462ffdf1d7263aa9aa161d69350"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x4729b4a69042c3696fc26f0d0f405451f2d00800",
+      "beneficiaryTransferAmount": "979890739982782451",
+      "caller": "0xc45e28ffbaa9afd811c37494a07c49a6d16a727d",
+      "fundingCycleId": "204",
+      "id": "112-0xed0140a90e16a2e38c44c6c960bdf36169f327b05ef02ab28c0c005c000d5c81",
+      "netTransferAmount": "999888510186512705",
+      "timestamp": "1638251075",
+      "txHash": "0xed0140a90e16a2e38c44c6c960bdf36169f327b05ef02ab28c0c005c000d5c81"
+    }
+  ],
+  "reservesEvents": []
+}
