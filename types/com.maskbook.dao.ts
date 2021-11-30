@@ -29,23 +29,14 @@ type Activity = {
 };
 
 type FundingCycle = {
-  current: {
-    target: BNString;
-    reserved: PercentRate;
-    duration: null | number;
-    discount: PercentRate;
-    $people: BNString;
-    bonding_curve: PercentRate;
-    address: HexAddress;
-    description: string;
-    available: BNString;
-    withdrawn: BNString;
-    reserved_$people: {
-      address: string;
-      rate: PercentRate;
-    };
-  };
-  list_ids: string[];
+  target: BNString;
+  reserved: PercentRate;
+  duration: string;
+  start: string;
+  end: string;
+  discount: PercentRate;
+  bonding_curve: PercentRate;
+  description: string;
 };
 
 interface PayEvent {
@@ -96,12 +87,7 @@ type Schema = {
   tokens: any[];
   version: number;
   overflow: PercentRate;
-  target: BNString;
-  duration: string;
-  reserved: PercentRate;
-  discount: PercentRate;
-  toETH: BNString;
-  bondingCurve: PercentRate;
+  fundingCycles: FundingCycle[];
   tokenAddress: HexAddress;
   totalSupply: BNString;
   payEvents: PayEvent[];

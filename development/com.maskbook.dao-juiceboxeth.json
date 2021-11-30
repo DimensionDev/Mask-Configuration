@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5376892155342591422403",
+  "currentBalance": "5377992155342591422403",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5493689797641430086769",
+  "totalPaid": "5494789797641430086769",
   "totalRedeemed": "5970536032529308012",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -17,15 +17,37 @@
   "tokens": [],
   "version": 3,
   "overflow": null,
-  "target": "45100000000000000000000",
-  "duration": "14 days",
-  "reserved": 0.35,
-  "discount": 0.1,
-  "toETH": 232,
-  "bondingCurve": 0.6,
+  "fundingCycles": [
+    {
+      "target": "45100000000000000000000",
+      "duration": "14 days",
+      "start": "11-21-21 3:19am",
+      "end": "12-5-21 3:19am",
+      "reserved": 0.35,
+      "discount": 0.1,
+      "toETH": 232,
+      "bondingCurve": 0.6
+    }
+  ],
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2350384839",
+  "totalSupply": "2350777680",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xdc78a36d1f8d041de9da5ec442c27013cd77a7f0",
+      "id": "0x5891b263fb6c04af67e272e720bc30ed51fa416abcc9ea31145062526a93404e-564",
+      "note": null,
+      "timestamp": "1638263193",
+      "txHash": "0x5891b263fb6c04af67e272e720bc30ed51fa416abcc9ea31145062526a93404e"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x2c1fbdd2143992e822211e0830f227a0e722188a",
+      "id": "0xa00c1ea1a770337b9f19f5a9644677c449e96054e9707341c31098d2046dffee-239",
+      "note": null,
+      "timestamp": "1638262420",
+      "txHash": "0xa00c1ea1a770337b9f19f5a9644677c449e96054e9707341c31098d2046dffee"
+    },
     {
       "amount": "7000000000000000000",
       "beneficiary": "0x5e85f8241c19315dacdad842966effc399253e62",
@@ -409,22 +431,6 @@
       "note": null,
       "timestamp": "1638197901",
       "txHash": "0x0989d9efe89cfc342f913a18723afc698476a34bd3c7653d9851b2952a4f9ddf"
-    },
-    {
-      "amount": "2100000000000000000",
-      "beneficiary": "0x68b316b34e758dc56a68575f71ec1feeef433cc8",
-      "id": "0xd370a7a8c2be229c389433b0c40e79d6710467be08acf9031a292f9193faa151-221",
-      "note": "enefty.crypto",
-      "timestamp": "1638197894",
-      "txHash": "0xd370a7a8c2be229c389433b0c40e79d6710467be08acf9031a292f9193faa151"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xbff3d7fe8b734a0a9eedc25b70e1e9b763993ac1",
-      "id": "0xd51498da8c6c0555c9e24e1ce016f3655a78175e4c22e610f88efadf16a757ba-372",
-      "note": "重拳出击",
-      "timestamp": "1638197573",
-      "txHash": "0xd51498da8c6c0555c9e24e1ce016f3655a78175e4c22e610f88efadf16a757ba"
     }
   ],
   "redeemEvents": [

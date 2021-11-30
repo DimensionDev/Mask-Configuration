@@ -18,9 +18,15 @@
   "payButton": "Contribute",
   "payDisclosure": "The fund you paid will be used for purchasing valuable TOKENs that's worth for a longterm holding. Once THE Liquidation happens, \nevery $HOLD token holder will get a relative portion of TOKENs from THE Vault.",
   "overflow": null,
-  "target": "1000000000000000000000000",
-  "duration": "30 days",
-  "reserved": 0.1,
+  "fundingCycles": [
+    {
+      "target": "1000000000000000000000000",
+      "duration": "30 days",
+      "start": "11-30-21 1:00pm",
+      "end": "12-30-21 1:00pm",
+      "reserved": 0.1
+    }
+  ],
   "tokenAddress": "0x07B68e17D3253cBcFC1520f1B1E8ef75B0d1f6d2",
   "totalSupply": "1022897",
   "payEvents": [

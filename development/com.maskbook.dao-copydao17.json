@@ -23,12 +23,18 @@
   "payButton": "Get $Copy",
   "payDisclosure": "First, the holders of Copy DAO will unconditionally obtain the white list of Copy DAO products according to the currency ranking. \nSecond, 50% of the income of Copy DAO is used for currency dividends. \nThird, Copy DAO users can initiate proposals and have the right to make decisions",
   "overflow": null,
-  "target": "200000000000000000000000",
-  "duration": "15 days",
-  "reserved": 0,
-  "discount": 0.1,
-  "toETH": 1,
-  "bondingCurve": 1,
+  "fundingCycles": [
+    {
+      "target": "200000000000000000000000",
+      "duration": "15 days",
+      "start": "11-28-21 7:56pm",
+      "end": "12-13-21 7:56pm",
+      "reserved": 0,
+      "discount": 0.1,
+      "toETH": 1,
+      "bondingCurve": 1
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "8046",
   "payEvents": [

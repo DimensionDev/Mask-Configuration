@@ -18,9 +18,15 @@
   "tokens": [],
   "version": 3,
   "overflow": null,
-  "target": "20000000000000000000000000",
-  "duration": "40 days",
-  "reserved": 0,
+  "fundingCycles": [
+    {
+      "target": "20000000000000000000000000",
+      "duration": "40 days",
+      "start": "11-23-21 4:14am",
+      "end": "1-2-22 4:14am",
+      "reserved": 0
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "220319",
   "payEvents": [

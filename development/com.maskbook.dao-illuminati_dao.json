@@ -18,8 +18,13 @@
   "payButton": "",
   "payDisclosure": "",
   "overflow": null,
-  "duration": "30 days",
-  "reserved": 0,
+  "fundingCycles": [
+    {
+      "duration": "30 days",
+      "start": "11-27-21 4:51pm",
+      "reserved": 0
+    }
+  ],
   "tokenAddress": "0x6F4a6B38d2C7ecE7Bd2007990b4046D7cEFA7104",
   "totalSupply": "2100000",
   "payEvents": [

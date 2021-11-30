@@ -18,12 +18,16 @@
   "tokens": [],
   "version": 3,
   "overflow": null,
-  "target": "2000000000000000000000",
-  "duration": "Not set",
-  "reserved": 0.6,
-  "discount": 0,
-  "toETH": 400,
-  "bondingCurve": 0,
+  "fundingCycles": [
+    {
+      "target": "2000000000000000000000",
+      "duration": "Not set",
+      "reserved": 0.6,
+      "discount": 0,
+      "toETH": 400,
+      "bondingCurve": 0
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "0",
   "payEvents": [],

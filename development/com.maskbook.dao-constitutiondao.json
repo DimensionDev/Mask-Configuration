@@ -18,12 +18,16 @@
   "payButton": "Contribute",
   "payDisclosure": "If we fail to win the auction, you will be able to get refunded. If we win, your tokens will serve as governance tokens for ConstitutionDAO.",
   "overflow": 1,
-  "target": "0",
-  "duration": "Not set",
-  "reserved": 1,
-  "discount": 0,
-  "toETH": 0,
-  "bondingCurve": 1,
+  "fundingCycles": [
+    {
+      "target": "0",
+      "duration": "Not set",
+      "reserved": 1,
+      "discount": 0,
+      "toETH": 0,
+      "bondingCurve": 1
+    }
+  ],
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
   "totalSupply": "5155859248",
   "payEvents": [

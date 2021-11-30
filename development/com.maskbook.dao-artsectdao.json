@@ -18,9 +18,15 @@
   "payButton": "Donate",
   "payDisclosure": "Congratulations and welcome to the #DecentralizedArtsMovement \n\nArtSect DAO is the catalyst Decentralized Arts Organization dedicated to our open community of Artists, Curators and Patron's. \n\nTogether we will shape the future of Art's & Culture for our new Digital Renaissance. Come and join us on our DAO Discord🧞‍♀️",
   "overflow": null,
-  "target": "330000000000000000000",
-  "duration": "33 days",
-  "reserved": 0.08,
+  "fundingCycles": [
+    {
+      "target": "330000000000000000000",
+      "duration": "33 days",
+      "start": "11-27-21 4:32pm",
+      "end": "12-30-21 4:32pm",
+      "reserved": 0.08
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "1000000",
   "payEvents": [

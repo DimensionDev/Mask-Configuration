@@ -18,8 +18,12 @@
   "tokens": [],
   "version": 3,
   "overflow": null,
-  "duration": "Not set",
-  "reserved": 0.05,
+  "fundingCycles": [
+    {
+      "duration": "Not set",
+      "reserved": 0.05
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "0",
   "payEvents": [],

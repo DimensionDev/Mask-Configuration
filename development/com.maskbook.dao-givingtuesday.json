@@ -18,12 +18,18 @@
   "payButton": "",
   "payDisclosure": "",
   "overflow": null,
-  "target": "5000000000000000000000",
-  "duration": "30 days",
-  "reserved": 0.1,
-  "discount": 0.2,
-  "toETH": 900,
-  "bondingCurve": 0.15,
+  "fundingCycles": [
+    {
+      "target": "5000000000000000000000",
+      "duration": "30 days",
+      "start": "11-28-21 2:26pm",
+      "end": "12-28-21 2:26pm",
+      "reserved": 0.1,
+      "discount": 0.2,
+      "toETH": 900,
+      "bondingCurve": 0.15
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "30000",
   "payEvents": [

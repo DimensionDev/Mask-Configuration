@@ -18,12 +18,18 @@
   "payButton": "CONTRIBUTE",
   "payDisclosure": "Thank you so much for supporting HOLE! This furthers our pursuit of equity, inclusion, and righteous creative expression!",
   "overflow": null,
-  "target": "2000000000000000000",
-  "duration": "15 days",
-  "reserved": 0.35,
-  "discount": 0.05,
-  "toETH": 650,
-  "bondingCurve": 0.5,
+  "fundingCycles": [
+    {
+      "target": "2000000000000000000",
+      "duration": "15 days",
+      "start": "11-20-21 4:09am",
+      "end": "12-5-21 4:09am",
+      "reserved": 0.35,
+      "discount": 0.05,
+      "toETH": 650,
+      "bondingCurve": 0.5
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "10615",
   "payEvents": [

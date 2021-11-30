@@ -18,12 +18,18 @@
   "payButton": "F*ck it im in",
   "payDisclosure": "We cannot guarantee we will win the Kentucky Derby, but at the bare minimum we could probably get at least into the top 4.",
   "overflow": null,
-  "target": "10000000000000000000000000",
-  "duration": "30 days",
-  "reserved": 0,
-  "discount": 0,
-  "toETH": 1,
-  "bondingCurve": 1,
+  "fundingCycles": [
+    {
+      "target": "10000000000000000000000000",
+      "duration": "30 days",
+      "start": "11-24-21 2:52pm",
+      "end": "12-24-21 2:52pm",
+      "reserved": 0,
+      "discount": 0,
+      "toETH": 1,
+      "bondingCurve": 1
+    }
+  ],
   "tokenAddress": null,
   "totalSupply": "100000",
   "payEvents": [

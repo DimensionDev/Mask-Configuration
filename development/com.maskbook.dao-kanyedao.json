@@ -18,12 +18,16 @@
   "payButton": "Contribute",
   "payDisclosure": "Please see kanyebeardao.com for details of this DAO",
   "overflow": null,
-  "target": "1000000000000000000000000",
-  "duration": "Not set",
-  "reserved": 0,
-  "discount": 0,
-  "toETH": 1,
-  "bondingCurve": 1,
+  "fundingCycles": [
+    {
+      "target": "1000000000000000000000000",
+      "duration": "Not set",
+      "reserved": 0,
+      "discount": 0,
+      "toETH": 1,
+      "bondingCurve": 1
+    }
+  ],
   "tokenAddress": "0xb9A255D352308d3AB3a995c847d3c352498D580b",
   "totalSupply": "1000000",
   "payEvents": [

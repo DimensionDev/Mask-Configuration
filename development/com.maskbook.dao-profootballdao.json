@@ -17,6 +17,21 @@
   "version": 3,
   "payButton": "Own",
   "payDisclosure": "We are lifelong football fans who can realize Pete Rozelle's vision of perfect parity. Our word is our bond and above all, we know that Football is Family.",
+  "overflow": null,
+  "fundingCycles": [
+    {
+      "target": "2400000000000000000000000",
+      "duration": "84 days",
+      "start": "11-22-21 1:09am",
+      "end": "2-14-22 1:09am",
+      "reserved": 0.15,
+      "discount": 0.15,
+      "toETH": 850,
+      "bondingCurve": 0.15
+    }
+  ],
+  "tokenAddress": null,
+  "totalSupply": "100000",
   "payEvents": [
     {
       "amount": "100000000000000000",

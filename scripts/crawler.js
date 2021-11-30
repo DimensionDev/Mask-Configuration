@@ -161,9 +161,7 @@ async function crawl(juiceId) {
     `,
   });
 
-  const { target, duration, discount, reserved, bondingCurve, toETH } = await [
-    ...cells,
-  ].reduce(async (pending, cell) => {
+  const fundingCycle = await [...cells].reduce(async (pending, cell) => {
     let label = await cell.evaluate(
       (el) => el.querySelector(labelSelector).textContent
     );
@@ -183,6 +181,20 @@ async function crawl(juiceId) {
         return {
           ...result,
           duration: await cell.evaluate(
+            (el) => el.querySelector(valueSelector).textContent
+          ),
+        };
+      case "start":
+        return {
+          ...result,
+          start: await cell.evaluate(
+            (el) => el.querySelector(valueSelector).textContent
+          ),
+        };
+      case "end":
+        return {
+          ...result,
+          end: await cell.evaluate(
             (el) => el.querySelector(valueSelector).textContent
           ),
         };
@@ -239,12 +251,7 @@ async function crawl(juiceId) {
     overflow,
     inWallet,
     jbx,
-    target,
-    duration,
-    reserved,
-    discount,
-    toETH,
-    bondingCurve,
+    fundingCycles: [fundingCycle],
     tokenAddress,
     totalSupply,
     // strategy,
@@ -407,14 +414,9 @@ async function crawlProjects() {
           if (dataInPage) {
             Object.assign(combined, {
               overflow: dataInPage.overflow,
-              target: dataInPage.target,
-              duration: dataInPage.duration,
-              reserved: dataInPage.reserved,
-              discount: dataInPage.discount,
-              toETH: dataInPage.toETH,
-              bondingCurve: dataInPage.bondingCurve,
-              strategy: dataInPage.strategy,
-              strategyDescription: dataInPage.strategyDescription,
+              fundingCycles: dataInPage.fundingCycles,
+              // strategy: dataInPage.strategy,
+              // strategyDescription: dataInPage.strategyDescription,
               tokenAddress: dataInPage.tokenAddress,
               totalSupply: dataInPage.totalSupply,
             });
