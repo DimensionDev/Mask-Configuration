@@ -17,6 +17,26 @@
   "version": 3,
   "payButton": "Support",
   "payDisclosure": "Thank you for Supporting our project, We send out an NFT in appreciation for everyone who donates 300USD and above, send us an email with your wallet address to nftafrica@projectnftafrica.org",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "350000000000000000000000",
+      "duration": "30 days",
+      "start": "11-18-21 5:14am",
+      "end": "12-18-21 5:14am",
+      "reserved": 0.6,
+      "discount": 0.1,
+      "toETH": 400,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "12300",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "12300000000000000",

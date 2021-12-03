@@ -17,6 +17,26 @@
   "payDisclosure": "LFG",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "1000000000000000000000",
+      "duration": "30 days",
+      "start": "11-23-21 8:46am",
+      "end": "12-23-21 8:46am",
+      "reserved": 0.1,
+      "discount": 0.2,
+      "toETH": 900,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "30000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

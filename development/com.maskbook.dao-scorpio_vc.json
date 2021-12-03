@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Focus on DAO, an investment institution in the primary market",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -31,10 +30,13 @@
       "bondingCurve": 0.8
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "10000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": "0x18D0cEb5f1F13732A2ECC2fEfE70109A3932572E",
   "totalSupply": "0",
+  "holdingSymbol": "SCORPIO",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

@@ -1,10 +1,10 @@
 {
   "createdAt": "1638004340",
   "creator": "0xee886d1bb71314ef3e82096994bf1582f5f1485e",
-  "currentBalance": "0",
+  "currentBalance": "135000000000000000",
   "handle": "0x6175726f726164616f0000000000000000000000000000000000000000000000",
   "id": "80",
-  "totalPaid": "1456000000000000000",
+  "totalPaid": "1591000000000000000",
   "totalRedeemed": "0",
   "uri": "QmXn74i2wtzcFbHXymu6wv5wTtxpvksZKbxH2Z2juTHuW7",
   "name": "AuroraDAO",
@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "aurora",
   "payDisclosure": "Paying AuroraDAO is not an investment—it's a way to support the project. Any value or utility of the tokens you receive is determined by AuroraDAO.",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -29,11 +28,38 @@
       "bondingCurve": 1
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
   "tokenAddress": "0x8131A3C8D9AC893b3b1EfcacA1ad708E98E2699b",
-  "totalSupply": "1456000",
+  "totalSupply": "1591000",
+  "holdingSymbol": "AURORA",
   "payEvents": [
+    {
+      "amount": "60000000000000000",
+      "beneficiary": "0xb7af9add135a1ac4e6a739f7c027abe4071d9ef2",
+      "id": "0xf104357b89ee157b8d61b758952ef7f74ccd56f26a2b89e6ecdd24e82384ff7f-81",
+      "note": null,
+      "timestamp": "1638357773",
+      "txHash": "0xf104357b89ee157b8d61b758952ef7f74ccd56f26a2b89e6ecdd24e82384ff7f"
+    },
+    {
+      "amount": "60000000000000000",
+      "beneficiary": "0xb7af9add135a1ac4e6a739f7c027abe4071d9ef2",
+      "id": "0x4ba3267d67b8e176026cf6137f50856edc616fd0effb75c5141926c5cb2f2251-294",
+      "note": null,
+      "timestamp": "1638357494",
+      "txHash": "0x4ba3267d67b8e176026cf6137f50856edc616fd0effb75c5141926c5cb2f2251"
+    },
+    {
+      "amount": "15000000000000000",
+      "beneficiary": "0xb7dd022d7811cab41ef532fb73a5ae4f0eb3f45a",
+      "id": "0x56cef98068542efb3a0da8429d063bfa1d9ed6164bc13e5108baa645320dc1d4-376",
+      "note": null,
+      "timestamp": "1638356524",
+      "txHash": "0x56cef98068542efb3a0da8429d063bfa1d9ed6164bc13e5108baa645320dc1d4"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x836320693ab2a158bc663cbc1bb9fbb3b192a60f",

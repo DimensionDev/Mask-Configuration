@@ -1,10 +1,10 @@
 {
   "createdAt": "1638275232",
   "creator": "0xa0ab259af685c67d888a204ec97b8fffa3a6a650",
-  "currentBalance": "3030000000000000000",
+  "currentBalance": "4441000000000000000",
   "handle": "0x70656f706c65616e67656c7364616f0000000000000000000000000000000000",
   "id": "116",
-  "totalPaid": "3030000000000000000",
+  "totalPaid": "4441000000000000000",
   "totalRedeemed": "0",
   "uri": "QmSWHLnXtfaT7wYJjxAMH94j5x9535Fp6e39xCpctKgj96",
   "name": "PeopleAngelsDAO",
@@ -17,7 +17,68 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "$ANGELS token will be provided in return for contributions to PeopleAngelsDAO, serving as governance token in proposals and representing a share in the ownership of the DAO and its assets.",
+  "overflow": 1,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "14 days",
+      "start": "11-30-21 8:27pm",
+      "end": "12-14-21 8:27pm",
+      "reserved": 0,
+      "discount": 0,
+      "toETH": 1,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x0d3849F5864c3a7C4dB4C9C4cF3CB6434b593EBF",
+  "totalSupply": "4441000",
+  "holdingSymbol": "ANGELS",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x5629f439bcc9e6b9d75286b4901d781221dfd837",
+      "id": "0x36eb84045e90468f8d93dad9df30a4d3cad128ce62f9f413e87d67f06fa78c3d-51",
+      "note": null,
+      "timestamp": "1638405837",
+      "txHash": "0x36eb84045e90468f8d93dad9df30a4d3cad128ce62f9f413e87d67f06fa78c3d"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xb38a5ded92b4c33252c69efb210f1949c7e654d6",
+      "id": "0xbf31a1cd5e160d10c03d2fc7b6a68c9349597c7d18a8955b1ab1190590ea256a-418",
+      "note": "This project is really great, we can use the MEME community to help children!  ",
+      "timestamp": "1638353378",
+      "txHash": "0xbf31a1cd5e160d10c03d2fc7b6a68c9349597c7d18a8955b1ab1190590ea256a"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x56448d1d3bd05a042a566ce2b45fbc710ed5a52d",
+      "id": "0x87fda1c5fe190acc117fb33e1dd6c3ca281dfdb4cb32ee7d66032362215cbd1a-268",
+      "note": null,
+      "timestamp": "1638284662",
+      "txHash": "0x87fda1c5fe190acc117fb33e1dd6c3ca281dfdb4cb32ee7d66032362215cbd1a"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xc4438399d8a212ea8a5ac27a52effe85355b715b",
+      "id": "0xab56c6c29eeef8e8e9d8351abafd3a87a81a60648dc005fdd56b569b2826b8b5-313",
+      "note": "People!!!!",
+      "timestamp": "1638283613",
+      "txHash": "0xab56c6c29eeef8e8e9d8351abafd3a87a81a60648dc005fdd56b569b2826b8b5"
+    },
+    {
+      "amount": "51000000000000000",
+      "beneficiary": "0xa1357cd9b317cc94f1c8c90bbacc42b6652a7461",
+      "id": "0x27a6cb623900cce553f037bd11afbe77d2f7dbe1737b0cf91e6a992eadc17843-180",
+      "note": null,
+      "timestamp": "1638278663",
+      "txHash": "0x27a6cb623900cce553f037bd11afbe77d2f7dbe1737b0cf91e6a992eadc17843"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x2c5a635392a4d8609448e22647f40f2d28708755",

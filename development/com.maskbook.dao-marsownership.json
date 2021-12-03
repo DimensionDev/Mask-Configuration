@@ -17,7 +17,6 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -25,10 +24,13 @@
       "reserved": 0.2
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "40000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "150000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "100000000000000000",

@@ -1,10 +1,10 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "57414296525826656767",
+  "currentBalance": "57674296525826656767",
   "handle": "0x74696c6573000000000000000000000000000000000000000000000000000000",
   "id": "2",
-  "totalPaid": "130349636800000000000",
+  "totalPaid": "130609636800000000000",
   "totalRedeemed": "6583340274173343233",
   "uri": "QmNnxipn7ooGhX67nUPysoTuFK4xbLJrXw1nKnqTQ6uy7h",
   "name": "TileDAO",
@@ -16,7 +16,43 @@
   "payDisclosure": "Paying the treasury here will earn you TILE ERC-20, but will not mint you a Tile NFT! If you'd like to mint a Tile, do that at https://tiles.art (you'll still earn TILE ERC-20).",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "1313000000000000000",
+      "duration": "7 days",
+      "start": "11-26-21 6:30am",
+      "end": "12-3-21 6:30am",
+      "reserved": 0.34,
+      "discount": 0.02,
+      "toETH": 458,
+      "bondingCurve": 0.5
+    }
+  ],
+  "inWallet": {
+    "eth": "1710000000000000000",
+    "jbx": "393581000000000000000000"
+  },
+  "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
+  "totalSupply": "111241369",
+  "holdingSymbol": "TILE",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x62dbf1ab75d09c05378e2a230788074d6f558beb",
+      "id": "0xc82f19af91967a8bfed7ab1ce48137a54f532deb26a92dbb4fe9306e51feb852-371",
+      "note": "Block 12.1.21",
+      "timestamp": "1638412204",
+      "txHash": "0xc82f19af91967a8bfed7ab1ce48137a54f532deb26a92dbb4fe9306e51feb852"
+    },
+    {
+      "amount": "160000000000000000",
+      "beneficiary": "0x1083d7254e01becd64c3230612bf20e14010d646",
+      "id": "0xe8500a47911ee85584250ed90f0701a253f4f4bf1e4f6898cb6ed22f454e6397-150",
+      "note": "Minted Tile with address 1083d7254e01becd64c3230612bf20e14010d646",
+      "timestamp": "1638286742",
+      "txHash": "0xe8500a47911ee85584250ed90f0701a253f4f4bf1e4f6898cb6ed22f454e6397"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x1083d7254e01becd64c3230612bf20e14010d646",
@@ -400,22 +436,6 @@
       "note": "Minted Tile with address 49494949494949490c0c0c0c0c0c0c0c0c0c0c0c",
       "timestamp": "1633445033",
       "txHash": "0x9c3984c1feddbe6d95e951a11dc421704586acf9fa284b83202fec1f17d8cf23"
-    },
-    {
-      "amount": "160000000000000000",
-      "beneficiary": "0xdebadda0cfe3b0daf852086e1a04b945319ba6d7",
-      "id": "0x411c899d810bdcddd82d7f3900662e8f3200882298984b690e0a41e2b717efa0-122",
-      "note": "Minted Tile with address 2089035369b33403ddcaba6258c34e0b3ffbbbd9",
-      "timestamp": "1633407155",
-      "txHash": "0x411c899d810bdcddd82d7f3900662e8f3200882298984b690e0a41e2b717efa0"
-    },
-    {
-      "amount": "160000000000000000",
-      "beneficiary": "0xdebadda0cfe3b0daf852086e1a04b945319ba6d7",
-      "id": "0x86277e2fc91e669251b98da59512850a079832fd4398fbbef17b06c4ac141434-226",
-      "note": "Minted Tile with address 0badd6427b689342fc95e245140e6fde1eb1aa15",
-      "timestamp": "1633407042",
-      "txHash": "0x86277e2fc91e669251b98da59512850a079832fd4398fbbef17b06c4ac141434"
     }
   ],
   "redeemEvents": [

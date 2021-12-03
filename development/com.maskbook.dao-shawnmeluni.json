@@ -1,10 +1,10 @@
 {
   "createdAt": "1638076240",
   "creator": "0x2d96e1fe38ff45cc8910c617b3c5e0b6298a81f3",
-  "currentBalance": "200000000000000000",
+  "currentBalance": "216670000000000000",
   "handle": "0x7472616e736c61746f7264616f00000000000000000000000000000000000000",
   "id": "91",
-  "totalPaid": "200000000000000000",
+  "totalPaid": "216670000000000000",
   "totalRedeemed": "0",
   "uri": "QmaWLdBuzGaNu8Ngbsr8U4GUBMzmpmWc8zHB8yRaXKfiv6",
   "name": "TranslatorDAO",
@@ -17,7 +17,35 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "50000000000000000000",
+      "duration": "5 days",
+      "start": "11-28-21 1:10pm",
+      "end": "12-3-21 1:10pm",
+      "reserved": 0.4,
+      "discount": 0.1,
+      "toETH": 600,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "270000000000000000",
+    "jbx": "100000000000000000000"
+  },
+  "tokenAddress": "0x2Cd0f8DacE506a6240251A09C76769e538595eAB",
+  "totalSupply": "216670",
+  "holdingSymbol": "WLD",
   "payEvents": [
+    {
+      "amount": "16670000000000000",
+      "beneficiary": "0xca6ed3fdc8162304d7f1fcfc9ca3a81632d5e5b0",
+      "id": "0x6eff3a87f40ab430ee26108b063e4934ef77af41c8cb2a00049b6f487aca3ab0-69",
+      "note": "Let's bootstrap from here~",
+      "timestamp": "1638353123",
+      "txHash": "0x6eff3a87f40ab430ee26108b063e4934ef77af41c8cb2a00049b6f487aca3ab0"
+    },
     {
       "amount": "200000000000000000",
       "beneficiary": "0x2d96e1fe38ff45cc8910c617b3c5e0b6298a81f3",

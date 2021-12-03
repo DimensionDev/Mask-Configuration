@@ -2,7 +2,7 @@ name: Crawl every hour
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,6 +20,13 @@ jobs:
           path: |
             node_modules
           key: yarn-${{ hashFiles('package.json') }}-${{ hashFiles('yarn.lock') }}
+
+      - name: Cache info files
+        uses: actions/cache@v2
+        id: info-cache
+        with:
+          path: |
+            .cache
 
       - name: Yarn install
         run: yarn install
@@ -50,7 +57,7 @@ jobs:
         if: ${{ env.GIT_DIFF != '' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          title: ${{ env.TITLE }}
+          title: Update dao data
           body: ${{ env.CONTENT }}
           assignees: |
             guanbinrui

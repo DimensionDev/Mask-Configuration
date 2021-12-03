@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Thank you",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -29,10 +28,13 @@
       "bondingCurve": 1
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "130000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "57911657",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Paying GreatestMusicalDAO is not an investment—it's a way to support the project. Any value or utility of the tokens you receive is determined by GreatestMusicalDao.",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -31,10 +30,13 @@
       "bondingCurve": 0.25
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "20000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

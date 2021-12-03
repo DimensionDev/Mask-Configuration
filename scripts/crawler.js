@@ -1,31 +1,37 @@
-const puppeteer = require("puppeteer");
-const fetch = require("node-fetch").default;
-const fs = require("fs").promises;
-const BN = require("bn.js");
-const { twitterIdMap } = require("./data");
+const puppeteer = require('puppeteer');
+const fetch = require('node-fetch').default;
+const fs = require('fs').promises;
+const path = require('path');
+const { utils } = require('ethers');
+const { twitterIdMap } = require('./data');
 
-const baseUrl = "https://juicebox.money/#/p/";
+const baseUrl = 'https://juicebox.money/#/p/';
 const headers = {
-  accept: "application/json, text/plain, */*",
-  "accept-language": "en",
-  "content-type": "application/json",
-  "sec-ch-ua":
-    '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"',
-  "sec-ch-ua-mobile": "?0",
-  "sec-ch-ua-platform": '"macOS"',
-  "sec-fetch-dest": "empty",
-  "sec-fetch-mode": "cors",
-  "sec-fetch-site": "cross-site",
-  Referer: "https://juicebox.money/",
-  "Referrer-Policy": "strict-origin-when-cross-origin",
+  accept: 'application/json, text/plain, */*',
+  'accept-language': 'en',
+  'content-type': 'application/json',
+  'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"',
+  'sec-ch-ua-mobile': '?0',
+  'sec-ch-ua-platform': '"macOS"',
+  'sec-fetch-dest': 'empty',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-site': 'cross-site',
+  Referer: 'https://juicebox.money/',
+  'Referrer-Policy': 'strict-origin-when-cross-origin',
 };
 
 function parseEther(eth) {
-  const value = eth.replace(/,/g, "");
-  const bn = new BN(value, 10);
-  const result = bn.mul(new BN(10, 10).pow(new BN(18))).toString(10);
-  // console.log(eth, "=>", result);
-  return result;
+  // console.log('parseEther', eth);
+  let value = eth.trim();
+  if (value === '0') return '0';
+  try {
+    value = value.replace(/,/g, '');
+    const result = utils.parseEther(value);
+    // console.log(eth, '=>', result.toString());
+    return result.toString();
+  } catch (e) {
+    return '0';
+  }
 }
 
 function parsePercent(percent) {
@@ -34,12 +40,12 @@ function parsePercent(percent) {
 
 async function fetchProjects() {
   const rsp = await fetch(
-    "https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n",
+    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
       body: '{"query":"{ projects(orderBy: totalPaid, orderDirection: desc) { id handle creator createdAt uri currentBalance totalPaid totalRedeemed } }"}',
-      method: "POST",
-    }
+      method: 'POST',
+    },
   );
   const json = await rsp.json();
   const projects = json.data.projects;
@@ -63,97 +69,95 @@ async function closeBrowesr() {
   if (browser) await browser.close();
 }
 
+const notFoundList = [];
 async function crawl(juiceId) {
   const url = baseUrl + juiceId;
   const browser = await launchBrowser();
   const page = await browser.newPage();
   await page.goto(url, {
-    waitUntil: "networkidle2",
+    waitUntil: 'networkidle2',
   });
   await page.waitForTimeout(1000);
-  await page.waitForSelector(".ant-layout-content");
-  const contentEl = await page.$(".ant-layout-content");
+  await page.waitForSelector('.ant-layout-content');
+  const contentEl = await page.$('.ant-layout-content');
   const content = await contentEl.evaluate((el) => el.textContent);
-  if (content.toLowerCase().trim().endsWith("not found")) {
-    console.log(`Project ${juiceId} not found`);
+  if (content.toLowerCase().trim().endsWith('not found')) {
+    console.log(`>> Project ${juiceId} not found`);
+    notFoundList.push(juiceId);
     return null;
   }
   await page.waitForSelector('[aria-label="info-circle"]', {
     timeout: 8000,
   });
 
-  const title = await page.$("h1");
+  const title = await page.$('h1');
   const data = await title.evaluate((el) => {
     const name = el.textContent;
-    const logo =
-      el.parentElement.previousElementSibling?.querySelector("img")?.src ?? "";
+    const logo = el.parentElement.previousElementSibling?.querySelector('img')?.src ?? '';
     const nextRow = el.nextElementSibling;
     const id = nextRow.firstElementChild.textContent.slice(1);
     const website = nextRow.firstElementChild.nextElementSibling?.href;
     const twitter = nextRow.querySelector('a[href*="twitter.com"]')?.href;
-    const discord =
-      nextRow.querySelector('a[href*="discord.gg"]')?.href ?? null;
+    const discord = nextRow.querySelector('a[href*="discord.gg"]')?.href ?? null;
 
     return { name, logo, id, website, twitter, discord };
   });
 
-  const summaryEl = await page.$(".ant-row-bottom");
-  const summaryText = await summaryEl.evaluate((el) =>
-    el.textContent.toLowerCase()
-  );
+  const summaryEl = await page.$('.ant-row-bottom');
 
-  console.assert(
-    summaryText.includes("overflow"),
-    `Can not found "overflow" in ${juiceId}`
-  );
-
-  const volumeEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[1]/span[2]/span[2]'
-  );
-  const volume = volumeEl[0]
-    ? await volumeEl[0].evaluate((el) => el.textContent.slice(1))
-    : null;
-
-  const inJuiceboxEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[2]/div[2]/span'
-  );
-  const inJuicebox = await inJuiceboxEl[0].evaluate((el) =>
-    el.textContent.slice(1)
-  );
-
-  const overflowEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[3]/span/span[1]'
-  );
-  const overflow = overflowEl[0]
-    ? parsePercent(await overflowEl[0].evaluate((el) => el.textContent))
-    : null;
-
-  const inWalletEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[4]/span[2]/span[2]'
-  );
-  const inWallet = inWalletEl[0]
-    ? await inWalletEl[0].evaluate((el) => el.textContent.slice(1))
-    : null;
-
+  // wait for jbx in wallet fetched
   await page.waitForTimeout(5000);
-  const jbxEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[2]/div[1]/div/div[4]/span[2]/span[1]/div/span'
-  );
-  const jbx = jbxEl[0]
-    ? await jbxEl[0].evaluate((el) => el.textContent.split(" ")[0])
-    : null;
+  const summary = await summaryEl.evaluate((sumEl) => {
+    const list = [...sumEl.firstElementChild.firstElementChild.children];
+    const result = {};
+    list.forEach((el) => {
+      const iconEl = el.querySelector('.anticon-info-circle');
+      if (!iconEl) return;
+      const label = iconEl.previousElementSibling.textContent.trim().toLowerCase();
+      switch (label) {
+        case 'volume':
+          const ethSpan = [...el.querySelectorAll('span')].filter((e) => e.textContent === 'Ξ');
+          result['volume'] = ethSpan.length ? ethSpan[0].nextSibling.textContent : null;
+          break;
+        case 'in juicebox':
+          result['inJuicebox'] = el.lastElementChild.firstElementChild.textContent.slice(1);
+          break;
+        case 'distributed':
+          result['distributed'] = el.lastElementChild.textContent.split('/').map((t) => t.trim());
+          break;
+        case 'in wallet':
+          result['inWallet'] = {
+            eth: el.lastElementChild.lastElementChild.textContent.slice(1),
+            jbx: el.lastElementChild.firstElementChild.firstElementChild.firstElementChild
+              .firstChild.textContent,
+          };
+          break;
+        default:
+          const matches = label.match(/(\d+)% overflow/);
+          if (matches) {
+            result['overflow'] = matches[1] / 100;
+          }
+      }
+    });
+    return result;
+  });
 
-  await page.click(".ant-collapse-header");
+  summary.volume = summary.volume ? parseEther(summary.volume) : null;
+  summary.inJuicebox = summary.volume ? parseEther(summary.inJuicebox) : null;
+  if (summary.inWallet) {
+    summary.inWallet.eth = summary.inWallet.eth ? parseEther(summary.inWallet.eth) : null;
+    summary.inWallet.jbx = summary.inWallet.jbx ? parseEther(summary.inWallet.jbx) : null;
+  }
+
+  const { volume, inJuicebox, distributed, overflow, inWallet } = summary;
+
+  await page.click('.ant-collapse-header');
   await page.waitForTimeout(100);
 
-  const cells = await page.$$(
-    ".ant-collapse-content .ant-descriptions-row .ant-descriptions-item"
-  );
+  const cells = await page.$$('.ant-collapse-content .ant-descriptions-row .ant-descriptions-item');
 
-  const labelSelector =
-    ".ant-descriptions-item-container .ant-descriptions-item-label";
-  const valueSelector =
-    ".ant-descriptions-item-container .ant-descriptions-item-content";
+  const labelSelector = '.ant-descriptions-item-container .ant-descriptions-item-label';
+  const valueSelector = '.ant-descriptions-item-container .ant-descriptions-item-content';
   await page.addScriptTag({
     content: `
     window.labelSelector = ${JSON.stringify(labelSelector)}
@@ -163,88 +167,73 @@ async function crawl(juiceId) {
 
   const fundingCycle = await [...cells].reduce(
     async (pending, cell) => {
-      let label = await cell.evaluate(
-        (el) => el.querySelector(labelSelector).textContent
-      );
+      let label = await cell.evaluate((el) => el.querySelector(labelSelector).textContent);
       label = label.toLowerCase().trim();
       const result = await pending;
       switch (label) {
-        case "target":
+        case 'target':
           return {
             ...result,
             target: parseEther(
-              await cell.evaluate((el) =>
-                el.querySelector(valueSelector).textContent.slice(1)
-              )
+              await cell.evaluate((el) => el.querySelector(valueSelector).textContent.slice(1)),
             ),
           };
-        case "duration":
+        case 'duration':
           return {
             ...result,
-            duration: await cell.evaluate(
-              (el) => el.querySelector(valueSelector).textContent
-            ),
+            duration: await cell.evaluate((el) => el.querySelector(valueSelector).textContent),
           };
-        case "start":
+        case 'start':
           return {
             ...result,
-            start: await cell.evaluate(
-              (el) => el.querySelector(valueSelector).textContent
-            ),
+            start: await cell.evaluate((el) => el.querySelector(valueSelector).textContent),
           };
-        case "end":
+        case 'end':
           return {
             ...result,
-            end: await cell.evaluate(
-              (el) => el.querySelector(valueSelector).textContent
-            ),
+            end: await cell.evaluate((el) => el.querySelector(valueSelector).textContent),
           };
-        case "discount rate":
+        case 'discount rate':
           return {
             ...result,
             discount: parsePercent(
-              await cell.evaluate(
-                (el) => el.querySelector(valueSelector).textContent
-              )
+              await cell.evaluate((el) => el.querySelector(valueSelector).textContent),
             ),
           };
-        case "reserved":
+        case 'reserved':
           return {
             ...result,
             reserved: parsePercent(
-              await cell.evaluate(
-                (el) => el.querySelector(valueSelector).textContent
-              )
+              await cell.evaluate((el) => el.querySelector(valueSelector).textContent),
             ),
           };
-        case "bonding curve":
+        case 'bonding curve':
           return {
             ...result,
             bondingCurve: parsePercent(
-              await cell.evaluate(
-                (el) => el.querySelector(valueSelector).textContent
-              )
+              await cell.evaluate((el) => el.querySelector(valueSelector).textContent),
             ),
           };
         default:
-          if (label.endsWith("/eth")) {
+          if (label.endsWith('/eth')) {
             return {
               ...result,
               toETH: await cell.evaluate((el) =>
-                parseInt(el.querySelector(valueSelector).textContent, 10)
+                parseInt(el.querySelector(valueSelector).textContent, 10),
               ),
             };
           }
       }
       return result;
     },
-    { toETHSymbol: "PEOPLE" }
+    { toETHSymbol: 'PEOPLE' },
   );
 
-  const { address: tokenAddress, totalSupply } =
-    (await crawlPeopleTokens(page)) ?? {};
-
-  console.log({ tokenAddress, totalSupply });
+  const {
+    address: tokenAddress,
+    holdingSymbol,
+    totalSupply,
+  } = (await crawlHoldingTokens(page)) ?? {};
 
   await page.close();
   return {
@@ -252,24 +241,27 @@ async function crawl(juiceId) {
     volume,
     inJuicebox,
     overflow,
-    inWallet: inWallet ?? "0",
-    jbx: jbx ?? "0",
+    inWallet: inWallet ?? '0',
+    jbx: inWallet.jbx ?? '0',
+    distributed,
     fundingCycles: [fundingCycle],
     tokenAddress,
     totalSupply,
+    holdingSymbol,
     // strategy,
     // strategyDescription,
   };
 }
 
+const eventLength = 50;
 async function crawlPayEvents(projectId) {
   const rsp = await fetch(
-    "https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n",
+    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ payEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary note timestamp txHash } }"}`,
-      method: "POST",
-    }
+      body: `{"query":"{ payEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary note timestamp txHash } }"}`,
+      method: 'POST',
+    },
   );
   const josn = await rsp.json();
   const events = josn.data.payEvents;
@@ -278,12 +270,12 @@ async function crawlPayEvents(projectId) {
 
 async function crawlRedeemEvents(projectId) {
   const rsp = await fetch(
-    "https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n",
+    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ redeemEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary id returnAmount timestamp txHash } }"}`,
-      method: "POST",
-    }
+      body: `{"query":"{ redeemEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary id returnAmount timestamp txHash } }"}`,
+      method: 'POST',
+    },
   );
   const josn = await rsp.json();
   const events = josn.data.redeemEvents;
@@ -292,12 +284,12 @@ async function crawlRedeemEvents(projectId) {
 
 async function crawlWithdrawEvents(projectId) {
   const rsp = await fetch(
-    "https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n",
+    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ tapEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id netTransferAmount fundingCycleId timestamp txHash beneficiary caller beneficiaryTransferAmount } }"}`,
-      method: "POST",
-    }
+      body: `{"query":"{ tapEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id netTransferAmount fundingCycleId timestamp txHash beneficiary caller beneficiaryTransferAmount } }"}`,
+      method: 'POST',
+    },
   );
   const json = await rsp.json();
   const events = json.data.tapEvents;
@@ -306,53 +298,54 @@ async function crawlWithdrawEvents(projectId) {
 
 async function crawlReservesEvents(projectId) {
   const rsp = await fetch(
-    "https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n",
+    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
-      body: `{"query":"{ printReservesEvents(first: 50, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id id count beneficiary beneficiaryTicketAmount timestamp txHash caller } }"}`,
-      method: "POST",
-    }
+      body: `{"query":"{ printReservesEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id id count beneficiary beneficiaryTicketAmount timestamp txHash caller } }"}`,
+      method: 'POST',
+    },
   );
   const josn = await rsp.json();
   const events = josn.data.printReservesEvents;
   return events;
 }
 
-async function crawlPeopleTokens(page) {
-  const sectionEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[2]/div/div'
+async function crawlHoldingTokens(page) {
+  const sectionEl = await page.$(
+    '.ant-layout-content .ant-row:nth-of-type(3) > .ant-col:nth-child(1) > div:nth-child(2)',
   );
 
-  if (!sectionEl[0]) return null;
+  if (!sectionEl) return null;
+  const holdingSymbol = await sectionEl.evaluate((el) => {
+    return el
+      .querySelector('[aria-label=info-circle]')
+      ?.previousElementSibling.textContent.split(' ')[0];
+  });
   const addressEl = await page.$x(
-    '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr[1]/td/div/span[2]/div/span'
+    '//*[@id="root"]/section/main/div/div[1]/div[3]/div[1]/div[2]/div/div/div/div/div[2]/div/div/table/tbody/tr[1]/td/div/span[2]/div/span',
   );
   let address = null;
   if (addressEl[0]) {
     await addressEl[0].hover();
-    await page.waitForSelector(".ant-tooltip");
+    await page.waitForSelector('.ant-tooltip-open');
     await page.waitForTimeout(300);
-    const tooltipEl = await page.$(".ant-tooltip");
+    const tooltipEl = await page.$('.ant-tooltip');
     address = await tooltipEl.evaluate((el) => el.textContent.trim());
   } else {
-    console.log("No address element");
+    console.log('No address element');
   }
-  const result = await sectionEl[0].evaluate((secEl) => {
-    const cells = [...secEl.querySelectorAll(".ant-descriptions-item")];
+  const result = await sectionEl.evaluate((secEl) => {
+    const cells = [...secEl.querySelectorAll('.ant-descriptions-item')];
     return (
       cells.reduce((map, cell) => {
         let label = cell.querySelector(window.labelSelector).textContent;
         let valueEl = cell.querySelector(window.valueSelector);
         label = label.toLowerCase();
         switch (label) {
-          case "total supply":
+          case 'total supply':
             return {
               ...map,
-              totalSupply:
-                valueEl.firstElementChild.firstChild.textContent.replace(
-                  /,/g,
-                  ""
-                ),
+              totalSupply: valueEl.firstElementChild.firstChild.textContent.replace(/,/g, ''),
             };
         }
         return map;
@@ -361,28 +354,35 @@ async function crawlPeopleTokens(page) {
   });
   const finalResult = {
     address,
+    holdingSymbol,
     ...result,
   };
-  console.log({ finalResult });
 
   return finalResult;
 }
 
-async function fetchInfo(url) {
+async function fetchInfo(url, key) {
+  const cacheFile = path.resolve(__dirname, '../.cache/', key);
+  try {
+    if (await fs.exists(cacheFile)) {
+      const cache = await fs.readFile(cacheFile, 'utf8');
+      return JSON.parse(cache);
+    }
+  } catch (err) {}
   const rsp = await fetch(url, {
     headers: {
-      accept: "application/json, text/plain, */*",
-      "sec-ch-ua":
-        '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"',
-      "sec-ch-ua-mobile": "?0",
-      "sec-ch-ua-platform": '"macOS"',
-      Referer: "https://juicebox.money/",
-      "Referrer-Policy": "strict-origin-when-cross-origin",
+      accept: 'application/json, text/plain, */*',
+      'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"',
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"macOS"',
+      Referer: 'https://juicebox.money/',
+      'Referrer-Policy': 'strict-origin-when-cross-origin',
     },
     body: null,
-    method: "GET",
+    method: 'GET',
   });
   const info = await rsp.json();
+  await fs.writeFile(cacheFile, JSON.stringify(info));
   return info;
 }
 
@@ -398,16 +398,18 @@ async function crawlProjects() {
   await launchBrowser();
   for (let i = 0; i < projects.length; ++i) {
     try {
-      await wait(1000);
+      console.log('Crawling', projects[i].id);
+      await wait(10);
       let info = await fetchInfo(
-        `https://jbx.mypinata.cloud/ipfs/${projects[i].uri}`
+        `https://jbx.mypinata.cloud/ipfs/${projects[i].uri}`,
+        projects[i].uri,
       );
       const combined = {
         ...projects[i],
         ...info,
       };
       if (combined.twitter) {
-        let twitter_handler = combined.twitter.startsWith("https")
+        let twitter_handler = combined.twitter.startsWith('https')
           ? combined.twitter.split(/\//g).pop()
           : combined.twitter;
         twitter_handler = twitter_handler.toLowerCase().trim();
@@ -421,36 +423,40 @@ async function crawlProjects() {
               // strategy: dataInPage.strategy,
               // strategyDescription: dataInPage.strategyDescription,
               inWallet: dataInPage.inWallet,
-              jbx: dataInPage.jbx,
               tokenAddress: dataInPage.tokenAddress,
               totalSupply: dataInPage.totalSupply,
+              holdingSymbol: dataInPage.holdingSymbol,
             });
           }
         } catch (err) {
           console.log(`Failed to crawl ${juiceboxId}`, err);
         }
+        const [payEvents, redeemEvents, withdrawEvents, reservesEvents] = await Promise.all([
+          crawlPayEvents(combined.id),
+          crawlRedeemEvents(combined.id),
+          crawlWithdrawEvents(combined.id),
+          crawlReservesEvents(combined.id),
+        ]);
         Object.assign(combined, {
-          payEvents: await crawlPayEvents(combined.id),
-          redeemEvents: await crawlRedeemEvents(combined.id),
-          withdrawEvents: await crawlWithdrawEvents(combined.id),
-          reservesEvents: await crawlReservesEvents(combined.id),
+          payEvents,
+          redeemEvents,
+          withdrawEvents,
+          reservesEvents,
         });
+        data.push(combined);
         fs.writeFile(
           `./development/com.maskbook.dao-${twitter_handler}.json`,
-          JSON.stringify(combined, null, 2)
+          JSON.stringify(combined, null, 2),
         );
-        data.push(combined);
       }
     } catch (err) {
-      console.log(err);
+      console.log(`Failed to crawl ${projects[i]}`, err);
     }
   }
   await closeBrowesr();
 
-  fs.writeFile(
-    "./development/com.maskbook.dao.json",
-    JSON.stringify(data, null, 2)
-  );
+  fs.writeFile('./development/com.maskbook.dao.json', JSON.stringify(data, null, 2));
+  fs.writeFile('./not-found.json', JSON.stringify(notFoundList, null, 2));
 }
 
 crawlProjects();

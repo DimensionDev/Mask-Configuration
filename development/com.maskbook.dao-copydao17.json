@@ -22,7 +22,6 @@
   "version": 3,
   "payButton": "Get $Copy",
   "payDisclosure": "First, the holders of Copy DAO will unconditionally obtain the white list of Copy DAO products according to the currency ranking. \nSecond, 50% of the income of Copy DAO is used for currency dividends. \nThird, Copy DAO users can initiate proposals and have the right to make decisions",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -36,10 +35,13 @@
       "bondingCurve": 1
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "50000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
-  "totalSupply": "8046",
+  "totalSupply": "8045",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "8045520000000000",

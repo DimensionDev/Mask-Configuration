@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "We seek to build the Apes for the people that everyone could afford to have a membership card, ownership right and NFT to play around. If we failed, we would give all the tokens to who invests us 100% based on the each's share of total payment.",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -25,10 +24,13 @@
       "reserved": 1
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "180000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

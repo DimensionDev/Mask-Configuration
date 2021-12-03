@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "Join",
   "payDisclosure": "Thank you for supporting freedom of the sea!",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -25,10 +24,13 @@
       "reserved": 0
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "50000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "310000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "100000000000000000",

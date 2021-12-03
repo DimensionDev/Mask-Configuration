@@ -17,7 +17,6 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -31,10 +30,13 @@
       "bondingCurve": 1
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "620000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": "0xb8Cd71e6Aae60c240345ce91085353816B0705C3",
   "totalSupply": "0",
+  "holdingSymbol": "PARTNER",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

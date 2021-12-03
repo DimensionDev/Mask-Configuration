@@ -6,18 +6,17 @@
   "id": "56",
   "totalPaid": "10615000000000000",
   "totalRedeemed": "0",
-  "uri": "QmQCPoCSA9yWjZn5ZVPBmT6qfeQ6CJ9ex5aP9smNEXvFC8",
+  "uri": "QmTXcjL2HhftaaL8zHd47uYPAUXrAjae4wZ6cxZ6sZ7kBJ",
   "name": "HOLE DAO",
-  "infoUri": "https://hole.nyc/",
+  "description": "We are building the first phygital marketplace.",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmaLddfAzkMgPRQRwN7fnXiYqbYLBQUhhgatAJ1UU5PhXq",
-  "description": "HOLE DAO is an expanse of extraordinary people. We are amorphous in our creative pursuits. Born from society's blatant systemic failings of 2020, HOLE was conceived to replace past creative models that have systemically failed for diverse communities. ",
+  "infoUri": "https://hole.nyc/",
   "twitter": "hole_DAO",
   "discord": "https://discord.gg/kPeysfBW",
-  "tokens": [],
-  "version": 3,
   "payButton": "CONTRIBUTE",
   "payDisclosure": "Thank you so much for supporting HOLE! This furthers our pursuit of equity, inclusion, and righteous creative expression!",
-  "overflow": null,
+  "tokens": [],
+  "version": 3,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -31,10 +30,13 @@
       "bondingCurve": 0.5
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "90000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "10615",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "10615000000000000",

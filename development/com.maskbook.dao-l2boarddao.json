@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "donate",
   "payDisclosure": "We are committed to building a DAO on L2.",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -28,10 +27,13 @@
       "reserved": 0
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "1240000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

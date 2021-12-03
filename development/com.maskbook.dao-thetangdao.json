@@ -1,0 +1,82 @@
+{
+  "createdAt": "1638286994",
+  "creator": "0x7406df6af1d29a55eb9913255e22776641dab39f",
+  "currentBalance": "7700000000000000000",
+  "handle": "0x74616e6764616f00000000000000000000000000000000000000000000000000",
+  "id": "118",
+  "totalPaid": "7700000000000000000",
+  "totalRedeemed": "0",
+  "uri": "QmVrUPrcdK8dVbEmm6iMC4nTBCqRvh5iJUVMNZnhok7tjY",
+  "name": "TANGDAO",
+  "infoUri": "https://tangdao.gitbook.io",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/Qmd4H3GchgFFGiN19DRQqumn6cUSAH6Nwjhitwk4gKGLru",
+  "description": "Combined Banksy with ConstitutionDAO, we are going to bid an artwork on Sothebys Dec 3rd, 2021. You will be part of the process of an onchain performance art.",
+  "twitter": "theTANGDAO",
+  "discord": "https://discord.gg/yKDbXyy7Sv",
+  "tokens": [],
+  "version": 3,
+  "payButton": "Donate",
+  "payDisclosure": "DYOR🌛 and DAO 🐫",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "100000000000000000000000",
+      "duration": "7 days",
+      "start": "11-30-21 11:43pm",
+      "end": "12-7-21 11:43pm",
+      "reserved": 0.05
+    }
+  ],
+  "inWallet": {
+    "eth": "270000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0xB28c298D04Fdc36A1d01565301a43A21FCd7bC53",
+  "totalSupply": "7700000",
+  "holdingSymbol": "TANG",
+  "payEvents": [
+    {
+      "amount": "900000000000000000",
+      "beneficiary": "0xb34a55c19d412086343abd33f59f810d690968d1",
+      "id": "0xed8e6cea7a9be3fb7d7d0dd2a9a2d2f0d5b34e96ba57b118eb662bac41757910-130",
+      "note": null,
+      "timestamp": "1638420140",
+      "txHash": "0xed8e6cea7a9be3fb7d7d0dd2a9a2d2f0d5b34e96ba57b118eb662bac41757910"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x9ce07a82eaee12232661c824190ca7331f3c832f",
+      "id": "0x03d60dbe17de95b9984f4fd4299e60f92d83a4f28c50fa4894fdc435cdc6f5bb-644",
+      "note": null,
+      "timestamp": "1638414905",
+      "txHash": "0x03d60dbe17de95b9984f4fd4299e60f92d83a4f28c50fa4894fdc435cdc6f5bb"
+    },
+    {
+      "amount": "2800000000000000000",
+      "beneficiary": "0xd6098aff41ba2ee5505237f2a07bbc43a723a5ee",
+      "id": "0xc1726661b30ea5899eb343f5fb1e39108e42e0c1f4c63462d6fa65f1d0295373-141",
+      "note": null,
+      "timestamp": "1638368922",
+      "txHash": "0xc1726661b30ea5899eb343f5fb1e39108e42e0c1f4c63462d6fa65f1d0295373"
+    },
+    {
+      "amount": "3000000000000000000",
+      "beneficiary": "0x581928fac74860596e4c97596cbe7f843fea9b61",
+      "id": "0x028a9180137acf7f0bc5d9066d5e7a40ae21d1345af59b0282989ef8f36f5c84-86",
+      "note": "Let's dao it",
+      "timestamp": "1638362278",
+      "txHash": "0x028a9180137acf7f0bc5d9066d5e7a40ae21d1345af59b0282989ef8f36f5c84"
+    },
+    {
+      "amount": "900000000000000000",
+      "beneficiary": "0x8721e85957691438a5d154ee498d9224a2b35e89",
+      "id": "0xc84fd8325cc924a9be3c54918621a235e3809b238007e8a59c6f9a9619c301e0-88",
+      "note": null,
+      "timestamp": "1638358524",
+      "txHash": "0xc84fd8325cc924a9be3c54918621a235e3809b238007e8a59c6f9a9619c301e0"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
+}

@@ -17,7 +17,6 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "This ETH is going to be used to deploy contracts on different chains.\nYou are a real g. wagmi.\nYou can contact me anytime at markus@demu.app for questions",
-  "overflow": null,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -31,10 +30,13 @@
       "bondingCurve": 1
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "40000000000000000",
+    "jbx": "0"
+  },
   "tokenAddress": null,
   "totalSupply": "40000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "40000000000000000",
