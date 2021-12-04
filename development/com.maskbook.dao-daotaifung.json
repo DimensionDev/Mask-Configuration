@@ -1,10 +1,10 @@
 {
   "createdAt": "1638052885",
   "creator": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-  "currentBalance": "11050000000000000000",
+  "currentBalance": "26300000000000000000",
   "handle": "0x64616f74616966756e6700000000000000000000000000000000000000000000",
   "id": "89",
-  "totalPaid": "132688435400000000000",
+  "totalPaid": "147938435400000000000",
   "totalRedeemed": "0",
   "uri": "QmYoPy6UjcWgiMNYQu7z5dv2rdRpgShdwwwZFh47LrVnjy",
   "name": "DAOTaiFung",
@@ -21,7 +21,7 @@
     {
       "toETHSymbol": "PEOPLE",
       "duration": "8 days",
-      "start": "11-28-21 6:41am",
+      "start": "11-27-21 10:41pm",
       "reserved": 0.15
     }
   ],
@@ -30,9 +30,97 @@
     "jbx": "0"
   },
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "132688435",
+  "totalSupply": "147938435",
   "holdingSymbol": "DTF",
   "payEvents": [
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0x7aae4186890d72a06404c4efc4649e3dbeb87146",
+      "id": "0xd9e035bdef7758aab085acca5d1049ebf07a932a15dfd29b27ed6ee0b3c80f9c-243",
+      "note": null,
+      "timestamp": "1638579086",
+      "txHash": "0xd9e035bdef7758aab085acca5d1049ebf07a932a15dfd29b27ed6ee0b3c80f9c"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x1e676020e23255e4ff088e149e8fa047272d871b",
+      "id": "0x3ce855e7eb72038974a1b029c95ba41ebec2bc69539d181acfbca37abe97d39d-491",
+      "note": "Need moar DTF.",
+      "timestamp": "1638552705",
+      "txHash": "0x3ce855e7eb72038974a1b029c95ba41ebec2bc69539d181acfbca37abe97d39d"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x93b42d16307415b88d68613e867af5f70a3c3e97",
+      "id": "0xd6f5685cd73eaa978323cdf4e4b817d8261375b65def9e2ea5e81252c10c145b-309",
+      "note": "The only type of Dumps I want",
+      "timestamp": "1638549735",
+      "txHash": "0xd6f5685cd73eaa978323cdf4e4b817d8261375b65def9e2ea5e81252c10c145b"
+    },
+    {
+      "amount": "2000000000000000000",
+      "beneficiary": "0xc4169f40fcf0a280603c3e3bf3a1deb3f6d1952c",
+      "id": "0xe7c89593dcecf9e9af37cbd623db59cc7f2ff710b9ab2303efa1085fae8e7e22-584",
+      "note": "WAGMI",
+      "timestamp": "1638510696",
+      "txHash": "0xe7c89593dcecf9e9af37cbd623db59cc7f2ff710b9ab2303efa1085fae8e7e22"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x1256497a1b0729e167bc52e2b08ee23a888184c9",
+      "id": "0xf01f8a9680f7b2f6419ea17a4c872d25c9a972c92efff6a66205fc27b5681350-315",
+      "note": null,
+      "timestamp": "1638483308",
+      "txHash": "0xf01f8a9680f7b2f6419ea17a4c872d25c9a972c92efff6a66205fc27b5681350"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x2c8750697745cba88c3228e5783fe1e30038c4b7",
+      "id": "0xe0249bcb76515f6acdf4e735fb0562314fd4036d64baf25a504fcd1552cb1eaa-422",
+      "note": "#69 #DTF?",
+      "timestamp": "1638476025",
+      "txHash": "0xe0249bcb76515f6acdf4e735fb0562314fd4036d64baf25a504fcd1552cb1eaa"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xb48a6ae71a1e274720b8db5e9bc9cf88005125e8",
+      "id": "0x01390c2d506d40a4109f638aede2c7950319c8324f9cd3c613a8394e25d9d89e-361",
+      "note": null,
+      "timestamp": "1638474955",
+      "txHash": "0x01390c2d506d40a4109f638aede2c7950319c8324f9cd3c613a8394e25d9d89e"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x22d3d7fda66a717b6da8628d131a574fb719cc6b",
+      "id": "0xe6fe7f734acb854730b55df4300e12c67e73d171408b415d75fc2850431d3c5e-379",
+      "note": null,
+      "timestamp": "1638433705",
+      "txHash": "0xe6fe7f734acb854730b55df4300e12c67e73d171408b415d75fc2850431d3c5e"
+    },
+    {
+      "amount": "5000000000000000000",
+      "beneficiary": "0x818691a94dee2ef22d11914e02d417688fab6bef",
+      "id": "0xc535841a2a0432c5882c88150772ee4a5599badd6c6d738fb28ca17faad9e138-128",
+      "note": "DTF",
+      "timestamp": "1638433110",
+      "txHash": "0xc535841a2a0432c5882c88150772ee4a5599badd6c6d738fb28ca17faad9e138"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xdb4a057c4054e030e6f04619777c17cafa33cf65",
+      "id": "0x2de941d03f352e08a3f763a24ddfafd0970e2dd4ff6ad53d34ae0e3d8cc9106f-294",
+      "note": "DTF DTF",
+      "timestamp": "1638422012",
+      "txHash": "0x2de941d03f352e08a3f763a24ddfafd0970e2dd4ff6ad53d34ae0e3d8cc9106f"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x09fabf8c79e141fea3b87629a19c1defef0b9291",
+      "id": "0xd208476818008bd110a645341bf9f9f0f1e54df770d13fa502dc23da959281c3-237",
+      "note": "mrblock",
+      "timestamp": "1638421490",
+      "txHash": "0xd208476818008bd110a645341bf9f9f0f1e54df770d13fa502dc23da959281c3"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x62dbf1ab75d09c05378e2a230788074d6f558beb",
@@ -344,94 +432,6 @@
       "note": "Art washes away from the soul the dust of everyday life.",
       "timestamp": "1638200446",
       "txHash": "0xad7ebfb887843b720e4906bceab8e216af82c15505d47fd7e7743439a73da3cd"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0x5159128278bb4c4fd8d605576e247fda25f00d1e",
-      "id": "0x9908a855912f783f60c23fd3955a5e14857b8758c7b4d94cf6d40e766b776341-252",
-      "note": "https://jbx.mypinata.cloud/ipfs/QmSe8mVLyH4kVzDaapiNFW3WHoTpe28AdeQMiiMWjtHYRS",
-      "timestamp": "1638196388",
-      "txHash": "0x9908a855912f783f60c23fd3955a5e14857b8758c7b4d94cf6d40e766b776341"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0x35aa3f733958b7416669303945093c98819f77a6",
-      "id": "0x736b9a98ff2373ffe0e4f9b74eb7e0706b7d5c8b3022c9c6acaaf2b527c1a3ce-519",
-      "note": null,
-      "timestamp": "1638188774",
-      "txHash": "0x736b9a98ff2373ffe0e4f9b74eb7e0706b7d5c8b3022c9c6acaaf2b527c1a3ce"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x8dfaf43f04fea40494c1ca5831069e340bf9b20c",
-      "id": "0xe30c7794a8464f738fb9c44d561b995e940b20a5eee76d72eefbf108bb81781b-303",
-      "note": null,
-      "timestamp": "1638183080",
-      "txHash": "0xe30c7794a8464f738fb9c44d561b995e940b20a5eee76d72eefbf108bb81781b"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xc4169f40fcf0a280603c3e3bf3a1deb3f6d1952c",
-      "id": "0xf89cf58ba0cf59ae81ebadaa0e4a2199f8862702e1dc7d4d6a3dc856b119bf59-263",
-      "note": null,
-      "timestamp": "1638180050",
-      "txHash": "0xf89cf58ba0cf59ae81ebadaa0e4a2199f8862702e1dc7d4d6a3dc856b119bf59"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x59be968eee3e0ad0a9af71a47b4cca3495a475c8",
-      "id": "0x0f1a92b1c567463726fef52f7707ed1b3c5a223cdffcd465c14a0efb5501d082-594",
-      "note": null,
-      "timestamp": "1638176794",
-      "txHash": "0x0f1a92b1c567463726fef52f7707ed1b3c5a223cdffcd465c14a0efb5501d082"
-    },
-    {
-      "amount": "230000000000000000",
-      "beneficiary": "0xa9d2d4a522713383eac42eb3e7733aee3925a802",
-      "id": "0xf41a8eb393cd226c2f9d83b255201434224389d42a7df38186a9c55f6cdf944a-75",
-      "note": null,
-      "timestamp": "1638173080",
-      "txHash": "0xf41a8eb393cd226c2f9d83b255201434224389d42a7df38186a9c55f6cdf944a"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0x90f99593761048f38e1b05ffc9807c50260ff578",
-      "id": "0x8aa6b71b4edd0e77b90a31a3015a0dc48a628e62499616594f76d462ad64a51a-277",
-      "note": "https://jbx.mypinata.cloud/ipfs/QmReW7NWMKgSJztyAYgqKTnRWE7ujPGGJnrE1tAjjHe9oa",
-      "timestamp": "1638172688",
-      "txHash": "0x8aa6b71b4edd0e77b90a31a3015a0dc48a628e62499616594f76d462ad64a51a"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0xa9d2d4a522713383eac42eb3e7733aee3925a802",
-      "id": "0xf25491ecea4abce15a9b2e2c95a57411ec500ac29fb9302e105a4492e82be421-430",
-      "note": null,
-      "timestamp": "1638172081",
-      "txHash": "0xf25491ecea4abce15a9b2e2c95a57411ec500ac29fb9302e105a4492e82be421"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xf734fc231887564b7c8aa97f9dd10d662a72a020",
-      "id": "0xdc3948b7b4545ebc6e1d91cf23f53f1fc0d91ad0d178eb178bd7c6f9830492da-327",
-      "note": "is this a honeypot? https://jbx.mypinata.cloud/ipfs/QmUZUL6DnXeUKPVuR7JQe4FQPqkt1osj2P83oS7LaikmzL",
-      "timestamp": "1638172027",
-      "txHash": "0xdc3948b7b4545ebc6e1d91cf23f53f1fc0d91ad0d178eb178bd7c6f9830492da"
-    },
-    {
-      "amount": "130000000000000000",
-      "beneficiary": "0xa9d2d4a522713383eac42eb3e7733aee3925a802",
-      "id": "0xe51962c079493404112204d8030fa0f30f980ed816ab04c9848d2fba9279ee18-596",
-      "note": null,
-      "timestamp": "1638171911",
-      "txHash": "0xe51962c079493404112204d8030fa0f30f980ed816ab04c9848d2fba9279ee18"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x1d4c8ad4089af91abd35687c70d2bbdb40c11ff1",
-      "id": "0xc69a48fe914a413bcb678bd8d08a322793928a37979ca62987d369b36eb24090-533",
-      "note": "dtf everyday ",
-      "timestamp": "1638171549",
-      "txHash": "0xc69a48fe914a413bcb678bd8d08a322793928a37979ca62987d369b36eb24090"
     }
   ],
   "redeemEvents": [],

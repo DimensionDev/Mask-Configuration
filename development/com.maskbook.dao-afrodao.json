@@ -1,10 +1,10 @@
 {
   "createdAt": "1637265183",
   "creator": "0xfdbb2e2f9b2b40e0ba723fcda1cb2c6c972e95a1",
-  "currentBalance": "20482436704966779",
+  "currentBalance": "220482436704966779",
   "handle": "0x6166726f64616f00000000000000000000000000000000000000000000000000",
   "id": "49",
-  "totalPaid": "220319080000000000",
+  "totalPaid": "420319080000000000",
   "totalRedeemed": "0",
   "uri": "Qmb7wBAGxsCJrwUBMstVYRr5pb3V98uY471VqsgLA5Gd1M",
   "name": "AFRO DAO",
@@ -22,8 +22,8 @@
       "toETHSymbol": "PEOPLE",
       "target": "20000000000000000000000000",
       "duration": "40 days",
-      "start": "11-23-21 4:14am",
-      "end": "1-2-22 4:14am",
+      "start": "11-22-21 8:14pm",
+      "end": "1-1-22 8:14pm",
       "reserved": 0
     }
   ],
@@ -32,9 +32,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "220319",
+  "totalSupply": "420319",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
+      "id": "0xda4c82f0d123c6e2403a516a3476e431d6e759649e12c8f3cc4491aa445b4811-302",
+      "note": null,
+      "timestamp": "1638429716",
+      "txHash": "0xda4c82f0d123c6e2403a516a3476e431d6e759649e12c8f3cc4491aa445b4811"
+    },
     {
       "amount": "10319080000000000",
       "beneficiary": "0xddc6942011be7cfc3ff76ae413d3eb2a27cc35a4",

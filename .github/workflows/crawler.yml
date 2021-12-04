@@ -27,6 +27,7 @@ jobs:
         with:
           path: |
             .cache
+          key: NO_CHANGE
 
       - name: Yarn install
         run: yarn install
@@ -41,24 +42,22 @@ jobs:
           echo "## Updates" >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
           echo "\`\`\`" >> $GITHUB_ENV
-          git diff --stat $BASE $HEAD ':(exclude).github' ':(exclude)scripts' >> $GITHUB_ENV
+          git diff --stat ':(exclude).github' ':(exclude)scripts' >> $GITHUB_ENV
           echo "\`\`\`" >> $GITHUB_ENV
-          echo "" >> $GITHUB_ENV
-          echo "https://github.com/${{ github.repository }}/compare/${BASE}..${HEAD}" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
-
-          # Issue creation will be skipped if no diff
-          echo "GIT_DIFF<<EOF" >> $GITHUB_ENV
-          git diff --stat $BASE $HEAD ':(exclude).github' ':(exclude)scripts' >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-
-      - uses: actions-ecosystem/action-create-issue@v1
-        if: ${{ env.GIT_DIFF != '' }}
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          title: Update dao data
-          body: ${{ env.CONTENT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: ':chore: crawling updates'
+          committer: Maskbook maintainer bot <bot@mask.io>
+          author: Maskbook maintainer bot <bot@mask.io>
+          branch: auto-crawl
+          title: ':chore: crawling updates'
+          body: "## (🤖 I am a robot) updates or error report \n```${{ env.DIFF_STAT }}\n```\n\n"
           assignees: |
             guanbinrui
             unclebill
+          draft: false

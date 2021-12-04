@@ -1,11 +1,11 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "57674296525826656767",
+  "currentBalance": "56305302752633314546",
   "handle": "0x74696c6573000000000000000000000000000000000000000000000000000000",
   "id": "2",
   "totalPaid": "130609636800000000000",
-  "totalRedeemed": "6583340274173343233",
+  "totalRedeemed": "6639334047366685454",
   "uri": "QmNnxipn7ooGhX67nUPysoTuFK4xbLJrXw1nKnqTQ6uy7h",
   "name": "TileDAO",
   "description": "Receives all revenue from the Tiles primary sale.",
@@ -21,20 +21,20 @@
       "toETHSymbol": "PEOPLE",
       "target": "1313000000000000000",
       "duration": "7 days",
-      "start": "11-26-21 6:30am",
-      "end": "12-3-21 6:30am",
+      "start": "12-2-21 10:30pm",
+      "end": "12-9-21 10:30pm",
       "reserved": 0.34,
       "discount": 0.02,
-      "toETH": 458,
+      "toETH": 449,
       "bondingCurve": 0.5
     }
   ],
   "inWallet": {
     "eth": "1710000000000000000",
-    "jbx": "393581000000000000000000"
+    "jbx": "408095000000000000000000"
   },
   "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
-  "totalSupply": "111241369",
+  "totalSupply": "111025369",
   "holdingSymbol": "TILE",
   "payEvents": [
     {
@@ -440,6 +440,14 @@
   ],
   "redeemEvents": [
     {
+      "amount": "216000000000000000000000",
+      "beneficiary": "0x162f3a373a8605fd0da52b1b6d44dc8bcc97f0aa",
+      "id": "0x4ffe523cc88009a5bfed062931ff309d5fb73bf63780493a9a6fa61dbd3ee82f-293",
+      "returnAmount": "55993773193342221",
+      "timestamp": "1638476025",
+      "txHash": "0x4ffe523cc88009a5bfed062931ff309d5fb73bf63780493a9a6fa61dbd3ee82f"
+    },
+    {
       "amount": "144000000000000000000000",
       "beneficiary": "0x2ea4815f47d685ed317e8bd243b89bcb26b369fa",
       "id": "0x047b4bc6ee481a00c3f3a95df8d6c90ae2af49a9f0c15ebf530c14a89d743ec8-625",
@@ -830,17 +838,19 @@
       "returnAmount": "33945539298553851",
       "timestamp": "1626882527",
       "txHash": "0xead805db7889b5642e3d4632469bad6bb756b389b726a82eba953e093b690589"
-    },
-    {
-      "amount": "216000000000000000000000",
-      "beneficiary": "0xb2a2a6a69e7a0ad66943f4c2869d45a9919cf740",
-      "id": "0xe7640ef56b00f4b6c0e508cef770e10a1fc3d3447d7ee8105d32b4454b4a4627-121",
-      "returnAmount": "104585597790860840",
-      "timestamp": "1626882131",
-      "txHash": "0xe7640ef56b00f4b6c0e508cef770e10a1fc3d3447d7ee8105d32b4454b4a4627"
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "beneficiaryTransferAmount": "1",
+      "caller": "0x7cc4e967242e1cad92152d47ae0bb9169e97d553",
+      "fundingCycleId": "232",
+      "id": "2-0x8015a305376b5fba1cb95e0081f960b3be66efcf36c8d0c02e28633bd7e0b0bb",
+      "netTransferAmount": "1250476190476190476",
+      "timestamp": "1638489720",
+      "txHash": "0x8015a305376b5fba1cb95e0081f960b3be66efcf36c8d0c02e28633bd7e0b0bb"
+    },
     {
       "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
       "beneficiaryTransferAmount": "1",

@@ -1,11 +1,11 @@
 {
   "createdAt": "1638275232",
   "creator": "0xa0ab259af685c67d888a204ec97b8fffa3a6a650",
-  "currentBalance": "4441000000000000000",
+  "currentBalance": "2001000000000000000",
   "handle": "0x70656f706c65616e67656c7364616f0000000000000000000000000000000000",
   "id": "116",
-  "totalPaid": "4441000000000000000",
-  "totalRedeemed": "0",
+  "totalPaid": "4641000000000000000",
+  "totalRedeemed": "2640000000000000000",
   "uri": "QmSWHLnXtfaT7wYJjxAMH94j5x9535Fp6e39xCpctKgj96",
   "name": "PeopleAngelsDAO",
   "infoUri": "https://peopleangelsdao.org",
@@ -23,8 +23,8 @@
       "toETHSymbol": "PEOPLE",
       "target": "0",
       "duration": "14 days",
-      "start": "11-30-21 8:27pm",
-      "end": "12-14-21 8:27pm",
+      "start": "11-30-21 12:27pm",
+      "end": "12-14-21 12:27pm",
       "reserved": 0,
       "discount": 0,
       "toETH": 1,
@@ -36,9 +36,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x0d3849F5864c3a7C4dB4C9C4cF3CB6434b593EBF",
-  "totalSupply": "4441000",
+  "totalSupply": "2001000",
   "holdingSymbol": "ANGELS",
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x0fbc0c1e58a21459e832e5ff4b66e149b7c3d2d3",
+      "id": "0xab42eaadb46520e918274b75a09b8faaa88f7c47f22ab25c940865e7a516ba56-503",
+      "note": null,
+      "timestamp": "1638424538",
+      "txHash": "0xab42eaadb46520e918274b75a09b8faaa88f7c47f22ab25c940865e7a516ba56"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x5629f439bcc9e6b9d75286b4901d781221dfd837",
@@ -104,7 +112,16 @@
       "txHash": "0x01524b0053f28a0e3a075f3abcdea4767340db871db443bd1bea3be7a0884d4f"
     }
   ],
-  "redeemEvents": [],
+  "redeemEvents": [
+    {
+      "amount": "2640000000000000000000000",
+      "beneficiary": "0xc4438399d8a212ea8a5ac27a52effe85355b715b",
+      "id": "0x878e3c250543db463da799d3132bd96a13ff876782cc8285b768caa80fd5a891-416",
+      "returnAmount": "2640000000000000000",
+      "timestamp": "1638442339",
+      "txHash": "0x878e3c250543db463da799d3132bd96a13ff876782cc8285b768caa80fd5a891"
+    }
+  ],
   "withdrawEvents": [],
   "reservesEvents": []
 }
