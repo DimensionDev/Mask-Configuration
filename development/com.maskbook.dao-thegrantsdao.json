@@ -20,20 +20,20 @@
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
-      "target": "6666000000000000000000",
+      "target": "8888000000000000000000",
       "duration": "Not set",
-      "reserved": 0.35,
+      "reserved": 0.5,
       "discount": 0,
-      "toETH": 650,
-      "bondingCurve": 0.3
+      "toETH": 500,
+      "bondingCurve": 0
     }
   ],
   "inWallet": {
-    "eth": "700000000000000000",
-    "jbx": "464266000000000000000000"
+    "eth": "490000000000000000",
+    "jbx": "0"
   },
   "tokenAddress": "0x5c9A4Aa27de8688d533CdBB839A2038FA019fc44",
-  "totalSupply": "100100000",
+  "totalSupply": "100130000",
   "holdingSymbol": "GRANT",
   "payEvents": [
     {

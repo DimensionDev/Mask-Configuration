@@ -1,10 +1,10 @@
 {
   "createdAt": "1638415848",
   "creator": "0x07cbd4e4473140b6078aa987907aaff5e500b9f1",
-  "currentBalance": "13422069000000000000",
+  "currentBalance": "13442069000000000000",
   "handle": "0x6d6567616d7574616e7464616f00000000000000000000000000000000000000",
   "id": "127",
-  "totalPaid": "13422069000000000000",
+  "totalPaid": "13442069000000000000",
   "totalRedeemed": "0",
   "uri": "QmQr5odGuxZN8LyqPzbgy1fXryjkhvmhMjSAZLVDjTprCQ",
   "name": "MegaMutantDAO",
@@ -31,13 +31,21 @@
     }
   ],
   "inWallet": {
-    "eth": "440000000000000000",
+    "eth": "450000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "13422069",
+  "totalSupply": "13442069",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0xa26933943e16f973b5e279d9748082d182530423",
+      "id": "0xf36da02151bb24fdd5273afe90d2bbf0729562d2858cc77057aa5bf5d4d89e29-186",
+      "note": null,
+      "timestamp": "1638592276",
+      "txHash": "0xf36da02151bb24fdd5273afe90d2bbf0729562d2858cc77057aa5bf5d4d89e29"
+    },
     {
       "amount": "500000000000000000",
       "beneficiary": "0xe56f5ae94d54aaaefdc49e86a367f46d30edf3bb",
