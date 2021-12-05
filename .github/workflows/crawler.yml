@@ -56,7 +56,7 @@ jobs:
           author: Maskbook maintainer bot <bot@mask.io>
           branch: auto-crawl
           title: ':chore: crawling updates'
-          body: "## (🤖 I am a robot) updates or error report \n```${{ env.DIFF_STAT }}\n```\n\n"
+          body: "## (🤖 I am a robot) updates or error report \n${{ env.DIFF_STAT }}\n\n"
           assignees: |
             guanbinrui
             unclebill
