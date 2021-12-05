@@ -13,13 +13,14 @@ jobs:
         with:
           fetch-depth: 100
           ref: master
-      - name: Use node_modules cache
-        uses: actions/cache@v2
-        id: yarn-cache
+      - uses: pnpm/action-setup@v2
         with:
-          path: |
-            node_modules
-          key: yarn-${{ hashFiles('package.json') }}-${{ hashFiles('yarn.lock') }}
+          version: '6.23.1'
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'pnpm'
 
       - name: Cache info files
         uses: actions/cache@v2
@@ -29,16 +30,15 @@ jobs:
             .cache
           key: NO_CHANGE
 
-      - name: Yarn install
-        run: yarn install
-        if: steps.yarn-cache.outputs.cache-hit != 'true'
+      - name: pnpm install
+        run: pnpm i
 
       - name: Crawl
-        run: yarn crawl
+        run: pnpm crawl
 
       - name: Get Changes
         run: |
-          echo "CONTENT<<EOF" >> $GITHUB_ENV
+          echo "DIFF_STAT<<EOF" >> $GITHUB_ENV
           echo "## Updates" >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
           echo "\`\`\`" >> $GITHUB_ENV
