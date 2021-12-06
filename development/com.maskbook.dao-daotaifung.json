@@ -1,10 +1,10 @@
 {
   "createdAt": "1638052885",
   "creator": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-  "currentBalance": "26300000000000000000",
+  "currentBalance": "28300000000000000000",
   "handle": "0x64616f74616966756e6700000000000000000000000000000000000000000000",
   "id": "89",
-  "totalPaid": "147938435400000000000",
+  "totalPaid": "149938435400000000000",
   "totalRedeemed": "0",
   "uri": "QmYoPy6UjcWgiMNYQu7z5dv2rdRpgShdwwwZFh47LrVnjy",
   "name": "DAOTaiFung",
@@ -21,18 +21,34 @@
     {
       "toETHSymbol": "PEOPLE",
       "duration": "8 days",
-      "start": "11-27-21 10:41pm",
+      "start": "12-5-21 10:41pm",
       "reserved": 0.15
     }
   ],
   "inWallet": {
-    "eth": "370000000000000000",
+    "eth": "300000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "147938435",
+  "totalSupply": "149938435",
   "holdingSymbol": "DTF",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x111ce8d46cd445f5ab1ce3545d97b45071dfecc0",
+      "id": "0xfbadf581bc740a99e307f4164c9f6f4e91d9319f3058a4b3260522fa7b974df0-533",
+      "note": null,
+      "timestamp": "1638720789",
+      "txHash": "0xfbadf581bc740a99e307f4164c9f6f4e91d9319f3058a4b3260522fa7b974df0"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xe890cdb80cf8f0c81b286dac691e8c6cb0f3b569",
+      "id": "0xfebe51fb57e2b46f8f8e311caada6d0c7ce027202d6ba87f9407d8c705fd55da-48",
+      "note": null,
+      "timestamp": "1638715554",
+      "txHash": "0xfebe51fb57e2b46f8f8e311caada6d0c7ce027202d6ba87f9407d8c705fd55da"
+    },
     {
       "amount": "250000000000000000",
       "beneficiary": "0x7aae4186890d72a06404c4efc4649e3dbeb87146",
@@ -416,22 +432,6 @@
       "note": null,
       "timestamp": "1638205336",
       "txHash": "0x0e6071327328e098e9b65aed7e0966679bfe18ec96de63a9dae12c53cfb80291"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x1e676020e23255e4ff088e149e8fa047272d871b",
-      "id": "0x5a42b61e21b6a5a9dc44bd46b477689f3482eddb186b2375af3d66ebca8de753-411",
-      "note": "Love the name!",
-      "timestamp": "1638201658",
-      "txHash": "0x5a42b61e21b6a5a9dc44bd46b477689f3482eddb186b2375af3d66ebca8de753"
-    },
-    {
-      "amount": "5000000000000000000",
-      "beneficiary": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-      "id": "0xad7ebfb887843b720e4906bceab8e216af82c15505d47fd7e7743439a73da3cd-240",
-      "note": "Art washes away from the soul the dust of everyday life.",
-      "timestamp": "1638200446",
-      "txHash": "0xad7ebfb887843b720e4906bceab8e216af82c15505d47fd7e7743439a73da3cd"
     }
   ],
   "redeemEvents": [],
