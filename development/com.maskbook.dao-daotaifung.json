@@ -1,10 +1,10 @@
 {
   "createdAt": "1638052885",
   "creator": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-  "currentBalance": "28300000000000000000",
+  "currentBalance": "29300000000000000000",
   "handle": "0x64616f74616966756e6700000000000000000000000000000000000000000000",
   "id": "89",
-  "totalPaid": "149938435400000000000",
+  "totalPaid": "150938435400000000000",
   "totalRedeemed": "0",
   "uri": "QmYoPy6UjcWgiMNYQu7z5dv2rdRpgShdwwwZFh47LrVnjy",
   "name": "DAOTaiFung",
@@ -30,9 +30,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "149938435",
+  "totalSupply": "150938435",
   "holdingSymbol": "DTF",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x265546735a10168151313af3a569e597f31d7667",
+      "id": "0xadb9bcb016080aa305dd79ccc4259d3bf5d09dcecc95adc78c7e711e8a75e55b-521",
+      "note": "DTF 100x",
+      "timestamp": "1638754645",
+      "txHash": "0xadb9bcb016080aa305dd79ccc4259d3bf5d09dcecc95adc78c7e711e8a75e55b"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x111ce8d46cd445f5ab1ce3545d97b45071dfecc0",
@@ -424,14 +432,6 @@
       "note": null,
       "timestamp": "1638205993",
       "txHash": "0xdc185d77884a3aee83e86d491ac95fc85a413b88d75d0b1732dfa06eb14beb22"
-    },
-    {
-      "amount": "2000000000000000000",
-      "beneficiary": "0x5278223b78ce6a50cd0e5e237104c4ef65760f65",
-      "id": "0x0e6071327328e098e9b65aed7e0966679bfe18ec96de63a9dae12c53cfb80291-46",
-      "note": null,
-      "timestamp": "1638205336",
-      "txHash": "0x0e6071327328e098e9b65aed7e0966679bfe18ec96de63a9dae12c53cfb80291"
     }
   ],
   "redeemEvents": [],

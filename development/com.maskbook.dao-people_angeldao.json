@@ -1,11 +1,11 @@
 {
   "createdAt": "1638275232",
   "creator": "0xa0ab259af685c67d888a204ec97b8fffa3a6a650",
-  "currentBalance": "2001000000000000000",
+  "currentBalance": "1801000000000000000",
   "handle": "0x70656f706c65616e67656c7364616f0000000000000000000000000000000000",
   "id": "116",
   "totalPaid": "4641000000000000000",
-  "totalRedeemed": "2640000000000000000",
+  "totalRedeemed": "2840000000000000000",
   "uri": "QmSWHLnXtfaT7wYJjxAMH94j5x9535Fp6e39xCpctKgj96",
   "name": "PeopleAngelsDAO",
   "infoUri": "https://peopleangelsdao.org",
@@ -36,7 +36,7 @@
     "jbx": "0"
   },
   "tokenAddress": "0x0d3849F5864c3a7C4dB4C9C4cF3CB6434b593EBF",
-  "totalSupply": "2001000",
+  "totalSupply": "1801000",
   "holdingSymbol": "ANGELS",
   "payEvents": [
     {
@@ -113,6 +113,14 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "200000000000000000000000",
+      "beneficiary": "0x0fbc0c1e58a21459e832e5ff4b66e149b7c3d2d3",
+      "id": "0x6b4f23040b927d0fdb31f4d479f4855b3dcdb685d18309cb2d4274572444c2d8-476",
+      "returnAmount": "200000000000000000",
+      "timestamp": "1638790860",
+      "txHash": "0x6b4f23040b927d0fdb31f4d479f4855b3dcdb685d18309cb2d4274572444c2d8"
+    },
     {
       "amount": "2640000000000000000000000",
       "beneficiary": "0xc4438399d8a212ea8a5ac27a52effe85355b715b",

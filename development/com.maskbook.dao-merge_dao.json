@@ -1,10 +1,10 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "4760279420000000000",
+  "currentBalance": "4955279420000000000",
   "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
   "id": "120",
-  "totalPaid": "195783744301000000000",
+  "totalPaid": "195978744301000000000",
   "totalRedeemed": "0",
   "uri": "QmUwk2MrXTokETjJxJwZ4wi4AnwWBPigLjHngYFqsbxyvE",
   "name": "Merge DAO",
@@ -30,9 +30,49 @@
     "jbx": "2088608000000000000000000"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-  "totalSupply": "195783744",
+  "totalSupply": "195978744",
   "holdingSymbol": "MRGE",
   "payEvents": [
+    {
+      "amount": "60000000000000000",
+      "beneficiary": "0xc464bb484fb2d56bcae0d9fb04ee9e01a69223de",
+      "id": "0xb9567b277a00f31396cfd33bc3e882303baa5d4edfe88498011eba2eb24db62b-124",
+      "note": null,
+      "timestamp": "1638789342",
+      "txHash": "0xb9567b277a00f31396cfd33bc3e882303baa5d4edfe88498011eba2eb24db62b"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xf82fe7a94704598559828bfaa76393d47a81bf73",
+      "id": "0x8eb18117b1cf42b96e6676d1564a5144b6487f251f50c7af3da675aa64cda623-340",
+      "note": null,
+      "timestamp": "1638777772",
+      "txHash": "0x8eb18117b1cf42b96e6676d1564a5144b6487f251f50c7af3da675aa64cda623"
+    },
+    {
+      "amount": "15000000000000000",
+      "beneficiary": "0xf82fe7a94704598559828bfaa76393d47a81bf73",
+      "id": "0x1c21f53347606224448c1cc8126e257f33ff32b6f75171ccec1cf24c36892d82-298",
+      "note": null,
+      "timestamp": "1638772556",
+      "txHash": "0x1c21f53347606224448c1cc8126e257f33ff32b6f75171ccec1cf24c36892d82"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xcb26ea9b520c6d300939a9d5b94308cd77484a6f",
+      "id": "0x0c472c6a347e823f8735f447c54d2f0a479d38c30c1e9c769aa0448429dc0e76-259",
+      "note": null,
+      "timestamp": "1638759849",
+      "txHash": "0x0c472c6a347e823f8735f447c54d2f0a479d38c30c1e9c769aa0448429dc0e76"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x99b8e697e25b677f024f1ee288f13f01cab22ea2",
+      "id": "0x1bc867080d923befec22f08c1eb8f8edc5521cfd323a6c1f70b72b6f117f0208-126",
+      "note": null,
+      "timestamp": "1638758892",
+      "txHash": "0x1bc867080d923befec22f08c1eb8f8edc5521cfd323a6c1f70b72b6f117f0208"
+    },
     {
       "amount": "41029290000000000",
       "beneficiary": "0x02cb436fbbef14788edf2bf8098946ed3fbba3db",
@@ -392,46 +432,6 @@
       "note": null,
       "timestamp": "1638652896",
       "txHash": "0xfb5a8fe8c0951d41d69d2a717cd2f47f35e929d19c968e98a3ff837cb2e5791a"
-    },
-    {
-      "amount": "200000000000000000",
-      "beneficiary": "0x08a176a52a3d9824cc8497acf43a5d957e451ebc",
-      "id": "0x80caaa9c624e76b99d805c5793908c24ff1ea19d5642baa494209c428debe9e8-321",
-      "note": null,
-      "timestamp": "1638652663",
-      "txHash": "0x80caaa9c624e76b99d805c5793908c24ff1ea19d5642baa494209c428debe9e8"
-    },
-    {
-      "amount": "101523000000000000",
-      "beneficiary": "0x1cb50955e9418e2335c66049f271c8fa4d57b7e6",
-      "id": "0x463ff133bda3da9a87213ffd365a4c455d6a1be9be2f283b1f3ebf6ce07443df-211",
-      "note": null,
-      "timestamp": "1638652442",
-      "txHash": "0x463ff133bda3da9a87213ffd365a4c455d6a1be9be2f283b1f3ebf6ce07443df"
-    },
-    {
-      "amount": "200000000000000000",
-      "beneficiary": "0xaa20816a724c8bcd2b8bebb60b1a7a1f90e3ec0b",
-      "id": "0x800eb1a6df6ed62df5dc72ae8c138d6b2e635c8c7b10c1530439e4e545c1389e-260",
-      "note": null,
-      "timestamp": "1638649469",
-      "txHash": "0x800eb1a6df6ed62df5dc72ae8c138d6b2e635c8c7b10c1530439e4e545c1389e"
-    },
-    {
-      "amount": "70000000000000000",
-      "beneficiary": "0x994d0c5e289c9750849b916cd4961e1e7ddb451e",
-      "id": "0x995c5d2778d46fe98f0be9ecdaa076bd651f21e51b618088dba52087ec97f8db-39",
-      "note": "Pak merge ",
-      "timestamp": "1638649143",
-      "txHash": "0x995c5d2778d46fe98f0be9ecdaa076bd651f21e51b618088dba52087ec97f8db"
-    },
-    {
-      "amount": "110000000000000000",
-      "beneficiary": "0x3e55537b65527701dd6b101759fbbd4b33552808",
-      "id": "0x0a78b221bee7feffd07216c2fedcdc19fe903c8497dea3d731b14af802b93108-363",
-      "note": "pak can you my drawing look  @imagekunst @https://jbx.mypinata.cloud/ipfs/QmWiD78YiPauuBVXC5xA1KnbePaPEfaPng9LiChQvnA2KC https://jbx.mypinata.cloud/ipfs/QmcYqfApUvdz6pz6nivPgQ36YTdr2d8apFmDH3eUEkoR6S",
-      "timestamp": "1638649140",
-      "txHash": "0x0a78b221bee7feffd07216c2fedcdc19fe903c8497dea3d731b14af802b93108"
     }
   ],
   "redeemEvents": [],
