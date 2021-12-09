@@ -1,10 +1,10 @@
 {
   "createdAt": "1638052885",
   "creator": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-  "currentBalance": "29300000000000000000",
+  "currentBalance": "38068680000000000000",
   "handle": "0x64616f74616966756e6700000000000000000000000000000000000000000000",
   "id": "89",
-  "totalPaid": "150938435400000000000",
+  "totalPaid": "159707115400000000000",
   "totalRedeemed": "0",
   "uri": "QmYoPy6UjcWgiMNYQu7z5dv2rdRpgShdwwwZFh47LrVnjy",
   "name": "DAOTaiFung",
@@ -26,13 +26,61 @@
     }
   ],
   "inWallet": {
-    "eth": "300000000000000000",
+    "eth": "270000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "150938435",
+  "totalSupply": "159707115",
   "holdingSymbol": "DTF",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x71ed150b77c7ca49882b90bd4fdd89df9e1739ba",
+      "id": "0x3f50edaf57c1b048b805baeefee4b5ae1c82e0e5b95c7114d9cee8f2588ee162-275",
+      "note": "DAOTaiFung",
+      "timestamp": "1638946957",
+      "txHash": "0x3f50edaf57c1b048b805baeefee4b5ae1c82e0e5b95c7114d9cee8f2588ee162"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x5b62186ba62ce48d406e5fed4c8c3526c04bd7f6",
+      "id": "0x3f5066413e20d46507f4ad6e1291c4380791366a6d4fe395862d9857a20d6804-165",
+      "note": "1312",
+      "timestamp": "1638898431",
+      "txHash": "0x3f5066413e20d46507f4ad6e1291c4380791366a6d4fe395862d9857a20d6804"
+    },
+    {
+      "amount": "3600000000000000000",
+      "beneficiary": "0x5278223b78ce6a50cd0e5e237104c4ef65760f65",
+      "id": "0xd96c84185d92aeeea37ead3f23b9fc17791dc3f15b721bccd0b357f04190711d-98",
+      "note": null,
+      "timestamp": "1638873536",
+      "txHash": "0xd96c84185d92aeeea37ead3f23b9fc17791dc3f15b721bccd0b357f04190711d"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x1e676020e23255e4ff088e149e8fa047272d871b",
+      "id": "0xf0aa456ef25ae78aa0b137c6e985e5b12af525dc138ce0cb132a4cfb145ee4d9-536",
+      "note": "Dollar Cost Averaging into moar DTF.",
+      "timestamp": "1638853607",
+      "txHash": "0xf0aa456ef25ae78aa0b137c6e985e5b12af525dc138ce0cb132a4cfb145ee4d9"
+    },
+    {
+      "amount": "3000000000000000000",
+      "beneficiary": "0xf53321a19a2f5e55425e17bbb4f6cf245da77546",
+      "id": "0x993fe5262db6d43726b0af45f837ee331940e8a6cbe90e7ab65a263bbf518cf7-165",
+      "note": "DTF is so cheap right now",
+      "timestamp": "1638850677",
+      "txHash": "0x993fe5262db6d43726b0af45f837ee331940e8a6cbe90e7ab65a263bbf518cf7"
+    },
+    {
+      "amount": "68680000000000000",
+      "beneficiary": "0xd8dc9335dd30a46574ff58941f2a0dfc2dda29f1",
+      "id": "0x310847153f771605d9fd9fb153266bf21097235569b4a37add33c71154beeee8-151",
+      "note": null,
+      "timestamp": "1638812848",
+      "txHash": "0x310847153f771605d9fd9fb153266bf21097235569b4a37add33c71154beeee8"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x265546735a10168151313af3a569e597f31d7667",
@@ -384,54 +432,6 @@
       "note": "Fortune Favors the Bold. WAGMI",
       "timestamp": "1638222637",
       "txHash": "0x7cbc2079937eea09a471edeeb4cf05dcfeee2e89276b41696dbbbafe85c244b7"
-    },
-    {
-      "amount": "1900000000000000000",
-      "beneficiary": "0x175ae63436e9530c49440c6e401b309785414d11",
-      "id": "0xfd7de62f5393028236430b499f35a477f03a58de84c5257d5cf2749188ffff9f-511",
-      "note": null,
-      "timestamp": "1638215865",
-      "txHash": "0xfd7de62f5393028236430b499f35a477f03a58de84c5257d5cf2749188ffff9f"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x8fd828159aba45252c2df030e39b556d2e1fabf6",
-      "id": "0x2e983382183209cd187195a505355d1606532f8f73efae24e93a5b7f548c9f31-299",
-      "note": "LFG!",
-      "timestamp": "1638211198",
-      "txHash": "0x2e983382183209cd187195a505355d1606532f8f73efae24e93a5b7f548c9f31"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xd51cb56e4908218e46d9b16a25297c814c0e73ea",
-      "id": "0xa51f4e5d4dd116e7a9756459b13a40f2f75e9d53b74c06e3539474cdf85d52a1-413",
-      "note": null,
-      "timestamp": "1638208969",
-      "txHash": "0xa51f4e5d4dd116e7a9756459b13a40f2f75e9d53b74c06e3539474cdf85d52a1"
-    },
-    {
-      "amount": "500000000000000000",
-      "beneficiary": "0xa9d2d4a522713383eac42eb3e7733aee3925a802",
-      "id": "0x5130290e650ed4a107cafc2a42c58378c4392e6f18e229780f252852b452c66b-379",
-      "note": null,
-      "timestamp": "1638208591",
-      "txHash": "0x5130290e650ed4a107cafc2a42c58378c4392e6f18e229780f252852b452c66b"
-    },
-    {
-      "amount": "2000000000000000000",
-      "beneficiary": "0x291d9c687526ccf5af942553a8a949d749097cd8",
-      "id": "0x4be191551cb6816f9089d67813cf52170692e882907602fc4df9abaebd36d9b0-31",
-      "note": "lfg gents",
-      "timestamp": "1638207260",
-      "txHash": "0x4be191551cb6816f9089d67813cf52170692e882907602fc4df9abaebd36d9b0"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x80fc27a4f091f332a8108bc473b8916a97cf2ba5",
-      "id": "0xdc185d77884a3aee83e86d491ac95fc85a413b88d75d0b1732dfa06eb14beb22-112",
-      "note": null,
-      "timestamp": "1638205993",
-      "txHash": "0xdc185d77884a3aee83e86d491ac95fc85a413b88d75d0b1732dfa06eb14beb22"
     }
   ],
   "redeemEvents": [],

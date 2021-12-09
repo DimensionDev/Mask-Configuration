@@ -1,11 +1,11 @@
 {
   "createdAt": "1638237611",
   "creator": "0x2fc11e3776224d727c74582a1a4044111ac2d159",
-  "currentBalance": "25797605233864625626",
+  "currentBalance": "25273671695007182081",
   "handle": "0x6579657a00000000000000000000000000000000000000000000000000000000",
   "id": "109",
-  "totalPaid": "26798558590000000000",
-  "totalRedeemed": "999953356135374374",
+  "totalPaid": "26898558590000000000",
+  "totalRedeemed": "1623886894992817919",
   "uri": "QmceZ8JwUXUedbFR5xDkmTE77fUygkpeNncUvSvLYCGRQQ",
   "name": "\"Decentral Eyes Dogg\" Decentralized",
   "description": "BeetsDAO will bid on Coldie & Snoop's \"Decentral Eyes Dogg\" ending on Dec 2 Superrare in partnership with Christie's. Juicebox contributors will receive $EYEZ token entitling them to mint exclusive art NFTs that hold special utility in the Metaverse.\n\nAuction Link: https://bit.ly/3ljrEZg",
@@ -34,9 +34,17 @@
     "jbx": "11000000000000000000"
   },
   "tokenAddress": "0x55654375e56b4474a572c137b42F10993296FC0a",
-  "totalSupply": "20639046",
+  "totalSupply": "20239546",
   "holdingSymbol": "EYEZ",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x4e9f9a8643b30138ecf20dfde3dac08aea1b01ec",
+      "id": "0x6cc4fd0817729f2ddfaaa5d12019dbb1b323048edd676441dd8e30b55576259f-86",
+      "note": null,
+      "timestamp": "1638854763",
+      "txHash": "0x6cc4fd0817729f2ddfaaa5d12019dbb1b323048edd676441dd8e30b55576259f"
+    },
     {
       "amount": "1000000000000000",
       "beneficiary": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
@@ -428,17 +436,41 @@
       "note": "Sippin' on gin and Juicebox, laid back. \nWith my mind on my EYEZ\nAnd my EYEZ on my mind",
       "timestamp": "1638243806",
       "txHash": "0x3b5501d8791fd0a9cfefec81e1a4eda20eb564eba4b7f89e68e214b11faea5a4"
-    },
-    {
-      "amount": "25000000000000000",
-      "beneficiary": "0x04830ea8ccb389fd2d31e9dd216719b7f0c33956",
-      "id": "0x19c0235ade2e08f3df98a15b4b4a93e75e972a31524fd78a8d4281bce31eada1-122",
-      "note": null,
-      "timestamp": "1638243271",
-      "txHash": "0x19c0235ade2e08f3df98a15b4b4a93e75e972a31524fd78a8d4281bce31eada1"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "79500000000000000000000",
+      "beneficiary": "0x53102d489d17b09f9e758742d5d1f67e120f10c2",
+      "id": "0x4f2580d075bac6f0f8a03f4ca5b143e9d512f957052fedeec9acb1f32d8fc851-493",
+      "returnAmount": "99273808473090749",
+      "timestamp": "1638936089",
+      "txHash": "0x4f2580d075bac6f0f8a03f4ca5b143e9d512f957052fedeec9acb1f32d8fc851"
+    },
+    {
+      "amount": "80000000000000000000000",
+      "beneficiary": "0x7153cad53deb0d570453dcbc859c3fae683cd277",
+      "id": "0xc00c912a344043f09bc3fee307b23efb81c1059c240c1ad2a05739a045a6dcd9-398",
+      "returnAmount": "99898172048393207",
+      "timestamp": "1638861551",
+      "txHash": "0xc00c912a344043f09bc3fee307b23efb81c1059c240c1ad2a05739a045a6dcd9"
+    },
+    {
+      "amount": "180000000000000000000000",
+      "beneficiary": "0x4e9f9a8643b30138ecf20dfde3dac08aea1b01ec",
+      "id": "0x8e689deac1d17e0737ad8dfdb0923761bab10ac54ddffa05b6e4b38a02b3cda5-355",
+      "returnAmount": "224770887108884715",
+      "timestamp": "1638855743",
+      "txHash": "0x8e689deac1d17e0737ad8dfdb0923761bab10ac54ddffa05b6e4b38a02b3cda5"
+    },
+    {
+      "amount": "160000000000000000000000",
+      "beneficiary": "0x8777888d9d79d80840490b4476dc16cc5760cf43",
+      "id": "0xbc46af64ff086bcf21578d6ef045bf303702df9c3dee3d5c33bc347912b89ae9-150",
+      "returnAmount": "199990671227074874",
+      "timestamp": "1638814194",
+      "txHash": "0xbc46af64ff086bcf21578d6ef045bf303702df9c3dee3d5c33bc347912b89ae9"
+    },
     {
       "amount": "800000000000000000000000",
       "beneficiary": "0xec6d36a487d85cf562b7b8464ce8dc60637362ac",
