@@ -1,20 +1,20 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "5474704420000000000",
+  "currentBalance": "5574704420000000000",
   "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
   "id": "120",
-  "totalPaid": "196498169301000000000",
+  "totalPaid": "196598169301000000000",
   "totalRedeemed": "0",
-  "uri": "QmUwk2MrXTokETjJxJwZ4wi4AnwWBPigLjHngYFqsbxyvE",
+  "uri": "QmUvXcSfTDbo45nbpXLCrG8YuFgUzGuwwZ9tdg7dZfCo1B",
   "name": "Merge DAO",
-  "description": "The goal of this experiment is to become a top Merge holder | Top 100 holders of Merge receive a unique utility within the Pak economy | Top 5 holders of Merge receive ultra-unique utilities within the Pak economy | Invested capital will be deposited to the community wallet | Our Merge will continue to absorb mass until we own the entire economy \n\n| We Will Not Go Extinct. |",
+  "description": "The goal of this experiment is to become a top Merge holder | Top 100 holders of Merge receive a unique utility within the Pak economy | Top 5 holders of Merge receive ultra-unique utilities within the Pak economy | Contributions will be deposited to the community wallet | Our Merge will continue to absorb mass until we own the entire economy \n\n| We Will Not Go Extinct. |",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/Qmec3hcK3sVatLzzkJeRH585E4uCHvPDqXxpDRM58Fsy39",
   "infoUri": "https://www.mrgedao.com/",
   "twitter": "merge_dao",
   "discord": "https://discord.gg/dNgmAsuCk3",
   "payButton": "Contribute",
-  "payDisclosure": "All funds are paid out to Gnosis Safe Community Wallet, 0xE3F4654409970C8Bc91143A3e7042EF238564b46",
+  "payDisclosure": "All funds are sent to Gnosis Safe Community Wallet, 0xE3F4654409970C8Bc91143A3e7042EF238564b46",
   "tokens": [],
   "version": 3,
   "fundingCycles": [
@@ -27,12 +27,20 @@
   ],
   "inWallet": {
     "eth": "0",
-    "jbx": "2088608000000000000000000"
+    "jbx": "0"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-  "totalSupply": "196503732",
+  "totalSupply": "196603732",
   "holdingSymbol": "MRGE",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x77ddf16249d93fdc64d4467463c27972d74400aa",
+      "id": "0xe302f8adddd68c47d3a0ba945e18e526a665f4bee41b6b10017371a2c751ac47-319",
+      "note": null,
+      "timestamp": "1639070537",
+      "txHash": "0xe302f8adddd68c47d3a0ba945e18e526a665f4bee41b6b10017371a2c751ac47"
+    },
     {
       "amount": "150000000000000000",
       "beneficiary": "0x4b20bf1a1ace12d1572c30c90e46cef843878465",
@@ -424,14 +432,6 @@
       "note": null,
       "timestamp": "1638655978",
       "txHash": "0xc3d466e3e28f5006571a99786cb5567e210830997ea900b6ab1e97d2bcbdf4ed"
-    },
-    {
-      "amount": "130000000000000000",
-      "beneficiary": "0x07fd1a1a634c35fdbe6b1f44f002b31e7c4e10d9",
-      "id": "0x4389d6ab1f06c5c88ea06e888e456dbf129fa4063bbda2bafb23203f4b05e942-176",
-      "note": "o FOMOing and MERGing and BURNing and URNing o\n\nhttps://jbx.mypinata.cloud/ipfs/Qmf2DTbrdXGNL12ftFmREKYE7JDqRmA7qjYM1CcKKRKuPd",
-      "timestamp": "1638655908",
-      "txHash": "0x4389d6ab1f06c5c88ea06e888e456dbf129fa4063bbda2bafb23203f4b05e942"
     }
   ],
   "redeemEvents": [],

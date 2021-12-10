@@ -1,7 +1,7 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "56305302752633314546",
+  "currentBalance": "47605302752633314546",
   "handle": "0x74696c6573000000000000000000000000000000000000000000000000000000",
   "id": "2",
   "totalPaid": "130609636800000000000",
@@ -19,19 +19,19 @@
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
-      "target": "1313000000000000000",
+      "target": "8700000000000000000",
       "duration": "7 days",
-      "start": "12-2-21 10:30pm",
-      "end": "12-9-21 10:30pm",
+      "start": "12-9-21 10:30pm",
+      "end": "12-16-21 10:30pm",
       "reserved": 0.34,
       "discount": 0.02,
-      "toETH": 449,
+      "toETH": 440,
       "bondingCurve": 0.5
     }
   ],
   "inWallet": {
     "eth": "1370000000000000000",
-    "jbx": "408095000000000000000000"
+    "jbx": "494647000000000000000000"
   },
   "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
   "totalSupply": "111025369",
@@ -841,6 +841,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "beneficiaryTransferAmount": "2",
+      "caller": "0x63a2368f4b509438ca90186cb1c15156713d5834",
+      "fundingCycleId": "253",
+      "id": "2-0x633a4545e0ce0e8ac0ce2ea24b9f321c9069b9e7a1e3438fd4d0ef0efb51844c",
+      "netTransferAmount": "8285714285714285714",
+      "timestamp": "1639095621",
+      "txHash": "0x633a4545e0ce0e8ac0ce2ea24b9f321c9069b9e7a1e3438fd4d0ef0efb51844c"
+    },
     {
       "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
       "beneficiaryTransferAmount": "1",

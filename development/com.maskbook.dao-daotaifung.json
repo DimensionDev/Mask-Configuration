@@ -1,10 +1,10 @@
 {
   "createdAt": "1638052885",
   "creator": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-  "currentBalance": "38068680000000000000",
+  "currentBalance": "38368680000000000000",
   "handle": "0x64616f74616966756e6700000000000000000000000000000000000000000000",
   "id": "89",
-  "totalPaid": "159707115400000000000",
+  "totalPaid": "160007115400000000000",
   "totalRedeemed": "0",
   "uri": "QmYoPy6UjcWgiMNYQu7z5dv2rdRpgShdwwwZFh47LrVnjy",
   "name": "DAOTaiFung",
@@ -26,13 +26,29 @@
     }
   ],
   "inWallet": {
-    "eth": "270000000000000000",
+    "eth": "630000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "159707115",
+  "totalSupply": "160007115",
   "holdingSymbol": "DTF",
   "payEvents": [
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0xe2689e394fae140069486becf07508a4b8ae2a32",
+      "id": "0x214f2d050b9d37e7a37c4b6c08a968d7d8a4df26ffc69b77e9feb9548ff4ae84-486",
+      "note": null,
+      "timestamp": "1639035341",
+      "txHash": "0x214f2d050b9d37e7a37c4b6c08a968d7d8a4df26ffc69b77e9feb9548ff4ae84"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x880ca22475f9b3862334677c9776578d062c3fa0",
+      "id": "0x8bb67a4fb81e4f7f392ce29aa42926663f02b034f2af994b708246bec7c1a0fb-250",
+      "note": null,
+      "timestamp": "1639028366",
+      "txHash": "0x8bb67a4fb81e4f7f392ce29aa42926663f02b034f2af994b708246bec7c1a0fb"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x71ed150b77c7ca49882b90bd4fdd89df9e1739ba",
@@ -416,22 +432,6 @@
       "note": "poggitos",
       "timestamp": "1638230139",
       "txHash": "0xf848df0d8e69edf74ded625f8bfca5f06652d34e755cab6cba59c8a658002174"
-    },
-    {
-      "amount": "350000000000000000",
-      "beneficiary": "0x35aa3f733958b7416669303945093c98819f77a6",
-      "id": "0x87c3cd5844ba7e8134659ad908b3ab809d7cff6d06ac7e73545d94e42197f07b-249",
-      "note": null,
-      "timestamp": "1638228273",
-      "txHash": "0x87c3cd5844ba7e8134659ad908b3ab809d7cff6d06ac7e73545d94e42197f07b"
-    },
-    {
-      "amount": "7000000000000000000",
-      "beneficiary": "0xf53321a19a2f5e55425e17bbb4f6cf245da77546",
-      "id": "0x7cbc2079937eea09a471edeeb4cf05dcfeee2e89276b41696dbbbafe85c244b7-305",
-      "note": "Fortune Favors the Bold. WAGMI",
-      "timestamp": "1638222637",
-      "txHash": "0x7cbc2079937eea09a471edeeb4cf05dcfeee2e89276b41696dbbbafe85c244b7"
     }
   ],
   "redeemEvents": [],

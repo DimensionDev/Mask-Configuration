@@ -1,11 +1,11 @@
 {
   "createdAt": "1638237611",
   "creator": "0x2fc11e3776224d727c74582a1a4044111ac2d159",
-  "currentBalance": "25273671695007182081",
+  "currentBalance": "25245184104130817332",
   "handle": "0x6579657a00000000000000000000000000000000000000000000000000000000",
   "id": "109",
-  "totalPaid": "26898558590000000000",
-  "totalRedeemed": "1623886894992817919",
+  "totalPaid": "27098558590000000000",
+  "totalRedeemed": "1852374485869182668",
   "uri": "QmceZ8JwUXUedbFR5xDkmTE77fUygkpeNncUvSvLYCGRQQ",
   "name": "\"Decentral Eyes Dogg\" Decentralized",
   "description": "BeetsDAO will bid on Coldie & Snoop's \"Decentral Eyes Dogg\" ending on Dec 2 Superrare in partnership with Christie's. Juicebox contributors will receive $EYEZ token entitling them to mint exclusive art NFTs that hold special utility in the Metaverse.\n\nAuction Link: https://bit.ly/3ljrEZg",
@@ -34,9 +34,17 @@
     "jbx": "11000000000000000000"
   },
   "tokenAddress": "0x55654375e56b4474a572c137b42F10993296FC0a",
-  "totalSupply": "20239546",
+  "totalSupply": "20256556",
   "holdingSymbol": "EYEZ",
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xcfe567717d8c8f7fb04b5feab4168495590aeac3",
+      "id": "0xd970ae7a3a94f2cfe1f0f7f9d179a7eed236d635f11e445158fdb04c62673f16-296",
+      "note": null,
+      "timestamp": "1639098196",
+      "txHash": "0xd970ae7a3a94f2cfe1f0f7f9d179a7eed236d635f11e445158fdb04c62673f16"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x4e9f9a8643b30138ecf20dfde3dac08aea1b01ec",
@@ -428,17 +436,33 @@
       "note": "snooo",
       "timestamp": "1638244479",
       "txHash": "0x361e8d6e062f7dd93418303b979054d830a2e636916cd0ebd94940cb46607b77"
-    },
-    {
-      "amount": "250000000000000000",
-      "beneficiary": "0x70d3d73eb2de714ec307889f277728ddde1798c0",
-      "id": "0x3b5501d8791fd0a9cfefec81e1a4eda20eb564eba4b7f89e68e214b11faea5a4-640",
-      "note": "Sippin' on gin and Juicebox, laid back. \nWith my mind on my EYEZ\nAnd my EYEZ on my mind",
-      "timestamp": "1638243806",
-      "txHash": "0x3b5501d8791fd0a9cfefec81e1a4eda20eb564eba4b7f89e68e214b11faea5a4"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "6990136000000000000000",
+      "beneficiary": "0x11da4ec982d29608d225f5f675ab84530bac44c4",
+      "id": "0x9e44aea40bc6629abfde441993bf1cfb185a84061a699dfb2e13d7f64ce73d63-244",
+      "returnAmount": "8711612369899694",
+      "timestamp": "1639107194",
+      "txHash": "0x9e44aea40bc6629abfde441993bf1cfb185a84061a699dfb2e13d7f64ce73d63"
+    },
+    {
+      "amount": "16000000000000000000000",
+      "beneficiary": "0x7fa36885403bb0b32aaf64d1cf250b28c2045eb4",
+      "id": "0x7f4e24691d1d38afce3294af6efb90171cc62b22be7bb5b94c5a86b55e073e8b-259",
+      "returnAmount": "19979634409678641",
+      "timestamp": "1639080616",
+      "txHash": "0x7f4e24691d1d38afce3294af6efb90171cc62b22be7bb5b94c5a86b55e073e8b"
+    },
+    {
+      "amount": "160000000000000000000000",
+      "beneficiary": "0xe78d15ea83675cfb6c087ebbf8fe44e200cacc31",
+      "id": "0xfb79c7b3f05cd91888a2ce9c6fa549e68a17dedb38e8b68afeec432bd22f69d9-504",
+      "returnAmount": "199796344096786414",
+      "timestamp": "1639047189",
+      "txHash": "0xfb79c7b3f05cd91888a2ce9c6fa549e68a17dedb38e8b68afeec432bd22f69d9"
+    },
     {
       "amount": "79500000000000000000000",
       "beneficiary": "0x53102d489d17b09f9e758742d5d1f67e120f10c2",
