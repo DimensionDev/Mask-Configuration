@@ -1,10 +1,10 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "5574704420000000000",
+  "currentBalance": "10000000000000000",
   "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
   "id": "120",
-  "totalPaid": "196598169301000000000",
+  "totalPaid": "196778169301000000000",
   "totalRedeemed": "0",
   "uri": "QmUvXcSfTDbo45nbpXLCrG8YuFgUzGuwwZ9tdg7dZfCo1B",
   "name": "Merge DAO",
@@ -27,12 +27,44 @@
   ],
   "inWallet": {
     "eth": "0",
-    "jbx": "0"
+    "jbx": "57151000000000000000000"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-  "totalSupply": "196603732",
+  "totalSupply": "196783732",
   "holdingSymbol": "MRGE",
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x1506d1fc81a1b5505115884bc7b792f19f4ca2fc",
+      "id": "0x0f39ee5e0d02095e061e3cfa7333f86d4c883c9837bce76c8a83eb942148663d-273",
+      "note": null,
+      "timestamp": "1639294442",
+      "txHash": "0x0f39ee5e0d02095e061e3cfa7333f86d4c883c9837bce76c8a83eb942148663d"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x82904215f4feab209d83340d74550ecc8fe82f8f",
+      "id": "0x05ea01db527faf2cc271ed0f80faaffcf6f9b375c949f276b5cae3c08ade1747-320",
+      "note": null,
+      "timestamp": "1639244740",
+      "txHash": "0x05ea01db527faf2cc271ed0f80faaffcf6f9b375c949f276b5cae3c08ade1747"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x82904215f4feab209d83340d74550ecc8fe82f8f",
+      "id": "0x4aeed1f9e67abd0407ed39e2c1d89d65b9cb4f51017e76a1e68614cc21890b77-257",
+      "note": null,
+      "timestamp": "1639198695",
+      "txHash": "0x4aeed1f9e67abd0407ed39e2c1d89d65b9cb4f51017e76a1e68614cc21890b77"
+    },
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x803001bfb5a379f9da29f1b5db785678f69fb8da",
+      "id": "0x42bd2b5e4afbcdc61b2095fc12607a326beeae874173b6fe15a7224683c53ea3-39",
+      "note": null,
+      "timestamp": "1639173197",
+      "txHash": "0x42bd2b5e4afbcdc61b2095fc12607a326beeae874173b6fe15a7224683c53ea3"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x77ddf16249d93fdc64d4467463c27972d74400aa",
@@ -400,42 +432,20 @@
       "note": "ALL I HAVE LEFT! LETS GO TOP 5!!! ",
       "timestamp": "1638656495",
       "txHash": "0x43c2f3c6dcba8338fe747453033ded21722667cc3cbab9237f7b77fd236c7faf"
-    },
-    {
-      "amount": "614941100000000000",
-      "beneficiary": "0xbf2ffd2c1f9e7f11edd41f3b65dfea2444ad9438",
-      "id": "0x403870f8c4b7a9ab8bf5762a19a8d7ef713ec257dda48e7e310ceb315c021280-241",
-      "note": null,
-      "timestamp": "1638656195",
-      "txHash": "0x403870f8c4b7a9ab8bf5762a19a8d7ef713ec257dda48e7e310ceb315c021280"
-    },
-    {
-      "amount": "40000000000000000",
-      "beneficiary": "0x2d8564110f1bf033d601d49815f098a3bc88baf1",
-      "id": "0x3dc10aa752ee90ae49e38496949c9ff156a5412903266e59107644ea1b62e44d-530",
-      "note": null,
-      "timestamp": "1638656155",
-      "txHash": "0x3dc10aa752ee90ae49e38496949c9ff156a5412903266e59107644ea1b62e44d"
-    },
-    {
-      "amount": "30000000000000000",
-      "beneficiary": "0x76c407df840b5e5f5857f80520d49302d5ec79bd",
-      "id": "0x1a26c79ca467d3aa4c6d57deb2d0523380c75ea9724c1907d1fdaae9ed349f80-193",
-      "note": null,
-      "timestamp": "1638656084",
-      "txHash": "0x1a26c79ca467d3aa4c6d57deb2d0523380c75ea9724c1907d1fdaae9ed349f80"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x65ba4f92d7dfa813ddbd849d9faf38a723dd9b12",
-      "id": "0xc3d466e3e28f5006571a99786cb5567e210830997ea900b6ab1e97d2bcbdf4ed-426",
-      "note": null,
-      "timestamp": "1638655978",
-      "txHash": "0xc3d466e3e28f5006571a99786cb5567e210830997ea900b6ab1e97d2bcbdf4ed"
     }
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0xf01c961fdb70069739a2ee51b5c55d222ebd356e",
+      "fundingCycleId": "219",
+      "id": "120-0x561c0d1b49f58010bcf6f239b361b78eb6bbc0f51366a779d5b822bf6d76fb7f",
+      "netTransferAmount": "5471147066666666666",
+      "timestamp": "1639267458",
+      "txHash": "0x561c0d1b49f58010bcf6f239b361b78eb6bbc0f51366a779d5b822bf6d76fb7f"
+    },
     {
       "beneficiary": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
       "beneficiaryTransferAmount": "0",

@@ -1,23 +1,255 @@
 {
   "createdAt": "1638788454",
   "creator": "0x518e850b139b6d81626b29e1b4e957ad345156a8",
-  "currentBalance": "10418800000000000000",
+  "currentBalance": "27691022222000000000",
   "handle": "0x706f6e7a6964616f000000000000000000000000000000000000000000000000",
   "id": "140",
-  "totalPaid": "10418800000000000000",
+  "totalPaid": "27691022222000000000",
   "totalRedeemed": "0",
-  "uri": "QmeApKCrKvbwwynbXYidczsjTUgLYTFtDvEXYPFxmoDJXF",
+  "uri": "QmX7cBtT6AT9msiDvR5pLsQuYmh3ufAG5udcg9VbADScJ1",
   "name": "PonziDAO",
-  "description": "PONZI DAO - Invested capital will be deposited to the community wallet, we will buy floor wizards to stack and farm the Wizards and Dragons game.",
+  "description": "PONZI DAO - Le capital sera investi dans le community wallet de la DAO : ponzidao.eth",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmVc4gHi3VN9Z3Ly1eaD2cJNjrgxLFM94oNjRipX8ewWyR",
-  "infoUri": "wnd.game",
+  "infoUri": "",
   "twitter": "ponzi_dao",
-  "discord": "",
+  "discord": "https://discord.gg/fZJ4grMbHU",
   "payButton": "",
   "payDisclosure": "High risks, High rewards...",
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x011f6a47dcb4ade95f370c0ba415b72e9f397ce3",
+      "id": "0xb3d0a35a823fd74e727e3c88eac1f4418f33f9931d049b1c14b1204ba694192e-295",
+      "note": "LFG",
+      "timestamp": "1639273535",
+      "txHash": "0xb3d0a35a823fd74e727e3c88eac1f4418f33f9931d049b1c14b1204ba694192e"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x9af56301cde898bbe27eb525d102c702f2afc870",
+      "id": "0xcf66ed9aef73bb7e37008d248c6b7a17cc71092cc3a7aa354ff19fc42990d6cd-362",
+      "note": "In Ponzi we trust!",
+      "timestamp": "1639273152",
+      "txHash": "0xcf66ed9aef73bb7e37008d248c6b7a17cc71092cc3a7aa354ff19fc42990d6cd"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xc25273f1495c5d1ab594ae277a776ac009d58300",
+      "id": "0x646df6fe4654daff6335ff733724a7325b5b57802d9e1cc78550124fc511ad30-487",
+      "note": "Get rich or Die trying",
+      "timestamp": "1639270531",
+      "txHash": "0x646df6fe4654daff6335ff733724a7325b5b57802d9e1cc78550124fc511ad30"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x79ed8792e0c681b6b16ed7f797069f6456bc29b7",
+      "id": "0xf458212b289eb94a68089b0a36a758b97def438fbdd7e52769f1c0534178eba2-61",
+      "note": "at least we try !",
+      "timestamp": "1639269915",
+      "txHash": "0xf458212b289eb94a68089b0a36a758b97def438fbdd7e52769f1c0534178eba2"
+    },
+    {
+      "amount": "230000000000000000",
+      "beneficiary": "0x19ba57dff370f0b1e5927b1985171f186080f3c8",
+      "id": "0x1a51e849b51f93cd6fdc4f5045abb513936079127ee1069e26f64dac87b3c30d-160",
+      "note": "On va faire la guerre si c'est ce que vous voulez",
+      "timestamp": "1639269548",
+      "txHash": "0x1a51e849b51f93cd6fdc4f5045abb513936079127ee1069e26f64dac87b3c30d"
+    },
+    {
+      "amount": "750000000000000000",
+      "beneficiary": "0xdf9cba70a976447aaa4c13a5c54f5d2107f33259",
+      "id": "0xa39db011adc13f79684dcdd87a730b884fad405377ff070a1fed6cba6fa14b8e-212",
+      "note": null,
+      "timestamp": "1639268366",
+      "txHash": "0xa39db011adc13f79684dcdd87a730b884fad405377ff070a1fed6cba6fa14b8e"
+    },
+    {
+      "amount": "5000000000000000000",
+      "beneficiary": "0x639bb215b1b243561a9f19c13a1db3db0919fd60",
+      "id": "0x6e0d450e3d75e4be2716b920fcc52c673cdf2e849df250f06736903efd9c6e84-520",
+      "note": "Og reste Og quoi qu'il arrive",
+      "timestamp": "1639268337",
+      "txHash": "0x6e0d450e3d75e4be2716b920fcc52c673cdf2e849df250f06736903efd9c6e84"
+    },
+    {
+      "amount": "2222222222000000000",
+      "beneficiary": "0x04fd71a7c80dee02cec42ca7c6941d0940cbf55f",
+      "id": "0x11e349b85113fba52d9ff374c9e7e186840057778d0bc623bd75002b21b525c3-71",
+      "note": "Papa, je te promets, ce n'est pas vraiment un Ponzi, c'est parce que Nizo c'est mon idole et il va tous nous rendre riche, et puis apparement on va faire une raclette bientot tous ensemble. Pardonne moi et surtout ne dis rien à maman stp (Ni à Snoop Dogg).",
+      "timestamp": "1639265476",
+      "txHash": "0x11e349b85113fba52d9ff374c9e7e186840057778d0bc623bd75002b21b525c3"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x19ba57dff370f0b1e5927b1985171f186080f3c8",
+      "id": "0xb08e4029b8a2adf73b589d8bc5fa97efcb844b44ad096a1f790be2e3fe182862-43",
+      "note": "Carlo Pietro Giovanni Guglielmo Tebaldo Ponzi né le 3 mars 1882 à Lugo (Italie) et mort le 18 janvier 1949 à Rio de Janeiro, est un escroc italien, concepteur d'un mode d'escroquerie élaboré sur une chaîne d'emprunt.",
+      "timestamp": "1639262831",
+      "txHash": "0xb08e4029b8a2adf73b589d8bc5fa97efcb844b44ad096a1f790be2e3fe182862"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xe2f0dbd054120f170183da876ecf6238b67bb982",
+      "id": "0xd8b1535d7a47a4c1b6039a8269f4ab000ed6267ec197c6fae0271946d4ea6a51-219",
+      "note": "Vive les monkey warrior",
+      "timestamp": "1639252007",
+      "txHash": "0xd8b1535d7a47a4c1b6039a8269f4ab000ed6267ec197c6fae0271946d4ea6a51"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x1370700d8f894827ad9db766d32e132934227ac0",
+      "id": "0x133669b84f036d3b84f765120516a961bdb7683e97adad3df79dcf98a5112dfb-467",
+      "note": "Degen life",
+      "timestamp": "1639243074",
+      "txHash": "0x133669b84f036d3b84f765120516a961bdb7683e97adad3df79dcf98a5112dfb"
+    },
+    {
+      "amount": "300000000000000000",
+      "beneficiary": "0xccf66f5826362698560f2db2601e4456e766161c",
+      "id": "0xacb4074038b1cbd486856d13b38bb51ec4eba6845258c843dc49eac7195b96d1-145",
+      "note": "Ensemble singes forts",
+      "timestamp": "1639235725",
+      "txHash": "0xacb4074038b1cbd486856d13b38bb51ec4eba6845258c843dc49eac7195b96d1"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x35e29bf8861f38da87498c7c12d4eb2f0eebf412",
+      "id": "0x468585e880d14930a29e669fcbc5c39faffd1c9aa1749afe230e18dc5fa3b673-200",
+      "note": "C’est bien ici la DAO 2545 ?",
+      "timestamp": "1639229724",
+      "txHash": "0x468585e880d14930a29e669fcbc5c39faffd1c9aa1749afe230e18dc5fa3b673"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xcb8d50af9952b9a0b7c1e8a9d649bf0600771832",
+      "id": "0x4539eabee20387fa4b34ea4813e350b2fb8294fe4264ad65b20d162c7a823dab-325",
+      "note": "LFG WAGMI",
+      "timestamp": "1639228905",
+      "txHash": "0x4539eabee20387fa4b34ea4813e350b2fb8294fe4264ad65b20d162c7a823dab"
+    },
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0x2389330e31e4e5b9dd256a4cba96a3303513e2cf",
+      "id": "0x4d62d769264c12d73de3a3286567f1e6fedec35b28ea45823862804f368e462d-26",
+      "note": "Fly me to the Mooooooooon!",
+      "timestamp": "1639227101",
+      "txHash": "0x4d62d769264c12d73de3a3286567f1e6fedec35b28ea45823862804f368e462d"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xc37c0337271cfe33436e83addeba54276bf14502",
+      "id": "0xd2ae2e1c65ab4387c2f137f9387d8f693422cde90543a658775bb3fd9945df5d-194",
+      "note": null,
+      "timestamp": "1639218430",
+      "txHash": "0xd2ae2e1c65ab4387c2f137f9387d8f693422cde90543a658775bb3fd9945df5d"
+    },
+    {
+      "amount": "300000000000000000",
+      "beneficiary": "0x83fba4ea3df686277b627c077a789af7fa33d35d",
+      "id": "0xff56ad4b6858ff895625658102b01a2f6a3d0ff609d51c749ca7a581fbe18cc7-358",
+      "note": "In Charles ponzi we trust",
+      "timestamp": "1639211548",
+      "txHash": "0xff56ad4b6858ff895625658102b01a2f6a3d0ff609d51c749ca7a581fbe18cc7"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xc25273f1495c5d1ab594ae277a776ac009d58300",
+      "id": "0x746c8029f04000489a219237211bb65116266e4e02945942b30bc4efa235a26b-226",
+      "note": "I'm here for the tech ¯\\_(ツ)_/¯ ",
+      "timestamp": "1639190174",
+      "txHash": "0x746c8029f04000489a219237211bb65116266e4e02945942b30bc4efa235a26b"
+    },
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0xb286a69751da07df31eb2f9962bec077f351b0b1",
+      "id": "0x7debb1f32ccfc7a00b91228824e33a8b971d8f36617aa5fc559871ef85b69e51-453",
+      "note": "La singerie n'est jamais finie",
+      "timestamp": "1639174602",
+      "txHash": "0x7debb1f32ccfc7a00b91228824e33a8b971d8f36617aa5fc559871ef85b69e51"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xf538ecc7e8c05f81047d2db48562140af23ac9cf",
+      "id": "0x3b7fc851076ea8b791c2366d5476a96fd8836be5795e5f82bacaa6a5d39e534e-314",
+      "note": "En avant Ponzi",
+      "timestamp": "1639173703",
+      "txHash": "0x3b7fc851076ea8b791c2366d5476a96fd8836be5795e5f82bacaa6a5d39e534e"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x49282e5e05fe59a724641ee867641b5883c02e58",
+      "id": "0x216b73faae51b67b389dee71b40c5388b42081ad02be0b3cee3f050f6f627c2d-449",
+      "note": "Market afraid me atm so i play little dick",
+      "timestamp": "1639169518",
+      "txHash": "0x216b73faae51b67b389dee71b40c5388b42081ad02be0b3cee3f050f6f627c2d"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x3ebc2724101ff93dda3c49a6b296c87d681fe6ed",
+      "id": "0x7e0a3bc656e0d5dd53dc9f618276aff233d2abfccc986e4a5d7cd64c3ae62785-153",
+      "note": "Ponzaï !",
+      "timestamp": "1639169189",
+      "txHash": "0x7e0a3bc656e0d5dd53dc9f618276aff233d2abfccc986e4a5d7cd64c3ae62785"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xe895084850c04af3a57fdd90c0ba42ba440bc3a8",
+      "id": "0x095e64dd234b0d5e5d9d7ab55a21a81c95ea37a32e48a373eca7d32254937693-372",
+      "note": null,
+      "timestamp": "1639168758",
+      "txHash": "0x095e64dd234b0d5e5d9d7ab55a21a81c95ea37a32e48a373eca7d32254937693"
+    },
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0x6f5ed7efd785d4334a2f1e0b1163b8512e3c1a76",
+      "id": "0xb59969557a9af639e428b51373c8f3ef9c731f90589c78e4762e60c451dc182a-197",
+      "note": "la daronne à Palavas",
+      "timestamp": "1639168166",
+      "txHash": "0xb59969557a9af639e428b51373c8f3ef9c731f90589c78e4762e60c451dc182a"
+    },
+    {
+      "amount": "750000000000000000",
+      "beneficiary": "0x1e342d8cd201ce9d9c14f3a015c8dae0f41e40fa",
+      "id": "0x5a199e66d44233150d5b07dbd6b27bbffe48e3cd3a8bf5540e98bba90e415083-1",
+      "note": "Tapis sur le rouge",
+      "timestamp": "1639167882",
+      "txHash": "0x5a199e66d44233150d5b07dbd6b27bbffe48e3cd3a8bf5540e98bba90e415083"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xad846df46442e7b3bafe456b1819954898330030",
+      "id": "0xd0f629e6029a31591a660b6a087b4ae88cc28cf44c2b7ad9fb82348784deb075-280",
+      "note": "letsgo",
+      "timestamp": "1639162265",
+      "txHash": "0xd0f629e6029a31591a660b6a087b4ae88cc28cf44c2b7ad9fb82348784deb075"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x4d3ccced8b4c771c2978e339838cbbdfe11c9d85",
+      "id": "0xcb7611c0e0173fa2e3f6941cf653e82881684c36f5daba05abc066eda179bd74-71",
+      "note": "soyez gentil avec le ptit paper hand que je suis :p",
+      "timestamp": "1639160086",
+      "txHash": "0xcb7611c0e0173fa2e3f6941cf653e82881684c36f5daba05abc066eda179bd74"
+    },
+    {
+      "amount": "120000000000000000",
+      "beneficiary": "0x1be94b68e7608135c0d051017b98768225dd28a9",
+      "id": "0xa959ce21aa4c57e840b570883fb8ff202ef407d2780de1fefaecda3e59dc84b7-532",
+      "note": null,
+      "timestamp": "1639158315",
+      "txHash": "0xa959ce21aa4c57e840b570883fb8ff202ef407d2780de1fefaecda3e59dc84b7"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0x0a772a8ae226479b8f445c8cf71c708dac3518ca",
+      "id": "0xf99eb746e8ba90c87f44c1de789639dea06dfa78d6868a57d5aabe3f073eada0-351",
+      "note": "Lambo ou clodo",
+      "timestamp": "1639158183",
+      "txHash": "0xf99eb746e8ba90c87f44c1de789639dea06dfa78d6868a57d5aabe3f073eada0"
+    },
     {
       "amount": "250000000000000000",
       "beneficiary": "0x1d4198a895ce449cb805416c63405a4493bb34e0",
@@ -185,70 +417,6 @@
       "note": null,
       "timestamp": "1639083110",
       "txHash": "0x9ccb816cdf934f5245000f079e8e70959b36e99e03bccf8c240cafbf434c2f29"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x29e950baa235b31bd6afaef74ee12e913d91293d",
-      "id": "0xc5a93eaea3d4657b967999426b936babe9afba358918936eaa34f86c1a37d8fc-319",
-      "note": null,
-      "timestamp": "1639082635",
-      "txHash": "0xc5a93eaea3d4657b967999426b936babe9afba358918936eaa34f86c1a37d8fc"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x639bb215b1b243561a9f19c13a1db3db0919fd60",
-      "id": "0xa8c6dceb375349689953f7367f9c439725ecac4da999bfffcffb9e9dd90b7c62-276",
-      "note": "nicker vos meres les papers hands",
-      "timestamp": "1639082412",
-      "txHash": "0xa8c6dceb375349689953f7367f9c439725ecac4da999bfffcffb9e9dd90b7c62"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0xa89bfaf5aef8565679d454c6b1037d7c97dc76b1",
-      "id": "0x07a8a23b772f6a6f113a51622dadf7d00b4ba69f0d4d52854fc32533d38dc78e-509",
-      "note": null,
-      "timestamp": "1639082412",
-      "txHash": "0x07a8a23b772f6a6f113a51622dadf7d00b4ba69f0d4d52854fc32533d38dc78e"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xc6f7d115c7c42e9404ef49eff7ab08e680ab1b5c",
-      "id": "0x5e36057256393d394266d2a5bb8e7b60e5f171eef360f0e042c61301e46be006-422",
-      "note": "Early Ponzi comin",
-      "timestamp": "1638802810",
-      "txHash": "0x5e36057256393d394266d2a5bb8e7b60e5f171eef360f0e042c61301e46be006"
-    },
-    {
-      "amount": "200000000000000000",
-      "beneficiary": "0x849274c20e70a10e5c35fe93005af5369a39199d",
-      "id": "0xc60cc9c22afde6b93c12b080a83608ac820b9aac15dc58ac8fb15413e7bd0ee4-164",
-      "note": null,
-      "timestamp": "1638794237",
-      "txHash": "0xc60cc9c22afde6b93c12b080a83608ac820b9aac15dc58ac8fb15413e7bd0ee4"
-    },
-    {
-      "amount": "30000000000000000",
-      "beneficiary": "0xcb8d50af9952b9a0b7c1e8a9d649bf0600771832",
-      "id": "0x396e73ef40b2f5f7c8114d3ef5c5eda6939779c5a3dd76edbd6755a8d6688eb1-387",
-      "note": null,
-      "timestamp": "1638791130",
-      "txHash": "0x396e73ef40b2f5f7c8114d3ef5c5eda6939779c5a3dd76edbd6755a8d6688eb1"
-    },
-    {
-      "amount": "30000000000000000",
-      "beneficiary": "0xe321f3fbca5eb338ff1cff8d72960cc3d049e080",
-      "id": "0x06b63f5d34c73e492818e50c7f43a612e6b8cfe64be762df4f3945bb809485ab-175",
-      "note": "PONZI FTW",
-      "timestamp": "1638790549",
-      "txHash": "0x06b63f5d34c73e492818e50c7f43a612e6b8cfe64be762df4f3945bb809485ab"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xa90ee75e65b9d6b5fb7d8ae48a5e2bbb97febce9",
-      "id": "0x9e74853e9a382bd9c9f6cf29fb26328e9f4dbca7988e99b87cab5aba981f61c1-298",
-      "note": "First ponzi investment in the DAO :) https://jbx.mypinata.cloud/ipfs/QmUe5SiPqt7X9Kz4UVhn5S8AqPkHkC3qi3MHk3JZMTZ5Q4",
-      "timestamp": "1638788757",
-      "txHash": "0x9e74853e9a382bd9c9f6cf29fb26328e9f4dbca7988e99b87cab5aba981f61c1"
     }
   ],
   "redeemEvents": [],

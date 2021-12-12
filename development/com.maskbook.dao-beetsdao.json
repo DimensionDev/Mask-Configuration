@@ -1,11 +1,11 @@
 {
   "createdAt": "1638237611",
   "creator": "0x2fc11e3776224d727c74582a1a4044111ac2d159",
-  "currentBalance": "25245184104130817332",
+  "currentBalance": "25035810369750949955",
   "handle": "0x6579657a00000000000000000000000000000000000000000000000000000000",
   "id": "109",
   "totalPaid": "27098558590000000000",
-  "totalRedeemed": "1852374485869182668",
+  "totalRedeemed": "2061748220249050045",
   "uri": "QmceZ8JwUXUedbFR5xDkmTE77fUygkpeNncUvSvLYCGRQQ",
   "name": "\"Decentral Eyes Dogg\" Decentralized",
   "description": "BeetsDAO will bid on Coldie & Snoop's \"Decentral Eyes Dogg\" ending on Dec 2 Superrare in partnership with Christie's. Juicebox contributors will receive $EYEZ token entitling them to mint exclusive art NFTs that hold special utility in the Metaverse.\n\nAuction Link: https://bit.ly/3ljrEZg",
@@ -34,7 +34,7 @@
     "jbx": "11000000000000000000"
   },
   "tokenAddress": "0x55654375e56b4474a572c137b42F10993296FC0a",
-  "totalSupply": "20256556",
+  "totalSupply": "20088556",
   "holdingSymbol": "EYEZ",
   "payEvents": [
     {
@@ -439,6 +439,30 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "40000000000000000000000",
+      "beneficiary": "0x88a7f04d3f6015b1730bb95c7244158983beb117",
+      "id": "0x0ec402e9b1d346cafe3d99df202f7feda3c2603644befa7bc3c40a7d5d5b2a3a-201",
+      "returnAmount": "49850889138063661",
+      "timestamp": "1639216171",
+      "txHash": "0x0ec402e9b1d346cafe3d99df202f7feda3c2603644befa7bc3c40a7d5d5b2a3a"
+    },
+    {
+      "amount": "64000000000000000000000",
+      "beneficiary": "0x6a11c15a6a01677e8e87cf34184dccdc5942ab65",
+      "id": "0xe0d59a6e02fd339b627984430b1359403a7ad0e7ddd0c036de695cff6725f289-137",
+      "returnAmount": "79761422620901858",
+      "timestamp": "1639165831",
+      "txHash": "0xe0d59a6e02fd339b627984430b1359403a7ad0e7ddd0c036de695cff6725f289"
+    },
+    {
+      "amount": "64000000000000000000000",
+      "beneficiary": "0xed7fa61984c7a96de9b0fbd18bca886443eee3de",
+      "id": "0x64d3553b5f3013bda28a83c34550aab6970fb015a04edbe22f3ac637f2f6b8fe-405",
+      "returnAmount": "79761422620901858",
+      "timestamp": "1639165689",
+      "txHash": "0x64d3553b5f3013bda28a83c34550aab6970fb015a04edbe22f3ac637f2f6b8fe"
+    },
     {
       "amount": "6990136000000000000000",
       "beneficiary": "0x11da4ec982d29608d225f5f675ab84530bac44c4",
