@@ -1,10 +1,10 @@
 {
   "createdAt": "1638076240",
   "creator": "0x2d96e1fe38ff45cc8910c617b3c5e0b6298a81f3",
-  "currentBalance": "0",
+  "currentBalance": "100000000000000000",
   "handle": "0x7472616e736c61746f7264616f00000000000000000000000000000000000000",
   "id": "91",
-  "totalPaid": "216670000000000000",
+  "totalPaid": "316670000000000000",
   "totalRedeemed": "0",
   "uri": "QmaWLdBuzGaNu8Ngbsr8U4GUBMzmpmWc8zHB8yRaXKfiv6",
   "name": "TranslatorDAO",
@@ -31,13 +31,21 @@
     }
   ],
   "inWallet": {
-    "eth": "750000000000000000",
+    "eth": "740000000000000000",
     "jbx": "100000000000000000000"
   },
   "tokenAddress": "0x2Cd0f8DacE506a6240251A09C76769e538595eAB",
-  "totalSupply": "216670",
+  "totalSupply": "289570",
   "holdingSymbol": "WLD",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x49e53fb3d5bf1532febad88a1979e33a94844d1d",
+      "id": "0xb32b68ede42a782a52363be7ab9981da0750e55a1f4e4050f505a2dd54300f78-301",
+      "note": "We need more high quality Chinese contents",
+      "timestamp": "1639407818",
+      "txHash": "0xb32b68ede42a782a52363be7ab9981da0750e55a1f4e4050f505a2dd54300f78"
+    },
     {
       "amount": "16670000000000000",
       "beneficiary": "0xca6ed3fdc8162304d7f1fcfc9ca3a81632d5e5b0",

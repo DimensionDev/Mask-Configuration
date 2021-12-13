@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5528643710588842769621",
+  "currentBalance": "5529744138349019362395",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5662002443317382782692",
+  "totalPaid": "5663102871077559375466",
   "totalRedeemed": "9123706547790475264",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -31,12 +31,44 @@
   ],
   "inWallet": {
     "eth": "9620000000000000000",
-    "jbx": "217401284000000000000000000"
+    "jbx": "218080348000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2406478172",
+  "totalSupply": "2406831866",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "80000000000000000",
+      "beneficiary": "0xa7654c891594107d0b8f4e2cfe0d5ad90aba931f",
+      "id": "0x8f62bf76973c1dbf0c969d54fce1edea3bc0d14bfb3c74782adb4b92c498c1b3-117",
+      "note": null,
+      "timestamp": "1639397275",
+      "txHash": "0x8f62bf76973c1dbf0c969d54fce1edea3bc0d14bfb3c74782adb4b92c498c1b3"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xa7654c891594107d0b8f4e2cfe0d5ad90aba931f",
+      "id": "0x0998fef3e16a8536eee7c0413908fa1e9ee3bd01ea045bf55cf0ed5152eb5c9b-260",
+      "note": null,
+      "timestamp": "1639397165",
+      "txHash": "0x0998fef3e16a8536eee7c0413908fa1e9ee3bd01ea045bf55cf0ed5152eb5c9b"
+    },
+    {
+      "amount": "427760176592774",
+      "beneficiary": "0xbbd1967cf03aefa7f81dfdc9f3c07df0a2af1e59",
+      "id": "0xa443934461c5896275e4be94127ce5bbd96d3862799d86b525431f106e52190f-93",
+      "note": "Fee from @earth",
+      "timestamp": "1639389121",
+      "txHash": "0xa443934461c5896275e4be94127ce5bbd96d3862799d86b525431f106e52190f"
+    },
+    {
+      "amount": "1010000000000000000",
+      "beneficiary": "0x58477b1db54add32c45092e161d6aaac78cb2158",
+      "id": "0xe31841a62ea862eecba8d0fa13d54b85970e1ec4bc67178a9ff66f3fb401f1ff-301",
+      "note": null,
+      "timestamp": "1639388649",
+      "txHash": "0xe31841a62ea862eecba8d0fa13d54b85970e1ec4bc67178a9ff66f3fb401f1ff"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x9d0c6f7b2867b8f7d27f06587263ab1c240db626",
@@ -404,38 +436,6 @@
       "note": null,
       "timestamp": "1639232976",
       "txHash": "0x0d1aab4875a98af1607a2259b0817a439e65c3fdc860d3a7869da67999b8d640"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x856dc4a12f08afa49f42b52f81769a96505f312c",
-      "id": "0xa024e9972af341df83e6eff2676361e3a35705db1a8dc85d8a88526220aa9b17-163",
-      "note": null,
-      "timestamp": "1639226129",
-      "txHash": "0xa024e9972af341df83e6eff2676361e3a35705db1a8dc85d8a88526220aa9b17"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xad2b1ccbf6ae6f20f91bd3f2cf09c3777280e940",
-      "id": "0xa85903b05546efa2929de4773034621bc7f07005c8bc4f312bdcc6715cb90942-502",
-      "note": "U help people, people help U",
-      "timestamp": "1639225754",
-      "txHash": "0xa85903b05546efa2929de4773034621bc7f07005c8bc4f312bdcc6715cb90942"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xaa2fca4f7e4a52065d6605adb161fca580e78197",
-      "id": "0x7028abfbe47c0ae1e7383e1541e9c28dd8e7506573c2747965404c2ca62c4e70-349",
-      "note": "Future is peach juice. JuiceboxDAO is the really DAO of Web3 --TEI",
-      "timestamp": "1639224297",
-      "txHash": "0x7028abfbe47c0ae1e7383e1541e9c28dd8e7506573c2747965404c2ca62c4e70"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x8b8d23d2240cb9c258c35a793370892bb8d778d0",
-      "id": "0xbab2506b8ea19213b81570b60fce8f97e57ddce2d825abdd15c03d0e15232b17-366",
-      "note": "Mcfly",
-      "timestamp": "1639217210",
-      "txHash": "0xbab2506b8ea19213b81570b60fce8f97e57ddce2d825abdd15c03d0e15232b17"
     }
   ],
   "redeemEvents": [
@@ -1063,6 +1063,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTicketAmount": "3",
+      "caller": "0x2c540a060067928e2818980fcb93e6febc71c84e",
+      "count": "2263548472204998419018555",
+      "id": "1-0xc67cf66e59094b0d1bc174ee23fbdabebdd573a5bc4406ce14a0135cdd7bbf0a",
+      "timestamp": "1639389502",
+      "txHash": "0xc67cf66e59094b0d1bc174ee23fbdabebdd573a5bc4406ce14a0135cdd7bbf0a"
+    },
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTicketAmount": "3",
