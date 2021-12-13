@@ -1,10 +1,10 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "10000000000000000",
+  "currentBalance": "60000000000000000",
   "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
   "id": "120",
-  "totalPaid": "196778169301000000000",
+  "totalPaid": "196828169301000000000",
   "totalRedeemed": "0",
   "uri": "QmUvXcSfTDbo45nbpXLCrG8YuFgUzGuwwZ9tdg7dZfCo1B",
   "name": "Merge DAO",
@@ -30,9 +30,17 @@
     "jbx": "57151000000000000000000"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-  "totalSupply": "196783732",
+  "totalSupply": "196833732",
   "holdingSymbol": "MRGE",
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x85196358eccffde1084a4c0509f76d03ccb3878b",
+      "id": "0xb249904722b2015de38e90c032e89fa3f2a9bcebc4f691a14f0a85bfe120169e-360",
+      "note": null,
+      "timestamp": "1639317951",
+      "txHash": "0xb249904722b2015de38e90c032e89fa3f2a9bcebc4f691a14f0a85bfe120169e"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x1506d1fc81a1b5505115884bc7b792f19f4ca2fc",
@@ -424,14 +432,6 @@
       "note": null,
       "timestamp": "1638656571",
       "txHash": "0x2d345e4724a2de414dac4e9dfe40d6543de5ecfd76cb06893740b90a54f4ed2f"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0x43298a6c0f1ab6558cc30c4233499b27762b1a91",
-      "id": "0x43c2f3c6dcba8338fe747453033ded21722667cc3cbab9237f7b77fd236c7faf-218",
-      "note": "ALL I HAVE LEFT! LETS GO TOP 5!!! ",
-      "timestamp": "1638656495",
-      "txHash": "0x43c2f3c6dcba8338fe747453033ded21722667cc3cbab9237f7b77fd236c7faf"
     }
   ],
   "redeemEvents": [],

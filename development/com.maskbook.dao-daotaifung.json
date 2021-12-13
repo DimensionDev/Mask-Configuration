@@ -1,10 +1,10 @@
 {
   "createdAt": "1638052885",
   "creator": "0xf5c3bff123277e4d620740c85daaff0af60aef84",
-  "currentBalance": "38518680000000000000",
+  "currentBalance": "39268680000000000000",
   "handle": "0x64616f74616966756e6700000000000000000000000000000000000000000000",
   "id": "89",
-  "totalPaid": "160157115400000000000",
+  "totalPaid": "160907115400000000000",
   "totalRedeemed": "0",
   "uri": "QmYoPy6UjcWgiMNYQu7z5dv2rdRpgShdwwwZFh47LrVnjy",
   "name": "DAOTaiFung",
@@ -30,9 +30,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "160157115",
+  "totalSupply": "160907115",
   "holdingSymbol": "DTF",
   "payEvents": [
+    {
+      "amount": "750000000000000000",
+      "beneficiary": "0xe2689e394fae140069486becf07508a4b8ae2a32",
+      "id": "0x3f0b05641453016a6502cee1b3987b5d0ddbc255ff718a86c83430a1ff2fb381-153",
+      "note": null,
+      "timestamp": "1639302295",
+      "txHash": "0x3f0b05641453016a6502cee1b3987b5d0ddbc255ff718a86c83430a1ff2fb381"
+    },
     {
       "amount": "150000000000000000",
       "beneficiary": "0xf935687ff7c251bbf7539d91d3f7fd0235709d5a",
@@ -424,14 +432,6 @@
       "note": "hopefully my gf will be dtf now that i own some\n https://jbx.mypinata.cloud/ipfs/QmRH6m5TEqz1Uj2pFdz4aJDSvNT5RPoX7Fcoad1nbPx1zV",
       "timestamp": "1638231442",
       "txHash": "0x40b039726cc4aaafe5eae5b19c0959e45a74128911bc72c55b8a000505d4ab4c"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x55313b424de97716c9dfc7f6f97dcaab0234274d",
-      "id": "0x2086af8703afa0d1861ef52a9962534192c7272c6b69a30c2ad04fbd3f50687e-327",
-      "note": null,
-      "timestamp": "1638230644",
-      "txHash": "0x2086af8703afa0d1861ef52a9962534192c7272c6b69a30c2ad04fbd3f50687e"
     }
   ],
   "redeemEvents": [],
