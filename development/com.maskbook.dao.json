@@ -2773,7 +2773,7 @@
       }
     ],
     "inWallet": {
-      "eth": "2465140000000000000000",
+      "eth": "1360140000000000000000",
       "jbx": "0"
     },
     "tokenAddress": "0x9b6dB7597a74602a5A806E33408e7E2DAFa58193",
@@ -4102,9 +4102,9 @@
     "fundingCycles": [
       {
         "toETHSymbol": "PEOPLE",
-        "duration": "8 days",
-        "start": "12-5-21 10:41pm",
-        "reserved": 0.15
+        "duration": "1 days",
+        "start": "12-13-21 10:41pm",
+        "reserved": 0.57
       }
     ],
     "inWallet": {
@@ -4112,7 +4112,7 @@
       "jbx": "0"
     },
     "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-    "totalSupply": "160907115",
+    "totalSupply": "321814230",
     "holdingSymbol": "DTF",
     "payEvents": [
       {
@@ -5925,10 +5925,10 @@
   {
     "createdAt": "1639015933",
     "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-    "currentBalance": "13345247660000000000",
+    "currentBalance": "13398892220000000000",
     "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
     "id": "149",
-    "totalPaid": "53205801996900000000",
+    "totalPaid": "53259446556900000000",
     "totalRedeemed": "0",
     "uri": "QmWUqt4iTtqFapDSfcdWSAqZvHqG95UuCYQob3LQNao7No",
     "name": "MountainDAO",
@@ -5953,9 +5953,41 @@
       "jbx": "396555000000000000000000"
     },
     "tokenAddress": null,
-    "totalSupply": "53205801",
+    "totalSupply": "53259446",
     "holdingSymbol": "Tokens",
     "payEvents": [
+      {
+        "amount": "7000000000000000",
+        "beneficiary": "0x34bbcf2729f6fbd34de18fc33e81a00dcb8b6495",
+        "id": "0x1a1f26817f216bbab23223f53fce17f3a53a627ba09b2c6f0cdea90d6d680248-105",
+        "note": null,
+        "timestamp": "1639447964",
+        "txHash": "0x1a1f26817f216bbab23223f53fce17f3a53a627ba09b2c6f0cdea90d6d680248"
+      },
+      {
+        "amount": "5000000000000000",
+        "beneficiary": "0xf34fb129f2d2767d8202e349439967c2d1f98ce4",
+        "id": "0x3c247ca444dcfcf02b6daa018d512308b0cf6235b193a715fb86f4e487c5d925-244",
+        "note": null,
+        "timestamp": "1639435993",
+        "txHash": "0x3c247ca444dcfcf02b6daa018d512308b0cf6235b193a715fb86f4e487c5d925"
+      },
+      {
+        "amount": "26644560000000000",
+        "beneficiary": "0x64c4b5f6209433b3a6e28bf0ed42ab92afc35a36",
+        "id": "0x8a29d4938403de4b77540b4ecaf25847cb32ddbb8e371561618a4e83671bb90a-446",
+        "note": null,
+        "timestamp": "1639431417",
+        "txHash": "0x8a29d4938403de4b77540b4ecaf25847cb32ddbb8e371561618a4e83671bb90a"
+      },
+      {
+        "amount": "15000000000000000",
+        "beneficiary": "0xd48a3b15788a276b1ffbcceda9db796859676edb",
+        "id": "0x4f502aea05350f053f5512181ed3fd287aac75f3576e4f5ee3c1d8ef7c89237c-108",
+        "note": null,
+        "timestamp": "1639423304",
+        "txHash": "0x4f502aea05350f053f5512181ed3fd287aac75f3576e4f5ee3c1d8ef7c89237c"
+      },
       {
         "amount": "8000000000000000",
         "beneficiary": "0x3e26836b65add6748d859fa165bf4c78fbd29fed",
@@ -6323,38 +6355,6 @@
         "note": "orwell nerelere geldik abi biz",
         "timestamp": "1639344156",
         "txHash": "0x35b83bf736eb73c32dd71ef94e7bf107985aa201867cec02c043526a955135eb"
-      },
-      {
-        "amount": "5000000000000000",
-        "beneficiary": "0x9b7ae2deff1d8c1d823b7386104129fdf11fd51a",
-        "id": "0xcf30d4b7f825890716e600b01be29c60d3239cd63748a1b532ac41a8ad3fd668-184",
-        "note": null,
-        "timestamp": "1639344024",
-        "txHash": "0xcf30d4b7f825890716e600b01be29c60d3239cd63748a1b532ac41a8ad3fd668"
-      },
-      {
-        "amount": "10000000000000000",
-        "beneficiary": "0x42ce716d40b412c9fa1eea5ee09197a4981ffb84",
-        "id": "0xf9c3729ec4b4bfeff40c6de1fe694cb21941930c2040f5fbd7717f750803c62b-259",
-        "note": null,
-        "timestamp": "1639342236",
-        "txHash": "0xf9c3729ec4b4bfeff40c6de1fe694cb21941930c2040f5fbd7717f750803c62b"
-      },
-      {
-        "amount": "800000000000000",
-        "beneficiary": "0x668ad98b2e9e20ac810af5757b341051d4aa57cb",
-        "id": "0xa8d871851b8f8161ac866462e6a5ce7009be0639558528515e4d30b996682ba8-13",
-        "note": null,
-        "timestamp": "1639341619",
-        "txHash": "0xa8d871851b8f8161ac866462e6a5ce7009be0639558528515e4d30b996682ba8"
-      },
-      {
-        "amount": "13000000000000000",
-        "beneficiary": "0x0f22657ddcf96c4d8e7cd22f0ab18fbfb579e551",
-        "id": "0xa9c305adddedc1c8662e357e8405c4edfa3b06153b8f5dc45503952b0b3fd53c-344",
-        "note": "@akatsukitrade",
-        "timestamp": "1639341361",
-        "txHash": "0xa9c305adddedc1c8662e357e8405c4edfa3b06153b8f5dc45503952b0b3fd53c"
       }
     ],
     "redeemEvents": [],
@@ -6850,11 +6850,11 @@
   {
     "createdAt": "1638237611",
     "creator": "0x2fc11e3776224d727c74582a1a4044111ac2d159",
-    "currentBalance": "25035810369750949955",
+    "currentBalance": "24617062900991215200",
     "handle": "0x6579657a00000000000000000000000000000000000000000000000000000000",
     "id": "109",
     "totalPaid": "27098558590000000000",
-    "totalRedeemed": "2061748220249050045",
+    "totalRedeemed": "2480495689008784800",
     "uri": "QmceZ8JwUXUedbFR5xDkmTE77fUygkpeNncUvSvLYCGRQQ",
     "name": "\"Decentral Eyes Dogg\" Decentralized",
     "description": "BeetsDAO will bid on Coldie & Snoop's \"Decentral Eyes Dogg\" ending on Dec 2 Superrare in partnership with Christie's. Juicebox contributors will receive $EYEZ token entitling them to mint exclusive art NFTs that hold special utility in the Metaverse.\n\nAuction Link: https://bit.ly/3ljrEZg",
@@ -6883,7 +6883,7 @@
       "jbx": "11000000000000000000"
     },
     "tokenAddress": "0x55654375e56b4474a572c137b42F10993296FC0a",
-    "totalSupply": "20088556",
+    "totalSupply": "19752556",
     "holdingSymbol": "EYEZ",
     "payEvents": [
       {
@@ -7288,6 +7288,14 @@
       }
     ],
     "redeemEvents": [
+      {
+        "amount": "336000000000000000000000",
+        "beneficiary": "0x1393da76a33d128ec89ab11e77c123d128b3de0d",
+        "id": "0x731cb5876da51a34b4f7e225e17d08bca3323c993d20953507a81c4ac3e101ea-261",
+        "returnAmount": "418747468759734755",
+        "timestamp": "1639431769",
+        "txHash": "0x731cb5876da51a34b4f7e225e17d08bca3323c993d20953507a81c4ac3e101ea"
+      },
       {
         "amount": "40000000000000000000000",
         "beneficiary": "0x88a7f04d3f6015b1730bb95c7244158983beb117",
@@ -7853,7 +7861,7 @@
       }
     ],
     "inWallet": {
-      "eth": "3510000000000000000",
+      "eth": "2910000000000000000",
       "jbx": "0"
     },
     "tokenAddress": null,
@@ -8657,6 +8665,47 @@
     "reservesEvents": []
   },
   {
+    "createdAt": "1639277855",
+    "creator": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+    "currentBalance": "1050000000000000000",
+    "handle": "0x736c696365000000000000000000000000000000000000000000000000000000",
+    "id": "168",
+    "totalPaid": "1050000000000000000",
+    "totalRedeemed": "0",
+    "uri": "QmdmPvxP2P8t1nm4yEnSNzfWvQF8H4C4VUB4bYB6aKCJTB",
+    "name": "Slice",
+    "infoUri": "https://slice.so",
+    "logoUri": "https://jbx.mypinata.cloud/ipfs/QmeTKe23ZfNLELKacoWVQcuM519iajDScpjb9yeGCcy9nB",
+    "description": "Supports the development of the Slice platform. Periodically receives protocol fees from slicers.",
+    "twitter": "slice__so",
+    "discord": "https://discord.gg/CdyHUzdZks",
+    "tokens": [],
+    "version": 3,
+    "payButton": "",
+    "payDisclosure": "",
+    "payEvents": [
+      {
+        "amount": "50000000000000000",
+        "beneficiary": "0xa508c16666c5b8981fa46eb32784fccc01942a71",
+        "id": "0xe03501395d49ae6ed53d99f2bc47e046c5d16bdb9f4f52f27b4cccda04d6906d-88",
+        "note": null,
+        "timestamp": "1639440533",
+        "txHash": "0xe03501395d49ae6ed53d99f2bc47e046c5d16bdb9f4f52f27b4cccda04d6906d"
+      },
+      {
+        "amount": "1000000000000000000",
+        "beneficiary": "0x0033aade458d0b39ce0b1ba2581859f2d5855555",
+        "id": "0x1bf58d6cfff1407a78c2e66ee8493a6c32913d16a2ac1e958c8cc2b2e12ab242-75",
+        "note": null,
+        "timestamp": "1639439622",
+        "txHash": "0x1bf58d6cfff1407a78c2e66ee8493a6c32913d16a2ac1e958c8cc2b2e12ab242"
+      }
+    ],
+    "redeemEvents": [],
+    "withdrawEvents": [],
+    "reservesEvents": []
+  },
+  {
     "createdAt": "1638001936",
     "creator": "0xbc74cc61c131205e1d71db1854bf25c83c0355e8",
     "currentBalance": "1000000000000000000",
@@ -9046,7 +9095,7 @@
       }
     ],
     "inWallet": {
-      "eth": "110000000000000000",
+      "eth": "70000000000000000",
       "jbx": "0"
     },
     "tokenAddress": null,
@@ -9747,8 +9796,8 @@
         "toETHSymbol": "PEOPLE",
         "target": "104761904761904761904762",
         "duration": "4 days",
-        "start": "12-9-21 6:39pm",
-        "end": "12-13-21 6:39pm",
+        "start": "12-13-21 6:39pm",
+        "end": "12-17-21 6:39pm",
         "reserved": 0,
         "discount": 0,
         "toETH": 1,
@@ -9968,6 +10017,39 @@
         "note": "can't wait to own a piece of the Shield!",
         "timestamp": "1639183917",
         "txHash": "0x1137788e88ed54326331e9edcee08cdcc85e428caac8b9f402c8e813e06df3b2"
+      }
+    ],
+    "redeemEvents": [],
+    "withdrawEvents": [],
+    "reservesEvents": []
+  },
+  {
+    "createdAt": "1638925630",
+    "creator": "0xe10b7610908d8b0ac4066f02c24e76007fff0ec4",
+    "currentBalance": "100000000000000000",
+    "handle": "0x73616e7461000000000000000000000000000000000000000000000000000000",
+    "id": "146",
+    "totalPaid": "100000000000000000",
+    "totalRedeemed": "0",
+    "uri": "QmdxGJFfaEZzMVfqREhu8S54bYhe1pLBBiY8G7drZqpaKh",
+    "name": "SantaDAO",
+    "infoUri": "santadao.co",
+    "logoUri": "https://jbx.mypinata.cloud/ipfs/QmTDSkg9xXijvpxaGHrtiPjgCwG9kf8uJAqnDEx7ygCeG3",
+    "description": "WAGBG 🎅🏼",
+    "twitter": "SantaDAO__",
+    "discord": "https://discord.gg/QdrFByQceF",
+    "tokens": [],
+    "version": 3,
+    "payButton": "Contribute",
+    "payDisclosure": "",
+    "payEvents": [
+      {
+        "amount": "100000000000000000",
+        "beneficiary": "0xb7b852f81cbd8cfba3cb980e493c7ae2fdf78e02",
+        "id": "0x2abeec2b589b1b9b5b1b22373a89a97a481023bbf4186ad3478b5639f756d234-101",
+        "note": null,
+        "timestamp": "1639418456",
+        "txHash": "0x2abeec2b589b1b9b5b1b22373a89a97a481023bbf4186ad3478b5639f756d234"
       }
     ],
     "redeemEvents": [],
@@ -10653,88 +10735,6 @@
         "discount": 0.03,
         "toETH": 1,
         "bondingCurve": 0.1
-      }
-    ],
-    "inWallet": {
-      "eth": "0",
-      "jbx": "0"
-    },
-    "tokenAddress": null,
-    "totalSupply": "0",
-    "holdingSymbol": "Tokens",
-    "payEvents": [],
-    "redeemEvents": [],
-    "withdrawEvents": [],
-    "reservesEvents": []
-  },
-  {
-    "createdAt": "1638082812",
-    "creator": "0x31a0afe966205539269b1d4cf5e4cb580950aa9e",
-    "currentBalance": "0",
-    "handle": "0x7467635f6775696c640000000000000000000000000000000000000000000000",
-    "id": "95",
-    "totalPaid": "0",
-    "totalRedeemed": "0",
-    "uri": "QmPk4LCqVj1vd91r8HceAHDcpLr94hibJAr7rAGvjPP4BV",
-    "name": "TGC_Guild",
-    "infoUri": "",
-    "logoUri": "https://jbx.mypinata.cloud/ipfs/QmXQyA29yHfyXf5uzhJx6L8CxFnJKCZiVvmXAqj9vtFXBV",
-    "description": "A group of blockchain enthusiasts, researchers for long term and sustainable potential project that can bring profound impact to society, by changing the way people connect ~ collaborate ~ creates the better future.\nWe will use the raised funds to invest in the land of the aavegotchi game.",
-    "twitter": "tgc_guild",
-    "discord": "https://discord.com/invite/2p2vxQDj",
-    "tokens": [],
-    "version": 3,
-    "payButton": "",
-    "payDisclosure": "investors will get a TGC token as prove of early contribution, 1 USD= 1 TGC Token. TGC tokens are minted on the matic network.  We will send TGC tokens to the donation address manually in one day （We are usding smart contracts because we want to maximize the amount of money we can spend on game assets.)\n\nAll the money we receive will be used to buy the game assets.Investment profits will regularly repurchase TGC tokens from the market.",
-    "fundingCycles": [
-      {
-        "toETHSymbol": "PEOPLE",
-        "target": "50000000000000000000000",
-        "duration": "30 days",
-        "start": "11-28-21 7:00am",
-        "end": "12-28-21 7:00am",
-        "reserved": 0,
-        "discount": 0,
-        "toETH": 1,
-        "bondingCurve": 1
-      }
-    ],
-    "inWallet": {
-      "eth": "0",
-      "jbx": "0"
-    },
-    "tokenAddress": null,
-    "totalSupply": "0",
-    "holdingSymbol": "Tokens",
-    "payEvents": [],
-    "redeemEvents": [],
-    "withdrawEvents": [],
-    "reservesEvents": []
-  },
-  {
-    "createdAt": "1638061264",
-    "creator": "0x338530886236b795c5016657db9192a5f7765f5e",
-    "currentBalance": "0",
-    "handle": "0x647265616d64616f000000000000000000000000000000000000000000000000",
-    "id": "90",
-    "totalPaid": "0",
-    "totalRedeemed": "0",
-    "uri": "Qmdky6iPkzrgFvWn5JBM3KTxpxBrh9crKbv7cq1Uv5B1ET",
-    "name": "DreamDAO",
-    "description": "I have a dream!",
-    "logoUri": "https://jbx.mypinata.cloud/ipfs/QmPgGY7YAwqg8vzzH48F1gcCShe7D8AcJGrFbm9RFCm45a",
-    "infoUri": "dreamdao.money",
-    "twitter": "dreamdaomoney",
-    "discord": "",
-    "payButton": "Do you have a dream?",
-    "payDisclosure": "",
-    "tokens": [],
-    "version": 3,
-    "fundingCycles": [
-      {
-        "toETHSymbol": "PEOPLE",
-        "duration": "Not set",
-        "reserved": 0.01
       }
     ],
     "inWallet": {
