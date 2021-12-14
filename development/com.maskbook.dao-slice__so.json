@@ -1,10 +1,10 @@
 {
   "createdAt": "1639277855",
   "creator": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
-  "currentBalance": "1050000000000000000",
+  "currentBalance": "3490000000000000000",
   "handle": "0x736c696365000000000000000000000000000000000000000000000000000000",
   "id": "168",
-  "totalPaid": "1050000000000000000",
+  "totalPaid": "3490000000000000000",
   "totalRedeemed": "0",
   "uri": "QmdmPvxP2P8t1nm4yEnSNzfWvQF8H4C4VUB4bYB6aKCJTB",
   "name": "Slice",
@@ -18,6 +18,38 @@
   "payButton": "",
   "payDisclosure": "",
   "payEvents": [
+    {
+      "amount": "690000000000000000",
+      "beneficiary": "0x36462435cf151b3eadbd376a0e3746d1f44d7eb0",
+      "id": "0xa381fafb633e6715bade23d7c51566a75cabb3c0a1b1c27edef6e5f35ba20bde-430",
+      "note": null,
+      "timestamp": "1639469615",
+      "txHash": "0xa381fafb633e6715bade23d7c51566a75cabb3c0a1b1c27edef6e5f35ba20bde"
+    },
+    {
+      "amount": "1690000000000000000",
+      "beneficiary": "0x36462435cf151b3eadbd376a0e3746d1f44d7eb0",
+      "id": "0x2085fc16ae04ab523b7e7fc2689055c39c722683c12bb3d0c3f3dc7fea9eb48c-430",
+      "note": null,
+      "timestamp": "1639468485",
+      "txHash": "0x2085fc16ae04ab523b7e7fc2689055c39c722683c12bb3d0c3f3dc7fea9eb48c"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x9e4654162a63f54d2a9e3232962d55b0f5cc87a3",
+      "id": "0x31285f6e316a962e5f7945e622fc20f03453a405227c84ddb8a67a177f98a95a-525",
+      "note": null,
+      "timestamp": "1639467153",
+      "txHash": "0x31285f6e316a962e5f7945e622fc20f03453a405227c84ddb8a67a177f98a95a"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x4bba239c9cc83619228457502227d801e4738ba0",
+      "id": "0x58c9bbba515c867bd1a51deb4dae4511219fdce78dfe8737a8e8a750c432705a-371",
+      "note": "slice life",
+      "timestamp": "1639461386",
+      "txHash": "0x58c9bbba515c867bd1a51deb4dae4511219fdce78dfe8737a8e8a750c432705a"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0xa508c16666c5b8981fa46eb32784fccc01942a71",
