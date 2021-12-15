@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5532808459259403734668",
+  "currentBalance": "5532810364021308496573",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5666548053024021327857",
+  "totalPaid": "5666549957785926089762",
   "totalRedeemed": "9504567583868055382",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -21,8 +21,8 @@
       "toETHSymbol": "JBX",
       "target": "55335000000000000000000",
       "duration": "14 days",
-      "start": "12-5-21 3:19am",
-      "end": "12-19-21 3:19am",
+      "start": "12-4-21 7:19pm",
+      "end": "12-18-21 7:19pm",
       "reserved": 0.35,
       "discount": 0.1,
       "toETH": 208,
@@ -34,9 +34,17 @@
     "jbx": "218080348000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2407662963",
+  "totalSupply": "2407663575",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "1904761904761905",
+      "beneficiary": "0x615b62972a9b20903a254eb38b6ebde99677a288",
+      "id": "0x2b28c4f83ac15ed0760c1a18c3e4f647e78bae24eb52a0e53851151030e48515-403",
+      "note": "Fee from @fly",
+      "timestamp": "1639562769",
+      "txHash": "0x2b28c4f83ac15ed0760c1a18c3e4f647e78bae24eb52a0e53851151030e48515"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0x2b2a94561026a5c5c1a715c5d25384a4056650d0",
@@ -428,14 +436,6 @@
       "note": null,
       "timestamp": "1639255568",
       "txHash": "0x8bd6c2f77fa9d1fd187abd33c03079a8ac73a0c10bcf3bc1a14da6d43a15a748"
-    },
-    {
-      "amount": "435000000000000000",
-      "beneficiary": "0xd3633562e22f785d38f2e70f4826ec1474e74f21",
-      "id": "0x2bec78d58fc7ecd9294c4e8dde456c396bb84475528e8f1798d92a70d39e69e2-421",
-      "note": "JIAN CHEN",
-      "timestamp": "1639250912",
-      "txHash": "0x2bec78d58fc7ecd9294c4e8dde456c396bb84475528e8f1798d92a70d39e69e2"
     }
   ],
   "redeemEvents": [
