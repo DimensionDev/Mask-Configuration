@@ -77,8 +77,8 @@ async function crawl(juiceId) {
   await page.goto(url, {
     waitUntil: 'networkidle2',
   });
-  await page.waitForTimeout(1000);
-  await page.waitForSelector('.ant-layout-content');
+  await page.waitForTimeout(2000);
+  await page.waitForSelector('.ant-layout-content', { timeout: 5000 });
   const contentEl = await page.$('.ant-layout-content');
   const content = await contentEl.evaluate((el) => el.textContent);
   if (content.toLowerCase().trim().endsWith('not found')) {
@@ -86,9 +86,7 @@ async function crawl(juiceId) {
     notFoundList.push(juiceId);
     return null;
   }
-  await page.waitForSelector('[aria-label="info-circle"]', {
-    timeout: 8000,
-  });
+  await page.waitForSelector('[aria-label="info-circle"]', { timeout: 7000 });
 
   const title = await page.$('h1');
   const data = await title.evaluate((el) => {
@@ -165,6 +163,12 @@ async function crawl(juiceId) {
     `,
   });
 
+  await page.waitForSelector('.ant-statistic-title');
+  const fundingTokenEl = await page.$('.ant-statistic-title');
+  const fundingTokenSymbol = await fundingTokenEl?.evaluate((el) => {
+    if (el.textContent === 'Tokens') return 'PEOPLE';
+    return el.textContent.split(' ')[0];
+  });
   const fundingCycle = await [...cells].reduce(
     async (pending, cell) => {
       let label = await cell.evaluate((el) => el.querySelector(labelSelector).textContent);
@@ -226,7 +230,7 @@ async function crawl(juiceId) {
       }
       return result;
     },
-    { toETHSymbol: 'PEOPLE' },
+    { toETHSymbol: fundingTokenSymbol ?? 'PEOPLE' },
   );
 
   const {
@@ -253,6 +257,14 @@ async function crawl(juiceId) {
   };
 }
 
+const checkResponse = (json, field, projectId) => {
+  if (!json.data?.[field]) {
+    console.log(`No ${field} record for ${projectId}`, JSON.stringify(json, null, 2));
+    return false;
+  }
+  return true;
+};
+
 const eventLength = 50;
 async function crawlPayEvents(projectId) {
   const rsp = await fetch(
@@ -263,8 +275,9 @@ async function crawlPayEvents(projectId) {
       method: 'POST',
     },
   );
-  const josn = await rsp.json();
-  const events = josn.data.payEvents;
+  const json = await rsp.json();
+  checkResponse(json, 'payEvents', projectId);
+  const events = json.data?.payEvents ?? [];
   return events;
 }
 
@@ -277,8 +290,9 @@ async function crawlRedeemEvents(projectId) {
       method: 'POST',
     },
   );
-  const josn = await rsp.json();
-  const events = josn.data.redeemEvents;
+  const json = await rsp.json();
+  checkResponse(json, 'redeemEvents', projectId);
+  const events = json.data?.redeemEvents ?? [];
   return events;
 }
 
@@ -292,7 +306,8 @@ async function crawlWithdrawEvents(projectId) {
     },
   );
   const json = await rsp.json();
-  const events = json.data.tapEvents;
+  checkResponse(json, 'tapEvents', projectId);
+  const events = json.data?.tapEvents ?? [];
   return events;
 }
 
@@ -305,8 +320,9 @@ async function crawlReservesEvents(projectId) {
       method: 'POST',
     },
   );
-  const josn = await rsp.json();
-  const events = josn.data.printReservesEvents;
+  const json = await rsp.json();
+  checkResponse(json, 'printReservesEvents', projectId);
+  const events = json.data?.printReservesEvents ?? [];
   return events;
 }
 
@@ -450,7 +466,7 @@ async function crawlProjects() {
         );
       }
     } catch (err) {
-      console.log(`Failed to crawl ${projects[i]}`, err);
+      console.log(`Failed to crawl ${projects[i].id}`, err);
     }
   }
   await closeBrowesr();
