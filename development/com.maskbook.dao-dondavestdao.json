@@ -1,7 +1,7 @@
 {
   "createdAt": "1638729565",
   "creator": "0x01d2349206a96db3f16a39535b00de278bd3a639",
-  "currentBalance": "130000000000000000",
+  "currentBalance": "179124298999794",
   "handle": "0x646f6e64617665737464616f0000000000000000000000000000000000000000",
   "id": "138",
   "totalPaid": "130000000000000000",
@@ -31,8 +31,8 @@
     }
   ],
   "inWallet": {
-    "eth": "0",
-    "jbx": "0"
+    "eth": "120000000000000000",
+    "jbx": "1291000000000000000000"
   },
   "tokenAddress": "0xF40A263A47f19E5743626EE3837d8dCD7685f1A3",
   "totalSupply": "130000",
@@ -56,6 +56,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x01d2349206a96db3f16a39535b00de278bd3a639",
+      "beneficiaryTransferAmount": "123638929239047815",
+      "caller": "0x2bafdce15e21cd5875cf589a333712de8454a469",
+      "fundingCycleId": "308",
+      "id": "138-0xbf2dcf1f7826747e490d4049ef6f36eecc21222b9d6ee5f46e7d2b82b1e06600",
+      "netTransferAmount": "123638929239047815",
+      "timestamp": "1639546301",
+      "txHash": "0xbf2dcf1f7826747e490d4049ef6f36eecc21222b9d6ee5f46e7d2b82b1e06600"
+    }
+  ],
   "reservesEvents": []
 }

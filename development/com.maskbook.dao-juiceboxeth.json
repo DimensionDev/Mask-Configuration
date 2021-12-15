@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5530153138349019362395",
+  "currentBalance": "5532808459259403734668",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5663511871077559375466",
-  "totalRedeemed": "9123706547790475264",
+  "totalPaid": "5666548053024021327857",
+  "totalRedeemed": "9504567583868055382",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
   "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. Receives a 5% fee from all funds withdrawn by Juicebox projects in exchange for $JBX.",
@@ -34,9 +34,41 @@
     "jbx": "218080348000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2406963325",
+  "totalSupply": "2407662963",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x2b2a94561026a5c5c1a715c5d25384a4056650d0",
+      "id": "0x33ed5fae6aea66c39993f902caf56116d924be974294d22412594adc0b0647ac-58",
+      "note": null,
+      "timestamp": "1639554189",
+      "txHash": "0x33ed5fae6aea66c39993f902caf56116d924be974294d22412594adc0b0647ac"
+    },
+    {
+      "amount": "6181946461952391",
+      "beneficiary": "0x01d2349206a96db3f16a39535b00de278bd3a639",
+      "id": "0xbf2dcf1f7826747e490d4049ef6f36eecc21222b9d6ee5f46e7d2b82b1e06600-432",
+      "note": "Fee from @dondavestdao",
+      "timestamp": "1639546301",
+      "txHash": "0xbf2dcf1f7826747e490d4049ef6f36eecc21222b9d6ee5f46e7d2b82b1e06600"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x4bba239c9cc83619228457502227d801e4738ba0",
+      "id": "0xda68dd8533dbc0c244753e4036c8bdd9448c8e21d0bffcbcfbd59ebdc4370c8c-447",
+      "note": "juice it",
+      "timestamp": "1639544076",
+      "txHash": "0xda68dd8533dbc0c244753e4036c8bdd9448c8e21d0bffcbcfbd59ebdc4370c8c"
+    },
+    {
+      "amount": "3000000000000000000",
+      "beneficiary": "0x6f2677bd2336d4141ae35d91843f1f361b1682cc",
+      "id": "0x2f68d477c4a51290d3b8c6ae7e3321a8b7d7fa33953ad5cde31651f3e2e05736-110",
+      "note": null,
+      "timestamp": "1639542962",
+      "txHash": "0x2f68d477c4a51290d3b8c6ae7e3321a8b7d7fa33953ad5cde31651f3e2e05736"
+    },
     {
       "amount": "15000000000000000",
       "beneficiary": "0x7af0fa2a383e0117128de46fe218a3087e8fa426",
@@ -404,41 +436,25 @@
       "note": "JIAN CHEN",
       "timestamp": "1639250912",
       "txHash": "0x2bec78d58fc7ecd9294c4e8dde456c396bb84475528e8f1798d92a70d39e69e2"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0xbb094faffce2256f661dc7dab70224be8f405323",
-      "id": "0xdbdd0587bf3f791b090ae948921667ac12eb2cecea35bfc160ef7542b0cd3e84-177",
-      "note": "moon",
-      "timestamp": "1639246526",
-      "txHash": "0xdbdd0587bf3f791b090ae948921667ac12eb2cecea35bfc160ef7542b0cd3e84"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xbfa43bf6e9fb6d5cc253ff23c31f2b86a739bb98",
-      "id": "0x45d71e59568eec3b80f0714a748f6c95eaab47d1303c55545c668c06c5cb3217-241",
-      "note": null,
-      "timestamp": "1639244542",
-      "txHash": "0x45d71e59568eec3b80f0714a748f6c95eaab47d1303c55545c668c06c5cb3217"
-    },
-    {
-      "amount": "40000000000000000",
-      "beneficiary": "0x0c8048f2378f774c0735ee7fb16c890a7ca6b16e",
-      "id": "0x49b97584bee340540b4d06ddae14d6086aeb01dabd94d967a3c7105f2a14129a-9",
-      "note": null,
-      "timestamp": "1639244084",
-      "txHash": "0x49b97584bee340540b4d06ddae14d6086aeb01dabd94d967a3c7105f2a14129a"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xdc651d6448ecdd58efc5c89b07b3aefc405ebb94",
-      "id": "0x8fb034dd4dfced8d7a4a72ef3ac84605ade1ee07ce4c6338a34199815664fda8-504",
-      "note": null,
-      "timestamp": "1639242876",
-      "txHash": "0x8fb034dd4dfced8d7a4a72ef3ac84605ade1ee07ce4c6338a34199815664fda8"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "266953443120000000000000",
+      "beneficiary": "0xac8c93fee9d95e4379367faa99c86e505d5c4ef0",
+      "id": "0xc49ce1ba61067e7ba5980a6ba92bf4bc221b892e40377a549d1dcc086d836b52-84",
+      "returnAmount": "368059015217930192",
+      "timestamp": "1639554374",
+      "txHash": "0xc49ce1ba61067e7ba5980a6ba92bf4bc221b892e40377a549d1dcc086d836b52"
+    },
+    {
+      "amount": "9285337152000000000000",
+      "beneficiary": "0x2c4ea364704c24156a76e207a949943b05cba88e",
+      "id": "0x266da9077a5d3688e593fba255be42b710addc53bf1dcd26d4b7a8965901b95e-588",
+      "returnAmount": "12802020859649926",
+      "timestamp": "1639550491",
+      "txHash": "0x266da9077a5d3688e593fba255be42b710addc53bf1dcd26d4b7a8965901b95e"
+    },
     {
       "amount": "46426685760000000000000",
       "beneficiary": "0x0e03381bedf8c6a55cc0c5be844e0d24a7e5f54f",
@@ -822,22 +838,6 @@
       "returnAmount": "228883400221933750",
       "timestamp": "1637994049",
       "txHash": "0xfff697ba39daf34c23604458cd2b366bafae385d3637f01ae77a93243b75bb9d"
-    },
-    {
-      "amount": "69640028640000000000000",
-      "beneficiary": "0xe0f351fa3ffdadcf1839649214602cdd985888ce",
-      "id": "0x4497eff424ca2aeaadc0022c99ff3bacc3974019705130926740dd9dc31ebd48-262",
-      "returnAmount": "50215793359119331",
-      "timestamp": "1637988786",
-      "txHash": "0x4497eff424ca2aeaadc0022c99ff3bacc3974019705130926740dd9dc31ebd48"
-    },
-    {
-      "amount": "615153586320000000000000",
-      "beneficiary": "0xcf07a6bd547937b8b7980dcf631eb317b13ee9e0",
-      "id": "0x385858a8eec066de1dc48e5bedb85d6a10644cce4a6f7df7c3ef19e5ab90c464-381",
-      "returnAmount": "430632404211267338",
-      "timestamp": "1637987599",
-      "txHash": "0x385858a8eec066de1dc48e5bedb85d6a10644cce4a6f7df7c3ef19e5ab90c464"
     }
   ],
   "withdrawEvents": [

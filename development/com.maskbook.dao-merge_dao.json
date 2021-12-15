@@ -1,10 +1,10 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "120118850000000000",
+  "currentBalance": "140118850000000000",
   "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
   "id": "120",
-  "totalPaid": "196888288151000000000",
+  "totalPaid": "196908288151000000000",
   "totalRedeemed": "0",
   "uri": "QmUvXcSfTDbo45nbpXLCrG8YuFgUzGuwwZ9tdg7dZfCo1B",
   "name": "Merge DAO",
@@ -29,9 +29,17 @@
     "jbx": "57151000000000000000000"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-  "totalSupply": "196884988",
+  "totalSupply": "196904988",
   "holdingSymbol": "MRGE",
   "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x770b10c1330f617c6fd43a2d9e0ab65519a3b47d",
+      "id": "0xbfdcede2c99bb36394f7602e523e4c2608a8371684b9e472e1186b4509409652-427",
+      "note": "try",
+      "timestamp": "1639555821",
+      "txHash": "0xbfdcede2c99bb36394f7602e523e4c2608a8371684b9e472e1186b4509409652"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x590242737c6a76c1abed43026101ce7babb40572",
@@ -423,14 +431,6 @@
       "note": "Merge DAO for pak",
       "timestamp": "1638658320",
       "txHash": "0xbe721becb5ae08649b0bfda6f11164617a1438b009493c8a8c722075a727952d"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x6ba2a7a19c0a54b84180c24bf62e4558e6975c57",
-      "id": "0x12af0efd1281be0a76eb4fb941e00bf34eacea8cf6245caf61a09fba46acd0db-21",
-      "note": null,
-      "timestamp": "1638658290",
-      "txHash": "0x12af0efd1281be0a76eb4fb941e00bf34eacea8cf6245caf61a09fba46acd0db"
     }
   ],
   "redeemEvents": [],
