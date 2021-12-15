@@ -17,12 +17,16 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "All funds paid out to a Gnosis safe, 0x5A8413DfEFB75899c93eA5A6152Eb5aFe01A956E.",
+  "overflow": 1,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
-      "duration": "1 days",
-      "start": "12-13-21 10:41pm",
-      "reserved": 0.57
+      "target": "0",
+      "duration": "Not set",
+      "reserved": 0,
+      "discount": 0,
+      "toETH": 0,
+      "bondingCurve": 0
     }
   ],
   "inWallet": {
@@ -30,7 +34,7 @@
     "jbx": "0"
   },
   "tokenAddress": "0x1B5CE04a29b115161E22adb92d9cdFce562BaBdD",
-  "totalSupply": "321814230",
+  "totalSupply": "136771048",
   "holdingSymbol": "DTF",
   "payEvents": [
     {
