@@ -20,9 +20,14 @@
   "fundingCycles": [
     {
       "toETHSymbol": "EOP",
+      "target": "0",
       "duration": "30 days",
       "start": "11-27-21 8:51am",
-      "reserved": 0
+      "end": "12-27-21 8:51am",
+      "reserved": 0,
+      "discount": 0,
+      "toETH": 1,
+      "bondingCurve": 1
     }
   ],
   "inWallet": {

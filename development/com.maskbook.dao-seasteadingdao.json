@@ -20,8 +20,12 @@
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
+      "target": "0",
       "duration": "Not set",
-      "reserved": 0
+      "reserved": 0,
+      "discount": 0,
+      "toETH": 1,
+      "bondingCurve": 1
     }
   ],
   "inWallet": {

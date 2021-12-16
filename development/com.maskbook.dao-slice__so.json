@@ -1,10 +1,10 @@
 {
   "createdAt": "1639277855",
   "creator": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
-  "currentBalance": "13490000000000000000",
+  "currentBalance": "11890000000000000000",
   "handle": "0x736c696365000000000000000000000000000000000000000000000000000000",
   "id": "168",
-  "totalPaid": "13490000000000000000",
+  "totalPaid": "14690000000000000000",
   "totalRedeemed": "0",
   "uri": "QmdmPvxP2P8t1nm4yEnSNzfWvQF8H4C4VUB4bYB6aKCJTB",
   "name": "Slice",
@@ -18,6 +18,38 @@
   "payButton": "",
   "payDisclosure": "",
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xf7e6b6ea7ea8cf92e7e186ececf7601570ab8f9e",
+      "id": "0x00ee5b3aaf8023943ce96259594b470fc3d579c70fd598c6e8453facc00057f4-352",
+      "note": null,
+      "timestamp": "1639624082",
+      "txHash": "0x00ee5b3aaf8023943ce96259594b470fc3d579c70fd598c6e8453facc00057f4"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x28c173b8f20488eef1b0f48df8453a2f59c38337",
+      "id": "0x9b0875e0a84f95181c7ea474714895862304c0aada283f0427016c019138805f-450",
+      "note": "Merch Squad! ❤️ ",
+      "timestamp": "1639598596",
+      "txHash": "0x9b0875e0a84f95181c7ea474714895862304c0aada283f0427016c019138805f"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x85196358eccffde1084a4c0509f76d03ccb3878b",
+      "id": "0x65f25652788aa03424ebdfd6fbc1de19899108026d347e5e54f033ccb07daa6a-365",
+      "note": null,
+      "timestamp": "1639592629",
+      "txHash": "0x65f25652788aa03424ebdfd6fbc1de19899108026d347e5e54f033ccb07daa6a"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "id": "0x633ff7ed55e0d31562c25ae42a9479ed3802e40728b25c9a95157c0fa2e77369-28",
+      "note": "Lemme get a slice of dis",
+      "timestamp": "1639591268",
+      "txHash": "0x633ff7ed55e0d31562c25ae42a9479ed3802e40728b25c9a95157c0fa2e77369"
+    },
     {
       "amount": "10000000000000000000",
       "beneficiary": "0x13687ec1edf8ebe8c1377790c3522c20bb902e21",
@@ -76,6 +108,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "beneficiaryTransferAmount": "1",
+      "caller": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "fundingCycleId": "314",
+      "id": "168-0x5485d308c46be62330680ebe95c18679a936d3c7718f7be9f2606ce6d98367ae",
+      "netTransferAmount": "2666666666666666666",
+      "timestamp": "1639586697",
+      "txHash": "0x5485d308c46be62330680ebe95c18679a936d3c7718f7be9f2606ce6d98367ae"
+    }
+  ],
   "reservesEvents": []
 }
