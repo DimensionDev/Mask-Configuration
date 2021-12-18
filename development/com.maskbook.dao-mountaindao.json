@@ -1,10 +1,10 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "80000000000000000",
+  "currentBalance": "180000000000000000",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
-  "totalPaid": "56254008446900000000",
+  "totalPaid": "56354008446900000000",
   "totalRedeemed": "0",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
   "name": "MountainDAO",
@@ -33,9 +33,17 @@
     "jbx": "558851000000000000000000"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
-  "totalSupply": "56254008",
+  "totalSupply": "56354008",
   "holdingSymbol": "MTDR",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xc627c1b326061431e7046d45faabc23fadf056b9",
+      "id": "0x9d96778988c5979d2259340186a54819e5dd8b57be17c39ca943efd1bc8a0fc1-160",
+      "note": null,
+      "timestamp": "1639802165",
+      "txHash": "0x9d96778988c5979d2259340186a54819e5dd8b57be17c39ca943efd1bc8a0fc1"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0x0cf187e355ce58ebc74bad4098929e82d73c737e",
@@ -427,14 +435,6 @@
       "note": "Ngoc's xmas slice of mountain pie",
       "timestamp": "1639404605",
       "txHash": "0x2657ba342adf0eb04e5af15b66d747d87a6b41ccae16b1e8b799e373f6f90416"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x06e3e1b6607ad34b7cc6fd7826eec0ff1592fc79",
-      "id": "0xd27dddedc610245f40de7d6f3458fcacefa95a3e02efdd774c1dca490393d030-314",
-      "note": null,
-      "timestamp": "1639403477",
-      "txHash": "0xd27dddedc610245f40de7d6f3458fcacefa95a3e02efdd774c1dca490393d030"
     }
   ],
   "redeemEvents": [],

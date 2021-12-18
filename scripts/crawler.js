@@ -34,6 +34,19 @@ function parseEther(eth) {
   }
 }
 
+async function retryFetch(...args) {
+  let result;
+  let times = 3;
+  while (times-- > 0) {
+    result = await fetch(...args);
+    if (result.ok) {
+      break;
+    }
+    console.log('retry, remain', times, 'times');
+  }
+  return result;
+}
+
 function parsePercent(percent) {
   return parseInt(percent, 10) / 100;
 }
@@ -267,7 +280,7 @@ const checkResponse = (json, field, projectId) => {
 
 const eventLength = 50;
 async function crawlPayEvents(projectId) {
-  const rsp = await fetch(
+  const rsp = await retryFetch(
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
@@ -282,7 +295,7 @@ async function crawlPayEvents(projectId) {
 }
 
 async function crawlRedeemEvents(projectId) {
-  const rsp = await fetch(
+  const rsp = await retryFetch(
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
@@ -297,7 +310,7 @@ async function crawlRedeemEvents(projectId) {
 }
 
 async function crawlWithdrawEvents(projectId) {
-  const rsp = await fetch(
+  const rsp = await retryFetch(
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,
@@ -312,7 +325,7 @@ async function crawlWithdrawEvents(projectId) {
 }
 
 async function crawlReservesEvents(projectId) {
-  const rsp = await fetch(
+  const rsp = await retryFetch(
     'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
     {
       headers,

@@ -36,6 +36,12 @@ const twitterIdMap = {
   thetangdao: 'tangdao',
   thegrantsdao: 'grantsdao',
   nftafrika: 'projectnftafrica',
+  ponzi_dao: 'ponzidao',
+  officialmoondao: 'moondao',
+  canu_dao: 'canudaocomm',
+  slice__so: 'slice',
+  thewhiskydao: 'whiskydao',
+  daoimmortal: 'immortaldao',
 };
 
 module.exports = {

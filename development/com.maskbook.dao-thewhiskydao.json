@@ -17,6 +17,24 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "WHISKY",
+      "target": "0",
+      "duration": "Not set",
+      "reserved": 0.35,
+      "discount": 0,
+      "toETH": 650,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "30000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x2dedA5213A78E836D5C68C595FA174DaD04a25d8",
+  "totalSupply": "129915",
+  "holdingSymbol": "WHISKY",
   "payEvents": [
     {
       "amount": "26227610000000000",
