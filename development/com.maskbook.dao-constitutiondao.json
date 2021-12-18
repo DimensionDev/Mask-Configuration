@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5127740095930670709974",
+  "currentBalance": "5126468806449567413996",
   "handle": "0x636f6e737469747574696f6e64616f0000000000000000000000000000000000",
   "id": "36",
-  "totalPaid": "11611975159432406769962",
-  "totalRedeemed": "6475117492834764821620",
+  "totalPaid": "11612035159432406769962",
+  "totalRedeemed": "6476448782315868117598",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
   "infoUri": "https://constitutiondao.com",
@@ -34,9 +34,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5126239927",
+  "totalSupply": "5124969027",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "60000000000000000",
+      "beneficiary": "0xe850e738eef89e4f214da75db8b3e63761a2831e",
+      "id": "0xe549980abb9cd6300e941621c9d44dfdb34e44bf475782b2a3b544b03cc44407-62",
+      "note": null,
+      "timestamp": "1639770011",
+      "txHash": "0xe549980abb9cd6300e941621c9d44dfdb34e44bf475782b2a3b544b03cc44407"
+    },
     {
       "amount": "42000000000000000",
       "beneficiary": "0x65e30c48b51d0f4ed217ea19f2be51e830a04bc9",
@@ -428,17 +436,73 @@
       "note": null,
       "timestamp": "1638091712",
       "txHash": "0x0d5ee4c33d85df553f3bfb5bb4ae94e6ac8715499947bf3e93975e7767391f68"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0xab13d11df1a25e88acaf2ab32a92c0aa33e08034",
-      "id": "0xbc3b881c099a86b5087023e260292bcdf0866e439143e9a41729a3668ef4977b-230",
-      "note": "📜 We the People 🇺🇸",
-      "timestamp": "1638080814",
-      "txHash": "0xbc3b881c099a86b5087023e260292bcdf0866e439143e9a41729a3668ef4977b"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "28900000000000000000000",
+      "beneficiary": "0x6a4287624934f42fac5585380990de3b967c5eba",
+      "id": "0x878308b9c11d4867b17f5a008cfe896d9c5d0255a7e5b98f7d2e01689082ee5a-525",
+      "returnAmount": "28908457437737811",
+      "timestamp": "1639757470",
+      "txHash": "0x878308b9c11d4867b17f5a008cfe896d9c5d0255a7e5b98f7d2e01689082ee5a"
+    },
+    {
+      "amount": "50000000000000000000000",
+      "beneficiary": "0x031c06fba7cbc47a764003fef12a9474f92a863a",
+      "id": "0x28408568acf89951bbdf175e6f8feecd1a6c47331bcf7fc73fd72a1e15d25a28-516",
+      "returnAmount": "50014632245221127",
+      "timestamp": "1639735531",
+      "txHash": "0x28408568acf89951bbdf175e6f8feecd1a6c47331bcf7fc73fd72a1e15d25a28"
+    },
+    {
+      "amount": "1000000000000000000000",
+      "beneficiary": "0x0f7ed91b63f9175138fc356458cd1daa868863c2",
+      "id": "0x0290394a73838a2eb767ada76110123100db093d442775a93aa9228a43d263ad-349",
+      "returnAmount": "1000292644904422",
+      "timestamp": "1639705597",
+      "txHash": "0x0290394a73838a2eb767ada76110123100db093d442775a93aa9228a43d263ad"
+    },
+    {
+      "amount": "100000000000000000000000",
+      "beneficiary": "0x54cd69ae7af925f017b5d531ec3c242481b8b327",
+      "id": "0xf723e2339a59bb0ce1667014e8441763b1aff4ccee018bcfdac028fe6f15cad2-129",
+      "returnAmount": "100029264490442255",
+      "timestamp": "1639704831",
+      "txHash": "0xf723e2339a59bb0ce1667014e8441763b1aff4ccee018bcfdac028fe6f15cad2"
+    },
+    {
+      "amount": "31000000000000000000000",
+      "beneficiary": "0xcf01c4381af277eecd93c4369bec14d4b8dd046f",
+      "id": "0x1db69f50a9f142ef28878caa653d46dde7b3b7a9e87e0c4b571f94c8ebed23b9-139",
+      "returnAmount": "31009071992037099",
+      "timestamp": "1639642877",
+      "txHash": "0x1db69f50a9f142ef28878caa653d46dde7b3b7a9e87e0c4b571f94c8ebed23b9"
+    },
+    {
+      "amount": "20000000000000000000000",
+      "beneficiary": "0xa9728421b0cf0ca09d719e6605a33e9c61f7f925",
+      "id": "0xc665ce5ce9012dab47329636822751a42419a3c2db15dbd3bebbc712333b7072-123",
+      "returnAmount": "20005852898088451",
+      "timestamp": "1639633380",
+      "txHash": "0xc665ce5ce9012dab47329636822751a42419a3c2db15dbd3bebbc712333b7072"
+    },
+    {
+      "amount": "1000000000000000000000000",
+      "beneficiary": "0x1b692c0a8e54753d4fccdf21e7b1724c03f8260c",
+      "id": "0xda7df815000cf3f99bc184171eba7450d08b01e106b537bcd0e81fa474884150-170",
+      "returnAmount": "1000292644904422558",
+      "timestamp": "1639629287",
+      "txHash": "0xda7df815000cf3f99bc184171eba7450d08b01e106b537bcd0e81fa474884150"
+    },
+    {
+      "amount": "100000000000000000000000",
+      "beneficiary": "0x1b692c0a8e54753d4fccdf21e7b1724c03f8260c",
+      "id": "0xdec8d00f1636197ece5903819c8b435668557063a0f9b47d7b5192a7b76e6a97-556",
+      "returnAmount": "100029264490442255",
+      "timestamp": "1639629113",
+      "txHash": "0xdec8d00f1636197ece5903819c8b435668557063a0f9b47d7b5192a7b76e6a97"
+    },
     {
       "amount": "70000000000000000000000",
       "beneficiary": "0xe35ded63108b9e85acaf34a1fe195658e193bec7",
@@ -774,70 +838,6 @@
       "returnAmount": "10002926507176988",
       "timestamp": "1639181880",
       "txHash": "0x9c1327b6729e20f98d0e23f2ddd071edc07e35139defe7c33b38184148556302"
-    },
-    {
-      "amount": "11281875875814531594000000",
-      "beneficiary": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-      "id": "0x052cc635eee06f89a885b8aa1c7aa945f6abe285f988ff86eeba4ca89a0d7f66-269",
-      "returnAmount": "11285177524886577976",
-      "timestamp": "1639177937",
-      "txHash": "0x052cc635eee06f89a885b8aa1c7aa945f6abe285f988ff86eeba4ca89a0d7f66"
-    },
-    {
-      "amount": "500000000000000000000000",
-      "beneficiary": "0xfa9921541fcb68d6e56b4f6baab278de08526020",
-      "id": "0xb7a2704acedf2f0ea112fcb243126794944c64d582bbca0a63ddda0ad6c8a702-317",
-      "returnAmount": "500146325358849421",
-      "timestamp": "1639168531",
-      "txHash": "0xb7a2704acedf2f0ea112fcb243126794944c64d582bbca0a63ddda0ad6c8a702"
-    },
-    {
-      "amount": "200000000000000000000000",
-      "beneficiary": "0x22a3d1a0cf9de1114c5d68bd0cfac483e5b53f4d",
-      "id": "0x63e0f888382e0ffaade96dff8f54d0d962e28c655d68562bd67c70c55b9425db-167",
-      "returnAmount": "200058530257400830",
-      "timestamp": "1639159663",
-      "txHash": "0x63e0f888382e0ffaade96dff8f54d0d962e28c655d68562bd67c70c55b9425db"
-    },
-    {
-      "amount": "10000000000000000000000",
-      "beneficiary": "0x582123a48b14fc9cdf6ba1c29e55d3715a44e70d",
-      "id": "0x6fe888b8a9bfc7e79c0bfb1c718f2f47fc7a90e86ca44167cea39d8a30261b76-543",
-      "returnAmount": "10002926512870041",
-      "timestamp": "1639148172",
-      "txHash": "0x6fe888b8a9bfc7e79c0bfb1c718f2f47fc7a90e86ca44167cea39d8a30261b76"
-    },
-    {
-      "amount": "100000000000000000000000",
-      "beneficiary": "0x18c5deae86447c083caeeef6afba93fe58ff4bbc",
-      "id": "0xc50f448bb1b3012736dbafe186c0708a7f0167418fe7fe33c3c6f02a9478750f-327",
-      "returnAmount": "100029265128700415",
-      "timestamp": "1639145826",
-      "txHash": "0xc50f448bb1b3012736dbafe186c0708a7f0167418fe7fe33c3c6f02a9478750f"
-    },
-    {
-      "amount": "15000000000000000000000",
-      "beneficiary": "0xe55c96b641f927f1ee244f9fa7a9c32df32d3728",
-      "id": "0x93866bd8b449f0904a15b44708cd867f271072b21620430b2950e959ebc5c663-187",
-      "returnAmount": "15004389779465362",
-      "timestamp": "1639127595",
-      "txHash": "0x93866bd8b449f0904a15b44708cd867f271072b21620430b2950e959ebc5c663"
-    },
-    {
-      "amount": "250000000000000000000000",
-      "beneficiary": "0x70f5689981996b268561e59a2b3af425b5d0f3e2",
-      "id": "0xf1824d8627df4ffd412060770408a26f8a74c5e01466ee82dbaa109a1cf5f9f7-272",
-      "returnAmount": "250073162991089380",
-      "timestamp": "1639122121",
-      "txHash": "0xf1824d8627df4ffd412060770408a26f8a74c5e01466ee82dbaa109a1cf5f9f7"
-    },
-    {
-      "amount": "149673000000000000000000",
-      "beneficiary": "0x416270565b654946796ccb9858f05c912e39d1fa",
-      "id": "0x161cea988f4c5ce58f32b7e9e508feaee52505be9a320ad0cbcb00fc5deb0d4c-513",
-      "returnAmount": "149716802097461283",
-      "timestamp": "1639109631",
-      "txHash": "0x161cea988f4c5ce58f32b7e9e508feaee52505be9a320ad0cbcb00fc5deb0d4c"
     }
   ],
   "withdrawEvents": [

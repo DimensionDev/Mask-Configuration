@@ -1,10 +1,10 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "47678002752633314546",
+  "currentBalance": "45955002752633314546",
   "handle": "0x74696c6573000000000000000000000000000000000000000000000000000000",
   "id": "2",
-  "totalPaid": "130682336800000000000",
+  "totalPaid": "130692336800000000000",
   "totalRedeemed": "6639334047366685454",
   "uri": "QmNnxipn7ooGhX67nUPysoTuFK4xbLJrXw1nKnqTQ6uy7h",
   "name": "TileDAO",
@@ -19,24 +19,32 @@
   "fundingCycles": [
     {
       "toETHSymbol": "TILE",
-      "target": "8700000000000000000",
+      "target": "1733000000000000000",
       "duration": "7 days",
-      "start": "12-9-21 10:30pm",
-      "end": "12-16-21 10:30pm",
+      "start": "12-16-21 10:30pm",
+      "end": "12-23-21 10:30pm",
       "reserved": 0.34,
       "discount": 0.02,
-      "toETH": 440,
+      "toETH": 431,
       "bondingCurve": 0.5
     }
   ],
   "inWallet": {
     "eth": "1370000000000000000",
-    "jbx": "494647000000000000000000"
+    "jbx": "511888000000000000000000"
   },
   "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
-  "totalSupply": "111073904",
+  "totalSupply": "111080447",
   "holdingSymbol": "TILE",
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x685dd2ba1e1da09d190aed0bf07a6c969469c2a6",
+      "id": "0xe66f46422f3dad407c956b199a6e9891b66e232dcb3e94b5f2e9934f525a017e-99",
+      "note": "Crypto Bros",
+      "timestamp": "1639756257",
+      "txHash": "0xe66f46422f3dad407c956b199a6e9891b66e232dcb3e94b5f2e9934f525a017e"
+    },
     {
       "amount": "22700000000000000",
       "beneficiary": "0xd798b5a1e8aa296d828a8e7b2899d504079d9d2f",
@@ -428,14 +436,6 @@
       "note": "Minted Tile with address 3b06b8ee6b399f69e3fba3d6f1a57d59bc44a78c",
       "timestamp": "1633976268",
       "txHash": "0x2c1fb8491e0bf7cdd8e76c03f7f0168693b19c0ed3240ce5f02d076a7bcee395"
-    },
-    {
-      "amount": "160000000000000000",
-      "beneficiary": "0x736dde3e0f5c588ddc53ad7f0f65667c0cca2801",
-      "id": "0x37a0263fec62b3eeda907cb5dcd7a42d28093d0034dd6cb56862f311249f56ae-204",
-      "note": "Minted Tile with address 736dde3e0f5c588ddc53ad7f0f65667c0cca2801",
-      "timestamp": "1633975028",
-      "txHash": "0x37a0263fec62b3eeda907cb5dcd7a42d28093d0034dd6cb56862f311249f56ae"
     }
   ],
   "redeemEvents": [
@@ -841,6 +841,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "beneficiaryTransferAmount": "1",
+      "caller": "0x7cc4e967242e1cad92152d47ae0bb9169e97d553",
+      "fundingCycleId": "301",
+      "id": "2-0x93401eb774c3caeb875957e3c375448566aebd3aa05c47c9396511ee6f121926",
+      "netTransferAmount": "1650476190476190476",
+      "timestamp": "1639792304",
+      "txHash": "0x93401eb774c3caeb875957e3c375448566aebd3aa05c47c9396511ee6f121926"
+    },
     {
       "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
       "beneficiaryTransferAmount": "2",
