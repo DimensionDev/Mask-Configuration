@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5538018229047022782291",
+  "currentBalance": "5538233229047022782291",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5671757822811640375480",
+  "totalPaid": "5671972822811640375480",
   "totalRedeemed": "9504567583868055382",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -21,8 +21,8 @@
       "toETHSymbol": "JBX",
       "target": "55335000000000000000000",
       "duration": "14 days",
-      "start": "12-5-21 3:19am",
-      "end": "12-19-21 3:19am",
+      "start": "12-4-21 7:19pm",
+      "end": "12-18-21 7:19pm",
       "reserved": 0.35,
       "discount": 0.1,
       "toETH": 208,
@@ -34,9 +34,33 @@
     "jbx": "218080348000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2409337463",
+  "totalSupply": "2409406568",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "65000000000000000",
+      "beneficiary": "0x19899bcc1038545cfd73c4a42f0fae5b37bba725",
+      "id": "0x0a273153dbf0826cfef639db75148b8baf32fcab165bb3dab9b4690544335d52-13",
+      "note": null,
+      "timestamp": "1639823198",
+      "txHash": "0x0a273153dbf0826cfef639db75148b8baf32fcab165bb3dab9b4690544335d52"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x4c0d223442fda5b89602f02c7a197c44084a6233",
+      "id": "0xe987b8e8777a1f3098b53cf99d5271da8a6e065c4c79d9b61a09259e2a6595fc-367",
+      "note": null,
+      "timestamp": "1639812623",
+      "txHash": "0xe987b8e8777a1f3098b53cf99d5271da8a6e065c4c79d9b61a09259e2a6595fc"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xdf4bee40ff896a7dc365ffa377710482da37d1dd",
+      "id": "0x8f9a1e8e5e34c2ffef12611e078ed348817e6f98502e3b7d8d4abecfdad060a6-364",
+      "note": "try it",
+      "timestamp": "1639812345",
+      "txHash": "0x8f9a1e8e5e34c2ffef12611e078ed348817e6f98502e3b7d8d4abecfdad060a6"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0xb5b511848bb167974b6461479fae7bf7457ab4e1",
@@ -412,30 +436,6 @@
       "note": null,
       "timestamp": "1639397275",
       "txHash": "0x8f62bf76973c1dbf0c969d54fce1edea3bc0d14bfb3c74782adb4b92c498c1b3"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0xa7654c891594107d0b8f4e2cfe0d5ad90aba931f",
-      "id": "0x0998fef3e16a8536eee7c0413908fa1e9ee3bd01ea045bf55cf0ed5152eb5c9b-260",
-      "note": null,
-      "timestamp": "1639397165",
-      "txHash": "0x0998fef3e16a8536eee7c0413908fa1e9ee3bd01ea045bf55cf0ed5152eb5c9b"
-    },
-    {
-      "amount": "427760176592774",
-      "beneficiary": "0xbbd1967cf03aefa7f81dfdc9f3c07df0a2af1e59",
-      "id": "0xa443934461c5896275e4be94127ce5bbd96d3862799d86b525431f106e52190f-93",
-      "note": "Fee from @earth",
-      "timestamp": "1639389121",
-      "txHash": "0xa443934461c5896275e4be94127ce5bbd96d3862799d86b525431f106e52190f"
-    },
-    {
-      "amount": "1010000000000000000",
-      "beneficiary": "0x58477b1db54add32c45092e161d6aaac78cb2158",
-      "id": "0xe31841a62ea862eecba8d0fa13d54b85970e1ec4bc67178a9ff66f3fb401f1ff-301",
-      "note": null,
-      "timestamp": "1639388649",
-      "txHash": "0xe31841a62ea862eecba8d0fa13d54b85970e1ec4bc67178a9ff66f3fb401f1ff"
     }
   ],
   "redeemEvents": [
