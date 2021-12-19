@@ -1,10 +1,10 @@
 {
   "createdAt": "1636958058",
   "creator": "0x050920eda4014e25ded17c346b425239a468d63d",
-  "currentBalance": "861111000000000000",
+  "currentBalance": "861611000000000000",
   "handle": "0x6c616e646261636b000000000000000000000000000000000000000000000000",
   "id": "37",
-  "totalPaid": "861111000000000000",
+  "totalPaid": "861611000000000000",
   "totalRedeemed": "0",
   "uri": "QmVitxbUWdxXjGPc8RkyJHAuUpf6ZY4YZXS1thYg4qkhEX",
   "name": "LandBack DAO",
@@ -33,9 +33,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0xc07880AeCceAB794188E5B837203CEE6CC3E91C4",
-  "totalSupply": "861111",
+  "totalSupply": "861611",
   "holdingSymbol": "LANDBACK",
   "payEvents": [
+    {
+      "amount": "500000000000000",
+      "beneficiary": "0xc43738a9fbe17b169422cf08a4f96424fef85ced",
+      "id": "0x49fe6fc79add69216e32122f25484e611b051e02f6730d5a22ce95f05108c36d-54",
+      "note": null,
+      "timestamp": "1639851912",
+      "txHash": "0x49fe6fc79add69216e32122f25484e611b051e02f6730d5a22ce95f05108c36d"
+    },
     {
       "amount": "500000000000000000",
       "beneficiary": "0x5ce1b4779557996b1d2f3e1042c1789b7b7a9102",
