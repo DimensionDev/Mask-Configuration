@@ -42,6 +42,7 @@ const twitterIdMap = {
   slice__so: 'slice',
   thewhiskydao: 'whiskydao',
   daoimmortal: 'immortaldao',
+  meatsacksc: 'shielddao',
 };
 
 module.exports = {
