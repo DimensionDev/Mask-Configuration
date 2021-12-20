@@ -1,10 +1,10 @@
 {
   "createdAt": "1639696319",
   "creator": "0xef8b00e9ee74b1e4a710e414fc0df27083e14738",
-  "currentBalance": "187830250000000000",
+  "currentBalance": "331380900000000000",
   "handle": "0x776869736b7964616f0000000000000000000000000000000000000000000000",
   "id": "193",
-  "totalPaid": "187830250000000000",
+  "totalPaid": "331380900000000000",
   "totalRedeemed": "0",
   "uri": "QmUHKxbAeMueoexVUet3nJ48B9wsY6nhA3h8CCAH6Luk7t",
   "name": "Whisky DAO",
@@ -33,9 +33,25 @@
     "jbx": "0"
   },
   "tokenAddress": "0x2dedA5213A78E836D5C68C595FA174DaD04a25d8",
-  "totalSupply": "187830",
+  "totalSupply": "331380",
   "holdingSymbol": "WHISKY",
   "payEvents": [
+    {
+      "amount": "80000000000000000",
+      "beneficiary": "0x3ab4d83aeafd3a49285cce59e2cbf673080d74a8",
+      "id": "0x4eaa0ea7fdb2cbefd50adc83f8db54afeb030d1392413aff39a7a43725bdd147-187",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmP6arKfDXodGCJ2Qi5w7SgYddGVcgh7WsMLBRrCa82pkh",
+      "timestamp": "1639943561",
+      "txHash": "0x4eaa0ea7fdb2cbefd50adc83f8db54afeb030d1392413aff39a7a43725bdd147"
+    },
+    {
+      "amount": "63550650000000000",
+      "beneficiary": "0x4cd14a40b8698bd0060eee9859f5073aefd655da",
+      "id": "0xbae483d3578fda595d26e4ceb8ffb3e984c71fe10d3bc15b2acc50f77f54dcf9-155",
+      "note": null,
+      "timestamp": "1639935153",
+      "txHash": "0xbae483d3578fda595d26e4ceb8ffb3e984c71fe10d3bc15b2acc50f77f54dcf9"
+    },
     {
       "amount": "57914480000000000",
       "beneficiary": "0x2dc3e229b2cd1c09da32b6e41cb6768aea526e2a",
