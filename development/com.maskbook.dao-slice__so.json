@@ -1,10 +1,10 @@
 {
   "createdAt": "1639277855",
   "creator": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
-  "currentBalance": "16690000000000000000",
+  "currentBalance": "16840000000000000000",
   "handle": "0x736c696365000000000000000000000000000000000000000000000000000000",
   "id": "168",
-  "totalPaid": "19490000000000000000",
+  "totalPaid": "19640000000000000000",
   "totalRedeemed": "0",
   "uri": "QmdmPvxP2P8t1nm4yEnSNzfWvQF8H4C4VUB4bYB6aKCJTB",
   "name": "Slice",
@@ -35,9 +35,25 @@
     "jbx": "27856000000000000000000"
   },
   "tokenAddress": "0x6fa5FF63B2752265c6Bd9350591f97A7dAd9e918",
-  "totalSupply": "118890000",
+  "totalSupply": "119025000",
   "holdingSymbol": "SLX",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x751e2eabaf94d68c78e90b1fd2f79f6f64e490ea",
+      "id": "0x3ab1c716b402ee5b8cb23dd53f52e0a93913ba22105b89ce1692eec9c43d55ef-370",
+      "note": null,
+      "timestamp": "1640027746",
+      "txHash": "0x3ab1c716b402ee5b8cb23dd53f52e0a93913ba22105b89ce1692eec9c43d55ef"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xdf1e9485072bbe9517a06cbe28041bc9e7031985",
+      "id": "0xabec94b0298fe30e7d18aec4bc5be5899de34434c38ca6c10e290ea862ed53fa-288",
+      "note": null,
+      "timestamp": "1640021496",
+      "txHash": "0xabec94b0298fe30e7d18aec4bc5be5899de34434c38ca6c10e290ea862ed53fa"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0xf0549d13b142b37f0663e6b52ce54bd312a2edaa",

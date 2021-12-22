@@ -1,22 +1,22 @@
 {
   "createdAt": "1639857191",
   "creator": "0x2a1c2d96b1ffd82830cce8ba8c8fe5a192299719",
-  "currentBalance": "100000000000000000",
+  "currentBalance": "136434030000000000",
   "handle": "0x636f6c6f6e7964616f0000000000000000000000000000000000000000000000",
   "id": "202",
-  "totalPaid": "100000000000000000",
+  "totalPaid": "136434030000000000",
   "totalRedeemed": "0",
-  "uri": "QmR3KUtn6Ke7HxxTzUGR7JSn8sHmnZ6pYk9CsaJ8vRkkHT",
+  "uri": "QmX9qd18oHYep21JoKvpCS4z1AJ6p8ZMGJi1joh1fbdC8g",
   "name": "ColonyDAO",
-  "infoUri": "https://www.colonydao.org",
-  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmWujfDAGQctpSzavWSmSL2GnwVmveW9T9K6TMxSA1r5V3",
-  "description": "First Turning a Cannabis Farm into a DAO Then Building 100 Smart Micro Colonies Afterwards. ",
+  "description": "We are selling our Cannabis Farm to build an eco-friendly DAO. A retreat away from the Metaverse yet still using sleek blockchain technology to operate smart colonies. \n\nhttps://www.420property.com/listing/ethereum-or-bitcoins-accepted-for-property/",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmXdvparucbqoWwMLx3KoLfEYXF9HCs6pkrHz8RiyZvUvZ",
+  "infoUri": "https://bit.ly/ColonyDao",
   "twitter": "colonydao",
   "discord": "https://discord.gg/EyWyF3mksD",
-  "tokens": [],
-  "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "Dont know yet..",
+  "tokens": [],
+  "version": 3,
   "fundingCycles": [
     {
       "toETHSymbol": "PLANT",
@@ -29,13 +29,29 @@
     }
   ],
   "inWallet": {
-    "eth": "30000000000000000",
+    "eth": "10000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0xDdDC10FEd732188e50fa46a68c5414fc9A2657Fd",
-  "totalSupply": "100000",
+  "totalSupply": "136434",
   "holdingSymbol": "PLANT",
   "payEvents": [
+    {
+      "amount": "24000000000000000",
+      "beneficiary": "0xd976d3cc17d109889037175b2472af6ca970302d",
+      "id": "0x3f322c5b9555890904a428f181d54cb8d9c2ec5d1e23ece5261c37c0511ff4a6-430",
+      "note": null,
+      "timestamp": "1640136321",
+      "txHash": "0x3f322c5b9555890904a428f181d54cb8d9c2ec5d1e23ece5261c37c0511ff4a6"
+    },
+    {
+      "amount": "12434030000000000",
+      "beneficiary": "0x8ca22db4108acfe863ea59eac6d695f988b5532b",
+      "id": "0x9de8e648e1e07ee6149a2ff0671eaf7e3063217532f14744cbc09a54869fb365-608",
+      "note": "We are gonna make it!",
+      "timestamp": "1640120014",
+      "txHash": "0x9de8e648e1e07ee6149a2ff0671eaf7e3063217532f14744cbc09a54869fb365"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x94eaf07ae8557a5ee9cdcca2659e76d029a0f1d2",
