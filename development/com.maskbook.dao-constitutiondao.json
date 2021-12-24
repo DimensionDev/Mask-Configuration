@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5125081454984890378949",
+  "currentBalance": "5125074840955545464732",
   "handle": "0x636f6e737469747574696f6e64616f0000000000000000000000000000000000",
   "id": "36",
-  "totalPaid": "11612162919432406769962",
-  "totalRedeemed": "6477963893780545152645",
+  "totalPaid": "11612262919432406769962",
+  "totalRedeemed": "6478070507809890066862",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
   "infoUri": "https://constitutiondao.com",
@@ -34,9 +34,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5123582119",
+  "totalSupply": "5123575536",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x1a1b6d46949d5b7c8b3f8c296c529695175871b6",
+      "id": "0xd96b7cfaff2cd5b688b9363cfa0a2a3f37e72ea3d7aa52ec15e95226c1b336a9-328",
+      "note": null,
+      "timestamp": "1640194926",
+      "txHash": "0xd96b7cfaff2cd5b688b9363cfa0a2a3f37e72ea3d7aa52ec15e95226c1b336a9"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x10a8bda4459b8ed79529b59c5c9a6b6a530bc5e5",
@@ -428,17 +436,41 @@
       "note": null,
       "timestamp": "1638147362",
       "txHash": "0xce8a2063f62cadbc69c2f9afb34613cd6221574e3c1d2c68260245d8bc506f01"
-    },
-    {
-      "amount": "16374580000000000",
-      "beneficiary": "0x21cca17cc52d262b40f877faeb00e78b0d13d2c3",
-      "id": "0x7968261cc4e49c6213ee6b1db50c252f31b0b6ed4ebe4cfa98f44a8d7c92ca7a-85",
-      "note": null,
-      "timestamp": "1638114472",
-      "txHash": "0x7968261cc4e49c6213ee6b1db50c252f31b0b6ed4ebe4cfa98f44a8d7c92ca7a"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "23582840000000000000000",
+      "beneficiary": "0x5ad33aff910e95e075bcd0fe8ef36d683aa613d2",
+      "id": "0xb0af2e01c5b3138973f6772e8c168d4ab9fe05ba84a82f8de44f59057d17be39-117",
+      "returnAmount": "23589741010425875",
+      "timestamp": "1640268370",
+      "txHash": "0xb0af2e01c5b3138973f6772e8c168d4ab9fe05ba84a82f8de44f59057d17be39"
+    },
+    {
+      "amount": "33000000000000000000000",
+      "beneficiary": "0x45570de77c5e1a68fdcc929016b9c4993ba6de9f",
+      "id": "0xae13699053047e39fcb4c79c01490aa59f8e1249ce4c0e6d99cbe08b6b84ee93-40",
+      "returnAmount": "33009656739563762",
+      "timestamp": "1640243709",
+      "txHash": "0xae13699053047e39fcb4c79c01490aa59f8e1249ce4c0e6d99cbe08b6b84ee93"
+    },
+    {
+      "amount": "20000000000000000000000",
+      "beneficiary": "0xe10c89640371139640cc69df83b6694d433cedb5",
+      "id": "0xa770e1444569bb6bb4bfd0dba6cb7d745d7030643f11cb58cc76268693e27727-74",
+      "returnAmount": "20005852569432583",
+      "timestamp": "1640208159",
+      "txHash": "0xa770e1444569bb6bb4bfd0dba6cb7d745d7030643f11cb58cc76268693e27727"
+    },
+    {
+      "amount": "30000000000000000000000",
+      "beneficiary": "0xc4ca8f910702555f0ad3f81edf17dc82b0f98bce",
+      "id": "0x4ddec234a1da6db2aa08928bcd85c10948aadc77a22e6039ba75892e8c288239-518",
+      "returnAmount": "30008779025491997",
+      "timestamp": "1640190779",
+      "txHash": "0x4ddec234a1da6db2aa08928bcd85c10948aadc77a22e6039ba75892e8c288239"
+    },
     {
       "amount": "2500000000000000000000",
       "beneficiary": "0xe007d7bc1a7eb0e2fb500c913b527c7cde309d5c",
@@ -806,38 +838,6 @@
       "returnAmount": "100029264860138220",
       "timestamp": "1639399161",
       "txHash": "0x53dc5c5cb31fdf05d48f2b1ccd367bca69260a63caeaae1b6d995bdc6ae0a58e"
-    },
-    {
-      "amount": "5500000000000000000000",
-      "beneficiary": "0xc51496d7be29725209bafdd517f069a177fab71c",
-      "id": "0xdf5db9eb01fa92dd0c18017e4dfca1c39aabed90311d7ebc2c900ad24822e1f8-142",
-      "returnAmount": "5501609567307602",
-      "timestamp": "1639382610",
-      "txHash": "0xdf5db9eb01fa92dd0c18017e4dfca1c39aabed90311d7ebc2c900ad24822e1f8"
-    },
-    {
-      "amount": "50000000000000000000000",
-      "beneficiary": "0x9d55ebd4ebd9232ae99d2490d2ed609df2351aab",
-      "id": "0xb4b302bf00f55341703df030f2b260df0c37b75e39c691904bb95faab369f8a9-92",
-      "returnAmount": "50014632430069110",
-      "timestamp": "1639378539",
-      "txHash": "0xb4b302bf00f55341703df030f2b260df0c37b75e39c691904bb95faab369f8a9"
-    },
-    {
-      "amount": "18900000000000000000000",
-      "beneficiary": "0xb1a530e040ddf8d972227d069a7eae9fc8293229",
-      "id": "0x2c57116c8c60ab91613ba3af57b3287941aac286b7e501f9961ede190923b57e-336",
-      "returnAmount": "18905531061110134",
-      "timestamp": "1639374184",
-      "txHash": "0x2c57116c8c60ab91613ba3af57b3287941aac286b7e501f9961ede190923b57e"
-    },
-    {
-      "amount": "9900000000000000000000",
-      "beneficiary": "0x8af88d1a17769f146e31f4282138235de1c19bd4",
-      "id": "0x779f192a5a181624c5d6dbc045cbf92eb1fc31188ea2474e1bae048c5f461061-386",
-      "returnAmount": "9902897222486260",
-      "timestamp": "1639370614",
-      "txHash": "0x779f192a5a181624c5d6dbc045cbf92eb1fc31188ea2474e1bae048c5f461061"
     }
   ],
   "withdrawEvents": [

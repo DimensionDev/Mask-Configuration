@@ -20,22 +20,22 @@
   "fundingCycles": [
     {
       "toETHSymbol": "WLD",
-      "target": "50000000000000000000",
-      "duration": "5 days",
-      "start": "12-18-21 5:10am",
-      "end": "12-23-21 5:10am",
-      "reserved": 0.4,
+      "target": "2000000000000000000",
+      "duration": "14 days",
+      "start": "12-23-21 5:10am",
+      "end": "1-6-22 5:10am",
+      "reserved": 0.1,
       "discount": 0.1,
-      "toETH": 393,
-      "bondingCurve": 1
+      "toETH": 531,
+      "bondingCurve": 0.6
     }
   ],
   "inWallet": {
-    "eth": "70000000000000000",
+    "eth": "650000000000000000",
     "jbx": "100000000000000000000"
   },
   "tokenAddress": "0x2Cd0f8DacE506a6240251A09C76769e538595eAB",
-  "totalSupply": "289570",
+  "totalSupply": "193046",
   "holdingSymbol": "WLD",
   "payEvents": [
     {

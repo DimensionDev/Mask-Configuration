@@ -17,7 +17,16 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xb7b852f81cbd8cfba3cb980e493c7ae2fdf78e02",
+      "id": "0x2abeec2b589b1b9b5b1b22373a89a97a481023bbf4186ad3478b5639f756d234-101",
+      "note": null,
+      "timestamp": "1639418456",
+      "txHash": "0x2abeec2b589b1b9b5b1b22373a89a97a481023bbf4186ad3478b5639f756d234"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
