@@ -2,11 +2,11 @@
   {
     "createdAt": "1636939918",
     "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-    "currentBalance": "5124814761945938086486",
+    "currentBalance": "5124294586371939370066",
     "handle": "0x636f6e737469747574696f6e64616f0000000000000000000000000000000000",
     "id": "36",
-    "totalPaid": "11612272919432406769962",
-    "totalRedeemed": "6478340586819497445108",
+    "totalPaid": "11612352919432406769962",
+    "totalRedeemed": "6478940762393496161528",
     "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
     "name": "ConstitutionDAO",
     "infoUri": "https://constitutiondao.com",
@@ -35,9 +35,17 @@
       "jbx": "0"
     },
     "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-    "totalSupply": "5123315536",
+    "totalSupply": "5122795536",
     "holdingSymbol": "PEOPLE",
     "payEvents": [
+      {
+        "amount": "80000000000000000",
+        "beneficiary": "0x7477152b34daa6f18212b03b5b95a7d7ee35f0ad",
+        "id": "0xb05f5644c3c61e121b38975ddefd2774c35261fec7b2d42ab147615ff84866e2-186",
+        "note": null,
+        "timestamp": "1640423654",
+        "txHash": "0xb05f5644c3c61e121b38975ddefd2774c35261fec7b2d42ab147615ff84866e2"
+      },
       {
         "amount": "10000000000000000",
         "beneficiary": "0xa0971b6a7e348c4bed0e65ff5c891230ccf045fc",
@@ -429,17 +437,25 @@
         "note": null,
         "timestamp": "1638167758",
         "txHash": "0xcc19fa6a8f200788f06a57995c93677a2d6e3cac630b04a9acc44fbbf5c85abf"
-      },
-      {
-        "amount": "174874090000000000",
-        "beneficiary": "0x122a507c3d4467033e9dd54f0f62f77fba1bf9fe",
-        "id": "0x7ef55004ee5c5ababfec0c93cda07a18111fbe395cc5f32610f28c8b69236a8e-128",
-        "note": null,
-        "timestamp": "1638165865",
-        "txHash": "0x7ef55004ee5c5ababfec0c93cda07a18111fbe395cc5f32610f28c8b69236a8e"
       }
     ],
     "redeemEvents": [
+      {
+        "amount": "100000000000000000000000",
+        "beneficiary": "0x2278d99337b467f1229441ababdb1356ff26f19a",
+        "id": "0x5201d9da30f9e547085ec591229bdcc8b0340195b8633bf89b6328aa9bc1bf8e-311",
+        "returnAmount": "100029262333119403",
+        "timestamp": "1640441501",
+        "txHash": "0x5201d9da30f9e547085ec591229bdcc8b0340195b8633bf89b6328aa9bc1bf8e"
+      },
+      {
+        "amount": "500000000000000000000000",
+        "beneficiary": "0x228391ab52e6887ae14fb8e972f69cf4a3889918",
+        "id": "0x54a8661217ca2d7f9be5b80b38a5c2f5830412752dc4fbfe3351e341883e1b26-26",
+        "returnAmount": "500146311665597017",
+        "timestamp": "1640425467",
+        "txHash": "0x54a8661217ca2d7f9be5b80b38a5c2f5830412752dc4fbfe3351e341883e1b26"
+      },
       {
         "amount": "100000000000000000000000",
         "beneficiary": "0x07ab4529e88349b0256ad6054e03ae9ae24cdfb1",
@@ -823,22 +839,6 @@
         "returnAmount": "100029264803058591",
         "timestamp": "1639521615",
         "txHash": "0x8a0ce73f6773a82ba19adef534b1fa4abf1b48d56a0b9b198d46147381f78653"
-      },
-      {
-        "amount": "40000000000000000000000",
-        "beneficiary": "0x5a971e08a02184a4f2113f2ef2ad2e4042f2bd6d",
-        "id": "0x93c1331af8176d616e131f01f7e297af34b2f1f9fc670149fa3619f84de65556-375",
-        "returnAmount": "40011705921223436",
-        "timestamp": "1639513333",
-        "txHash": "0x93c1331af8176d616e131f01f7e297af34b2f1f9fc670149fa3619f84de65556"
-      },
-      {
-        "amount": "50000000000000000000000",
-        "beneficiary": "0x7c6b65a489ae8008877182f0f03c96cc010678ae",
-        "id": "0x835d40986e96087fc9440cd04e65f5d408df06c5e268c9de9ed71e0ed185771f-269",
-        "returnAmount": "50014632401529295",
-        "timestamp": "1639511528",
-        "txHash": "0x835d40986e96087fc9440cd04e65f5d408df06c5e268c9de9ed71e0ed185771f"
       }
     ],
     "withdrawEvents": [
@@ -1376,10 +1376,10 @@
   {
     "createdAt": "1626376773",
     "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-    "currentBalance": "5499155579307733839116",
+    "currentBalance": "5499213774093830173601",
     "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
     "id": "1",
-    "totalPaid": "5677304682860866616751",
+    "totalPaid": "5677362877646962951236",
     "totalRedeemed": "37165079400493198329",
     "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
     "name": "JuiceboxDAO",
@@ -1409,9 +1409,17 @@
       "jbx": "218230314000000000000000000"
     },
     "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-    "totalSupply": "2390878599",
+    "totalSupply": "2390895433",
     "holdingSymbol": "JBX",
     "payEvents": [
+      {
+        "amount": "58194786096334485",
+        "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+        "id": "0x5c49f786008e8d508ed434de647aa17eee0d3e5c245a9a22fc216d1e421920bd-183",
+        "note": "Fee from @slice",
+        "timestamp": "1640438794",
+        "txHash": "0x5c49f786008e8d508ed434de647aa17eee0d3e5c245a9a22fc216d1e421920bd"
+      },
       {
         "amount": "82523809523809524",
         "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
@@ -1803,14 +1811,6 @@
         "note": null,
         "timestamp": "1639695924",
         "txHash": "0x7f6f111b20654e063802bd389078cf62e9f405ed8a41dd04692ece9d8fd7c872"
-      },
-      {
-        "amount": "744800000000000",
-        "beneficiary": "0x35d7cbcf17aa133bdfd277616531cc80d7bd3643",
-        "id": "0xa5ed44796436bec6f3750cd4e34c968ae48c8ff83913ec4b41adbd2382b8ec65-95",
-        "note": "JuiceBox - Alex",
-        "timestamp": "1639691958",
-        "txHash": "0xa5ed44796436bec6f3750cd4e34c968ae48c8ff83913ec4b41adbd2382b8ec65"
       }
     ],
     "redeemEvents": [
@@ -6979,9 +6979,9 @@
     "id": "199",
     "totalPaid": "38193835168874699290",
     "totalRedeemed": "0",
-    "uri": "QmUmbByzTD5DaMBkY5oNzKuSDePpsP9AYGNK8g7EkjBUAB",
+    "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
     "name": "MoonDAO",
-    "description": "We're literally going to the moon 🚀 Help us send a fren to space in 2022!",
+    "description": "We're literally going to the moon 🚀 Help us send a fren to space in 2022! Learn more: https://mirror.xyz/pmoncada.eth/uuufJem6v9X-fW3Bu4v1p_3qA5gPf96lZelHUM97BC8",
     "logoUri": "https://jbx.mypinata.cloud/ipfs/QmUFhUbmB59tq36j7YhUF1UvCTzD6XPkFkWVS6wU1MukN3",
     "infoUri": "https://moondao.com",
     "twitter": "OfficialMoonDAO",
@@ -7004,7 +7004,7 @@
       }
     ],
     "inWallet": {
-      "eth": "2410000000000000000",
+      "eth": "2400000000000000000",
       "jbx": "0"
     },
     "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
@@ -8644,7 +8644,7 @@
   {
     "createdAt": "1639277855",
     "creator": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
-    "currentBalance": "16940000000000000000",
+    "currentBalance": "15717909491976975815",
     "handle": "0x736c696365000000000000000000000000000000000000000000000000000000",
     "id": "168",
     "totalPaid": "19740000000000000000",
@@ -8674,8 +8674,8 @@
       }
     ],
     "inWallet": {
-      "eth": "240000000000000000",
-      "jbx": "27856000000000000000000"
+      "eth": "340000000000000000",
+      "jbx": "38798000000000000000000"
     },
     "tokenAddress": "0x6fa5FF63B2752265c6Bd9350591f97A7dAd9e918",
     "totalSupply": "119115000",
@@ -8830,6 +8830,16 @@
     "withdrawEvents": [
       {
         "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+        "beneficiaryTransferAmount": "0",
+        "caller": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+        "fundingCycleId": "315",
+        "id": "168-0x5c49f786008e8d508ed434de647aa17eee0d3e5c245a9a22fc216d1e421920bd",
+        "netTransferAmount": "1163895721926689700",
+        "timestamp": "1640438794",
+        "txHash": "0x5c49f786008e8d508ed434de647aa17eee0d3e5c245a9a22fc216d1e421920bd"
+      },
+      {
+        "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
         "beneficiaryTransferAmount": "1",
         "caller": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
         "fundingCycleId": "314",
@@ -8873,7 +8883,7 @@
       }
     ],
     "inWallet": {
-      "eth": "860000000000000000",
+      "eth": "3210000000000000000",
       "jbx": "0"
     },
     "tokenAddress": null,
@@ -10683,48 +10693,7 @@
     "tokenAddress": null,
     "totalSupply": "711563",
     "holdingSymbol": "Tokens",
-    "payEvents": [
-      {
-        "amount": "100000000000000000",
-        "beneficiary": "0x662423525a9c451910a173144d96db6626e9b518",
-        "id": "0xb785a6f3e2a3465ff0f0c57628436dfbcd2bdb58a08f292ee6782959908fa12c-477",
-        "note": null,
-        "timestamp": "1639254989",
-        "txHash": "0xb785a6f3e2a3465ff0f0c57628436dfbcd2bdb58a08f292ee6782959908fa12c"
-      },
-      {
-        "amount": "34043560000000000",
-        "beneficiary": "0xd0b761395aaf3cb6f79f5a4f7bca9f96c970a4a9",
-        "id": "0x97f006f6621677b2a13a4067fc58b080f1f15890ac7191ed2e0c7477516d619b-317",
-        "note": null,
-        "timestamp": "1639017353",
-        "txHash": "0x97f006f6621677b2a13a4067fc58b080f1f15890ac7191ed2e0c7477516d619b"
-      },
-      {
-        "amount": "450000000000000000",
-        "beneficiary": "0x662423525a9c451910a173144d96db6626e9b518",
-        "id": "0x239ab77e6b5c1112b9133952a20a9a478e49a987e300031b91ff855b43628ee6-78",
-        "note": "Test transfer",
-        "timestamp": "1638830072",
-        "txHash": "0x239ab77e6b5c1112b9133952a20a9a478e49a987e300031b91ff855b43628ee6"
-      },
-      {
-        "amount": "80000000000000000",
-        "beneficiary": "0x662423525a9c451910a173144d96db6626e9b518",
-        "id": "0xbf3c4a69c471643ec7a961b4b6a8b2a9f99ac9399e5f592959bbc56fa245ee26-139",
-        "note": "Test transfer",
-        "timestamp": "1638829666",
-        "txHash": "0xbf3c4a69c471643ec7a961b4b6a8b2a9f99ac9399e5f592959bbc56fa245ee26"
-      },
-      {
-        "amount": "47520270000000000",
-        "beneficiary": "0xfb9979cb3c0c276be52ad261eb9b9a9f7de42dc2",
-        "id": "0x0a9af3681b88f5c653cb0d44a58c4ea366826e98668c02e03d1b89d1937a5acc-186",
-        "note": null,
-        "timestamp": "1638820093",
-        "txHash": "0x0a9af3681b88f5c653cb0d44a58c4ea366826e98668c02e03d1b89d1937a5acc"
-      }
-    ],
+    "payEvents": [],
     "redeemEvents": [],
     "withdrawEvents": [],
     "reservesEvents": []
@@ -11109,10 +11078,10 @@
   {
     "createdAt": "1637996803",
     "creator": "0x314e65de454d78d4f685545824448371fef4aac3",
-    "currentBalance": "110000000000000000",
+    "currentBalance": "130000000000000000",
     "handle": "0x6b7261757365686f75736564616f000000000000000000000000000000000000",
     "id": "68",
-    "totalPaid": "363998940000000000",
+    "totalPaid": "383998940000000000",
     "totalRedeemed": "0",
     "uri": "QmWnyicrUzxk9MVX4Z6T8bKreeZFkTLkW4Sat1C8sLQbzV",
     "name": "KrauseHouseDAO",
@@ -11143,9 +11112,17 @@
       "jbx": "0"
     },
     "tokenAddress": null,
-    "totalSupply": "363998",
+    "totalSupply": "383998",
     "holdingSymbol": "Tokens",
     "payEvents": [
+      {
+        "amount": "20000000000000000",
+        "beneficiary": "0x210a71eccbcfcff1a80a09aeca2acf6ffb77e401",
+        "id": "0x7c59d36d35891fa9afc649456b34eb63422894f07bdde75932da2726292aed69-18",
+        "note": null,
+        "timestamp": "1640444033",
+        "txHash": "0x7c59d36d35891fa9afc649456b34eb63422894f07bdde75932da2726292aed69"
+      },
       {
         "amount": "40000000000000000",
         "beneficiary": "0x3b490503f126f48e640310b028e50338e08ccc72",
@@ -11309,8 +11286,8 @@
       }
     ],
     "inWallet": {
-      "eth": "640000000000000000",
-      "jbx": "100000000000000000000"
+      "eth": "320000000000000000",
+      "jbx": "153998000000000000000000"
     },
     "tokenAddress": "0x2Cd0f8DacE506a6240251A09C76769e538595eAB",
     "totalSupply": "193046",
@@ -11796,7 +11773,7 @@
       }
     ],
     "inWallet": {
-      "eth": "20000000000000000",
+      "eth": "610000000000000000",
       "jbx": "0"
     },
     "tokenAddress": "0xce5D6543C4C9009e83fCE675d74DeB12CCAe421d",
@@ -11998,7 +11975,16 @@
     "tokenAddress": null,
     "totalSupply": "100000",
     "holdingSymbol": "Tokens",
-    "payEvents": [],
+    "payEvents": [
+      {
+        "amount": "100000000000000000",
+        "beneficiary": "0xf9fe3bffc3f00143c1ec6c9f04107e3c601ec0ba",
+        "id": "0xc5979a219eaec87b265c3722e3493796a94d3f613e034b5d67b660f5451cc83a-530",
+        "note": null,
+        "timestamp": "1638000015",
+        "txHash": "0xc5979a219eaec87b265c3722e3493796a94d3f613e034b5d67b660f5451cc83a"
+      }
+    ],
     "redeemEvents": [],
     "withdrawEvents": [],
     "reservesEvents": []
@@ -12228,16 +12214,7 @@
     "tokenAddress": null,
     "totalSupply": "50000",
     "holdingSymbol": "Tokens",
-    "payEvents": [
-      {
-        "amount": "50000000000000000",
-        "beneficiary": "0x220524d62593997335839374d3d043ad6f69666b",
-        "id": "0xc8c7c13f7f4c157e0779d596593e3953edb61f6c99796cca40268c4eaf955f46-464",
-        "note": "Gold&cryptocurrency fly together",
-        "timestamp": "1639231823",
-        "txHash": "0xc8c7c13f7f4c157e0779d596593e3953edb61f6c99796cca40268c4eaf955f46"
-      }
-    ],
+    "payEvents": [],
     "redeemEvents": [],
     "withdrawEvents": [],
     "reservesEvents": []

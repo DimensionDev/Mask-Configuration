@@ -1,10 +1,10 @@
 {
   "createdAt": "1637996803",
   "creator": "0x314e65de454d78d4f685545824448371fef4aac3",
-  "currentBalance": "110000000000000000",
+  "currentBalance": "130000000000000000",
   "handle": "0x6b7261757365686f75736564616f000000000000000000000000000000000000",
   "id": "68",
-  "totalPaid": "363998940000000000",
+  "totalPaid": "383998940000000000",
   "totalRedeemed": "0",
   "uri": "QmWnyicrUzxk9MVX4Z6T8bKreeZFkTLkW4Sat1C8sLQbzV",
   "name": "KrauseHouseDAO",
@@ -35,9 +35,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "363998",
+  "totalSupply": "383998",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x210a71eccbcfcff1a80a09aeca2acf6ffb77e401",
+      "id": "0x7c59d36d35891fa9afc649456b34eb63422894f07bdde75932da2726292aed69-18",
+      "note": null,
+      "timestamp": "1640444033",
+      "txHash": "0x7c59d36d35891fa9afc649456b34eb63422894f07bdde75932da2726292aed69"
+    },
     {
       "amount": "40000000000000000",
       "beneficiary": "0x3b490503f126f48e640310b028e50338e08ccc72",
