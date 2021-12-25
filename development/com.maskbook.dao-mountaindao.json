@@ -1,10 +1,10 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "7476500000000000000",
+  "currentBalance": "8326500000000000000",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
-  "totalPaid": "63886396266900000000",
+  "totalPaid": "64736396266900000000",
   "totalRedeemed": "0",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
   "name": "MountainDAO",
@@ -33,9 +33,17 @@
     "jbx": "560963000000000000000000"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
-  "totalSupply": "63886396",
+  "totalSupply": "64736396",
   "holdingSymbol": "MTDR",
   "payEvents": [
+    {
+      "amount": "850000000000000000",
+      "beneficiary": "0xaf3e28efedd472daec225ea8588753904c43d244",
+      "id": "0x6ccedf5d3729440b3a2b4c8a40a755708a22f55df5d31998179e76584461b9c6-466",
+      "note": "Save the mountains!",
+      "timestamp": "1640406004",
+      "txHash": "0x6ccedf5d3729440b3a2b4c8a40a755708a22f55df5d31998179e76584461b9c6"
+    },
     {
       "amount": "1500000000000000000",
       "beneficiary": "0x6384cc9b8e174464911adfa5e8d4fb79e1b2e0e9",
@@ -427,14 +435,6 @@
       "note": "The mountain will be our Kingdom",
       "timestamp": "1639775623",
       "txHash": "0x35748d204c120696cb17b1daab375968722df70dfc394095ac0b69de394377b3"
-    },
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0xd8696bbd8ce60804f0fc9fdbb73b517e72855f2c",
-      "id": "0x7bdf413477e597603d9cdd16dd5b6de38a9f61a6c069482f13c268ab9421dc1a-421",
-      "note": null,
-      "timestamp": "1639775232",
-      "txHash": "0x7bdf413477e597603d9cdd16dd5b6de38a9f61a6c069482f13c268ab9421dc1a"
     }
   ],
   "redeemEvents": [],
