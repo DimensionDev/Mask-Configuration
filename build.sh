@@ -10,8 +10,12 @@ do
 
     for jsonfile in ./development/$ff*.json; do 
         echo "Validate $jsonfile in development/"
-        npx typescript-json-schema ./types/$ff.ts Schema > ./temp/schema.json
-        npx ajv validate -s ./temp/schema.json -d $jsonfile > /dev/null
+        if [[ ! -f "./temp/$ff.json" ]]; then
+           echo "Generating schema..."
+           npx typescript-json-schema ./types/$ff.ts --strictNullChecks Schema > ./temp/$ff.json
+           echo "Generating schema... done"
+        fi
+        npx ajv validate -s ./temp/$ff.json -d $jsonfile > /dev/null
     done
 
     for jsonfile in ./development/$ff*.json; do
@@ -27,5 +31,5 @@ do
     done
 done
 
-rm ./temp/schema.json
+rm ./temp/*.json
 rmdir ./temp 

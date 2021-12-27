@@ -1,4 +1,4 @@
-type Media = Record<"id" | "website" | "twitter" | "discord" | string, string>;
+type Media = Record<'id' | 'website' | 'twitter' | 'discord' | string, string>;
 
 type BNString = string;
 type HexAddress = string;
@@ -17,14 +17,14 @@ type PeopleTokens = {
 };
 
 type Activity = {
-  action: "pay" | "redeem" | "withdraw" | "reserves";
+  action: 'pay' | 'redeem' | 'withdraw' | 'reserves';
   payload: BNString;
   address: HexAddress;
   timestamp: number;
   message: string;
   media: null | {
     url: string;
-    type: "imaeg" | "video";
+    type: 'image' | 'video';
   };
 };
 
@@ -43,7 +43,7 @@ interface PayEvent {
   amount: BNString;
   beneficiary: HexAddress;
   id: HexString;
-  note: string;
+  note: string | null;
   timestamp: string;
   txHash: HexString;
 }
@@ -86,9 +86,9 @@ type Schema = {
   payDisclosure: string;
   tokens: any[];
   version: number;
-  overflow: PercentRate;
+  overflow: PercentRate | null;
   fundingCycles: FundingCycle[];
-  tokenAddress: HexAddress;
+  tokenAddress: HexAddress | null;
   totalSupply: BNString;
   payEvents: PayEvent[];
   redeemEvents: RedeemEvent[];

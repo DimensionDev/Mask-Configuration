@@ -34,30 +34,23 @@ jobs:
         run: pnpm i
 
       - name: Crawl
-        run: pnpm crawl
-
-      - name: Get Changes
         run: |
-          echo "DIFF_STAT<<EOF" >> $GITHUB_ENV
-          echo "## Updates" >> $GITHUB_ENV
-          echo "" >> $GITHUB_ENV
-          echo "\`\`\`" >> $GITHUB_ENV
-          git diff --stat ':(exclude).github' ':(exclude)scripts' >> $GITHUB_ENV
-          echo "\`\`\`" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          pnpm crawl
+          pnpm build
 
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: ':chore: crawling updates'
-          committer: Maskbook maintainer bot <bot@mask.io>
-          author: Maskbook maintainer bot <bot@mask.io>
-          branch: auto-crawl
-          title: ':chore: crawling updates'
-          body: "## (🤖 I am a robot) updates or error report \n${{ env.DIFF_STAT }}\n\n"
-          assignees: |
-            guanbinrui
-            unclebill
-          draft: false
+      - name: Git Diff
+        id: git-diff
+        if: success()
+        run: |
+          echo "GIT_DIFF<<EOF" >> $GITHUB_ENV
+          git diff development/com.maskbook.dao-* | head -n 200 >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+
+      - name: Commit changes
+        if: ${{ env.GIT_DIFF != '' }}
+        run: |
+          git add .
+          git config --local user.email "bot@mask.io"
+          git config --local user.name "commit bot"
+          git commit -m "`date '+chore: crawl dao data from juicebox at %Y-%m-%d %H:%M'`"
+          git push origin master
