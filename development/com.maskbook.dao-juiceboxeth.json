@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5499213774093830173601",
+  "currentBalance": "5499574734069544459316",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5677362877646962951236",
+  "totalPaid": "5677723837622677236951",
   "totalRedeemed": "37165079400493198329",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -34,9 +34,49 @@
     "jbx": "218230314000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2390895433",
+  "totalSupply": "2390999849",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0xe9eddde6af419faab642921e24f68349ec5b9071",
+      "id": "0x6734dfad00e37e5a1b8513b46fdd8e5eab8ea4fc51c9d3c4b2c2364d7a1dc01d-377",
+      "note": "WGMI",
+      "timestamp": "1640540699",
+      "txHash": "0x6734dfad00e37e5a1b8513b46fdd8e5eab8ea4fc51c9d3c4b2c2364d7a1dc01d"
+    },
+    {
+      "amount": "18000000000000000",
+      "beneficiary": "0x223f073524ce324011f2ede55e6d10e6cc3f98b4",
+      "id": "0x67b61d05ceb2d6af5d063bda9bfbe69af97eba6f6c6807043b9ac4a335d6c0f5-266",
+      "note": null,
+      "timestamp": "1640506686",
+      "txHash": "0x67b61d05ceb2d6af5d063bda9bfbe69af97eba6f6c6807043b9ac4a335d6c0f5"
+    },
+    {
+      "amount": "285714285714285715",
+      "beneficiary": "0xcc1cb7a5e84ed54267c57902a05ee86ab1b5b78c",
+      "id": "0xb81d222f6aed4e4e43561a8a37121ead27207bc61669818a5d8e542a43457c87-566",
+      "note": "Fee from @kingpindao",
+      "timestamp": "1640479398",
+      "txHash": "0xb81d222f6aed4e4e43561a8a37121ead27207bc61669818a5d8e542a43457c87"
+    },
+    {
+      "amount": "27000000000000000",
+      "beneficiary": "0x29dff05a66e9c23605039df66f53ada4172ad3a9",
+      "id": "0x9bbbc8b534a49a93524a449156b71c497030e02d7054b64f492a1704a8ff88c3-52",
+      "note": null,
+      "timestamp": "1640477620",
+      "txHash": "0x9bbbc8b534a49a93524a449156b71c497030e02d7054b64f492a1704a8ff88c3"
+    },
+    {
+      "amount": "245690000000000",
+      "beneficiary": "0x08e3f42550699bc49bd92fd48b1efd61031ba7f3",
+      "id": "0x668bcff7fa59bb1272a08d1e89b4973cf030d7a8044b41b66094d1f618964e2d-170",
+      "note": "tickle my pickle YEAH!",
+      "timestamp": "1640447784",
+      "txHash": "0x668bcff7fa59bb1272a08d1e89b4973cf030d7a8044b41b66094d1f618964e2d"
+    },
     {
       "amount": "58194786096334485",
       "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
@@ -396,46 +436,6 @@
       "note": null,
       "timestamp": "1639723487",
       "txHash": "0xa338da027cb7a6cc8109bde0f9adc66f51075aab21e751ecbb8a055f598b2530"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x59da03e05a9baa78c2978b3b1374d849e2be3cab",
-      "id": "0xaf78a482eaaa2a369489ff5899fc79d0ca98d539aad9c49d711d45fe1fa0a0fe-527",
-      "note": null,
-      "timestamp": "1639723044",
-      "txHash": "0xaf78a482eaaa2a369489ff5899fc79d0ca98d539aad9c49d711d45fe1fa0a0fe"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xb7ee3ef333b686885ffef3acc3679fbeff9b0cad",
-      "id": "0x9a4c5a1cff45b169048d131d9c9c97e73b4f05fdff24f3c0512608084d71831e-120",
-      "note": null,
-      "timestamp": "1639719228",
-      "txHash": "0x9a4c5a1cff45b169048d131d9c9c97e73b4f05fdff24f3c0512608084d71831e"
-    },
-    {
-      "amount": "250000000000000000",
-      "beneficiary": "0xeea45c31b0131c41b7c8dc5a4a93feae475a80ca",
-      "id": "0x6013ea228c6476060b8ba314a0e5254bf70f07908bf35275929a1a17146e328b-19",
-      "note": null,
-      "timestamp": "1639711620",
-      "txHash": "0x6013ea228c6476060b8ba314a0e5254bf70f07908bf35275929a1a17146e328b"
-    },
-    {
-      "amount": "12300000000000000",
-      "beneficiary": "0x823b25d2d72d7ef0b4c8ac24c1b593793931f916",
-      "id": "0x30bcdd74b100a5a361c1afc019ad29cabbacde32e126a2c093e2bd7d6fc24c18-282",
-      "note": "Privileged to be part of this cause. Transparency and community driven infrastructure",
-      "timestamp": "1639703261",
-      "txHash": "0x30bcdd74b100a5a361c1afc019ad29cabbacde32e126a2c093e2bd7d6fc24c18"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x75b215f42e0a8893b4c9654a1849f5b1c1b92bd7",
-      "id": "0x7f6f111b20654e063802bd389078cf62e9f405ed8a41dd04692ece9d8fd7c872-693",
-      "note": null,
-      "timestamp": "1639695924",
-      "txHash": "0x7f6f111b20654e063802bd389078cf62e9f405ed8a41dd04692ece9d8fd7c872"
     }
   ],
   "redeemEvents": [

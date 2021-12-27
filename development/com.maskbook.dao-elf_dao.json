@@ -1,10 +1,10 @@
 {
   "createdAt": "1639382075",
   "creator": "0xe10b7610908d8b0ac4066f02c24e76007fff0ec4",
-  "currentBalance": "10527777980000000000",
+  "currentBalance": "11802777980000000000",
   "handle": "0x656c6664616f0000000000000000000000000000000000000000000000000000",
   "id": "177",
-  "totalPaid": "10527777980000000000",
+  "totalPaid": "11802777980000000000",
   "totalRedeemed": "0",
   "uri": "QmcZfZN67rdGam39Y3MpjWUo2HwEyV41iSznE3j8YDbok9",
   "name": "elfDAO",
@@ -18,6 +18,38 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "25000000000000000",
+      "beneficiary": "0xa4177d9362e9ff25aa43078f009a9f5dd490fff3",
+      "id": "0x6647493488106181afa8e0b2df9cd3599cdbc43a45d8b3c2a5c2cab5675871de-366",
+      "note": null,
+      "timestamp": "1640529709",
+      "txHash": "0x6647493488106181afa8e0b2df9cd3599cdbc43a45d8b3c2a5c2cab5675871de"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xa4177d9362e9ff25aa43078f009a9f5dd490fff3",
+      "id": "0xde193c1cba8be0432f22cf2a1ffcd82c655979520c56d07472244e65816abe8a-54",
+      "note": "Merry Christmas to your Team and all those that you'll be bringing joy to this holiday season!",
+      "timestamp": "1640528242",
+      "txHash": "0xde193c1cba8be0432f22cf2a1ffcd82c655979520c56d07472244e65816abe8a"
+    },
+    {
+      "amount": "1050000000000000000",
+      "beneficiary": "0x5207948d16d4d78893692d369ae62888aa398f58",
+      "id": "0xd7186c92b0e091cf40150abd74a8d6f9f1ee0ff0f4eda2f353ead33a148e989e-459",
+      "note": null,
+      "timestamp": "1640505071",
+      "txHash": "0xd7186c92b0e091cf40150abd74a8d6f9f1ee0ff0f4eda2f353ead33a148e989e"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x616cad18642f45d3fa5fcaad0a2d81764a9cba84",
+      "id": "0x8b9451b5d6924ed73ef952508b56e926a0659c27930f860222939763064a9fe8-420",
+      "note": "have a merry jolly christmas",
+      "timestamp": "1640460086",
+      "txHash": "0x8b9451b5d6924ed73ef952508b56e926a0659c27930f860222939763064a9fe8"
+    },
     {
       "amount": "123400000000000000",
       "beneficiary": "0x19a876002a6c8e54c2363f97dd9d3d9b21d7e4ee",
@@ -385,41 +417,19 @@
       "note": "Happy holiday guys https://jbx.mypinata.cloud/ipfs/QmS5NonLcP6dJXvgLFDGhSuB5i8YUnUMRn4DxKvyuu1ijK",
       "timestamp": "1640043389",
       "txHash": "0x2bc152299676db57e803aa70a569033e35f5b100c3ad2a64dc160d8f4d8e0846"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x18ee15f0c12b3035c84a9a1027db1e1151308ac5",
-      "id": "0xdec16e6457a5e0fb219cda4c90120896e677ec99abe4c21efd0cdc6750e37613-274",
-      "note": "Happy Holidays from Lobby ❤️",
-      "timestamp": "1640041932",
-      "txHash": "0xdec16e6457a5e0fb219cda4c90120896e677ec99abe4c21efd0cdc6750e37613"
-    },
-    {
-      "amount": "25619250000000000",
-      "beneficiary": "0xd4095d8f71f0cb46292e16a33f973161b304534d",
-      "id": "0x8f570c0bcd820ca399fff2d7237c985a84927275a2a8678ef9bc138b372c57e0-123",
-      "note": null,
-      "timestamp": "1640041546",
-      "txHash": "0x8f570c0bcd820ca399fff2d7237c985a84927275a2a8678ef9bc138b372c57e0"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x377742271e55516a57739409e4e6d1a4d8b70954",
-      "id": "0xd41227e0dad4811bd1eb3d1c201a0c614dc8ff651e8adef596473ca29ef765ff-336",
-      "note": "Merry Christmas Mfers!~~",
-      "timestamp": "1640040048",
-      "txHash": "0xd41227e0dad4811bd1eb3d1c201a0c614dc8ff651e8adef596473ca29ef765ff"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x78b037b39704e88a82dd23cfbe1f57f6aef8ebc5",
-      "id": "0xee95031c340acb7ead15978be1d0db17d2faa0ed59623f1d0f18af49b1b45af7-106",
-      "note": "for the kidz",
-      "timestamp": "1640037389",
-      "txHash": "0xee95031c340acb7ead15978be1d0db17d2faa0ed59623f1d0f18af49b1b45af7"
     }
   ],
   "redeemEvents": [],
   "withdrawEvents": [],
-  "reservesEvents": []
+  "reservesEvents": [
+    {
+      "beneficiary": "0xeb846e297c6f34337e2a6a65136ff8f29d48dd3a",
+      "beneficiaryTicketAmount": "0",
+      "caller": "0xa4177d9362e9ff25aa43078f009a9f5dd490fff3",
+      "count": "3886666733400000000000000",
+      "id": "177-0x6f28e8690e44b33158d1a5197fa012d61708457645d78e8abc68f61e62667c08",
+      "timestamp": "1640528717",
+      "txHash": "0x6f28e8690e44b33158d1a5197fa012d61708457645d78e8abc68f61e62667c08"
+    }
+  ]
 }

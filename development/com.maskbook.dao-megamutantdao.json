@@ -1,11 +1,11 @@
 {
   "createdAt": "1638415848",
   "creator": "0x07cbd4e4473140b6078aa987907aaff5e500b9f1",
-  "currentBalance": "11531069000000000000",
+  "currentBalance": "1241069000000000000",
   "handle": "0x6d6567616d7574616e7464616f00000000000000000000000000000000000000",
   "id": "127",
   "totalPaid": "13442069000000000000",
-  "totalRedeemed": "1911000000000000000",
+  "totalRedeemed": "12201000000000000000",
   "uri": "QmQr5odGuxZN8LyqPzbgy1fXryjkhvmhMjSAZLVDjTprCQ",
   "name": "MegaMutantDAO",
   "infoUri": "https://www.megamutantdao.com/",
@@ -34,7 +34,7 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "11531069",
+  "totalSupply": "1241069",
   "holdingSymbol": "Tokens",
   "payEvents": [
     {
@@ -143,6 +143,30 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "490000000000000000000000",
+      "beneficiary": "0x69bab6810fa99475854bca0a3dd72ae6a0728ece",
+      "id": "0x79439d31bfd6226c047e91dd6f4bc5925cfe88607a84848505399383de303b45-179",
+      "returnAmount": "490000000000000000",
+      "timestamp": "1640550645",
+      "txHash": "0x79439d31bfd6226c047e91dd6f4bc5925cfe88607a84848505399383de303b45"
+    },
+    {
+      "amount": "800000000000000000000000",
+      "beneficiary": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+      "id": "0x966381527052ccca7855f14088109afef2d5081c9ef708b61524e4d543c57bbe-393",
+      "returnAmount": "800000000000000000",
+      "timestamp": "1640458937",
+      "txHash": "0x966381527052ccca7855f14088109afef2d5081c9ef708b61524e4d543c57bbe"
+    },
+    {
+      "amount": "9000000000000000000000000",
+      "beneficiary": "0x841b13b5d54752a928221c834acf312cedadd9d3",
+      "id": "0xb2fb3ef793c00b5b2987d82d127df5ec790b2e286f427b00be4a77760c5e35ce-205",
+      "returnAmount": "9000000000000000000",
+      "timestamp": "1640458534",
+      "txHash": "0xb2fb3ef793c00b5b2987d82d127df5ec790b2e286f427b00be4a77760c5e35ce"
+    },
     {
       "amount": "68600000000000000000000",
       "beneficiary": "0xc9464b8f40c8c1bcbee59959e581627e5ef1e654",
