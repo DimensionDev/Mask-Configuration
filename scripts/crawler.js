@@ -484,8 +484,7 @@ async function crawlProjects() {
   }
   await closeBrowesr();
 
-  fs.writeFile('./development/com.maskbook.dao.json', JSON.stringify(data, null, 2));
-  fs.writeFile('./not-found.json', JSON.stringify(notFoundList, null, 2));
+  console.log(`Not found daos:`, notFoundList.join(', '));
 }
 
 crawlProjects();
