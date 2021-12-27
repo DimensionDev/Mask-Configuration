@@ -26,3 +26,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./production
+          cname: configuration.r2d2.to
