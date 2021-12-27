@@ -3,8 +3,8 @@
 ## Pattern
 
 ```
-com.maskbook.[app].json # Appllication Configuration
-com.maskbook.[app]-[sub].json # Appllication Sub-Configuration
+com.maskbook.[app].json # Application Configuration
+com.maskbook.[app]-[sub].json # Application Sub-Configuration
 ```
 
 ## Configuration
