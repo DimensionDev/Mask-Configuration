@@ -17,14 +17,16 @@
   "version": 3,
   "payButton": "Mint Seed Character NFT(price:0.08ETH)",
   "payDisclosure": "Welcome to your HashWorld",
+  "overflow": 1,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
-      "target": "400000000000000000000",
-      "duration": "30 days",
-      "start": "11-27-21 8:02am",
-      "end": "12-27-21 8:02am",
-      "reserved": 0
+      "target": "0",
+      "duration": "Not set",
+      "reserved": 0,
+      "discount": 0,
+      "toETH": 0,
+      "bondingCurve": 0
     }
   ],
   "inWallet": {
