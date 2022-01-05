@@ -1,11 +1,11 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "53133265801962954351",
+  "currentBalance": "51729584163806577810",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
   "totalPaid": "66395396266900000000",
-  "totalRedeemed": "9976734198037045649",
+  "totalRedeemed": "11380415836193422190",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
   "name": "MountainDAO",
   "description": "We are buying a mountain in Virginia (to start)!  An experiment in decentralization, Real Estate tokenization, and the power of memes.  Starting with one mountain, with the goal of decentralization & preservation of mountains around the world.  A new take on public land!  Link to the first mountain:  https://www.zillow.com/homedetails/TRACT-11-Country-Ln-11-Thaxton-VA-24174/2067406682_zpid/?utm_campaign=iosappmessage&utm_medium=referral&utm_source=txtshare",
@@ -31,7 +31,7 @@
     "jbx": "991000000000000000000"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
-  "totalSupply": "55134284",
+  "totalSupply": "53677732",
   "holdingSymbol": "MTDR",
   "payEvents": [
     {
@@ -438,6 +438,30 @@
   "redeemEvents": [
     {
       "amount": "800000000000000000000000",
+      "beneficiary": "0x0f5b865344a3e5e3bc074cb8a466fcb95105a741",
+      "id": "0x9ac4aace3ced99e6d9507b211f914b57b236fc99263649cb6520ebed9b2c4491-290",
+      "returnAmount": "770961359790176549",
+      "timestamp": "1641400134",
+      "txHash": "0x9ac4aace3ced99e6d9507b211f914b57b236fc99263649cb6520ebed9b2c4491"
+    },
+    {
+      "amount": "200000000000000000000000",
+      "beneficiary": "0xf6a39754ab1a18d19d2cf01dd1941c4b0d2bcf15",
+      "id": "0xf74ae2dd3898b00e67fc825dfddaddaa960ae9dd23341511bb936fb991e57249-346",
+      "returnAmount": "192740339947544137",
+      "timestamp": "1641399482",
+      "txHash": "0xf74ae2dd3898b00e67fc825dfddaddaa960ae9dd23341511bb936fb991e57249"
+    },
+    {
+      "amount": "456552000000000000000000",
+      "beneficiary": "0x75edd1f34e70d8b0dabe092af4991459f5d1ba99",
+      "id": "0xe15cffbb2087beca8c2af7ad7fe299adbf87085f91292ef3f1d8346d8fc4ad35-210",
+      "returnAmount": "439979938418655855",
+      "timestamp": "1641399482",
+      "txHash": "0xe15cffbb2087beca8c2af7ad7fe299adbf87085f91292ef3f1d8346d8fc4ad35"
+    },
+    {
+      "amount": "800000000000000000000000",
       "beneficiary": "0x7e1e43111b97c816528f8dea236d75028f3461f8",
       "id": "0x92966379743980d3860e0fe7ca71b95c3b71a254fb65248bd08fb82066e2b461-68",
       "returnAmount": "770961350922149849",
@@ -742,6 +766,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
+      "beneficiaryTicketAmount": "0",
+      "caller": "0x75edd1f34e70d8b0dabe092af4991459f5d1ba99",
+      "count": "326800000000000000000000",
+      "id": "149-0xcbad5effad0244bd46ba38cebe0ed46c04e9119c69181398a6a93890bf566337",
+      "timestamp": "1641399428",
+      "txHash": "0xcbad5effad0244bd46ba38cebe0ed46c04e9119c69181398a6a93890bf566337"
+    },
     {
       "beneficiary": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
       "beneficiaryTicketAmount": "0",
