@@ -1,10 +1,10 @@
 {
   "createdAt": "1637265183",
   "creator": "0xfdbb2e2f9b2b40e0ba723fcda1cb2c6c972e95a1",
-  "currentBalance": "230482436704966779",
+  "currentBalance": "234482436704966779",
   "handle": "0x6166726f64616f00000000000000000000000000000000000000000000000000",
   "id": "49",
-  "totalPaid": "430319080000000000",
+  "totalPaid": "434319080000000000",
   "totalRedeemed": "0",
   "uri": "Qmb7wBAGxsCJrwUBMstVYRr5pb3V98uY471VqsgLA5Gd1M",
   "name": "AFRO DAO",
@@ -17,14 +17,14 @@
   "payDisclosure": "AFRODAO is a Governance Token and thus a Utility Token and not an investment or security!",
   "tokens": [],
   "version": 3,
+  "overflow": 1,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
-      "target": "20000000000000000000000000",
-      "duration": "40 days",
-      "start": "11-22-21 8:14pm",
-      "end": "1-1-22 8:14pm",
-      "reserved": 0
+      "target": "0",
+      "duration": "Not set",
+      "discount": 0,
+      "bondingCurve": 0
     }
   ],
   "inWallet": {
@@ -32,9 +32,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "430319",
+  "totalSupply": "434319",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "4000000000000000",
+      "beneficiary": "0xc939519869c946e4bdca8fd0b6459048c4aebae2",
+      "id": "0x4e5a4aad9f8472f808917fc569e96612632174715ddd6c90538697bd0fc47cff-337",
+      "note": "\"The only thing that white people have that black people need, or should want, is power-and no one holds power forever.\" ~James Baldwin",
+      "timestamp": "1640730923",
+      "txHash": "0x4e5a4aad9f8472f808917fc569e96612632174715ddd6c90538697bd0fc47cff"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x0a6a8df068b5e6ac67c778860345a59292585a34",

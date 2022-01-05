@@ -1,11 +1,11 @@
 {
   "createdAt": "1638415848",
   "creator": "0x07cbd4e4473140b6078aa987907aaff5e500b9f1",
-  "currentBalance": "1241069000000000000",
+  "currentBalance": "1226969000000000000",
   "handle": "0x6d6567616d7574616e7464616f00000000000000000000000000000000000000",
   "id": "127",
-  "totalPaid": "13442069000000000000",
-  "totalRedeemed": "12201000000000000000",
+  "totalPaid": "13447569000000000000",
+  "totalRedeemed": "12220600000000000000",
   "uri": "QmQr5odGuxZN8LyqPzbgy1fXryjkhvmhMjSAZLVDjTprCQ",
   "name": "MegaMutantDAO",
   "infoUri": "https://www.megamutantdao.com/",
@@ -23,20 +23,26 @@
       "toETHSymbol": "PEOPLE",
       "target": "0",
       "duration": "Not set",
-      "reserved": 0.02,
       "discount": 0,
-      "toETH": 980,
       "bondingCurve": 1
     }
   ],
   "inWallet": {
-    "eth": "3210000000000000000",
+    "eth": "6230000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "1241069",
+  "totalSupply": "1226969",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "5500000000000000",
+      "beneficiary": "0xa24d595e6b29a8bf4d52b848b7f70a65b9d6bd59",
+      "id": "0x20d5bc8a44134d6ec34e177c712eee983b7a0edea833e2d74edddda77f097c57-355",
+      "note": null,
+      "timestamp": "1641118472",
+      "txHash": "0x20d5bc8a44134d6ec34e177c712eee983b7a0edea833e2d74edddda77f097c57"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0xa26933943e16f973b5e279d9748082d182530423",
@@ -143,6 +149,14 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "19600000000000000000000",
+      "beneficiary": "0xa26933943e16f973b5e279d9748082d182530423",
+      "id": "0xb40fa1f865e4def1fd645996c946a09cfded7c81d222f625a14555fb99aea900-411",
+      "returnAmount": "19600000000000000",
+      "timestamp": "1641136892",
+      "txHash": "0xb40fa1f865e4def1fd645996c946a09cfded7c81d222f625a14555fb99aea900"
+    },
     {
       "amount": "490000000000000000000000",
       "beneficiary": "0x69bab6810fa99475854bca0a3dd72ae6a0728ece",

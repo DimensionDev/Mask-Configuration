@@ -1,10 +1,10 @@
 {
   "createdAt": "1639857191",
   "creator": "0x2a1c2d96b1ffd82830cce8ba8c8fe5a192299719",
-  "currentBalance": "174213790000000000",
+  "currentBalance": "311879150000000000",
   "handle": "0x636f6c6f6e7964616f0000000000000000000000000000000000000000000000",
   "id": "202",
-  "totalPaid": "174213790000000000",
+  "totalPaid": "311879150000000000",
   "totalRedeemed": "0",
   "uri": "QmX9qd18oHYep21JoKvpCS4z1AJ6p8ZMGJi1joh1fbdC8g",
   "name": "ColonyDAO",
@@ -22,20 +22,34 @@
       "toETHSymbol": "PLANT",
       "target": "0",
       "duration": "Not set",
-      "reserved": 0.12,
       "discount": 0,
-      "toETH": 880,
       "bondingCurve": 1
     }
   ],
   "inWallet": {
-    "eth": "10000000000000000",
+    "eth": "40000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0xDdDC10FEd732188e50fa46a68c5414fc9A2657Fd",
-  "totalSupply": "174213",
+  "totalSupply": "311879",
   "holdingSymbol": "PLANT",
   "payEvents": [
+    {
+      "amount": "124200000000000000",
+      "beneficiary": "0x853449d9b462c31bb475e845c338eb15d3dbe1bf",
+      "id": "0xc4143b004a24a6c460c0e71034c1e08d0a8eeb865e3d1cc4f8552137705d310e-272",
+      "note": "I'm coming https://jbx.mypinata.cloud/ipfs/QmQhD7TiUF1ZFYFoMhY9cKiftCbpWqxQQKiysexmiivpec",
+      "timestamp": "1640709839",
+      "txHash": "0xc4143b004a24a6c460c0e71034c1e08d0a8eeb865e3d1cc4f8552137705d310e"
+    },
+    {
+      "amount": "13465360000000000",
+      "beneficiary": "0x41b8c67fee226dff089c11b206cbb390553d3b8e",
+      "id": "0x8dded9df0a3a4f1838567a782bc4ea6c154f9ca78eaa82eb231bebb2d4ff7457-403",
+      "note": "This is a beautiful thing to be a part of. To the moon🚀",
+      "timestamp": "1640639116",
+      "txHash": "0x8dded9df0a3a4f1838567a782bc4ea6c154f9ca78eaa82eb231bebb2d4ff7457"
+    },
     {
       "amount": "12316510000000000",
       "beneficiary": "0x13d67436b4fd1ea8aee2003813d7be785c1479e4",

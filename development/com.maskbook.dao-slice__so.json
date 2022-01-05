@@ -1,10 +1,10 @@
 {
   "createdAt": "1639277855",
   "creator": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
-  "currentBalance": "15717909491976975815",
+  "currentBalance": "35401174379565729668",
   "handle": "0x736c696365000000000000000000000000000000000000000000000000000000",
   "id": "168",
-  "totalPaid": "19740000000000000000",
+  "totalPaid": "40740000000000000000",
   "totalRedeemed": "0",
   "uri": "QmdmPvxP2P8t1nm4yEnSNzfWvQF8H4C4VUB4bYB6aKCJTB",
   "name": "Slice",
@@ -22,22 +22,28 @@
       "toETHSymbol": "SLX",
       "target": "5000000000000000000000",
       "duration": "14 days",
-      "start": "12-15-21 5:38pm",
-      "end": "12-29-21 5:38pm",
-      "reserved": 0.35,
+      "start": "12-29-21 5:38pm",
+      "end": "1-12-22 5:38pm",
       "discount": 0.1,
-      "toETH": 585,
       "bondingCurve": 0.65
     }
   ],
   "inWallet": {
-    "eth": "340000000000000000",
-    "jbx": "38798000000000000000000"
+    "eth": "440000000000000000",
+    "jbx": "50587000000000000000000"
   },
   "tokenAddress": "0x6fa5FF63B2752265c6Bd9350591f97A7dAd9e918",
-  "totalSupply": "119115000",
+  "totalSupply": "138015000",
   "holdingSymbol": "SLX",
   "payEvents": [
+    {
+      "amount": "21000000000000000000",
+      "beneficiary": "0x4e14fc11f58b64740e66e4b1aa188a4b007c0eab",
+      "id": "0x65b3d0c1111cd360228dd2df0152f5b3b2fb97bc5ffe9390552f19798ea8c83e-247",
+      "note": "slicin' and dicin'",
+      "timestamp": "1640797230",
+      "txHash": "0x65b3d0c1111cd360228dd2df0152f5b3b2fb97bc5ffe9390552f19798ea8c83e"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x4bba239c9cc83619228457502227d801e4738ba0",
@@ -185,6 +191,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "beneficiaryTransferAmount": "1",
+      "caller": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "fundingCycleId": "381",
+      "id": "168-0x3a34d0b809e7bf039377408b5c45f3864f1703afd635da547e7e2460ed57927f",
+      "netTransferAmount": "1254033440391662997",
+      "timestamp": "1640948849",
+      "txHash": "0x3a34d0b809e7bf039377408b5c45f3864f1703afd635da547e7e2460ed57927f"
+    },
     {
       "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
       "beneficiaryTransferAmount": "0",

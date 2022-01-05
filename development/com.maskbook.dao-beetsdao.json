@@ -1,7 +1,7 @@
 {
   "createdAt": "1638237611",
   "creator": "0x2fc11e3776224d727c74582a1a4044111ac2d159",
-  "currentBalance": "24218255787886705910",
+  "currentBalance": "15676570950682505638",
   "handle": "0x6579657a00000000000000000000000000000000000000000000000000000000",
   "id": "109",
   "totalPaid": "27098558590000000000",
@@ -17,24 +17,21 @@
   "payDisclosure": "Holders of $EYEZ will join a vibrant community of collectors dreaming of the future of Web3. $EYEZ holders will choose derivative works to be commissioned by the community. Should the project be unsuccessful at acquiring “Decentral Eyes Dogg”, we will refund your contribution excluding gas fees and/or allow the holder to convert any portion of the $EYEZ token balance claimable in their Juicebox account.",
   "tokens": [],
   "version": 3,
-  "overflow": 1,
   "fundingCycles": [
     {
       "toETHSymbol": "EYEZ",
       "target": "0",
       "duration": "Not set",
-      "reserved": 0,
       "discount": 0,
-      "toETH": 1,
-      "bondingCurve": 1
+      "bondingCurve": 0
     }
   ],
   "inWallet": {
-    "eth": "80000000000000000",
-    "jbx": "11000000000000000000"
+    "eth": "2150000000000000000",
+    "jbx": "76490000000000000000000"
   },
   "tokenAddress": "0x55654375e56b4474a572c137b42F10993296FC0a",
-  "totalSupply": "19432556",
+  "totalSupply": "24867318",
   "holdingSymbol": "EYEZ",
   "payEvents": [
     {
@@ -555,6 +552,36 @@
   "withdrawEvents": [
     {
       "beneficiary": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "beneficiaryTransferAmount": "2329447747532221170",
+      "caller": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "fundingCycleId": "365",
+      "id": "109-0x31056910b46308a10942ac86f2c9001531a509dd6dad652e8e59b6925976094d",
+      "netTransferAmount": "2329447747532221170",
+      "timestamp": "1640635081",
+      "txHash": "0x31056910b46308a10942ac86f2c9001531a509dd6dad652e8e59b6925976094d"
+    },
+    {
+      "beneficiary": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "beneficiaryTransferAmount": "2322196077064902111",
+      "caller": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "fundingCycleId": "365",
+      "id": "109-0x4754b862867debfb1f46dd59586a2333c81072eaf493f7fbb084fa859cd2394c",
+      "netTransferAmount": "2322196077064902111",
+      "timestamp": "1640634002",
+      "txHash": "0x4754b862867debfb1f46dd59586a2333c81072eaf493f7fbb084fa859cd2394c"
+    },
+    {
+      "beneficiary": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "beneficiaryTransferAmount": "3483294115597353167",
+      "caller": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "fundingCycleId": "365",
+      "id": "109-0xa8f686ddd0c21c61f8436bd47de4c72c3c28be0aae3949f90ff9c104919a8fee",
+      "netTransferAmount": "3483294115597353167",
+      "timestamp": "1640633427",
+      "txHash": "0xa8f686ddd0c21c61f8436bd47de4c72c3c28be0aae3949f90ff9c104919a8fee"
+    },
+    {
+      "beneficiary": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
       "beneficiaryTransferAmount": "952380952380952",
       "caller": "0xaaddfe8d736234de2d25b4405e7eb72858aed2c6",
       "fundingCycleId": "244",
@@ -564,5 +591,15 @@
       "txHash": "0x8cd3f11014127430d17bc09e5c447032748051082944c6e5f4f871b051785e56"
     }
   ],
-  "reservesEvents": []
+  "reservesEvents": [
+    {
+      "beneficiary": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "beneficiaryTicketAmount": "5434761718000000000000000",
+      "caller": "0x1768a1f66a6f9708696fc67ba0ff82476c903288",
+      "count": "5434761718000000000000000",
+      "id": "109-0xbdeaa497926d4be8077e99e0a280f19bd3199cf06a23e7eb06a85750749b4ab0",
+      "timestamp": "1640636114",
+      "txHash": "0xbdeaa497926d4be8077e99e0a280f19bd3199cf06a23e7eb06a85750749b4ab0"
+    }
+  ]
 }

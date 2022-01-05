@@ -1,43 +1,73 @@
 {
   "createdAt": "1639767871",
   "creator": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
-  "currentBalance": "1600000000000000000",
+  "currentBalance": "1200000000000000000",
   "handle": "0x6f66666572626f7464616f000000000000000000000000000000000000000000",
   "id": "197",
-  "totalPaid": "1600000000000000000",
+  "totalPaid": "5200000000000000000",
   "totalRedeemed": "0",
-  "uri": "QmR3b48uWHvdTfV2ZERbQhfZpb6WB5UJR7KRpmQjo488ph",
+  "uri": "QmPiridEqEhoLwzbKdNkXAgKJ8YxP3GhVgSmtHdUSaYDFJ",
   "name": "Offer Bot DAO",
-  "infoUri": "TBD",
-  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmcRMxMD4PHNzftHsdZaFWRBND3HGHHAQtYUjqpvdb49Vi",
   "description": "Build and fund an Opensea offer bot to buy and sell blue chip NFTS.",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmcRMxMD4PHNzftHsdZaFWRBND3HGHHAQtYUjqpvdb49Vi",
+  "infoUri": "TBD",
   "twitter": "offerbotdao",
-  "discord": "https://discord.gg/6qAQzvVd",
-  "tokens": [],
-  "version": 3,
+  "discord": "https://discord.gg/uJA3KxkK",
   "payButton": "Add to Offer Bot DAO",
   "payDisclosure": "Offer Bot DAO contracts are unaudited, and may be vulnerable to bugs or hacks. All funds moved through Offer Bot DAO could be lost or stolen. Offer Bot DAO is not liable for any losses by projects or their supporters.",
+  "tokens": [],
+  "version": 3,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
       "target": "10476190476190476191",
       "duration": "14 days",
-      "start": "12-17-21 7:04pm",
-      "end": "12-31-21 7:04pm",
-      "reserved": 0.05,
+      "start": "12-31-21 7:04pm",
+      "end": "1-14-22 7:04pm",
       "discount": 0.2,
-      "toETH": 950,
       "bondingCurve": 0.9
     }
   ],
   "inWallet": {
-    "eth": "2270000000000000000",
-    "jbx": "62676000000000000000000"
+    "eth": "60000000000000000",
+    "jbx": "24794000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "1600000",
+  "totalSupply": "4480000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "1200000000000000000",
+      "beneficiary": "0x98db50a1a4cbc6e0908a5d7c38688cce45a88d3e",
+      "id": "0xcbf9283c7eeb9cd0034b00565da6b864607d3f3c5bc1625729749cdf7cada700-448",
+      "note": "🪂 ",
+      "timestamp": "1641354769",
+      "txHash": "0xcbf9283c7eeb9cd0034b00565da6b864607d3f3c5bc1625729749cdf7cada700"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x98db50a1a4cbc6e0908a5d7c38688cce45a88d3e",
+      "id": "0xeb119538812af07a5176b404ff86376968ba06f61daab103e8b528cb55d19847-490",
+      "note": "🚀",
+      "timestamp": "1641314916",
+      "txHash": "0xeb119538812af07a5176b404ff86376968ba06f61daab103e8b528cb55d19847"
+    },
+    {
+      "amount": "450000000000000000",
+      "beneficiary": "0x008ba4907924f86c62fbb31fe4a0dfe91c0e6acc",
+      "id": "0x8be97480865ff09ba65a659d95fdd9361913841d55aaa2d441014f770f263875-92",
+      "note": "lfg",
+      "timestamp": "1641066283",
+      "txHash": "0x8be97480865ff09ba65a659d95fdd9361913841d55aaa2d441014f770f263875"
+    },
+    {
+      "amount": "950000000000000000",
+      "beneficiary": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
+      "id": "0x0f92ee89ad15d32a6926cbdf44b9398d2b554a33112c75eeab6d88c80be9469d-245",
+      "note": null,
+      "timestamp": "1640982948",
+      "txHash": "0x0f92ee89ad15d32a6926cbdf44b9398d2b554a33112c75eeab6d88c80be9469d"
+    },
     {
       "amount": "500000000000000000",
       "beneficiary": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
@@ -56,6 +86,27 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
+      "fundingCycleId": "384",
+      "id": "197-0x44687f01f0cbcb9f65eabfd704cbbb3a741a62a8721eebb2f8687643e6394c36",
+      "netTransferAmount": "952380952380952380",
+      "timestamp": "1641354845",
+      "txHash": "0x44687f01f0cbcb9f65eabfd704cbbb3a741a62a8721eebb2f8687643e6394c36"
+    },
+    {
+      "beneficiary": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
+      "fundingCycleId": "384",
+      "id": "197-0x62c548b78c54005f897fd1f68c2f91ff2e31ac4a999619ce480b5e247d1f1f3a",
+      "netTransferAmount": "2857142857142857142",
+      "timestamp": "1641096859",
+      "txHash": "0x62c548b78c54005f897fd1f68c2f91ff2e31ac4a999619ce480b5e247d1f1f3a"
+    }
+  ],
   "reservesEvents": []
 }

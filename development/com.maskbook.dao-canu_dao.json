@@ -1,10 +1,10 @@
 {
   "createdAt": "1628542822",
   "creator": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
-  "currentBalance": "8757698310289252932",
+  "currentBalance": "9065946603644566618",
   "handle": "0x63616e7564616f636f6d6d000000000000000000000000000000000000000000",
   "id": "8",
-  "totalPaid": "26201448310289252932",
+  "totalPaid": "28339696603644566618",
   "totalRedeemed": "0",
   "uri": "QmQekgfqaCudRg1M8n9FwFcGvQeE6BUoLP4o9P8FpvGvcT",
   "name": "CanuDAO - Comms for DAOs",
@@ -22,20 +22,26 @@
       "duration": "15 days",
       "start": "12-22-21 9:00pm",
       "end": "1-6-22 9:00pm",
-      "reserved": 0.3,
       "discount": 0.05,
-      "toETH": 252,
       "bondingCurve": 0.2
     }
   ],
   "inWallet": {
-    "eth": "450000000000000000",
-    "jbx": "25872811000000000000000000"
+    "eth": "570000000000000000",
+    "jbx": "25982166000000000000000000"
   },
   "tokenAddress": "0x72a5db34ea0804910BEa8Ae0a8C863Ac08CDa401",
-  "totalSupply": "23120691",
+  "totalSupply": "23891345",
   "holdingSymbol": "CND",
   "payEvents": [
+    {
+      "amount": "2138248293355313686",
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "id": "0x896b63989b0a7f1606300c3386017f2e8989070a3c3f34377c6e8cbee3021148-119",
+      "note": "Payout from @juicebox",
+      "timestamp": "1641068130",
+      "txHash": "0x896b63989b0a7f1606300c3386017f2e8989070a3c3f34377c6e8cbee3021148"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x4bba239c9cc83619228457502227d801e4738ba0",
@@ -351,6 +357,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
+      "beneficiaryTransferAmount": "112762857142857147",
+      "caller": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
+      "fundingCycleId": "364",
+      "id": "8-0xf67422fc4ef29387a84f6555a9786dc5f3d80330da77e414f5e4bd4ce26861c0",
+      "netTransferAmount": "1742857142857142857",
+      "timestamp": "1640630804",
+      "txHash": "0xf67422fc4ef29387a84f6555a9786dc5f3d80330da77e414f5e4bd4ce26861c0"
+    },
     {
       "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
       "beneficiaryTransferAmount": "112762857142857147",

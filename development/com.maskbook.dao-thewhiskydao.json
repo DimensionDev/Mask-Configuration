@@ -1,18 +1,18 @@
 {
   "createdAt": "1639696319",
   "creator": "0xef8b00e9ee74b1e4a710e414fc0df27083e14738",
-  "currentBalance": "388682420000000000",
+  "currentBalance": "428452630000000000",
   "handle": "0x776869736b7964616f0000000000000000000000000000000000000000000000",
   "id": "193",
-  "totalPaid": "388682420000000000",
+  "totalPaid": "428452630000000000",
   "totalRedeemed": "0",
-  "uri": "QmUHKxbAeMueoexVUet3nJ48B9wsY6nhA3h8CCAH6Luk7t",
+  "uri": "QmVTLnApBwe6kTBkLHhQQYhEHffRstzYPXCfriezSPi6ZB",
   "name": "Whisky DAO",
-  "description": "The Whisky DAO has been established with the objective of democratizing the worlds rarest whisky.  We will acquire aging casks of Macallan and other desirable, high-end, whisky offerings, giving the DAO control over the fate of some of the world's most sought after whisky.  The DAO will have the flexibility to take casks to auction, special bottling, NFTs and other creative ways to monetize and distribute DAO whisky assets.  \n\nWhisky DAO will liberate the world's rarest whisky from an exclusive market controlled by multi-millionaires and billionaires.  And we will do it responsibly and equitably by becoming a DAO governed by its members.",
+  "description": "Whisky DAO has been established with the objective of democratizing the worlds rarest whisky.  Through our intimate knowledge of the international whisky cask market, and proprietary relationships we have access to aging casks of Macallan and other desirable, luxury whisky offerings which the man in the street can rarely access. Once acquired the DAO will have control over the fate of some of the world's most sought after whisky.  The DAO will have the flexibility to take casks to auction, special bottling, NFTs and other creative ways to monetize and distribute DAO whisky assets.  \n\nWhisky DAO will liberate the world's rarest whisky from an exclusive market controlled by multi-millionaires and billionaires.  And we will do it responsibly and equitably by becoming a DAO governed by its members.",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmV1FuVHbdxGbBVQxvyVBTsdRwJnVSU6cPQwCidfAr1aVK",
   "infoUri": "whiskydao.org",
   "twitter": "TheWhiskyDAO",
-  "discord": "https://discord.gg/QD6ztynk",
+  "discord": "https://discord.gg/mqUaJM8gUQ",
   "payButton": "Buy $WHISKY",
   "payDisclosure": "",
   "tokens": [],
@@ -22,20 +22,42 @@
       "toETHSymbol": "WHISKY",
       "target": "0",
       "duration": "Not set",
-      "reserved": 0.35,
       "discount": 0,
-      "toETH": 650,
       "bondingCurve": 1
     }
   ],
   "inWallet": {
-    "eth": "30000000000000000",
+    "eth": "20000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0x2dedA5213A78E836D5C68C595FA174DaD04a25d8",
-  "totalSupply": "388682",
+  "totalSupply": "428452",
   "holdingSymbol": "WHISKY",
   "payEvents": [
+    {
+      "amount": "14783430000000000",
+      "beneficiary": "0xf73faf5cf23162af0d121f55794eecd0adce8c38",
+      "id": "0x8ba2196b5a9619e3dbc84b869739b28505094b85605a554eb644b0d244de1f76-125",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmR24kKUVsNzmQKRwrVHY8RoTPukG6BykmnkS1Pqdjm86X",
+      "timestamp": "1640975631",
+      "txHash": "0x8ba2196b5a9619e3dbc84b869739b28505094b85605a554eb644b0d244de1f76"
+    },
+    {
+      "amount": "19986780000000000",
+      "beneficiary": "0x704dbf4ab35c94a88494832408760393f6b743d5",
+      "id": "0x92f857dad5aeb1381f202014e6d15bf1bacb66de86ff6b0f7c11ee52c5692086-375",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmVoqv3x6TpL558aVfe9pVvUh9cRqnDYNwhSa6zqNAtTfG",
+      "timestamp": "1640805393",
+      "txHash": "0x92f857dad5aeb1381f202014e6d15bf1bacb66de86ff6b0f7c11ee52c5692086"
+    },
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0x618609f883e2469b47ae72048ddbe0153159b63f",
+      "id": "0xd35a9743e254805228f885efe6437957ea439b2062ccd476d61aa63170245364-179",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmTnvYrp3NoaFyaiSjr8VNJgS2djRBFifp9t7SiEXM8moy",
+      "timestamp": "1640721825",
+      "txHash": "0xd35a9743e254805228f885efe6437957ea439b2062ccd476d61aa63170245364"
+    },
     {
       "amount": "57301520000000000",
       "beneficiary": "0x9b786e784c7b47895c02cca511f92055b66684bf",
