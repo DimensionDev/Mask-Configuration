@@ -35,7 +35,32 @@
   "tokenAddress": "0x2Cd0f8DacE506a6240251A09C76769e538595eAB",
   "totalSupply": "193046",
   "holdingSymbol": "WLD",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x49e53fb3d5bf1532febad88a1979e33a94844d1d",
+      "id": "0xb32b68ede42a782a52363be7ab9981da0750e55a1f4e4050f505a2dd54300f78-301",
+      "note": "We need more high quality Chinese contents",
+      "timestamp": "1639407818",
+      "txHash": "0xb32b68ede42a782a52363be7ab9981da0750e55a1f4e4050f505a2dd54300f78"
+    },
+    {
+      "amount": "16670000000000000",
+      "beneficiary": "0xca6ed3fdc8162304d7f1fcfc9ca3a81632d5e5b0",
+      "id": "0x6eff3a87f40ab430ee26108b063e4934ef77af41c8cb2a00049b6f487aca3ab0-69",
+      "note": "Let's bootstrap from here~",
+      "timestamp": "1638353123",
+      "txHash": "0x6eff3a87f40ab430ee26108b063e4934ef77af41c8cb2a00049b6f487aca3ab0"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x2d96e1fe38ff45cc8910c617b3c5e0b6298a81f3",
+      "id": "0xbef614c2bfdac18a2ecc00785997ac173e93e3a0022f540baec1dcce9ea4a3c1-399",
+      "note": "make this world accessible to all",
+      "timestamp": "1638089670",
+      "txHash": "0xbef614c2bfdac18a2ecc00785997ac173e93e3a0022f540baec1dcce9ea4a3c1"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {

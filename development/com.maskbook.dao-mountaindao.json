@@ -1,11 +1,11 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "55932819191248923993",
+  "currentBalance": "55701530790149949876",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
   "totalPaid": "66395396266900000000",
-  "totalRedeemed": "7177180808751076007",
+  "totalRedeemed": "7408469209850050124",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
   "name": "MountainDAO",
   "description": "We are buying a mountain in Virginia (to start)!  An experiment in decentralization, Real Estate tokenization, and the power of memes.  Starting with one mountain, with the goal of decentralization & preservation of mountains around the world.  A new take on public land!  Link to the first mountain:  https://www.zillow.com/homedetails/TRACT-11-Country-Ln-11-Thaxton-VA-24174/2067406682_zpid/?utm_campaign=iosappmessage&utm_medium=referral&utm_source=txtshare",
@@ -31,7 +31,7 @@
     "jbx": "991000000000000000000"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
-  "totalSupply": "58039284",
+  "totalSupply": "57799284",
   "holdingSymbol": "MTDR",
   "payEvents": [
     {
@@ -436,6 +436,22 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "160000000000000000000000",
+      "beneficiary": "0x75ab8b00de5cdef5d57189827070cc150f16d6a1",
+      "id": "0xa5b25ad575224a08ecdeafb923a0b9b237b8283e82bc9503b4198249cd430c7c-401",
+      "returnAmount": "154192266305480093",
+      "timestamp": "1641384012",
+      "txHash": "0xa5b25ad575224a08ecdeafb923a0b9b237b8283e82bc9503b4198249cd430c7c"
+    },
+    {
+      "amount": "80000000000000000000000",
+      "beneficiary": "0x3bba524a42ebe18f70281985694981c30559d5aa",
+      "id": "0xf0874e07da4694a0d66ea7abe985ce3126efeecfcf09bc66647c8c5b67d51ecc-319",
+      "returnAmount": "77096134793494024",
+      "timestamp": "1641383235",
+      "txHash": "0xf0874e07da4694a0d66ea7abe985ce3126efeecfcf09bc66647c8c5b67d51ecc"
+    },
     {
       "amount": "80000000000000000000000",
       "beneficiary": "0xe2f6659e0209c3f79132abdeb95abeba0f1f672f",
