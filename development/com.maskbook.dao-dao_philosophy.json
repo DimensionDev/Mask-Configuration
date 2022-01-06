@@ -17,52 +17,8 @@
   "payDisclosure": "Claim",
   "tokens": [],
   "version": 3,
-  "payEvents": [
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x64939733efe0a2c72995a39ae3ecf2bea949f073",
-      "id": "0x74871b409f54d83e79802d265b8ead8a479a5c1ff04a39ead05112e3cabc9774-382",
-      "note": null,
-      "timestamp": "1638513938",
-      "txHash": "0x74871b409f54d83e79802d265b8ead8a479a5c1ff04a39ead05112e3cabc9774"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x92655dc3ae97d414a88708e35eacc1f43363cc34",
-      "id": "0x51503cfee0987911a8e753341a006509750cb083273be339fef17e056f1e14a1-153",
-      "note": null,
-      "timestamp": "1638450036",
-      "txHash": "0x51503cfee0987911a8e753341a006509750cb083273be339fef17e056f1e14a1"
-    },
-    {
-      "amount": "70000000000000000",
-      "beneficiary": "0xdfd4046738ad8e3abacea68cb133769b549ea61c",
-      "id": "0xedf9a23831273214a6bc67cfbbfbdfdc0822eb8e31d513b1446b18cb7145b8cb-502",
-      "note": "https://philosophydao.io",
-      "timestamp": "1638435434",
-      "txHash": "0xedf9a23831273214a6bc67cfbbfbdfdc0822eb8e31d513b1446b18cb7145b8cb"
-    },
-    {
-      "amount": "580000000000000000",
-      "beneficiary": "0x9d9b05634a037bea7e9c26b3c2cd25c515d62732",
-      "id": "0x39c76a3673807ff698f7a1fb88d57d6fd9983c7060aa9bd1e58d96e47e9b734a-646",
-      "note": "https://philosophydao.org     Good job team!",
-      "timestamp": "1638351964",
-      "txHash": "0x39c76a3673807ff698f7a1fb88d57d6fd9983c7060aa9bd1e58d96e47e9b734a"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [
-    {
-      "beneficiary": "0x8dca27934d31a050c74dc410f2e3617a11d9ec18",
-      "beneficiaryTransferAmount": "809523809523809523",
-      "caller": "0x8dca27934d31a050c74dc410f2e3617a11d9ec18",
-      "fundingCycleId": "223",
-      "id": "123-0xd969d7dea7254b934142e4a1bcd9c3a3f84d81d25d7e9e8328de89246227cd55",
-      "netTransferAmount": "809523809523809523",
-      "timestamp": "1638797426",
-      "txHash": "0xd969d7dea7254b934142e4a1bcd9c3a3f84d81d25d7e9e8328de89246227cd55"
-    }
-  ],
+  "withdrawEvents": [],
   "reservesEvents": []
 }
