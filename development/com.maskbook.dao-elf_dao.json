@@ -1,10 +1,10 @@
 {
   "createdAt": "1639382075",
   "creator": "0xe10b7610908d8b0ac4066f02c24e76007fff0ec4",
-  "currentBalance": "1863084000000000000",
+  "currentBalance": "1963084000000000000",
   "handle": "0x656c6664616f0000000000000000000000000000000000000000000000000000",
   "id": "177",
-  "totalPaid": "12490861980000000000",
+  "totalPaid": "12590861980000000000",
   "totalRedeemed": "0",
   "uri": "QmcZfZN67rdGam39Y3MpjWUo2HwEyV41iSznE3j8YDbok9",
   "name": "elfDAO",
@@ -18,6 +18,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x832fd366b1a574d26072ed10dd733662c15590b2",
+      "id": "0xbd244d37b4e4b7b1fd73cd3478309b048580322f04a1bfda11e98efc14ccea2b-253",
+      "note": null,
+      "timestamp": "1641478451",
+      "txHash": "0xbd244d37b4e4b7b1fd73cd3478309b048580322f04a1bfda11e98efc14ccea2b"
+    },
     {
       "amount": "4200000000000000",
       "beneficiary": "0xd2d869d8f5104879840b8aa66e504d80019fd2b7",
@@ -409,14 +417,6 @@
       "note": "stay strong blockchain",
       "timestamp": "1640056017",
       "txHash": "0x0bca2a0996f70cd8c41cf8cc4cc640c9bb9d7d4668873f221765699ff9919396"
-    },
-    {
-      "amount": "25423470000000000",
-      "beneficiary": "0x5441bf751c9bb3834f603ee84165be17fee91fbb",
-      "id": "0x7af46a8c4461bc3a39f0a2a42b49946acd2f062363593e9c7738671a7c402de3-302",
-      "note": "To the children of the world, we pledge to leave it better than we found it. Santa might not be real, but us elves certainly are and we’re here to remind you that you are not forgotten.",
-      "timestamp": "1640053284",
-      "txHash": "0x7af46a8c4461bc3a39f0a2a42b49946acd2f062363593e9c7738671a7c402de3"
     }
   ],
   "redeemEvents": [],
