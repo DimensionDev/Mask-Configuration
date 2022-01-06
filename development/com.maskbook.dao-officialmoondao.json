@@ -1,10 +1,10 @@
 {
   "createdAt": "1639772291",
   "creator": "0x679d87d8640e66778c3419d164998e720d7495f6",
-  "currentBalance": "8036339610000000000",
+  "currentBalance": "8986339610000000000",
   "handle": "0x6d6f6f6e64616f00000000000000000000000000000000000000000000000000",
   "id": "199",
-  "totalPaid": "89808152199883494290",
+  "totalPaid": "90758152199883494290",
   "totalRedeemed": "0",
   "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
   "name": "MoonDAO",
@@ -33,9 +33,17 @@
     "jbx": "506881000000000000000000"
   },
   "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
-  "totalSupply": "89808152",
+  "totalSupply": "90758152",
   "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "950000000000000000",
+      "beneficiary": "0xe8e8f52e1d33d5624bcf2e768d86f107b75a7866",
+      "id": "0xdcfaf74e4570118bc17c0a9b8b2a4a7d9faa4effdc77feea66c81b3367491121-30",
+      "note": "fly to the moon",
+      "timestamp": "1641449835",
+      "txHash": "0xdcfaf74e4570118bc17c0a9b8b2a4a7d9faa4effdc77feea66c81b3367491121"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x5755e9026f80b6116d28ebff2b5db0bb1f5e8a0d",
@@ -427,14 +435,6 @@
       "note": "$people to the moon!!!",
       "timestamp": "1640863793",
       "txHash": "0x493cd185c00157d2f583c6456f08bee61fe64a9127089c24aca681fc60eac135"
-    },
-    {
-      "amount": "80000000000000000",
-      "beneficiary": "0xed996adbefcc53a376257abfe2abefe43ab7f538",
-      "id": "0xc622c635767e4266a826db6e8be6ad6c1f7dc4333144af8b143f06ae14480c1b-336",
-      "note": "Go Big or Go Home！",
-      "timestamp": "1640854142",
-      "txHash": "0xc622c635767e4266a826db6e8be6ad6c1f7dc4333144af8b143f06ae14480c1b"
     }
   ],
   "redeemEvents": [],
