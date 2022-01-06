@@ -1,11 +1,11 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "50958622917541728791",
+  "currentBalance": "50580852049076796263",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
   "totalPaid": "66395396266900000000",
-  "totalRedeemed": "12151377082458271209",
+  "totalRedeemed": "12529147950923203737",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
   "name": "MountainDAO",
   "description": "We are buying a mountain in Virginia (to start)!  An experiment in decentralization, Real Estate tokenization, and the power of memes.  Starting with one mountain, with the goal of decentralization & preservation of mountains around the world.  A new take on public land!  Link to the first mountain:  https://www.zillow.com/homedetails/TRACT-11-Country-Ln-11-Thaxton-VA-24174/2067406682_zpid/?utm_campaign=iosappmessage&utm_medium=referral&utm_source=txtshare",
@@ -27,11 +27,11 @@
     }
   ],
   "inWallet": {
-    "eth": "20330000000000000000",
+    "eth": "20250000000000000000",
     "jbx": "991000000000000000000"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
-  "totalSupply": "52877732",
+  "totalSupply": "52485732",
   "holdingSymbol": "MTDR",
   "payEvents": [
     {
@@ -436,6 +436,22 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "200000000000000000000000",
+      "beneficiary": "0x5252aaa5cd24cbc25e7f033f8aee99c419be8d8f",
+      "id": "0xfd09851f075adab9b66294bb55679b85c616385cc3aa1946c9efa834768fa99b-350",
+      "returnAmount": "192740236201004687",
+      "timestamp": "1641442496",
+      "txHash": "0xfd09851f075adab9b66294bb55679b85c616385cc3aa1946c9efa834768fa99b"
+    },
+    {
+      "amount": "192000000000000000000000",
+      "beneficiary": "0x0803da93ba6b901d81c4965037a9aeae9b3754d3",
+      "id": "0x10807d464b1dd056fdf7e504a067d1ef4c40a25f8236880205e33563855214a3-551",
+      "returnAmount": "185030632263927841",
+      "timestamp": "1641441656",
+      "txHash": "0x10807d464b1dd056fdf7e504a067d1ef4c40a25f8236880205e33563855214a3"
+    },
     {
       "amount": "80000000000000000000000",
       "beneficiary": "0x6cdfaf2efecfbeabe2db319d598d7307f855c03a",
