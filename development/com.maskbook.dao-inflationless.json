@@ -38,7 +38,32 @@
   "tokenAddress": "0x43150d00bdbec321daf85850Bd36439553C1D561",
   "totalSupply": "12790000",
   "holdingSymbol": "BRRR",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10000000000000000000",
+      "beneficiary": "0x9b5535af9845742d7ac73afdc4a5c07af89b98d6",
+      "id": "0xd9e1fa4dc68e03d432273af7d6aaf62a9378a1ff0187e1feaa50dbaec57e27f7-356",
+      "note": null,
+      "timestamp": "1640664408",
+      "txHash": "0xd9e1fa4dc68e03d432273af7d6aaf62a9378a1ff0187e1feaa50dbaec57e27f7"
+    },
+    {
+      "amount": "2100000000000000000",
+      "beneficiary": "0xdc8469b2bc10a57e1f65c8a6610df8b75cf366eb",
+      "id": "0xb6c95364468936128fb67a2882eb1791dac4f6d9d57a8d72b44b44fe1397a02f-345",
+      "note": "let us accomplish what ConstitutionDAO was unable to -- be the first DAO to buy a real world asset!",
+      "timestamp": "1640246124",
+      "txHash": "0xb6c95364468936128fb67a2882eb1791dac4f6d9d57a8d72b44b44fe1397a02f"
+    },
+    {
+      "amount": "690000000000000000",
+      "beneficiary": "0xdc8469b2bc10a57e1f65c8a6610df8b75cf366eb",
+      "id": "0x1520754da34d20035ed7899bab9d1829a70f6ef4610fca4a2f00d206cb22d6eb-156",
+      "note": "excited to support. LFG!!! LFG!!",
+      "timestamp": "1640242203",
+      "txHash": "0x1520754da34d20035ed7899bab9d1829a70f6ef4610fca4a2f00d206cb22d6eb"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
