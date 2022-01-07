@@ -1,7 +1,7 @@
 {
   "createdAt": "1641331669",
   "creator": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
-  "currentBalance": "100000000000000000",
+  "currentBalance": "0",
   "handle": "0x7068756e6b7966756e676964616f000000000000000000000000000000000000",
   "id": "244",
   "totalPaid": "100000000000000000",
@@ -28,6 +28,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "fundingCycleId": "393",
+      "id": "244-0x29a5c89e6757ccb9e61acc15311782860ffd5e7acda59b82858333b0a1c529b3",
+      "netTransferAmount": "95238095238095238",
+      "timestamp": "1641512281",
+      "txHash": "0x29a5c89e6757ccb9e61acc15311782860ffd5e7acda59b82858333b0a1c529b3"
+    }
+  ],
   "reservesEvents": []
 }
