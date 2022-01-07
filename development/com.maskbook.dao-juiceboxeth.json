@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5476455513985610365518",
+  "currentBalance": "5476655513985610365518",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5691894490129697345678",
+  "totalPaid": "5692094490129697345678",
   "totalRedeemed": "48134193397976364853",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -32,9 +32,17 @@
     "jbx": "185757404000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2387066684",
+  "totalSupply": "2387118753",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x5dd534a882737a434048f8b885acf9c24215b4cd",
+      "id": "0x7db527d83ed5256a32230e040e010dff80fde6300bdd21cc6b25e33d2f15a28f-150",
+      "note": "Hope developers are doing a good project..We all trust on you..",
+      "timestamp": "1641578898",
+      "txHash": "0x7db527d83ed5256a32230e040e010dff80fde6300bdd21cc6b25e33d2f15a28f"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0xbc059cbf0404b2b5a52b6bb41ef3214fbd80b66f",
@@ -426,14 +434,6 @@
       "note": null,
       "timestamp": "1640836841",
       "txHash": "0xa6637a7bb4797e0dadd8a2335feff5f8716c6425e8ea9c2289b7ed76307c81c9"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x7298b668ffcbf2043ff2dd3e31d9bb3e447c19d1",
-      "id": "0xfb94f28a336880a2cc718f51c5352cb0b8d017fdd9d3bfb4391c80266db175bb-181",
-      "note": null,
-      "timestamp": "1640814541",
-      "txHash": "0xfb94f28a336880a2cc718f51c5352cb0b8d017fdd9d3bfb4391c80266db175bb"
     }
   ],
   "redeemEvents": [
