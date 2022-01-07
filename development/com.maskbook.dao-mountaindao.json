@@ -1,11 +1,11 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "47789973691721221395",
+  "currentBalance": "47481589462453414793",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
   "totalPaid": "66395396266900000000",
-  "totalRedeemed": "15320026308278778605",
+  "totalRedeemed": "15628410537546585207",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
   "name": "MountainDAO",
   "description": "We are buying a mountain in Virginia (to start)!  An experiment in decentralization, Real Estate tokenization, and the power of memes.  Starting with one mountain, with the goal of decentralization & preservation of mountains around the world.  A new take on public land!  Link to the first mountain:  https://www.zillow.com/homedetails/TRACT-11-Country-Ln-11-Thaxton-VA-24174/2067406682_zpid/?utm_campaign=iosappmessage&utm_medium=referral&utm_source=txtshare",
@@ -31,7 +31,7 @@
     "jbx": "991000000000000000000"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
-  "totalSupply": "49589732",
+  "totalSupply": "49269732",
   "holdingSymbol": "MTDR",
   "payEvents": [
     {
@@ -436,6 +436,14 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "320000000000000000000000",
+      "beneficiary": "0xd8e1864f15418d0a51d5c21478cc4094ef7c0d2d",
+      "id": "0x04ecb021657c59513f75441bfe4f9904e75e1d0c7c70816de61766ed93add57e-169",
+      "returnAmount": "308384229267806602",
+      "timestamp": "1641543386",
+      "txHash": "0x04ecb021657c59513f75441bfe4f9904e75e1d0c7c70816de61766ed93add57e"
+    },
     {
       "amount": "16000000000000000000000",
       "beneficiary": "0x82fb818b73b410eb551c4fac69a2092b21b84495",
