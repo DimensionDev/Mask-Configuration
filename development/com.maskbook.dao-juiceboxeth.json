@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5476655513985610365518",
+  "currentBalance": "5476738037795134175042",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5692094490129697345678",
+  "totalPaid": "5692177013939221155202",
   "totalRedeemed": "48134193397976364853",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -32,9 +32,17 @@
     "jbx": "185757404000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2387118753",
+  "totalSupply": "2387140238",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "82523809523809524",
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "id": "0xc7e745b54bbeb29f0a7a41a74d9af209561af2c98124391b6f0f899aa71cce38-342",
+      "note": "Fee from @tiles",
+      "timestamp": "1641580838",
+      "txHash": "0xc7e745b54bbeb29f0a7a41a74d9af209561af2c98124391b6f0f899aa71cce38"
+    },
     {
       "amount": "200000000000000000",
       "beneficiary": "0x5dd534a882737a434048f8b885acf9c24215b4cd",
@@ -426,14 +434,6 @@
       "note": "www.nft618.com will support JuiceboxDAO developing",
       "timestamp": "1640837461",
       "txHash": "0xf9ffce9aecc31318414e1eb776a993a32ac021df65c7cd79de68e3fc46972f13"
-    },
-    {
-      "amount": "55000000000000000",
-      "beneficiary": "0xbb966a598e53dff0a08b414dd5d39f2e11cdbeca",
-      "id": "0xa6637a7bb4797e0dadd8a2335feff5f8716c6425e8ea9c2289b7ed76307c81c9-353",
-      "note": null,
-      "timestamp": "1640836841",
-      "txHash": "0xa6637a7bb4797e0dadd8a2335feff5f8716c6425e8ea9c2289b7ed76307c81c9"
     }
   ],
   "redeemEvents": [
