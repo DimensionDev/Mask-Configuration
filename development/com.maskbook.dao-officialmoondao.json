@@ -1,10 +1,10 @@
 {
   "createdAt": "1639772291",
   "creator": "0x679d87d8640e66778c3419d164998e720d7495f6",
-  "currentBalance": "12687658290000000000",
+  "currentBalance": "13267658290000000000",
   "handle": "0x6d6f6f6e64616f00000000000000000000000000000000000000000000000000",
   "id": "199",
-  "totalPaid": "94459470879883494290",
+  "totalPaid": "95039470879883494290",
   "totalRedeemed": "0",
   "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
   "name": "MoonDAO",
@@ -29,13 +29,29 @@
     }
   ],
   "inWallet": {
-    "eth": "77870000000000000000",
+    "eth": "0",
     "jbx": "0"
   },
   "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
-  "totalSupply": "94459470",
+  "totalSupply": "0",
   "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0x5d55ee935d1aad8cace20528c63b26bc6417b6ce",
+      "id": "0xb0eb6a8ca99d9d15d29bd8b66c52a3f4e5744c113f7078ed636ba5359d65dc40-277",
+      "note": null,
+      "timestamp": "1641632345",
+      "txHash": "0xb0eb6a8ca99d9d15d29bd8b66c52a3f4e5744c113f7078ed636ba5359d65dc40"
+    },
+    {
+      "amount": "80000000000000000",
+      "beneficiary": "0xb2290b92f2974105aea8b6dc7c5ea37e7fb05561",
+      "id": "0xa39e602e638b296d343b8eb0dd60a3e53aabcf44ca4ac087129b662019d892ac-277",
+      "note": null,
+      "timestamp": "1641630802",
+      "txHash": "0xa39e602e638b296d343b8eb0dd60a3e53aabcf44ca4ac087129b662019d892ac"
+    },
     {
       "amount": "200000000000000000",
       "beneficiary": "0xbbcab6404e9f58e76eed6a0d09d6fbf3451a416f",
@@ -419,22 +435,6 @@
       "note": null,
       "timestamp": "1640970653",
       "txHash": "0x4a3ccb00dbe03971c6d6fbeffea227a59c4dc647769d80a2678567a1d7a68a03"
-    },
-    {
-      "amount": "80000000000000000",
-      "beneficiary": "0x06ecf586db4b0e0f9352a16a34ccad7107478285",
-      "id": "0x3d240d8e55383c083cf403053f68da2a3b7b41b427547e605b1ac51e306c1910-112",
-      "note": null,
-      "timestamp": "1640961504",
-      "txHash": "0x3d240d8e55383c083cf403053f68da2a3b7b41b427547e605b1ac51e306c1910"
-    },
-    {
-      "amount": "220000000000000000",
-      "beneficiary": "0x1e77e2b885b8ba468030ea0c3053ea7196523b1b",
-      "id": "0x1459e3e090fa1e9067cc9f2cb47a3668376f83fb7fee38eea3116768d5058cd2-154",
-      "note": null,
-      "timestamp": "1640958791",
-      "txHash": "0x1459e3e090fa1e9067cc9f2cb47a3668376f83fb7fee38eea3116768d5058cd2"
     }
   ],
   "redeemEvents": [],
