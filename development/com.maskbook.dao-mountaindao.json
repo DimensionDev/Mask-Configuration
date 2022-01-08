@@ -1,7 +1,7 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "45723799334220453747",
+  "currentBalance": "29492470940668",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
   "totalPaid": "66395396266900000000",
@@ -20,15 +20,15 @@
   "fundingCycles": [
     {
       "toETHSymbol": "MTDR",
-      "target": "1000000000000000000",
+      "target": "0",
       "duration": "Not set",
       "discount": 0,
       "bondingCurve": 1
     }
   ],
   "inWallet": {
-    "eth": "16900000000000000000",
-    "jbx": "991000000000000000000"
+    "eth": "16770000000000000000",
+    "jbx": "284421000000000000000000"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
   "totalSupply": "47445732",
@@ -838,6 +838,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
+      "fundingCycleId": "403",
+      "id": "149-0xaa080e58d151eb4fc4ccaf8e179003a449d6d024d3969e0a03dd4db318e74795",
+      "netTransferAmount": "43546447468332869599",
+      "timestamp": "1641664761",
+      "txHash": "0xaa080e58d151eb4fc4ccaf8e179003a449d6d024d3969e0a03dd4db318e74795"
+    },
     {
       "beneficiary": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
       "beneficiaryTransferAmount": "0",
