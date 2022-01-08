@@ -1,10 +1,10 @@
 {
   "createdAt": "1639767871",
   "creator": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
-  "currentBalance": "0",
+  "currentBalance": "2000000000000000000",
   "handle": "0x6f66666572626f7464616f000000000000000000000000000000000000000000",
   "id": "197",
-  "totalPaid": "8170000000000000000",
+  "totalPaid": "10170000000000000000",
   "totalRedeemed": "0",
   "uri": "QmPiridEqEhoLwzbKdNkXAgKJ8YxP3GhVgSmtHdUSaYDFJ",
   "name": "Offer Bot DAO",
@@ -33,9 +33,17 @@
     "jbx": "50643000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "6856000",
+  "totalSupply": "8456000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "2000000000000000000",
+      "beneficiary": "0xb9c66f0fa4abddf992e87f33f739b060b37e0333",
+      "id": "0x4957554a3ea9c43c719ffd40a85476114c214f7e3b232c7fa4d82f94f2233d7a-44",
+      "note": null,
+      "timestamp": "1641677131",
+      "txHash": "0x4957554a3ea9c43c719ffd40a85476114c214f7e3b232c7fa4d82f94f2233d7a"
+    },
     {
       "amount": "2970000000000000000",
       "beneficiary": "0x6b258ab7455a32334cae586ea07822709c4ddaf0",
