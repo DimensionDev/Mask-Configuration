@@ -33,7 +33,16 @@
   "tokenAddress": null,
   "totalSupply": "1000000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xab2dd970e9a4647d4f86e98f902dbdf58c459e66",
+      "id": "0x7831c1e7b69cc4b60a6316246df8b04e13021ac972d732223e9f5c3a03cabd24-438",
+      "note": "$people need chainnews",
+      "timestamp": "1638272982",
+      "txHash": "0x7831c1e7b69cc4b60a6316246df8b04e13021ac972d732223e9f5c3a03cabd24"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {
