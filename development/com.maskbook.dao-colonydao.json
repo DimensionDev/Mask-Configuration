@@ -1,7 +1,7 @@
 {
   "createdAt": "1639857191",
   "creator": "0x2a1c2d96b1ffd82830cce8ba8c8fe5a192299719",
-  "currentBalance": "411879150000000000",
+  "currentBalance": "0",
   "handle": "0x636f6c6f6e7964616f0000000000000000000000000000000000000000000000",
   "id": "202",
   "totalPaid": "411879150000000000",
@@ -17,6 +17,22 @@
   "payDisclosure": "Dont know yet..",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PLANT",
+      "target": "0",
+      "duration": "Not set",
+      "discount": 0,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "50000000000000000",
+    "jbx": "2553000000000000000000"
+  },
+  "tokenAddress": "0xDdDC10FEd732188e50fa46a68c5414fc9A2657Fd",
+  "totalSupply": "411879",
+  "holdingSymbol": "PLANT",
   "payEvents": [
     {
       "amount": "100000000000000000",
@@ -84,6 +100,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x2a1c2d96b1ffd82830cce8ba8c8fe5a192299719",
+      "beneficiaryTransferAmount": "39226585714285715",
+      "caller": "0x2a1c2d96b1ffd82830cce8ba8c8fe5a192299719",
+      "fundingCycleId": "331",
+      "id": "202-0xd10e4781ede7c4ead331da67a85d06a3bf1eb4f5a43a85698265ebe67c1e9a46",
+      "netTransferAmount": "392265857142857142",
+      "timestamp": "1641636717",
+      "txHash": "0xd10e4781ede7c4ead331da67a85d06a3bf1eb4f5a43a85698265ebe67c1e9a46"
+    }
+  ],
   "reservesEvents": []
 }

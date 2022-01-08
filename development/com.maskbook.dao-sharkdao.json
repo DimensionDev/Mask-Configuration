@@ -1,10 +1,10 @@
 {
   "createdAt": "1641336336",
   "creator": "0xe3f27deff96fe178e87559f36cbf868b9e75967d",
-  "currentBalance": "4053000000000000000",
+  "currentBalance": "4103000000000000000",
   "handle": "0x736861726b6672656e7300000000000000000000000000000000000000000000",
   "id": "245",
-  "totalPaid": "4053000000000000000",
+  "totalPaid": "4103000000000000000",
   "totalRedeemed": "0",
   "uri": "QmZefhhpMKUA2yUJt79fQZmwf8NY54noiVyGtNzSVL54cF",
   "name": "SharkFrens",
@@ -19,7 +19,7 @@
   "payDisclosure": "This money is going to go towards a little boy's fight against cancer. https://twitter.com/iamDelPiero/status/1478134671959633926",
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
+      "toETHSymbol": "SHARK",
       "target": "0",
       "duration": "Not set",
       "discount": 0,
@@ -27,13 +27,21 @@
     }
   ],
   "inWallet": {
-    "eth": "0",
-    "jbx": "0"
+    "eth": "109450000000000000000",
+    "jbx": "30098046000000000000000000"
   },
   "tokenAddress": "0x232AFcE9f1b3AAE7cb408e482E847250843DB931",
-  "totalSupply": "0",
-  "holdingSymbol": "Tokens",
+  "totalSupply": "1065524721",
+  "holdingSymbol": "SHARK",
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x9c99bf82fc38713c471d4415f66c8336d361501a",
+      "id": "0xb3b0e38320ecf458ccb794cb6d7451924d7782534445375576db2e9553480fcc-201",
+      "note": "Wishing your boy a speedy recovery and strength to your family",
+      "timestamp": "1641636449",
+      "txHash": "0xb3b0e38320ecf458ccb794cb6d7451924d7782534445375576db2e9553480fcc"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0xf32dd1bd55bd14d929218499a2e7d106f72f79c7",

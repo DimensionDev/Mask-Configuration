@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5476738037795134175042",
+  "currentBalance": "5477057651087991317900",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5692177013939221155202",
+  "totalPaid": "5692496627232078298060",
   "totalRedeemed": "48134193397976364853",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -28,13 +28,29 @@
     }
   ],
   "inWallet": {
-    "eth": "0",
-    "jbx": "0"
+    "eth": "7330000000000000000",
+    "jbx": "185757404000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "0",
+  "totalSupply": "2387223448",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "19613292857142858",
+      "beneficiary": "0x2a1c2d96b1ffd82830cce8ba8c8fe5a192299719",
+      "id": "0xd10e4781ede7c4ead331da67a85d06a3bf1eb4f5a43a85698265ebe67c1e9a46-55",
+      "note": "Fee from @colonydao",
+      "timestamp": "1641636717",
+      "txHash": "0xd10e4781ede7c4ead331da67a85d06a3bf1eb4f5a43a85698265ebe67c1e9a46"
+    },
+    {
+      "amount": "300000000000000000",
+      "beneficiary": "0xcfcfcdd408ccee9d9b190616d82bb823a8c04178",
+      "id": "0xb689ea2cc26c7f630aab2055332170b3ffe5c73df02ada6bfdbb8f136f53f413-84",
+      "note": null,
+      "timestamp": "1641635779",
+      "txHash": "0xb689ea2cc26c7f630aab2055332170b3ffe5c73df02ada6bfdbb8f136f53f413"
+    },
     {
       "amount": "82523809523809524",
       "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
@@ -418,22 +434,6 @@
       "note": null,
       "timestamp": "1640839089",
       "txHash": "0x626e8b29fd931de3e2cab6a69221acb97e03f52d9eb94a22ec4f7c50531125e0"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xd64ba09385c90603dc8b27e93771bb3222ce96a4",
-      "id": "0xd0dc05e9f3f657d4fce15c253eedc31c0ba6b34ed3b691231f1dfbf3bbb176fc-506",
-      "note": "https://jbx.mypinata.cloud/ipfs/QmehiPgRPduCe9raP47SLDzd6mvRM3YqoqpHzW6ZPeqixY",
-      "timestamp": "1640837663",
-      "txHash": "0xd0dc05e9f3f657d4fce15c253eedc31c0ba6b34ed3b691231f1dfbf3bbb176fc"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xd64ba09385c90603dc8b27e93771bb3222ce96a4",
-      "id": "0xf9ffce9aecc31318414e1eb776a993a32ac021df65c7cd79de68e3fc46972f13-560",
-      "note": "www.nft618.com will support JuiceboxDAO developing",
-      "timestamp": "1640837461",
-      "txHash": "0xf9ffce9aecc31318414e1eb776a993a32ac021df65c7cd79de68e3fc46972f13"
     }
   ],
   "redeemEvents": [
