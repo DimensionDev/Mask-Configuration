@@ -1,10 +1,10 @@
 {
   "createdAt": "1639772291",
   "creator": "0x679d87d8640e66778c3419d164998e720d7495f6",
-  "currentBalance": "12487658290000000000",
+  "currentBalance": "12687658290000000000",
   "handle": "0x6d6f6f6e64616f00000000000000000000000000000000000000000000000000",
   "id": "199",
-  "totalPaid": "94259470879883494290",
+  "totalPaid": "94459470879883494290",
   "totalRedeemed": "0",
   "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
   "name": "MoonDAO",
@@ -30,12 +30,20 @@
   ],
   "inWallet": {
     "eth": "77870000000000000000",
-    "jbx": "506881000000000000000000"
+    "jbx": "0"
   },
   "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
-  "totalSupply": "94259470",
+  "totalSupply": "94459470",
   "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0xbbcab6404e9f58e76eed6a0d09d6fbf3451a416f",
+      "id": "0x8b696442e5b8e0aa1ca55d7994d91f9a6a2ce8981ab5aa73583ee910744c464d-265",
+      "note": "Fly me to the moon! For the EVANGELION!",
+      "timestamp": "1641629162",
+      "txHash": "0x8b696442e5b8e0aa1ca55d7994d91f9a6a2ce8981ab5aa73583ee910744c464d"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0xa2c984819c40de3695c0740bb6f5b37f4b708072",
@@ -427,14 +435,6 @@
       "note": null,
       "timestamp": "1640958791",
       "txHash": "0x1459e3e090fa1e9067cc9f2cb47a3668376f83fb7fee38eea3116768d5058cd2"
-    },
-    {
-      "amount": "200000000000000000",
-      "beneficiary": "0xec84b0b5cca0d5ebd0146cb274713aad5a87b0cf",
-      "id": "0x1a25525b7bd0a62809ff585c954567da49c6f89ace572c50d0bf849d8377a31b-240",
-      "note": null,
-      "timestamp": "1640958190",
-      "txHash": "0x1a25525b7bd0a62809ff585c954567da49c6f89ace572c50d0bf849d8377a31b"
     }
   ],
   "redeemEvents": [],
