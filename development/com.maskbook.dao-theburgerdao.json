@@ -1,10 +1,10 @@
 {
   "createdAt": "1639844162",
   "creator": "0xd43e931e79fcffa25481a1a592cbe84f40f012e4",
-  "currentBalance": "71100000000000000",
+  "currentBalance": "111100000000000000",
   "handle": "0x62757267657264616f0000000000000000000000000000000000000000000000",
   "id": "201",
-  "totalPaid": "71100000000000000",
+  "totalPaid": "111100000000000000",
   "totalRedeemed": "0",
   "uri": "QmR2h4na81FUtmhy31iJf2ECP24fRtE1CP2C3BzYreuwgL",
   "name": "BurgerDAO",
@@ -18,6 +18,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "40000000000000000",
+      "beneficiary": "0xc897388da51537bb3a6adaf6a3fd5f7bb99ba620",
+      "id": "0x32b4b91a2b75eb7f167220f9831e7c9043f289b7be09432c9ba5a06f294492bd-348",
+      "note": null,
+      "timestamp": "1641745182",
+      "txHash": "0x32b4b91a2b75eb7f167220f9831e7c9043f289b7be09432c9ba5a06f294492bd"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0xfc387d3b0a9c4b02bf8f4306794daa93230b5122",
