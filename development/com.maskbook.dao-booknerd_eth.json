@@ -154,6 +154,47 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "beneficiaryTransferAmount": "9776190476190476190",
+      "caller": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "fundingCycleId": "104",
+      "id": "31-0x5beef6eabc9eb92104dfa2215227fecb03e6744f8416c1f6942161d64ccd9f3a",
+      "netTransferAmount": "9776190476190476190",
+      "timestamp": "1639848736",
+      "txHash": "0x5beef6eabc9eb92104dfa2215227fecb03e6744f8416c1f6942161d64ccd9f3a"
+    },
+    {
+      "beneficiary": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "beneficiaryTransferAmount": "2952380952380952380",
+      "caller": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "fundingCycleId": "95",
+      "id": "31-0xe1d6a4b6b28b6125668b4ef1470ac4f464f305d9364e62756df60c3ceae8f314",
+      "netTransferAmount": "2952380952380952380",
+      "timestamp": "1636403897",
+      "txHash": "0xe1d6a4b6b28b6125668b4ef1470ac4f464f305d9364e62756df60c3ceae8f314"
+    },
+    {
+      "beneficiary": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "beneficiaryTransferAmount": "8095238095238095238",
+      "caller": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "fundingCycleId": "95",
+      "id": "31-0x2068a58f5b63f40d274c7c125be3a8c44ddeee21fcea35d68bb964591805e9c1",
+      "netTransferAmount": "8095238095238095238",
+      "timestamp": "1636401838",
+      "txHash": "0x2068a58f5b63f40d274c7c125be3a8c44ddeee21fcea35d68bb964591805e9c1"
+    },
+    {
+      "beneficiary": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "beneficiaryTransferAmount": "9523809523809523809",
+      "caller": "0xd19327cb345bed1dd849d4c4f16af8b75d9c6735",
+      "fundingCycleId": "95",
+      "id": "31-0xe23b4e49f6a8aed5b68b47a182467d61d9c5a99408e692d4a917c6658d5061d1",
+      "netTransferAmount": "9523809523809523809",
+      "timestamp": "1635614968",
+      "txHash": "0xe23b4e49f6a8aed5b68b47a182467d61d9c5a99408e692d4a917c6658d5061d1"
+    }
+  ],
   "reservesEvents": []
 }
