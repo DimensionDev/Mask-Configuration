@@ -33,9 +33,17 @@
     "jbx": "506881000000000000000000"
   },
   "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
-  "totalSupply": "234126425",
+  "totalSupply": "236126425",
   "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "2000000000000000000",
+      "beneficiary": "0xe9e71a41e09dcff11ea38d535f229686ad902c86",
+      "id": "0x66e3310a566a4ba123b30598ad435738fb243fe52811043982dda59c6e5b4405-53",
+      "note": null,
+      "timestamp": "1641936033",
+      "txHash": "0x66e3310a566a4ba123b30598ad435738fb243fe52811043982dda59c6e5b4405"
+    },
     {
       "amount": "1040040000000000000",
       "beneficiary": "0xb3fbf8f833ee041c38d8f90f5c2d406810ce0e65",
@@ -427,14 +435,6 @@
       "note": null,
       "timestamp": "1641823714",
       "txHash": "0x6fab9401097f86dc8e70035db8d09b5ba4c12ec33aaf5b50a9a9c00c09155e68"
-    },
-    {
-      "amount": "600000000000000000",
-      "beneficiary": "0x259036ab2f3fd5aa3c5f85b73e7f7ffa39143f1a",
-      "id": "0xafec2f7fd590e5edffa56c552f0de977246331ba6af9e21a661ec78ac26c11f2-553",
-      "note": "1000x",
-      "timestamp": "1641822026",
-      "txHash": "0xafec2f7fd590e5edffa56c552f0de977246331ba6af9e21a661ec78ac26c11f2"
     }
   ],
   "redeemEvents": [],
