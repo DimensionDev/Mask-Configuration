@@ -1,10 +1,10 @@
 {
   "createdAt": "1639772291",
   "creator": "0x679d87d8640e66778c3419d164998e720d7495f6",
-  "currentBalance": "157774367470000000000",
+  "currentBalance": "158274367470000000000",
   "handle": "0x6d6f6f6e64616f00000000000000000000000000000000000000000000000000",
   "id": "199",
-  "totalPaid": "239546180059883494290",
+  "totalPaid": "240046180059883494290",
   "totalRedeemed": "0",
   "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
   "name": "MoonDAO",
@@ -33,9 +33,17 @@
     "jbx": "506881000000000000000000"
   },
   "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
-  "totalSupply": "239546180",
+  "totalSupply": "240046180",
   "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xeae9c2a2c803becbc81f3a485a7cda9d03e33165",
+      "id": "0x3cd28e5416287071c593fe98dd058c6c30d43dc4fd591686d135fc50a1580816-84",
+      "note": "moon dao to moon",
+      "timestamp": "1641959712",
+      "txHash": "0x3cd28e5416287071c593fe98dd058c6c30d43dc4fd591686d135fc50a1580816"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0xcd8e04d3b91c73aca20c231479c9e30575329f8d",
@@ -427,14 +435,6 @@
       "note": null,
       "timestamp": "1641874879",
       "txHash": "0x57e2b41a1cfb7a75915a508bc530765fa8887248ebed088e9c8e248241944ac4"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x15d67fc9deec198977688c7a25a8db2ca2b477ac",
-      "id": "0xa60f8ab40691fc6e37233dd1d4e74ad82ddaf1f8e0123d627e8dc69621f47b2b-402",
-      "note": "购买 moondao 治理代币 $MOONEY 50000个",
-      "timestamp": "1641874285",
-      "txHash": "0xa60f8ab40691fc6e37233dd1d4e74ad82ddaf1f8e0123d627e8dc69621f47b2b"
     }
   ],
   "redeemEvents": [],
