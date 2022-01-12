@@ -1,11 +1,11 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "41216951444081109939",
+  "currentBalance": "41005893085645719569",
   "handle": "0x74696c6573000000000000000000000000000000000000000000000000000000",
   "id": "2",
   "totalPaid": "131172336800000000000",
-  "totalRedeemed": "6658385355918890061",
+  "totalRedeemed": "6869443714354280431",
   "uri": "QmNnxipn7ooGhX67nUPysoTuFK4xbLJrXw1nKnqTQ6uy7h",
   "name": "TileDAO",
   "description": "Receives all revenue from the Tiles primary sale.",
@@ -32,7 +32,7 @@
     "jbx": "553664000000000000000000"
   },
   "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
-  "totalSupply": "111292005",
+  "totalSupply": "110163511",
   "holdingSymbol": "TILE",
   "payEvents": [
     {
@@ -438,6 +438,14 @@
   ],
   "redeemEvents": [
     {
+      "amount": "1128494069078928000000000",
+      "beneficiary": "0xd337fccaec6ea113baacca3a41eb8766706a0706",
+      "id": "0xa29c2fb9e38206eb512647f38a91ce777571f40c0a5972759f3a2bc638b5fdeb-76",
+      "returnAmount": "211058358435390370",
+      "timestamp": "1642023377",
+      "txHash": "0xa29c2fb9e38206eb512647f38a91ce777571f40c0a5972759f3a2bc638b5fdeb"
+    },
+    {
       "amount": "92100000000000000000000",
       "beneficiary": "0x224e69025a2f705c8f31efb6694398f8fd09ac5c",
       "id": "0x923ab0d0b9767d38f38e41b0cb3b29d1541ec5c3466c1e77ef84d07a54b3cbb0-394",
@@ -828,14 +836,6 @@
       "returnAmount": "47636511757061024",
       "timestamp": "1626961969",
       "txHash": "0x2ddda7d71f1533adca757d187066c31aa60afe8d605fa49207a6c779109c11a5"
-    },
-    {
-      "amount": "252000000000000000000000",
-      "beneficiary": "0xb8fd8687e854453c0b2a96fd559950fa9f3327d7",
-      "id": "0x6532ec73d999e3633cceb1fde859135f9ce922ed57aed3bdbd0779f380215466-133",
-      "returnAmount": "122279937382364467",
-      "timestamp": "1626934850",
-      "txHash": "0x6532ec73d999e3633cceb1fde859135f9ce922ed57aed3bdbd0779f380215466"
     }
   ],
   "withdrawEvents": [
