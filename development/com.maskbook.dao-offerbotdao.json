@@ -1,10 +1,10 @@
 {
   "createdAt": "1639767871",
   "creator": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
-  "currentBalance": "5000000000000000000",
+  "currentBalance": "5300000000000000000",
   "handle": "0x6f66666572626f7464616f000000000000000000000000000000000000000000",
   "id": "197",
-  "totalPaid": "13170000000000000000",
+  "totalPaid": "13470000000000000000",
   "totalRedeemed": "0",
   "uri": "QmPiridEqEhoLwzbKdNkXAgKJ8YxP3GhVgSmtHdUSaYDFJ",
   "name": "Offer Bot DAO",
@@ -17,7 +17,33 @@
   "payDisclosure": "Offer Bot DAO contracts are unaudited, and may be vulnerable to bugs or hacks. All funds moved through Offer Bot DAO could be lost or stolen. Offer Bot DAO is not liable for any losses by projects or their supporters.",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "10476190476190476191",
+      "duration": "14 days",
+      "start": "12-31-21 7:04pm",
+      "end": "1-14-22 7:04pm",
+      "discount": 0.2,
+      "bondingCurve": 0.9
+    }
+  ],
+  "inWallet": {
+    "eth": "420000000000000000",
+    "jbx": "50643000000000000000000"
+  },
+  "tokenAddress": null,
+  "totalSupply": "11096000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "300000000000000000",
+      "beneficiary": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "id": "0x6c0dfd38fb974839bbe2ad932f421203e09878c9f4f3fb99fd5097d7a2dd6982-174",
+      "note": "beep boop",
+      "timestamp": "1642011804",
+      "txHash": "0x6c0dfd38fb974839bbe2ad932f421203e09878c9f4f3fb99fd5097d7a2dd6982"
+    },
     {
       "amount": "2000000000000000000",
       "beneficiary": "0x2a281ee31679f9f96cc421093e9345edef7fa6c1",

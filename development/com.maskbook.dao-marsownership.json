@@ -17,6 +17,22 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "Not set",
+      "discount": 0,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "130000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "154000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "2000000000000000",

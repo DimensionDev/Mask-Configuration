@@ -17,6 +17,24 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "WLD",
+      "target": "2000000000000000000",
+      "duration": "14 days",
+      "start": "1-6-22 5:10am",
+      "end": "1-20-22 5:10am",
+      "discount": 0.1,
+      "bondingCurve": 0.6
+    }
+  ],
+  "inWallet": {
+    "eth": "1020000000000000000",
+    "jbx": "995000000000000000000"
+  },
+  "tokenAddress": "0x2Cd0f8DacE506a6240251A09C76769e538595eAB",
+  "totalSupply": "193046",
+  "holdingSymbol": "WLD",
   "payEvents": [
     {
       "amount": "100000000000000000",

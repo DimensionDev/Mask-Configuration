@@ -17,6 +17,24 @@
   "payDisclosure": "First, the holders of Copy DAO will unconditionally obtain the white list of Copy DAO products according to the currency ranking. \n\nSecond, 50% of the income of Copy DAO is used for currency dividends. \n\nThird, Copy DAO users can initiate proposals and have the right to make decisions",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "200000000000000000000000",
+      "duration": "15 days",
+      "start": "1-12-22 11:56am",
+      "end": "1-27-22 11:56am",
+      "discount": 0.05,
+      "bondingCurve": 0.2
+    }
+  ],
+  "inWallet": {
+    "eth": "110000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "10056",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "5000000000000000",

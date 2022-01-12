@@ -16,6 +16,24 @@
   "payButton": "Add juice",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "JBX",
+      "target": "98490000000000000000000",
+      "duration": "14 days",
+      "start": "1-1-22 7:19pm",
+      "end": "1-15-22 7:19pm",
+      "discount": 0.1,
+      "bondingCurve": 0.7
+    }
+  ],
+  "inWallet": {
+    "eth": "7330000000000000000",
+    "jbx": "170099243000000000000000000"
+  },
+  "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
+  "totalSupply": "2376708533",
+  "holdingSymbol": "JBX",
   "payEvents": [
     {
       "amount": "342380952380952381",

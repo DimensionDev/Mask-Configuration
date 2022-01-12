@@ -17,6 +17,24 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "DIAS",
+      "target": "150000000000000000000",
+      "duration": "30 days",
+      "start": "12-30-21 8:38am",
+      "end": "1-29-22 8:38am",
+      "discount": 0.02,
+      "bondingCurve": 1
+    }
+  ],
+  "inWallet": {
+    "eth": "20000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0xDad980e5be7bD3Bc17af9A22d366e12470975e8f",
+  "totalSupply": "160000",
+  "holdingSymbol": "DIAS",
   "payEvents": [
     {
       "amount": "160000000000000000",

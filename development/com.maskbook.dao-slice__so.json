@@ -17,6 +17,24 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "SLX",
+      "target": "8060000000000000000000",
+      "duration": "14 days",
+      "start": "1-12-22 5:38pm",
+      "end": "1-26-22 5:38pm",
+      "discount": 0.1,
+      "bondingCurve": 0.65
+    }
+  ],
+  "inWallet": {
+    "eth": "380000000000000000",
+    "jbx": "50587000000000000000000"
+  },
+  "tokenAddress": "0x6fa5FF63B2752265c6Bd9350591f97A7dAd9e918",
+  "totalSupply": "138015000",
+  "holdingSymbol": "SLX",
   "payEvents": [
     {
       "amount": "21000000000000000000",
