@@ -1,10 +1,10 @@
 {
   "createdAt": "1641673275",
   "creator": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
-  "currentBalance": "6982000000000000000",
+  "currentBalance": "7012000000000000000",
   "handle": "0x73617472616272756e6e64616f00000000000000000000000000000000000000",
   "id": "253",
-  "totalPaid": "6982000000000000000",
+  "totalPaid": "7012000000000000000",
   "totalRedeemed": "0",
   "uri": "QmcmK3BH3UmeMrSerYtvkfNJ3Z2hWw23VuhA1GkAWwJrhL",
   "name": "Sätra Brunn DAO",
@@ -18,6 +18,14 @@
   "payButton": "Donate",
   "payDisclosure": "Contributions made to Sätra Brunn DAO are donations, and should not be made in anticipation of financial gain.",
   "payEvents": [
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0xb44d3b0507e69f7fd3683fb4ec3bdbb7cca0ae25",
+      "id": "0x73870860e0dfedc4908c0656e9f208b6e096c69feeaf45f49a44308be2cad7b0-429",
+      "note": null,
+      "timestamp": "1641972926",
+      "txHash": "0x73870860e0dfedc4908c0656e9f208b6e096c69feeaf45f49a44308be2cad7b0"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0xe4b80b17e78020f28076966afc1f17e9bedc8823",
@@ -409,14 +417,6 @@
       "note": "📈",
       "timestamp": "1641675225",
       "txHash": "0x9667d7f3b408eaf369c8ec3747bce27a1cb04d1f7204b8e2b98a1cd14b85783e"
-    },
-    {
-      "amount": "9000000000000000",
-      "beneficiary": "0xee4adcf8f033cb8ca7b725e9a0719855a83b3a58",
-      "id": "0x7e499b904457f28775f9404e883ebc5c1b983856ee0b02ec9662419dd3d325d8-318",
-      "note": "we will be successful",
-      "timestamp": "1641675151",
-      "txHash": "0x7e499b904457f28775f9404e883ebc5c1b983856ee0b02ec9662419dd3d325d8"
     }
   ],
   "redeemEvents": [],
