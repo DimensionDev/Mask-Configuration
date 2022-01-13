@@ -19,13 +19,7 @@
   "payDisclosure": "We cannot guarantee we will win the Kentucky Derby, but at the bare minimum we could probably get at least into the top 4.",
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "10000000000000000000000000",
-      "duration": "30 days",
-      "start": "12-24-21 6:52am",
-      "end": "1-23-22 6:52am",
-      "discount": 0,
-      "bondingCurve": 1
+      "toETHSymbol": "PEOPLE"
     }
   ],
   "inWallet": {
@@ -35,16 +29,7 @@
   "tokenAddress": null,
   "totalSupply": "100000",
   "holdingSymbol": "Tokens",
-  "payEvents": [
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xe6edbbcc7a1b515274bffac4ebb58258ba4f6e9e",
-      "id": "0xfd5934e5f94088a21576cdcbeeba3930eeb111893f39899ea522fc6831c008a4-56",
-      "note": "Lets buy a f*cking horse https://jbx.mypinata.cloud/ipfs/QmNUSFELz13TxhncVNkUqpNvDXZdZTPHHeWmPPQdxHykvR",
-      "timestamp": "1637737268",
-      "txHash": "0xfd5934e5f94088a21576cdcbeeba3930eeb111893f39899ea522fc6831c008a4"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []

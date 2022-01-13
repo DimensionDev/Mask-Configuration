@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5462828402651071616847",
+  "currentBalance": "5462942730213398155178",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5697087848355018751065",
+  "totalPaid": "5697202175917345289396",
   "totalRedeemed": "66954662957836518911",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -18,23 +18,25 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "JBX",
-      "target": "98490000000000000000000",
-      "duration": "14 days",
-      "start": "1-1-22 7:19pm",
-      "end": "1-15-22 7:19pm",
-      "discount": 0.1,
-      "bondingCurve": 0.7
+      "toETHSymbol": "JBX"
     }
   ],
   "inWallet": {
     "eth": "7330000000000000000",
     "jbx": "170099243000000000000000000"
   },
-  "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2376708533",
+  "tokenAddress": null,
+  "totalSupply": "2376738298",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "114327562326538331",
+      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "id": "0xd6a3a76193305dc7f916c76154f8fff028d3d06f325b6e28a8532c84433a1480-400",
+      "note": "Fee from @slice",
+      "timestamp": "1642036553",
+      "txHash": "0xd6a3a76193305dc7f916c76154f8fff028d3d06f325b6e28a8532c84433a1480"
+    },
     {
       "amount": "342380952380952381",
       "beneficiary": "0xcc1cb7a5e84ed54267c57902a05ee86ab1b5b78c",
@@ -426,14 +428,6 @@
       "note": "Fee from @spacedao",
       "timestamp": "1640935103",
       "txHash": "0xde5b45643919cc06b5ae47a446c744e1001bc9c1272eadc7ea2a071ba2aa06b0"
-    },
-    {
-      "amount": "82523809523809524",
-      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
-      "id": "0x3398866323894de68cc3677acf395a6fd1fcecb786533cbed6e1ef960240e0fa-261",
-      "note": "Fee from @tiles",
-      "timestamp": "1640928463",
-      "txHash": "0x3398866323894de68cc3677acf395a6fd1fcecb786533cbed6e1ef960240e0fa"
     }
   ],
   "redeemEvents": [

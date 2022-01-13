@@ -19,20 +19,14 @@
   "payDisclosure": "",
   "fundingCycles": [
     {
-      "toETHSymbol": "IMDAO",
-      "target": "26190476190476190476191",
-      "duration": "30 days",
-      "start": "1-10-22 9:25am",
-      "end": "2-9-22 9:25am",
-      "discount": 0.1,
-      "bondingCurve": 0.5
+      "toETHSymbol": "IMDAO"
     }
   ],
   "inWallet": {
     "eth": "740000000000000000",
     "jbx": "0"
   },
-  "tokenAddress": "0xce5D6543C4C9009e83fCE675d74DeB12CCAe421d",
+  "tokenAddress": null,
   "totalSupply": "110000",
   "holdingSymbol": "IMDAO",
   "payEvents": [

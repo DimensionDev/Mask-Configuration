@@ -19,18 +19,14 @@
   "payDisclosure": "Please see kanyebeardao.com for details of this DAO",
   "fundingCycles": [
     {
-      "toETHSymbol": "YE",
-      "target": "1000000000000000000000000",
-      "duration": "Not set",
-      "discount": 0,
-      "bondingCurve": 1
+      "toETHSymbol": "YE"
     }
   ],
   "inWallet": {
     "eth": "600000000000000000",
     "jbx": "64481000000000000000000"
   },
-  "tokenAddress": "0xb9A255D352308d3AB3a995c847d3c352498D580b",
+  "tokenAddress": null,
   "totalSupply": "1000000",
   "holdingSymbol": "YE",
   "payEvents": [

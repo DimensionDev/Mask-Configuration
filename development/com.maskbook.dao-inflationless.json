@@ -24,18 +24,14 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "BRRR",
-      "target": "20952380952380952380952381",
-      "duration": "Not set",
-      "discount": 0,
-      "bondingCurve": 1
+      "toETHSymbol": "BRRR"
     }
   ],
   "inWallet": {
     "eth": "60000000000000000",
     "jbx": "0"
   },
-  "tokenAddress": "0x43150d00bdbec321daf85850Bd36439553C1D561",
+  "tokenAddress": null,
   "totalSupply": "12790000",
   "holdingSymbol": "BRRR",
   "payEvents": [
