@@ -1,10 +1,10 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5120861066936170415704",
+  "currentBalance": "5120862066936170415704",
   "handle": "0x636f6e737469747574696f6e64616f0000000000000000000000000000000000",
   "id": "36",
-  "totalPaid": "11612361271812406769962",
+  "totalPaid": "11612362271812406769962",
   "totalRedeemed": "6482382634209265115890",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "5119363024",
+  "totalSupply": "5119364024",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xf43ee1f15ea5109c3b70b3f3043bbdc019ac2c5e",
+      "id": "0x36e091173dd55845dd6138e38dae221141d49d193e8dc9337abe23d35bd52268-328",
+      "note": null,
+      "timestamp": "1642062329",
+      "txHash": "0x36e091173dd55845dd6138e38dae221141d49d193e8dc9337abe23d35bd52268"
+    },
     {
       "amount": "100000000000000",
       "beneficiary": "0xfcfa4369eaa965ac4e36f1dd9fd2852c6542b0f7",
@@ -422,14 +430,6 @@
       "note": "Thank you Noah & Packy",
       "timestamp": "1638205452",
       "txHash": "0xa06976f184d7187ee84330a1d0c330556bb6e6fe9f090ef50bb57f7ff0817198"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0x106015dcdb286133df69e4bbed2ab3e6daa88fa3",
-      "id": "0x15a529981ddf00ab44d0bafff461d4b36b27cb9739c1fa899b5ae5902b6c5aec-469",
-      "note": "\"It is a far, far better thing that I do, than I have ever done; it is a far, far better rest that I go to than I have ever known.\"\n\n- Charles Dickens\n\n",
-      "timestamp": "1638202775",
-      "txHash": "0x15a529981ddf00ab44d0bafff461d4b36b27cb9739c1fa899b5ae5902b6c5aec"
     }
   ],
   "redeemEvents": [
