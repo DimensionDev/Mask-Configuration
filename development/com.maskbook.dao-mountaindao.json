@@ -1,10 +1,10 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "29492470940668",
+  "currentBalance": "50029492470940668",
   "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
   "id": "149",
-  "totalPaid": "66395396266900000000",
+  "totalPaid": "66445396266900000000",
   "totalRedeemed": "17386200665779546253",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
   "name": "MountainDAO",
@@ -27,9 +27,17 @@
     "jbx": "284421000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "47445732",
+  "totalSupply": "47495732",
   "holdingSymbol": "MTDR",
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xe540948cff9c3318fcc3cd1d4872156d5281d174",
+      "id": "0x65932145d143b4f011a38081eaa14e35322b4ad66a9d7a481c7bb8a9a7e6da4a-298",
+      "note": null,
+      "timestamp": "1642065986",
+      "txHash": "0x65932145d143b4f011a38081eaa14e35322b4ad66a9d7a481c7bb8a9a7e6da4a"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0x2d7d9e8797bf1c85cd2771584273a3a64a0d81a7",
@@ -421,14 +429,6 @@
       "note": null,
       "timestamp": "1639836319",
       "txHash": "0x58e823a4d4e85899b582ecb048b2a4263c304b74f67e2640d96ddd289c82765c"
-    },
-    {
-      "amount": "800000000000000",
-      "beneficiary": "0x6977fca2138b11e73ce1afa6fef0dde963f6832c",
-      "id": "0x7ecd81d7ef4b3f763bcc897ce1bf7e6717c16cc8374a1431c209fe6f83663b05-526",
-      "note": "City dao 👍",
-      "timestamp": "1639822635",
-      "txHash": "0x7ecd81d7ef4b3f763bcc897ce1bf7e6717c16cc8374a1431c209fe6f83663b05"
     }
   ],
   "redeemEvents": [
