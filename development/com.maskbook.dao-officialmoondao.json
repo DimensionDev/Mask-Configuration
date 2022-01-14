@@ -1,10 +1,10 @@
 {
   "createdAt": "1639772291",
   "creator": "0x679d87d8640e66778c3419d164998e720d7495f6",
-  "currentBalance": "559026281960000000000",
+  "currentBalance": "559276281960000000000",
   "handle": "0x6d6f6f6e64616f00000000000000000000000000000000000000000000000000",
   "id": "199",
-  "totalPaid": "1331184814229883494290",
+  "totalPaid": "1331434814229883494290",
   "totalRedeemed": "0",
   "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
   "name": "MoonDAO",
@@ -27,9 +27,17 @@
     "jbx": "4786400000000000000000000"
   },
   "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
-  "totalSupply": "1331184814",
+  "totalSupply": "1331434814",
   "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0x04a87558a4c58426ebe2d97e32161600cce0f9ad",
+      "id": "0xe22e6abb8467b5d966850a03f884a25e40c5421f9fe53bda2c5db6e78316ee53-341",
+      "note": null,
+      "timestamp": "1642192998",
+      "txHash": "0xe22e6abb8467b5d966850a03f884a25e40c5421f9fe53bda2c5db6e78316ee53"
+    },
     {
       "amount": "750000000000000000",
       "beneficiary": "0xd8891897f4b87af7a79b116ed170d976c7646fcc",
@@ -421,14 +429,6 @@
       "note": "I believe in decentralization.",
       "timestamp": "1642168952",
       "txHash": "0x82d633df2a77a2208b4c57e40d137976e0d066597d32c87ba0acdd575abafa58"
-    },
-    {
-      "amount": "300000000000000000",
-      "beneficiary": "0xb9d3f42bfe1defc772518d5d8765b221900877f2",
-      "id": "0xb2b29db6bb928fab4dbddb9c4fe19070523098b62ee72e7bf7ca64c6f5097fa5-230",
-      "note": "NY come here",
-      "timestamp": "1642168614",
-      "txHash": "0xb2b29db6bb928fab4dbddb9c4fe19070523098b62ee72e7bf7ca64c6f5097fa5"
     }
   ],
   "redeemEvents": [],
