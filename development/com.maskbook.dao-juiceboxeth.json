@@ -26,9 +26,17 @@
     "jbx": "170099243000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2375390290",
+  "totalSupply": "2375650636",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x5eee7ff0b721c2f61b980e11430772a3a9d6e8de",
+      "id": "0x975b75794f361fe2e9e887db5bf74c893c6a49559854bca7aef7b494a1937f7a-33",
+      "note": null,
+      "timestamp": "1642159116",
+      "txHash": "0x975b75794f361fe2e9e887db5bf74c893c6a49559854bca7aef7b494a1937f7a"
+    },
     {
       "amount": "500000000000000000",
       "beneficiary": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",
@@ -420,14 +428,6 @@
       "note": "Fee from @translatordao",
       "timestamp": "1641042301",
       "txHash": "0x534fe987364488dc15e6875b8b1b539885573c7951cf70aa1b15e14c69a9ab08"
-    },
-    {
-      "amount": "26000000000000000",
-      "beneficiary": "0xf1f517f2f36bbacb3ea85ee8acef9a482149cacf",
-      "id": "0xd12ed75d7112338b7183a7727c148efa44aa050b07adf86a2a666c36ab855b60-222",
-      "note": null,
-      "timestamp": "1641033044",
-      "txHash": "0xd12ed75d7112338b7183a7727c148efa44aa050b07adf86a2a666c36ab855b60"
     }
   ],
   "redeemEvents": [
