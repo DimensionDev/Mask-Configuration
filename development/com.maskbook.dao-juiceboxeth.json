@@ -1,10 +1,10 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5482872500370490321772",
+  "currentBalance": "5512589101082871274153",
   "handle": "0x6a75696365626f78000000000000000000000000000000000000000000000000",
   "id": "1",
-  "totalPaid": "5733448593404289502480",
+  "totalPaid": "5763165194116670454861",
   "totalRedeemed": "83271310287688565401",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -26,9 +26,17 @@
     "jbx": "170099243000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2376058862",
+  "totalSupply": "2383795477",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "29716600712380952381",
+      "beneficiary": "0xce4a1e86a5c47cd677338f53da22a91d85cab2c9",
+      "id": "0xb15cc41cf565bda7360fc8819e6a541789bb8a7626f7e7d0c8bf32a2032d93da-217",
+      "note": "Fee from @moondao",
+      "timestamp": "1642230605",
+      "txHash": "0xb15cc41cf565bda7360fc8819e6a541789bb8a7626f7e7d0c8bf32a2032d93da"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x5da7351a4cb03c33e11f51841bc614d985812821",
@@ -420,14 +428,6 @@
       "note": "alliwantforchristmasis.eth",
       "timestamp": "1641096443",
       "txHash": "0x641e84510d84a11f5d6f4f39bf348a396902c65a46851d7cae6ae6fc13fc43f7"
-    },
-    {
-      "amount": "3893895837613499729",
-      "beneficiary": "0xce4a1e86a5c47cd677338f53da22a91d85cab2c9",
-      "id": "0xd1aa79f2d937da123d7ed82a4a15ed547a5d5ad32e64b7c42a838e958b672b52-446",
-      "note": "Fee from @moondao",
-      "timestamp": "1641068190",
-      "txHash": "0xd1aa79f2d937da123d7ed82a4a15ed547a5d5ad32e64b7c42a838e958b672b52"
     }
   ],
   "redeemEvents": [
