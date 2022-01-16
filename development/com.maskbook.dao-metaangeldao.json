@@ -1,10 +1,10 @@
 {
   "createdAt": "1641795997",
   "creator": "0x3bcaaeac7fd3dbf1c236ca8e5875b890f10d0b22",
-  "currentBalance": "130000000000000000",
+  "currentBalance": "1130000000000000000",
   "handle": "0x6d657461616e67656c64616f0000000000000000000000000000000000000000",
   "id": "254",
-  "totalPaid": "130000000000000000",
+  "totalPaid": "1130000000000000000",
   "totalRedeemed": "0",
   "uri": "QmP7QfWUyWXBJU3qKuSs2g8bJqWY2zVbHACgRhbdCBsC22",
   "name": "MetaAngel DAO",
@@ -23,13 +23,21 @@
     }
   ],
   "inWallet": {
-    "eth": "3170000000000000000",
+    "eth": "2160000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0xE01C3B48c902653133703DB3F1c84f537cEB472E",
-  "totalSupply": "130000",
+  "totalSupply": "1130000",
   "holdingSymbol": "MAD",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x3bcaaeac7fd3dbf1c236ca8e5875b890f10d0b22",
+      "id": "0xaac6b26f811bd1c653a300a77c9aced2137161bad92cef7cb4a50856fe017b19-502",
+      "note": "1ETH - I believe in you. LFG! -KH",
+      "timestamp": "1642335504",
+      "txHash": "0xaac6b26f811bd1c653a300a77c9aced2137161bad92cef7cb4a50856fe017b19"
+    },
     {
       "amount": "30000000000000000",
       "beneficiary": "0xd82c7dc40fea9c40a646c0dbad32e6110ec0f942",
