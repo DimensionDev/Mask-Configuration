@@ -1,10 +1,10 @@
 {
   "createdAt": "1639772291",
   "creator": "0x679d87d8640e66778c3419d164998e720d7495f6",
-  "currentBalance": "159902934632580700092",
+  "currentBalance": "160152934632580700092",
   "handle": "0x6d6f6f6e64616f00000000000000000000000000000000000000000000000000",
   "id": "199",
-  "totalPaid": "2620705607404533194382",
+  "totalPaid": "2620955607404533194382",
   "totalRedeemed": "0",
   "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
   "name": "MoonDAO",
@@ -27,9 +27,17 @@
     "jbx": "14599354000000000000000000"
   },
   "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
-  "totalSupply": "2620705607",
+  "totalSupply": "2620955607",
   "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0x819d0f65af085f0b9c2cbd7d726e4d026e164ddd",
+      "id": "0xfdb03f276c60605501a66d4be6fb626eedfebf3edbec6be3fda255341b8b619a-3",
+      "note": null,
+      "timestamp": "1642369517",
+      "txHash": "0xfdb03f276c60605501a66d4be6fb626eedfebf3edbec6be3fda255341b8b619a"
+    },
     {
       "amount": "550000000000000000",
       "beneficiary": "0xfc76ac80e27178f1f8f9f7ee6669e40dcc8733a5",
@@ -421,14 +429,6 @@
       "note": null,
       "timestamp": "1642362201",
       "txHash": "0x4fddcdaa16ed24a002da13cdc57d3706bd4c4ef40c5dab8a5bd4778e8c80a5de"
-    },
-    {
-      "amount": "300000000000000000",
-      "beneficiary": "0xe6a42207c3e008df25edb2cdef9d0373a3858c4a",
-      "id": "0x014b20a7d0807c59661f259d61799f5f0175af339c09ed87d64ffe615a53978b-277",
-      "note": null,
-      "timestamp": "1642362201",
-      "txHash": "0x014b20a7d0807c59661f259d61799f5f0175af339c09ed87d64ffe615a53978b"
     }
   ],
   "redeemEvents": [],
