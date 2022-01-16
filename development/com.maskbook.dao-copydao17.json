@@ -29,7 +29,24 @@
   "tokenAddress": null,
   "totalSupply": "10056",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0x6add23abafc0a595b06d5954e606add512fe7787",
+      "id": "0xec1bbd46ffe4c15b90d16fb63e279eb76c6c17628ac8b84fdf552314c1a6ca0a-73",
+      "note": null,
+      "timestamp": "1639730100",
+      "txHash": "0xec1bbd46ffe4c15b90d16fb63e279eb76c6c17628ac8b84fdf552314c1a6ca0a"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xc022dc8208c71cf317a614977c9bc02140834819",
+      "id": "0x59dae2dc1bb718dcaa243e5a8eadeb8c2481554736eba29fa665068973c9c552-268",
+      "note": null,
+      "timestamp": "1638131421",
+      "txHash": "0x59dae2dc1bb718dcaa243e5a8eadeb8c2481554736eba29fa665068973c9c552"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {
