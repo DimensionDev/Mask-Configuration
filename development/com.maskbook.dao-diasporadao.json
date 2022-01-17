@@ -29,7 +29,16 @@
   "tokenAddress": "0xDad980e5be7bD3Bc17af9A22d366e12470975e8f",
   "totalSupply": "160000",
   "holdingSymbol": "DIAS",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "160000000000000000",
+      "beneficiary": "0xf8dd8b169c9c531e26bc81b2ef48cdab16af76e0",
+      "id": "0xe83cd22fbd127191ad3359ad27fa07f1e43c14ecfcbb411513065e014a1e4c18-112",
+      "note": null,
+      "timestamp": "1638289288",
+      "txHash": "0xe83cd22fbd127191ad3359ad27fa07f1e43c14ecfcbb411513065e014a1e4c18"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
