@@ -1,10 +1,10 @@
 {
   "createdAt": "1641673275",
   "creator": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
-  "currentBalance": "9147000000000000000",
+  "currentBalance": "9347000000000000000",
   "handle": "0x73617472616272756e6e64616f00000000000000000000000000000000000000",
   "id": "253",
-  "totalPaid": "9147000000000000000",
+  "totalPaid": "9347000000000000000",
   "totalRedeemed": "0",
   "uri": "QmcmK3BH3UmeMrSerYtvkfNJ3Z2hWw23VuhA1GkAWwJrhL",
   "name": "Sätra Brunn DAO",
@@ -18,6 +18,22 @@
   "payButton": "Donate",
   "payDisclosure": "Contributions made to Sätra Brunn DAO are donations, and should not be made in anticipation of financial gain.",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x11aec066ff84697a2ca7b5d6bf277468c62e4710",
+      "id": "0xb989875d4668cb5115f05651244306bd271cda3472d589783ba7eab8eafc6919-40",
+      "note": "👏",
+      "timestamp": "1642404359",
+      "txHash": "0xb989875d4668cb5115f05651244306bd271cda3472d589783ba7eab8eafc6919"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x8eda47b1d76ae28e6ca44b48c1a882e8daace290",
+      "id": "0x91334307178b29279b2be28bffe1cd236e755cf97a74fffa09d0951b8102a828-99",
+      "note": null,
+      "timestamp": "1642404209",
+      "txHash": "0x91334307178b29279b2be28bffe1cd236e755cf97a74fffa09d0951b8102a828"
+    },
     {
       "amount": "5000000000000000",
       "beneficiary": "0x5093b0d7e4b9e770168a94933a0eaf4db678b3d0",
@@ -401,22 +417,6 @@
       "note": null,
       "timestamp": "1641685213",
       "txHash": "0x5ddbeb3e0288a681abd02b3977085953854f5b0e9cc0ba8bf6f7236fced7b2da"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x6b190ca03ff9cb582fc80d0fa76069d8768b8b99",
-      "id": "0x4ca353a054c95421ca17e5cfae596a677ed3cf8eb588d1714167b3418ff8bdef-274",
-      "note": null,
-      "timestamp": "1641683809",
-      "txHash": "0x4ca353a054c95421ca17e5cfae596a677ed3cf8eb588d1714167b3418ff8bdef"
-    },
-    {
-      "amount": "5000000000000000",
-      "beneficiary": "0xebb8085d42db025858dc56bcdaa152bd630b3079",
-      "id": "0xd3b9e4f57efaaee88d8ca40385fafea4864f5f554c0c70a1e6764627d5735e30-411",
-      "note": null,
-      "timestamp": "1641683664",
-      "txHash": "0xd3b9e4f57efaaee88d8ca40385fafea4864f5f554c0c70a1e6764627d5735e30"
     }
   ],
   "redeemEvents": [],
