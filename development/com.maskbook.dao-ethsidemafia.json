@@ -2,8 +2,9 @@
   "createdAt": "1637628393",
   "creator": "0x73cf34ea15377130ce4df9793afc8d64bbe37d1c",
   "currentBalance": "0",
-  "handle": "0x6e6674626c7565636869707364616f0000000000000000000000000000000000",
+  "handle": "nftbluechipsdao",
   "id": "62",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "0",
   "totalRedeemed": "0",
   "uri": "QmUzQkB8d12q32zcfvjpKZw1jvC4SfCxPKGdEKmcgzhamP",
@@ -19,15 +20,7 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "1000000000000000000000",
-      "duration": "30 days",
-      "start": "11-23-21 12:46am",
-      "end": "12-23-21 12:46am",
-      "reserved": 0.1,
-      "discount": 0.2,
-      "toETH": 900,
-      "bondingCurve": 1
+      "toETHSymbol": "PEOPLE"
     }
   ],
   "inWallet": {
@@ -36,7 +29,6 @@
   },
   "tokenAddress": null,
   "totalSupply": "0",
-  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

@@ -6,6 +6,8 @@ const { utils } = require('ethers');
 const { twitterIdMap } = require('./data');
 
 const baseUrl = 'https://juicebox.money/#/p/';
+const thegraphEndpoint =
+  'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/QmNxBy8UnUsQr3aeBgFvdFyWbTSMiTGpJbkAJzSm5m6vYf';
 const headers = {
   accept: 'application/json, text/plain, */*',
   'accept-language': 'en',
@@ -51,16 +53,25 @@ function parsePercent(percent) {
   return parseInt(percent, 10) / 100;
 }
 
+/**
+ * @typedef {object} Project
+ * @property {string} id
+ * @property {string} uri
+ * @property {string} handle - juicebox handler (not twitter handler)
+ */
+
+/**
+ * fetchProjects.
+ * @returns {Promise<Project[]>}
+ */
 async function fetchProjects() {
-  const rsp = await fetch(
-    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
-    {
-      headers,
-      body: '{"query":"{ projects(orderBy: totalPaid, orderDirection: desc) { id handle creator createdAt uri currentBalance totalPaid totalRedeemed } }"}',
-      method: 'POST',
-    },
-  );
+  const rsp = await fetch(thegraphEndpoint, {
+    headers,
+    body: '{"query":"{ projects(first: 1000, skip: 0, orderBy: totalPaid, orderDirection: desc, where: { }) { id handle creator createdAt uri currentBalance totalPaid totalRedeemed terminal } }"}',
+    method: 'POST',
+  });
   const json = await rsp.json();
+  console.log(json);
   const projects = json.data.projects;
   return projects;
 }
@@ -99,7 +110,7 @@ async function crawl(juiceId) {
     notFoundList.push(juiceId);
     return null;
   }
-  await page.waitForSelector('[aria-label="info-circle"]', { timeout: 7000 });
+  await page.waitForSelector('[aria-label="question-circle"]', { timeout: 7000 });
 
   const title = await page.$('h1');
   const data = await title.evaluate((el) => {
@@ -122,7 +133,7 @@ async function crawl(juiceId) {
     const list = [...sumEl.firstElementChild.firstElementChild.children];
     const result = {};
     list.forEach((el) => {
-      const iconEl = el.querySelector('.anticon-info-circle');
+      const iconEl = el.querySelector('.anticon-question-circle');
       if (!iconEl) return;
       const label = iconEl.previousElementSibling.textContent.trim().toLowerCase();
       switch (label) {
@@ -280,14 +291,11 @@ const checkResponse = (json, field, projectId) => {
 
 const eventLength = 50;
 async function crawlPayEvents(projectId) {
-  const rsp = await retryFetch(
-    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
-    {
-      headers,
-      body: `{"query":"{ payEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary note timestamp txHash } }"}`,
-      method: 'POST',
-    },
-  );
+  const rsp = await retryFetch(thegraphEndpoint, {
+    headers,
+    body: `{"query":"{ payEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary note timestamp txHash } }"}`,
+    method: 'POST',
+  });
   const json = await rsp.json();
   checkResponse(json, 'payEvents', projectId);
   const events = json.data?.payEvents ?? [];
@@ -295,14 +303,11 @@ async function crawlPayEvents(projectId) {
 }
 
 async function crawlRedeemEvents(projectId) {
-  const rsp = await retryFetch(
-    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
-    {
-      headers,
-      body: `{"query":"{ redeemEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary id returnAmount timestamp txHash } }"}`,
-      method: 'POST',
-    },
-  );
+  const rsp = await retryFetch(thegraphEndpoint, {
+    headers,
+    body: `{"query":"{ redeemEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id amount beneficiary id returnAmount timestamp txHash } }"}`,
+    method: 'POST',
+  });
   const json = await rsp.json();
   checkResponse(json, 'redeemEvents', projectId);
   const events = json.data?.redeemEvents ?? [];
@@ -310,14 +315,11 @@ async function crawlRedeemEvents(projectId) {
 }
 
 async function crawlWithdrawEvents(projectId) {
-  const rsp = await retryFetch(
-    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
-    {
-      headers,
-      body: `{"query":"{ tapEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id netTransferAmount fundingCycleId timestamp txHash beneficiary caller beneficiaryTransferAmount } }"}`,
-      method: 'POST',
-    },
-  );
+  const rsp = await retryFetch(thegraphEndpoint, {
+    headers,
+    body: `{"query":"{ tapEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id netTransferAmount fundingCycleId timestamp txHash beneficiary caller beneficiaryTransferAmount } }"}`,
+    method: 'POST',
+  });
   const json = await rsp.json();
   checkResponse(json, 'tapEvents', projectId);
   const events = json.data?.tapEvents ?? [];
@@ -325,14 +327,11 @@ async function crawlWithdrawEvents(projectId) {
 }
 
 async function crawlReservesEvents(projectId) {
-  const rsp = await retryFetch(
-    'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/Qmcgtsin741cNTtgnkpoDcY92GDK1isRG5F39FNEmEok4n',
-    {
-      headers,
-      body: `{"query":"{ printReservesEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id id count beneficiary beneficiaryTicketAmount timestamp txHash caller } }"}`,
-      method: 'POST',
-    },
-  );
+  const rsp = await retryFetch(thegraphEndpoint, {
+    headers,
+    body: `{"query":"{ printReservesEvents(first: ${eventLength}, skip: 0, orderBy: timestamp, orderDirection: desc, where: { project: \\"${projectId}\\" }) { id id count beneficiary beneficiaryTicketAmount timestamp txHash caller } }"}`,
+    method: 'POST',
+  });
   const json = await rsp.json();
   checkResponse(json, 'printReservesEvents', projectId);
   const events = json.data?.printReservesEvents ?? [];
@@ -427,7 +426,7 @@ async function crawlProjects() {
   await launchBrowser();
   for (let i = 0; i < projects.length; ++i) {
     try {
-      console.log('Crawling', projects[i].id);
+      console.log('Crawling', projects[i].id, projects[i].handle);
       await wait(10);
       let info = await fetchInfo(
         `https://jbx.mypinata.cloud/ipfs/${projects[i].uri}`,

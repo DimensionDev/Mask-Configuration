@@ -2,8 +2,9 @@
   "createdAt": "1639224462",
   "creator": "0x220524d62593997335839374d3d043ad6f69666b",
   "currentBalance": "50000000000000000",
-  "handle": "0x676f6c646261736564616f000000000000000000000000000000000000000000",
+  "handle": "goldbasedao",
   "id": "165",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "50000000000000000",
   "totalRedeemed": "0",
   "uri": "QmfKfKrU21XhSQZQfu7sPRPZNBZr7eCsNjjcPr3511EPvq",
@@ -19,22 +20,15 @@
   "payDisclosure": "",
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "104761904761904761904761905",
-      "duration": "Not set",
-      "reserved": 0.02,
-      "discount": 0,
-      "toETH": 980,
-      "bondingCurve": 1
+      "toETHSymbol": "PEOPLE"
     }
   ],
   "inWallet": {
-    "eth": "20000000000000000",
+    "eth": "10000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,
   "totalSupply": "50000",
-  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "50000000000000000",

@@ -2,8 +2,9 @@
   "createdAt": "1637366278",
   "creator": "0xcc813a5b7236658f10d0be0da74b8df293e5ec7e",
   "currentBalance": "0",
-  "handle": "0x70697864616f0000000000000000000000000000000000000000000000000000",
+  "handle": "pixdao",
   "id": "59",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "0",
   "totalRedeemed": "0",
   "uri": "QmciyiMyhgzLkQ7YRL7dwnaZqXnLRb16vLub7eX7eSdkRU",
@@ -19,24 +20,15 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "1000000000000000000",
-      "duration": "7 days",
-      "start": "12-3-21 11:57pm",
-      "end": "12-10-21 11:57pm",
-      "reserved": 0.15,
-      "discount": 0,
-      "toETH": 845,
-      "bondingCurve": 1
+      "toETHSymbol": "PIX"
     }
   ],
   "inWallet": {
-    "eth": "150000000000000000",
+    "eth": "330000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0xdA25cb3E63C9ACcb197337b820771b8F08EA77B2",
   "totalSupply": "0",
-  "holdingSymbol": "PIX",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

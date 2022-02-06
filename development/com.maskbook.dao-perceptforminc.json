@@ -2,8 +2,9 @@
   "createdAt": "1637080689",
   "creator": "0x2091125bfe4259b2cfa889165beb6290d0df5dea",
   "currentBalance": "0",
-  "handle": "0x70657263657074666f726d000000000000000000000000000000000000000000",
+  "handle": "perceptform",
   "id": "39",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "0",
   "totalRedeemed": "0",
   "uri": "QmX5tGLRLDYN8sVzzYgsbmU9nScTySLTb3qBSaU7xyg3Kv",
@@ -17,22 +18,15 @@
   "payDisclosure": "PerceptForm is an end-to-end ecosystem of cryptocurrency / blockchain products & services that introduces communities to the new world of blockchain technology. PerceptForm aims to be the bridge that creates solutions in finance, education, art and real estate by leveraging blockchain technology. As we have launched our social payment marketplace known as \"PerceptPay\" and an educational community known as \"PerceptGrow\", the next focus for our company is mining. \n\nPerceptMine is a social Bitcoin mining operation that offers cloud mining to retail and accredited investors. A portion of revenue will be shared through the process of tokenization.\n\nThis is the first time in the world that a Bitcoin mining operation is being tokenized. PerceptMine plans to be operational by January 2022 and launch in North Carolina with plans to scale nationally. \n\nTo support PerceptMine does not constitute investment in the enterprise itself but it will give you the ability to advise through governance tokens. \n\nThrough governance, the ability to advise what coins/tokens should be mined through our forthcoming DAO becomes a reality. Donations yield governance tokens per donation and donors should not have any expectation of profit. \n\nUpon the PerceptMine tokenized offering being launched for accredited and retail investors (nationally and internationally), then and only then will people will be able to invest in the operation after they pass KYC as facilitated by our internationally compliant tokenization partner SolidBlock.\n\nLastly, 10% of what is raised will be donated to empower community organizations for the sake of mass adoption through education. This is not a one time thing. 10% of profits from every aspect of PerceptForm, Inc. as a company will be donated and this includes PerceptMine. ",
   "tokens": [],
   "version": 3,
-  "overflow": null,
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "1500000000000000000000000",
-      "duration": "30 days",
-      "start": "11-17-21 12:38am",
-      "end": "12-17-21 12:38am",
-      "reserved": 0,
-      "discount": 0.12,
-      "toETH": 1,
-      "bondingCurve": 0.07
+      "toETHSymbol": "PEOPLE"
     }
   ],
-  "inWallet": "0",
-  "jbx": "0",
+  "inWallet": {
+    "eth": "50000000000000000",
+    "jbx": "2579000000000000000000"
+  },
   "tokenAddress": null,
   "totalSupply": "0",
   "payEvents": [],

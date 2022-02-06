@@ -1,10 +1,11 @@
 {
   "createdAt": "1640533213",
   "creator": "0x084b9292ed286d1d73989fd3b665a87c349e4f5b",
-  "currentBalance": "375000000000000000",
-  "handle": "0x626c6f636b62757374657264616f000000000000000000000000000000000000",
+  "currentBalance": "525000000000000000",
+  "handle": "blockbusterdao",
   "id": "222",
-  "totalPaid": "375000000000000000",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "totalPaid": "525000000000000000",
   "totalRedeemed": "0",
   "uri": "QmeFccdzay4edUR5fcBa3og2H2ieCAGoQoMtyzkWqtc91h",
   "name": "BlockbusterDAO",
@@ -27,9 +28,16 @@
     "jbx": "30951000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "375000",
-  "holdingSymbol": "Tokens",
+  "totalSupply": "525000",
   "payEvents": [
+    {
+      "amount": "150000000000000000",
+      "beneficiary": "0x0ecddcf41754360ab129d7ca4c8abf220f9c32bd",
+      "id": "0xdada575756e74f8aa2858eb3afc92c0a5c2c5c946851032d86815241808c353e-69",
+      "note": null,
+      "timestamp": "1642530244",
+      "txHash": "0xdada575756e74f8aa2858eb3afc92c0a5c2c5c946851032d86815241808c353e"
+    },
     {
       "amount": "72000000000000000",
       "beneficiary": "0xafc3e5f1bf9336f1896ce4b9a1789711cf40167f",

@@ -2,8 +2,9 @@
   "createdAt": "1639088735",
   "creator": "0x69256f2ba2cf06ca7cecbeec20e78a5cb0e47850",
   "currentBalance": "42000000000000000",
-  "handle": "0x64616f626e620000000000000000000000000000000000000000000000000000",
+  "handle": "daobnb",
   "id": "154",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "42000000000000000",
   "totalRedeemed": "0",
   "uri": "QmPDq77kefmGyP1gzoDjhnN5RwruNtg3ibeJpLZdhYTnyu",
@@ -19,15 +20,7 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "50000000000000000000000000",
-      "duration": "30 days",
-      "start": "12-9-21 10:25pm",
-      "end": "1-8-22 10:25pm",
-      "reserved": 0.05,
-      "discount": 0.1,
-      "toETH": 950,
-      "bondingCurve": 0.5
+      "toETHSymbol": "PEOPLE"
     }
   ],
   "inWallet": {
@@ -36,7 +29,6 @@
   },
   "tokenAddress": null,
   "totalSupply": "42000",
-  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "22000000000000000",

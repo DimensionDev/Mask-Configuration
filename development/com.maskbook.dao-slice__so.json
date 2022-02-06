@@ -1,10 +1,11 @@
 {
   "createdAt": "1639277855",
   "creator": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
-  "currentBalance": "33100295570708424722",
-  "handle": "0x736c696365000000000000000000000000000000000000000000000000000000",
+  "currentBalance": "30396810439089284173",
+  "handle": "slice",
   "id": "168",
-  "totalPaid": "40840000000000000000",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "totalPaid": "41640000000000000000",
   "totalRedeemed": "0",
   "uri": "QmYHqBNHadKnvFjnVZwfftK1gtEPKQoqujT2beYxpEUJBd",
   "name": "Slice",
@@ -23,13 +24,44 @@
     }
   ],
   "inWallet": {
-    "eth": "430000000000000000",
-    "jbx": "65470000000000000000000"
+    "eth": "420000000000000000",
+    "jbx": "85015000000000000000000"
   },
   "tokenAddress": "0x6fa5FF63B2752265c6Bd9350591f97A7dAd9e918",
-  "totalSupply": "138087900",
-  "holdingSymbol": "SLX",
+  "totalSupply": "138660165",
   "payEvents": [
+    {
+      "amount": "150000000000000000",
+      "beneficiary": "0xeda90c508b950ba7b63227b9b4b56ba5b9df0313",
+      "id": "0xdde43efbb482d8b8c06c859ca3f3429aa0539d236db11a197c8afef9b23f0cea-329",
+      "note": "https://jbx.mypinata.cloud/ipfs/Qma5Yk9pNuDxdBiFhs1yxV2cbvxkbcL516QJCYgs3fEVdL",
+      "timestamp": "1643276133",
+      "txHash": "0xdde43efbb482d8b8c06c859ca3f3429aa0539d236db11a197c8afef9b23f0cea"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xdeab937a0c829597df8444851193d63016f7224d",
+      "id": "0x03358cb6bfa7713464467f28f14f251a7184f5774a341bd0ee3ce64c8de44955-139",
+      "note": null,
+      "timestamp": "1642991506",
+      "txHash": "0x03358cb6bfa7713464467f28f14f251a7184f5774a341bd0ee3ce64c8de44955"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x266d9ea940c667d97485089981f886963185c63d",
+      "id": "0x6be973744b77014186c4bbf313abb9893621a537eb3b350c5ecbf63e08638ede-310",
+      "note": "Yelp told me this was the best place to go for a slice",
+      "timestamp": "1642794589",
+      "txHash": "0x6be973744b77014186c4bbf313abb9893621a537eb3b350c5ecbf63e08638ede"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xcfc7d04ad2bd4524d01d1d0b3dd9ba885164c63e",
+      "id": "0xe0024e9a51bbe016c2c9ffd1a47fc9e70765a76169e88fc7d26cbd6e9bb94ed2-186",
+      "note": null,
+      "timestamp": "1642479649",
+      "txHash": "0xe0024e9a51bbe016c2c9ffd1a47fc9e70765a76169e88fc7d26cbd6e9bb94ed2"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x0013d759a369091f3d2d1d1a516adaf068f67923",
@@ -193,6 +225,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "beneficiaryTransferAmount": "190522858109955170",
+      "caller": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "fundingCycleId": "466",
+      "id": "168-0x62149b212f3b2c1b2bc8876d2065daa1476337e5ee8c2c38c002c2b4cb2348ed",
+      "netTransferAmount": "3336652506303943380",
+      "timestamp": "1643230736",
+      "txHash": "0x62149b212f3b2c1b2bc8876d2065daa1476337e5ee8c2c38c002c2b4cb2348ed"
+    },
     {
       "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
       "beneficiaryTransferAmount": "141766177284907532",

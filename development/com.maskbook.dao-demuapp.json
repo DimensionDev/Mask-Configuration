@@ -2,8 +2,9 @@
   "createdAt": "1637150299",
   "creator": "0x3a4e6ed8b0f02bfbfaa3c6506af2db939ea5798c",
   "currentBalance": "40000000000000000",
-  "handle": "0x64656d7500000000000000000000000000000000000000000000000000000000",
+  "handle": "demu",
   "id": "41",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "40000000000000000",
   "totalRedeemed": "0",
   "uri": "Qme9ZSG2aLVhUmpctd9QaXKmLgCWMrFAwmZShuyKA4uzLo",
@@ -19,24 +20,15 @@
   "payDisclosure": "This ETH is going to be used to deploy contracts on different chains.\nYou are a real g. wagmi.\nYou can contact me anytime at markus@demu.app for questions",
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "10000000000000000000000",
-      "duration": "30 days",
-      "start": "12-17-21 11:58am",
-      "end": "1-16-22 11:58am",
-      "reserved": 0,
-      "discount": 0,
-      "toETH": 1,
-      "bondingCurve": 1
+      "toETHSymbol": "PEOPLE"
     }
   ],
   "inWallet": {
-    "eth": "50000000000000000",
+    "eth": "20000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,
   "totalSupply": "40000",
-  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "40000000000000000",

@@ -1,10 +1,11 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "1611110000000000000",
-  "handle": "0x6d6572676564616f000000000000000000000000000000000000000000000000",
+  "currentBalance": "1842110000000000000",
+  "handle": "mergedao",
   "id": "120",
-  "totalPaid": "198519398151000000000",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "totalPaid": "198750398151000000000",
   "totalRedeemed": "0",
   "uri": "QmUvXcSfTDbo45nbpXLCrG8YuFgUzGuwwZ9tdg7dZfCo1B",
   "name": "Merge DAO",
@@ -24,12 +25,27 @@
   ],
   "inWallet": {
     "eth": "0",
-    "jbx": "58545000000000000000000"
+    "jbx": "0"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
-  "totalSupply": "198516098",
-  "holdingSymbol": "MRGE",
+  "totalSupply": "198747098",
   "payEvents": [
+    {
+      "amount": "230000000000000000",
+      "beneficiary": "0x52777316b52d59851eee1bf71b0944c51e64e3de",
+      "id": "0x4f4c5bab8acb953fcc9d462114f92e27edca631d5c2759f0c231998a229f771b-325",
+      "note": "2nd transaction",
+      "timestamp": "1642694387",
+      "txHash": "0x4f4c5bab8acb953fcc9d462114f92e27edca631d5c2759f0c231998a229f771b"
+    },
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xa2921f40ac6d66d70d4618e2ebabe192e4b7b31f",
+      "id": "0xa07552287d5e5aee1e5589fc2940da9beb3bda73d29783226c3d03334c114c6e-303",
+      "note": "cynect",
+      "timestamp": "1642669719",
+      "txHash": "0xa07552287d5e5aee1e5589fc2940da9beb3bda73d29783226c3d03334c114c6e"
+    },
     {
       "amount": "300000000000000000",
       "beneficiary": "0xcd15ed2ab235f62575f85172f64d50104257510d",
@@ -413,22 +429,6 @@
       "note": null,
       "timestamp": "1638659568",
       "txHash": "0xe9eb24015c350e9560c2a1908c3110dc96a6d897d3184732f3d449fe87ce1ca1"
-    },
-    {
-      "amount": "219673140000000000",
-      "beneficiary": "0x8e4a7917f6ceaa04b1a622835e66618115b499d9",
-      "id": "0x1cf62fe13106c774e44a84dc9caafe48be2867a0101906ec611adc4f1be38fc0-392",
-      "note": null,
-      "timestamp": "1638659387",
-      "txHash": "0x1cf62fe13106c774e44a84dc9caafe48be2867a0101906ec611adc4f1be38fc0"
-    },
-    {
-      "amount": "169000000000000000",
-      "beneficiary": "0xd1d2f4f312f3cc4fdb23fb43c38160d4af3fef2d",
-      "id": "0x0c14b74e5502fa25b2d20888e3ea53578dc643aae6dce718756e062a774d7035-342",
-      "note": "LFG",
-      "timestamp": "1638658959",
-      "txHash": "0x0c14b74e5502fa25b2d20888e3ea53578dc643aae6dce718756e062a774d7035"
     }
   ],
   "redeemEvents": [],

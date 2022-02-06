@@ -2,8 +2,9 @@
   "createdAt": "1638020518",
   "creator": "0xe3de98a88d219ec05f3d2a81a6a8d15a6ba70cb5",
   "currentBalance": "0",
-  "handle": "0x6c69666564616f00000000000000000000000000000000000000000000000000",
+  "handle": "lifedao",
   "id": "83",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "0",
   "totalRedeemed": "0",
   "uri": "QmSub9pnnC3EXxJvykT5DXv3ZGu1GJ8W1hVrHQ512pF3Po",
@@ -19,18 +20,15 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "duration": "Not set",
-      "reserved": 0.05
+      "toETHSymbol": "PEOPLE"
     }
   ],
   "inWallet": {
-    "eth": "10000000000000000",
+    "eth": "170000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,
   "totalSupply": "0",
-  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

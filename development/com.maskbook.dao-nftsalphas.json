@@ -2,8 +2,9 @@
   "createdAt": "1637361193",
   "creator": "0x43277a36e6156a3e5091873ee3953eeb38014368",
   "currentBalance": "0",
-  "handle": "0x6e6674616c70686164616f000000000000000000000000000000000000000000",
+  "handle": "nftalphadao",
   "id": "58",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "0",
   "totalRedeemed": "0",
   "uri": "QmQSvRKpeoAE9bHJp8BUqga5QnsySbzP1SbXusAMHnH2Pm",
@@ -19,22 +20,15 @@
   "payDisclosure": "Thank you",
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
-      "target": "11000000000000000000",
-      "duration": "Not set",
-      "reserved": 1,
-      "discount": 0,
-      "toETH": 0,
-      "bondingCurve": 1
+      "toETHSymbol": "PEOPLE"
     }
   ],
   "inWallet": {
-    "eth": "130000000000000000",
+    "eth": "0",
     "jbx": "0"
   },
   "tokenAddress": null,
   "totalSupply": "57911657",
-  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

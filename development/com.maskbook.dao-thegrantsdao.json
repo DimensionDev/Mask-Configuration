@@ -2,8 +2,9 @@
   "createdAt": "1638331182",
   "creator": "0x2973c156d9e4019bcb7e65e371c4d2755bcb02e4",
   "currentBalance": "100000000000000000",
-  "handle": "0x6772616e747364616f0000000000000000000000000000000000000000000000",
+  "handle": "grantsdao",
   "id": "121",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "100000000000000000",
   "totalRedeemed": "0",
   "uri": "QmPuCUqr1gXjdxg7LNj75Y3tT1raBwiiVeM2rQuWA36xx3",
@@ -19,11 +20,7 @@
   "payDisclosure": "Paying GrantsDAO is not an investment—it's a way to support the project. Any value or utility of the tokens you receive is determined by GrantsDAO.",
   "fundingCycles": [
     {
-      "toETHSymbol": "GRANT",
-      "target": "8888000000000000000000",
-      "duration": "Not set",
-      "discount": 0,
-      "bondingCurve": 0
+      "toETHSymbol": "GRANT"
     }
   ],
   "inWallet": {
@@ -32,7 +29,6 @@
   },
   "tokenAddress": "0x5c9A4Aa27de8688d533CdBB839A2038FA019fc44",
   "totalSupply": "100130000",
-  "holdingSymbol": "GRANT",
   "payEvents": [
     {
       "amount": "100000000000000000",

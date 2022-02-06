@@ -1,27 +1,23 @@
 {
-  "createdAt": "1639415013",
+  "createdAt": "1639407903",
   "creator": "0x16dd167eecfd4a02ba1c8910e318c34412fdbe80",
-  "currentBalance": "12790000000000000000",
-  "handle": "0x696e666c6174696f6e6c65737300000000000000000000000000000000000000",
-  "id": "181",
-  "totalPaid": "12790000000000000000",
+  "currentBalance": "0",
+  "handle": "inflationlessdao",
+  "id": "180",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "totalPaid": "0",
   "totalRedeemed": "0",
-  "uri": "QmbotaSTw8Qcqd26ykihsBhUMJKDzggMZ3t9je8RdFrGVf",
-  "name": "inflationlessDAO",
-  "description": "We are aiming to be the largest contributor CitaDAO.io's Genesis building tokenization - 56 Queen St Cardiff IRO. We shall rent out the building to the rent seekers!! We will own real estate to fight inflation!!",
-  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmRbSpYbTfcCGX5tGsP42Vcrkr5KVUNCcYf64wVcT1MbjF",
+  "uri": "QmNd6gGc9JZpxUf6TEi4gVfzvYD8X3vfjGbQK6MiUxzdcz",
+  "name": "InflationlessDAO",
   "infoUri": "inflationlessdao.com",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmRbSpYbTfcCGX5tGsP42Vcrkr5KVUNCcYf64wVcT1MbjF",
+  "description": "we beat inflation",
   "twitter": "inflationless",
-  "discord": "bit.ly/inflationless",
-  "payButton": "Contribute",
-  "payDisclosure": "The fund will be used to commit to CitaDAO.io real estate tokenization project, 56 Queen St Cardiff IRO - we shall rent out the building to the rent seekers!",
-  "tokens": [
-    {
-      "type": "erc20",
-      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    }
-  ],
+  "discord": "",
+  "tokens": [],
   "version": 3,
+  "payButton": "Contribute",
+  "payDisclosure": "",
   "fundingCycles": [
     {
       "toETHSymbol": "BRRR"
@@ -32,34 +28,8 @@
     "jbx": "0"
   },
   "tokenAddress": "0x43150d00bdbec321daf85850Bd36439553C1D561",
-  "totalSupply": "12790000",
-  "holdingSymbol": "BRRR",
-  "payEvents": [
-    {
-      "amount": "10000000000000000000",
-      "beneficiary": "0x9b5535af9845742d7ac73afdc4a5c07af89b98d6",
-      "id": "0xd9e1fa4dc68e03d432273af7d6aaf62a9378a1ff0187e1feaa50dbaec57e27f7-356",
-      "note": null,
-      "timestamp": "1640664408",
-      "txHash": "0xd9e1fa4dc68e03d432273af7d6aaf62a9378a1ff0187e1feaa50dbaec57e27f7"
-    },
-    {
-      "amount": "2100000000000000000",
-      "beneficiary": "0xdc8469b2bc10a57e1f65c8a6610df8b75cf366eb",
-      "id": "0xb6c95364468936128fb67a2882eb1791dac4f6d9d57a8d72b44b44fe1397a02f-345",
-      "note": "let us accomplish what ConstitutionDAO was unable to -- be the first DAO to buy a real world asset!",
-      "timestamp": "1640246124",
-      "txHash": "0xb6c95364468936128fb67a2882eb1791dac4f6d9d57a8d72b44b44fe1397a02f"
-    },
-    {
-      "amount": "690000000000000000",
-      "beneficiary": "0xdc8469b2bc10a57e1f65c8a6610df8b75cf366eb",
-      "id": "0x1520754da34d20035ed7899bab9d1829a70f6ef4610fca4a2f00d206cb22d6eb-156",
-      "note": "excited to support. LFG!!! LFG!!",
-      "timestamp": "1640242203",
-      "txHash": "0x1520754da34d20035ed7899bab9d1829a70f6ef4610fca4a2f00d206cb22d6eb"
-    }
-  ],
+  "totalSupply": "13690000",
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
