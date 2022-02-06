@@ -1,12 +1,12 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5742197824562045095583",
+  "currentBalance": "5744808751459041870647",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6123054770741468553067",
-  "totalRedeemed": "110903818506009131597",
+  "totalPaid": "6125865104074801886401",
+  "totalRedeemed": "111103224942345689867",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
   "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. Receives a 5% fee from all funds withdrawn by Juicebox projects in exchange for $JBX.",
@@ -24,12 +24,28 @@
   ],
   "inWallet": {
     "eth": "30150000000000000000",
-    "jbx": "190214957000000000000000000"
+    "jbx": "215128891000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2444831743",
+  "totalSupply": "2445303132",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x7fa4baa0f470bed78c557eea0cf9836e4201111c",
+      "id": "0x95f50658e15dcec6c5d226eae467b04d11ae02bd2f9cc9737b3813d190530066-293",
+      "note": null,
+      "timestamp": "1644133695",
+      "txHash": "0x95f50658e15dcec6c5d226eae467b04d11ae02bd2f9cc9737b3813d190530066"
+    },
+    {
+      "amount": "2800333333333333334",
+      "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
+      "id": "0x5ba9cf35ee98feb59e4382610ddbd8401393a42a31cfe3fd74ea5478bed88ecb-190",
+      "note": "Fee from @assangedao",
+      "timestamp": "1644133388",
+      "txHash": "0x5ba9cf35ee98feb59e4382610ddbd8401393a42a31cfe3fd74ea5478bed88ecb"
+    },
     {
       "amount": "7958352500476190477",
       "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
@@ -413,25 +429,17 @@
       "note": "niklausgerber.eth",
       "timestamp": "1643721405",
       "txHash": "0x146ffc2b982687c207aded7cea0e8a9451d69268c9fd961bbf17b43b73c8ff95"
-    },
-    {
-      "amount": "118093033691942513",
-      "beneficiary": "0xdfe36eb84cdedbff583452162d66a28fa24fd58e",
-      "id": "0x7289e86a360ea3e18e5b96b5ef4e246a6d04fa5a9c271e470d4fe4b2bb33123c-34",
-      "note": "Fee from @wagmistudios",
-      "timestamp": "1643719389",
-      "txHash": "0x7289e86a360ea3e18e5b96b5ef4e246a6d04fa5a9c271e470d4fe4b2bb33123c"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",
-      "id": "0x0b670f69d56e474e8a3a25b2003f67cc33a6743c99ac1db34267bc605c8f6b83-351",
-      "note": null,
-      "timestamp": "1643611610",
-      "txHash": "0x0b670f69d56e474e8a3a25b2003f67cc33a6743c99ac1db34267bc605c8f6b83"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "121256414329176000000000",
+      "beneficiary": "0x651abaf1ee12d3f5c6c8c1280736d74eabe36c8c",
+      "id": "0x982f42c85c456d2ac4be0a34b25476eff460bbda04ab34e5bb8402d6246ad91b-157",
+      "returnAmount": "199406436336558270",
+      "timestamp": "1644135119",
+      "txHash": "0x982f42c85c456d2ac4be0a34b25476eff460bbda04ab34e5bb8402d6246ad91b"
+    },
     {
       "amount": "34820014320000000000000",
       "beneficiary": "0x1263996001a0338dde65da49ea020e6a29621c63",
@@ -823,14 +831,6 @@
       "returnAmount": "284375507331641778",
       "timestamp": "1638631323",
       "txHash": "0x3ed819cfe9a51a8d02eee36d442f1d14a187f8682135b58fed6c9f6c54fd6910"
-    },
-    {
-      "amount": "23213342880000000000000",
-      "beneficiary": "0x3916403885d2183ec4f1ac96226b65f527454d36",
-      "id": "0x8893d02898d24717fc945c406224182f638e779bb657bbc623052cbeac057222-467",
-      "returnAmount": "31896489239724680",
-      "timestamp": "1638504310",
-      "txHash": "0x8893d02898d24717fc945c406224182f638e779bb657bbc623052cbeac057222"
     }
   ],
   "withdrawEvents": [
@@ -1096,6 +1096,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTicketAmount": "2",
+      "caller": "0x651abaf1ee12d3f5c6c8c1280736d74eabe36c8c",
+      "count": "33200872085169737114068178",
+      "id": "1-0x10258e40aede32a4145eea37be22177dfd612bba6bae2f5bd5cd404ff889a1b2",
+      "timestamp": "1644134176",
+      "txHash": "0x10258e40aede32a4145eea37be22177dfd612bba6bae2f5bd5cd404ff889a1b2"
+    },
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTicketAmount": "4",
