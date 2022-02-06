@@ -1,11 +1,11 @@
 {
   "createdAt": "1643096487",
   "creator": "0x93abaea0972cd9f77cd819c2642b0e6ac328ec51",
-  "currentBalance": "1153314430000000000",
+  "currentBalance": "1253314430000000000",
   "handle": "bitmousedao",
   "id": "299",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "1153314430000000000",
+  "totalPaid": "1253314430000000000",
   "totalRedeemed": "0",
   "uri": "QmWTXRxwghVZLWgvGzjGbjPZM1WQ3srb7Qz4qPRfj3ZaBg",
   "name": "BitMouseDAO",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x167128b0aB1E013f1b8cec69975EA9d26F1D5dcf",
-  "totalSupply": "1153314",
+  "totalSupply": "1253314",
   "holdingSymbol": "BITMOUSE",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x2e5576b475e4710a0ec59674842996a40781dda0",
+      "id": "0x6db87afcd12e4ffd0eb2bb9428f46f91d2a29e50870a604a77973b2d20260e42-487",
+      "note": null,
+      "timestamp": "1644144889",
+      "txHash": "0x6db87afcd12e4ffd0eb2bb9428f46f91d2a29e50870a604a77973b2d20260e42"
+    },
     {
       "amount": "800000000000000",
       "beneficiary": "0xd60923d7d5a4b757ad32007d63713495db638535",
