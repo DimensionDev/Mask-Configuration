@@ -71,7 +71,6 @@ async function fetchProjects() {
     method: 'POST',
   });
   const json = await rsp.json();
-  console.log(json);
   const projects = json.data.projects;
   return projects;
 }
@@ -426,7 +425,7 @@ async function crawlProjects() {
   await launchBrowser();
   for (let i = 0; i < projects.length; ++i) {
     try {
-      console.log('Crawling', projects[i].id, projects[i].handle);
+      console.log(`Crawling ${i}/${projects.length}`, projects[i].id, projects[i].handle);
       await wait(10);
       let info = await fetchInfo(
         `https://jbx.mypinata.cloud/ipfs/${projects[i].uri}`,
@@ -478,7 +477,7 @@ async function crawlProjects() {
         );
       }
     } catch (err) {
-      console.log(`Failed to crawl ${projects[i].id}`, err);
+      console.log(`Failed to crawl project ${projects[i].id}`, err);
     }
   }
   await closeBrowesr();

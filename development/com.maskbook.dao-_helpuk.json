@@ -18,6 +18,17 @@
   "version": 3,
   "payButton": "Donate",
   "payDisclosure": "Thanks for donating to Help! DAO and being part of this big beautiful experiment. You'll receive HELP tokens which currently have no financial value, but will entitle you to perks in the future! To receive these, donate from a wallet you own and control (e.g. Metamask or Rainbow wallet) and not from an exchange like Kraken or Coinbase.",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE"
+    }
+  ],
+  "inWallet": {
+    "eth": "120000000000000000",
+    "jbx": "9948000000000000000000"
+  },
+  "tokenAddress": null,
+  "totalSupply": "1000000",
   "payEvents": [
     {
       "amount": "1000000000000000000",

@@ -18,6 +18,17 @@
   "version": 3,
   "payButton": "Mint $DOGENUBIS",
   "payDisclosure": "$DOGENUBIS is a community governance token that will whitelist you for our upcoming NFT drop and give you access to exclusive private network content. ",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "DOGENUBIS"
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "13269000000000000000000"
+  },
+  "tokenAddress": "0x54a87a20d42720c123e5fFd797d4AEaFD470c4D2",
+  "totalSupply": "2910384",
   "payEvents": [
     {
       "amount": "200000000000000000",

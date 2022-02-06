@@ -18,6 +18,17 @@
   "version": 3,
   "payButton": "Pay",
   "payDisclosure": "90% of your payment will go to JohnnyD, 10% will go to the Givewell Maximum Impact Fund",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE"
+    }
+  ],
+  "inWallet": {
+    "eth": "1430000000000000000",
+    "jbx": "1427027000000000000000000"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
