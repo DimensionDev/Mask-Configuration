@@ -1,10 +1,11 @@
 {
   "createdAt": "1641673275",
   "creator": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
-  "currentBalance": "9347000000000000000",
-  "handle": "0x73617472616272756e6e64616f00000000000000000000000000000000000000",
+  "currentBalance": "6243022861491539499",
+  "handle": "satrabrunndao",
   "id": "253",
-  "totalPaid": "9347000000000000000",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "totalPaid": "10447000000000000000",
   "totalRedeemed": "0",
   "uri": "QmcmK3BH3UmeMrSerYtvkfNJ3Z2hWw23VuhA1GkAWwJrhL",
   "name": "Sätra Brunn DAO",
@@ -17,7 +18,35 @@
   "version": 3,
   "payButton": "Donate",
   "payDisclosure": "Contributions made to Sätra Brunn DAO are donations, and should not be made in anticipation of financial gain.",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "STRA"
+    }
+  ],
+  "inWallet": {
+    "eth": "100000000000000000",
+    "jbx": "23453000000000000000000"
+  },
+  "tokenAddress": "0xf715a86DfB6ed9AE1E421cf14f640aB6b7F5DAdA",
+  "totalSupply": "10447000",
+  "holdingSymbol": "STRA",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xf41aab66e7771bdfccf43953b7843873d9bb74f4",
+      "id": "0xee461407da6594768045b5a9f0d5721cd41ae1ee1808d978648c14976e4b192c-403",
+      "note": "I'm here~",
+      "timestamp": "1642642635",
+      "txHash": "0xee461407da6594768045b5a9f0d5721cd41ae1ee1808d978648c14976e4b192c"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x47b306c725fe30223663189701e1c336fec2f520",
+      "id": "0x3089eab50c17c63337f1a7e1379dba2508c810564abe19c07b413e32fad7c3d1-400",
+      "note": null,
+      "timestamp": "1642498644",
+      "txHash": "0x3089eab50c17c63337f1a7e1379dba2508c810564abe19c07b413e32fad7c3d1"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x11aec066ff84697a2ca7b5d6bf277468c62e4710",
@@ -401,25 +430,20 @@
       "note": null,
       "timestamp": "1641690155",
       "txHash": "0x282d34ac208d50d3ced33d45460644d87cad3d9647443a25355a488fec1cf482"
-    },
-    {
-      "amount": "250000000000000000",
-      "beneficiary": "0x4c481810f589ffdb3cfa641041161fffd0a801b6",
-      "id": "0xc09c1fecd4e4c0fbd43d84d728bd07ce2a9e95772dbc248bd99c34278b8f7f23-330",
-      "note": "daodaodao",
-      "timestamp": "1641687445",
-      "txHash": "0xc09c1fecd4e4c0fbd43d84d728bd07ce2a9e95772dbc248bd99c34278b8f7f23"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0xbeb69b27f34c13413a398a6530cb68e724e48f49",
-      "id": "0x5ddbeb3e0288a681abd02b3977085953854f5b0e9cc0ba8bf6f7236fced7b2da-203",
-      "note": null,
-      "timestamp": "1641685213",
-      "txHash": "0x5ddbeb3e0288a681abd02b3977085953854f5b0e9cc0ba8bf6f7236fced7b2da"
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
+      "beneficiaryTransferAmount": "358739382486055299",
+      "caller": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
+      "fundingCycleId": "404",
+      "id": "253-0x4b0fae90cbb2069840dca60877baa2f3323441fe49f717ff6f1fabdbdaa6d34b",
+      "netTransferAmount": "4003787750960438572",
+      "timestamp": "1642464841",
+      "txHash": "0x4b0fae90cbb2069840dca60877baa2f3323441fe49f717ff6f1fabdbdaa6d34b"
+    }
+  ],
   "reservesEvents": []
 }

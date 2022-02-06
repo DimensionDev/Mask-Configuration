@@ -1,9 +1,10 @@
 {
   "createdAt": "1641331669",
   "creator": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
-  "currentBalance": "4000000000000000000",
-  "handle": "0x7068756e6b7966756e676964616f000000000000000000000000000000000000",
+  "currentBalance": "0",
+  "handle": "phunkyfungidao",
   "id": "244",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "22829600000000000000",
   "totalRedeemed": "0",
   "uri": "QmYfc5PyM7DwzHkzYiM1fr2XNGtYMdoayL7BRH7BdMj7zw",
@@ -117,6 +118,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "fundingCycleId": "393",
+      "id": "244-0xb3e323c083a2c127d7a0b14fd704addc8df7dcbff5b463ef5a9924739287b8b7",
+      "netTransferAmount": "3809523809523809523",
+      "timestamp": "1642717804",
+      "txHash": "0xb3e323c083a2c127d7a0b14fd704addc8df7dcbff5b463ef5a9924739287b8b7"
+    },
     {
       "beneficiary": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
       "beneficiaryTransferAmount": "0",

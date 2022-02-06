@@ -1,9 +1,10 @@
 {
   "createdAt": "1639015933",
   "creator": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
-  "currentBalance": "50029492470940668",
-  "handle": "0x6d6f756e7461696e64616f000000000000000000000000000000000000000000",
+  "currentBalance": "168846583804715",
+  "handle": "mountaindao",
   "id": "149",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "66445396266900000000",
   "totalRedeemed": "17386200665779546253",
   "uri": "QmXtUX7M39KFVosWfbYvFFnwVrPhHQCwqMTSAT7UnPWqss",
@@ -23,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "14140000000000000000",
-    "jbx": "284421000000000000000000"
+    "eth": "440000000000000000",
+    "jbx": "0"
   },
   "tokenAddress": "0xc36ba16D2042E2B39938d041270DFf3bbe44dc23",
   "totalSupply": "47495732",
@@ -834,6 +835,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0xde48531f5c7407c9c281eed6b6c2fc6122fc780d",
+      "fundingCycleId": "403",
+      "id": "149-0x95f9c92a26f36216e57e83b70bc28a03c40e6d448f56151422c11af254a2c3dd",
+      "netTransferAmount": "47486329416319955",
+      "timestamp": "1642669639",
+      "txHash": "0x95f9c92a26f36216e57e83b70bc28a03c40e6d448f56151422c11af254a2c3dd"
+    },
     {
       "beneficiary": "0x99ec5fc2b35320ffb64b0ef55b231866b3acd727",
       "beneficiaryTransferAmount": "0",

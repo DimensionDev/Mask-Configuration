@@ -2,8 +2,9 @@
   "createdAt": "1638930702",
   "creator": "0xf38f9c963f6336e2c69044a575f1e6189b4b49f6",
   "currentBalance": "23160160000000000",
-  "handle": "0x7361746f736869697366656d616c65303164616f000000000000000000000000",
+  "handle": "satoshiisfemale01dao",
   "id": "147",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "23160160000000000",
   "totalRedeemed": "0",
   "uri": "Qmf94tpQoZQYZYy4ZzMswxSoZQaw9q9do4yw1VsET8B5nm",
@@ -17,6 +18,18 @@
   "version": 3,
   "payButton": "Join the Movement",
   "payDisclosure": "All fund (less gas fees) will be returned in the event that we do not win the first Satoshi is Female NFT. Overages will also be returned in the event that we have more contributors than is required to win the auction. ",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE"
+    }
+  ],
+  "inWallet": {
+    "eth": "260000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "23160",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "23160160000000000",

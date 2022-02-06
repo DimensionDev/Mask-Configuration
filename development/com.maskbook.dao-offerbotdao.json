@@ -1,10 +1,11 @@
 {
   "createdAt": "1639767871",
   "creator": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
-  "currentBalance": "0",
-  "handle": "0x6f66666572626f7464616f000000000000000000000000000000000000000000",
+  "currentBalance": "7729000000000000000",
+  "handle": "offerbotdao",
   "id": "197",
-  "totalPaid": "17970000000000000000",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "totalPaid": "30699000000000000000",
   "totalRedeemed": "0",
   "uri": "QmPiridEqEhoLwzbKdNkXAgKJ8YxP3GhVgSmtHdUSaYDFJ",
   "name": "Offer Bot DAO",
@@ -23,13 +24,77 @@
     }
   ],
   "inWallet": {
-    "eth": "30000000000000000",
-    "jbx": "111391000000000000000000"
+    "eth": "50000000000000000",
+    "jbx": "139285000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "14696000",
+  "totalSupply": "22269248",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "id": "0xc6db00af5c072f423bf5bac55057762143d85c0018ea8df11ab354cd25d0615b-235",
+      "note": "crushn it",
+      "timestamp": "1644105522",
+      "txHash": "0xc6db00af5c072f423bf5bac55057762143d85c0018ea8df11ab354cd25d0615b"
+    },
+    {
+      "amount": "56000000000000000",
+      "beneficiary": "0x95669bce8d347a18143b9f94c3c667fb9fc1fecd",
+      "id": "0x35c50148108ff94856e2fc7c0c502f8bc0913fb0c98b43ccbe0eb5d6e6e036cc-152",
+      "note": "G$-2nd batch",
+      "timestamp": "1644022015",
+      "txHash": "0x35c50148108ff94856e2fc7c0c502f8bc0913fb0c98b43ccbe0eb5d6e6e036cc"
+    },
+    {
+      "amount": "913000000000000000",
+      "beneficiary": "0x95669bce8d347a18143b9f94c3c667fb9fc1fecd",
+      "id": "0x301b73f41cc8a4de9f8a1c98fad923d0ed3933b61ce6dad8b85663cf372e8bf2-130",
+      "note": "G-$ 1st batch",
+      "timestamp": "1643855126",
+      "txHash": "0x301b73f41cc8a4de9f8a1c98fad923d0ed3933b61ce6dad8b85663cf372e8bf2"
+    },
+    {
+      "amount": "2500000000000000000",
+      "beneficiary": "0x98db50a1a4cbc6e0908a5d7c38688cce45a88d3e",
+      "id": "0x7dd30d8c35ed63f7a03249bce2cbb3ccec6c8d05bbfb6f51e6015a7b18ce30c1-349",
+      "note": "✨✨",
+      "timestamp": "1643824877",
+      "txHash": "0x7dd30d8c35ed63f7a03249bce2cbb3ccec6c8d05bbfb6f51e6015a7b18ce30c1"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x10f4cb7418543be24a75fbc1fc9844be5d843d93e2d56094a7b18e441ffbc350-185",
+      "note": null,
+      "timestamp": "1643547948",
+      "txHash": "0x10f4cb7418543be24a75fbc1fc9844be5d843d93e2d56094a7b18e441ffbc350"
+    },
+    {
+      "amount": "2250000000000000000",
+      "beneficiary": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
+      "id": "0xe6442322af70b3150ecfb7d7040392a027ed78db1dbd8a0a014d7dc9dc60d968-127",
+      "note": "It's go time",
+      "timestamp": "1643244936",
+      "txHash": "0xe6442322af70b3150ecfb7d7040392a027ed78db1dbd8a0a014d7dc9dc60d968"
+    },
+    {
+      "amount": "5000000000000000000",
+      "beneficiary": "0x98db50a1a4cbc6e0908a5d7c38688cce45a88d3e",
+      "id": "0x3dd0aac15b863fec06ddb9fe8a33942ac9c9cfe0822534dec44e6804c7f27540-127",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmYB1E8g9f8ty8oZGV5hxUi8nfMaV9j6kQf97QhRKrLmdZ https://jbx.mypinata.cloud/ipfs/QmX56wL8VaxKs895SNaeB3HoV5gCppi4GS71G1MTA2CeoA",
+      "timestamp": "1643204493",
+      "txHash": "0x3dd0aac15b863fec06ddb9fe8a33942ac9c9cfe0822534dec44e6804c7f27540"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x7fb79b31f8dff580082e0a23858e67cfa898ee6f",
+      "id": "0x9213b4506658dd60a0bc2b4dd91569f4f615f15b7c7b88a83229b41fb921c1d0-529",
+      "note": "fritter#0001",
+      "timestamp": "1642665384",
+      "txHash": "0x9213b4506658dd60a0bc2b4dd91569f4f615f15b7c7b88a83229b41fb921c1d0"
+    },
     {
       "amount": "1950000000000000000",
       "beneficiary": "0xca25a2f8fb5ef784875bba9c7d3e8eaf87a68e31",
@@ -145,6 +210,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x30efcd5a21beca1837d84f5e4552ff689d907e92",
+      "fundingCycleId": "490",
+      "id": "197-0xbd7153d32935950993e676bb7e261db3447c001d2aff7c483ac1db595a8bcd5f",
+      "netTransferAmount": "4761904761904761904",
+      "timestamp": "1643418585",
+      "txHash": "0xbd7153d32935950993e676bb7e261db3447c001d2aff7c483ac1db595a8bcd5f"
+    },
     {
       "beneficiary": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
       "beneficiaryTransferAmount": "0",

@@ -2,8 +2,9 @@
   "createdAt": "1637208100",
   "creator": "0x639d7799e3339915f37b3388d7ded330a97ca490",
   "currentBalance": "10000000000000000",
-  "handle": "0x77656c6c6275696c746369747900000000000000000000000000000000000000",
+  "handle": "wellbuiltcity",
   "id": "43",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "10000000000000000",
   "totalRedeemed": "0",
   "uri": "QmVmGFK4PUenSixEvZxU4BbWEgprmds7auFaovV9yuqLUa",
@@ -17,6 +18,18 @@
   "version": 3,
   "payButton": "chip in",
   "payDisclosure": "Thank you for joining us in our work to create a WellBuilt City. Your investment will be taken seriously and the ROI will be poured back into our shared dream of mutual aid and neighborly markets. ",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE"
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "5010000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "10000000000000000",

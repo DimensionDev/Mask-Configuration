@@ -2,8 +2,9 @@
   "createdAt": "1638925630",
   "creator": "0xe10b7610908d8b0ac4066f02c24e76007fff0ec4",
   "currentBalance": "100000000000000000",
-  "handle": "0x73616e7461000000000000000000000000000000000000000000000000000000",
+  "handle": "santa",
   "id": "146",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "100000000000000000",
   "totalRedeemed": "0",
   "uri": "QmdxGJFfaEZzMVfqREhu8S54bYhe1pLBBiY8G7drZqpaKh",
@@ -17,6 +18,18 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE"
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "100000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "100000000000000000",
