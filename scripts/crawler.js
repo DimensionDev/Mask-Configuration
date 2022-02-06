@@ -345,7 +345,7 @@ async function crawlHoldingTokens(page) {
   if (!sectionEl) return null;
   const holdingSymbol = await sectionEl.evaluate((el) => {
     return el
-      .querySelector('[aria-label=info-circle]')
+      .querySelector('[aria-label=question-circle]')
       ?.previousElementSibling.textContent.split(' ')[0];
   });
   const addressEl = await page.$x(
