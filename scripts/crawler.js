@@ -3,9 +3,10 @@ const fetch = require('node-fetch').default;
 const fs = require('fs').promises;
 const path = require('path');
 const { utils } = require('ethers');
-const { twitterIdMap } = require('./data');
+const { twitterIdMap, ignoreProjects } = require('./data');
 
 const baseUrl = 'https://juicebox.money/#/p/';
+const lazyNull = Promise.resolve(null);
 const thegraphEndpoint =
   'https://gateway.thegraph.com/api/6a7675cd9c288a7b9571d5c9e78d5aff/deployments/id/QmNxBy8UnUsQr3aeBgFvdFyWbTSMiTGpJbkAJzSm5m6vYf';
 const headers = {
@@ -100,8 +101,7 @@ async function crawl(juiceId) {
   await page.goto(url, {
     waitUntil: 'networkidle2',
   });
-  await page.waitForTimeout(2000);
-  await page.waitForSelector('.ant-layout-content', { timeout: 5000 });
+  await page.waitForSelector('.ant-layout-content', { timeout: 6000 });
   const contentEl = await page.$('.ant-layout-content');
   const content = await contentEl.evaluate((el) => el.textContent);
   if (content.toLowerCase().trim().endsWith('not found')) {
@@ -109,7 +109,7 @@ async function crawl(juiceId) {
     notFoundList.push(juiceId);
     return null;
   }
-  await page.waitForSelector('[aria-label="question-circle"]', { timeout: 7000 });
+  await page.waitForSelector('[aria-label="question-circle"]', { timeout: 5000 });
 
   const title = await page.$('h1');
   const data = await title.evaluate((el) => {
@@ -127,7 +127,7 @@ async function crawl(juiceId) {
   const summaryEl = await page.$('.ant-row-bottom');
 
   // wait for jbx in wallet fetched
-  await page.waitForTimeout(5000);
+  await page.waitForTimeout(6000);
   const summary = await summaryEl.evaluate((sumEl) => {
     const list = [...sumEl.firstElementChild.firstElementChild.children];
     const result = {};
@@ -419,65 +419,81 @@ function wait(time) {
   });
 }
 
-async function crawlProjects() {
-  const projects = await fetchProjects();
-  const data = [];
-  await launchBrowser();
-  for (let i = 0; i < projects.length; ++i) {
+async function crawlProject(project, index, total) {
+  if (ignoreProjects.includes(project.handle)) return null;
+  console.log(`Crawling ${index}/${total}`, project.id, project.handle);
+  await wait(10);
+  let info = await fetchInfo(`https://jbx.mypinata.cloud/ipfs/${project.uri}`, project.uri);
+  const combined = {
+    ...project,
+    ...info,
+  };
+  if (combined.twitter) {
+    let twitter_handler = combined.twitter.startsWith('https')
+      ? combined.twitter.split(/\//g).pop()
+      : combined.twitter;
+    twitter_handler = twitter_handler.toLowerCase().trim();
+    const juiceboxId = twitterIdMap[twitter_handler] ?? twitter_handler;
     try {
-      console.log(`Crawling ${i}/${projects.length}`, projects[i].id, projects[i].handle);
-      await wait(10);
-      let info = await fetchInfo(
-        `https://jbx.mypinata.cloud/ipfs/${projects[i].uri}`,
-        projects[i].uri,
-      );
-      const combined = {
-        ...projects[i],
-        ...info,
-      };
-      if (combined.twitter) {
-        let twitter_handler = combined.twitter.startsWith('https')
-          ? combined.twitter.split(/\//g).pop()
-          : combined.twitter;
-        twitter_handler = twitter_handler.toLowerCase().trim();
-        const juiceboxId = twitterIdMap[twitter_handler] ?? twitter_handler;
-        try {
-          const dataInPage = await crawl(juiceboxId);
-          if (dataInPage) {
-            Object.assign(combined, {
-              overflow: dataInPage.overflow,
-              fundingCycles: dataInPage.fundingCycles,
-              // strategy: dataInPage.strategy,
-              // strategyDescription: dataInPage.strategyDescription,
-              inWallet: dataInPage.inWallet,
-              tokenAddress: dataInPage.tokenAddress,
-              totalSupply: dataInPage.totalSupply,
-              holdingSymbol: dataInPage.holdingSymbol,
-            });
-          }
-        } catch (err) {
-          console.log(`Failed to crawl ${juiceboxId}`, err);
-        }
-        const [payEvents, redeemEvents, withdrawEvents, reservesEvents] = await Promise.all([
-          crawlPayEvents(combined.id),
-          crawlRedeemEvents(combined.id),
-          crawlWithdrawEvents(combined.id),
-          crawlReservesEvents(combined.id),
-        ]);
+      const dataInPage = await crawl(juiceboxId);
+      if (dataInPage) {
         Object.assign(combined, {
-          payEvents,
-          redeemEvents,
-          withdrawEvents,
-          reservesEvents,
+          overflow: dataInPage.overflow,
+          fundingCycles: dataInPage.fundingCycles,
+          // strategy: dataInPage.strategy,
+          // strategyDescription: dataInPage.strategyDescription,
+          inWallet: dataInPage.inWallet,
+          tokenAddress: dataInPage.tokenAddress,
+          totalSupply: dataInPage.totalSupply,
+          holdingSymbol: dataInPage.holdingSymbol,
         });
-        data.push(combined);
-        fs.writeFile(
-          `./development/com.maskbook.dao-${twitter_handler}.json`,
-          JSON.stringify(combined, null, 2),
-        );
       }
     } catch (err) {
-      console.log(`Failed to crawl project ${projects[i].id}`, err);
+      console.log(`Failed to crawl ${juiceboxId}`, err);
+    }
+    const [payEvents, redeemEvents, withdrawEvents, reservesEvents] = await Promise.all([
+      crawlPayEvents(combined.id),
+      crawlRedeemEvents(combined.id),
+      crawlWithdrawEvents(combined.id),
+      crawlReservesEvents(combined.id),
+    ]);
+    Object.assign(combined, {
+      payEvents,
+      redeemEvents,
+      withdrawEvents,
+      reservesEvents,
+    });
+
+    return {
+      combined,
+      twitter_handler,
+    };
+  }
+  return null;
+}
+
+async function crawlProjects() {
+  const projects = await fetchProjects();
+  await launchBrowser();
+  const length = projects.length;
+  const size = 1;
+  for (let index = 0; index < length; index += size) {
+    try {
+      const promises = projects
+        .slice(index, index + size)
+        .map((p, i) => crawlProject(p, index + i, length));
+      const results = await Promise.all(promises);
+      results.forEach((result) => {
+        if (result) {
+          const { combined, twitter_handler } = result;
+          fs.writeFile(
+            `./development/com.maskbook.dao-${twitter_handler}.json`,
+            JSON.stringify(combined, null, 2),
+          );
+        }
+      });
+    } catch (err) {
+      console.log(`Failed to crawl project ${projects[index].id}`, err);
     }
   }
   await closeBrowesr();

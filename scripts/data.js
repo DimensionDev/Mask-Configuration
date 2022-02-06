@@ -103,6 +103,9 @@ const twitterIdMap = {
   blimp_dao: 'blimpdao',
 };
 
+const ignoreProjects = ['spe_bsc_token', 'booknerd_eth'];
+
 module.exports = {
   twitterIdMap,
+  ignoreProjects,
 };
