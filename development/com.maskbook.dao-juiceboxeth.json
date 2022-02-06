@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5762731938810946632552",
+  "currentBalance": "5781940840384756156362",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6143788291426706648306",
+  "totalPaid": "6162997193000516172116",
   "totalRedeemed": "111103224942345689867",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -27,9 +27,25 @@
     "jbx": "215128891000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2449082786",
+  "totalSupply": "2453133573",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xe422047cf234e7c91ae89667fcdbd8a5b22bda95",
+      "id": "0x6b8b96615ace4f901e352c7edb908acc5aec0381c14783a316c07d8614bdbf84-192",
+      "note": null,
+      "timestamp": "1644149901",
+      "txHash": "0x6b8b96615ace4f901e352c7edb908acc5aec0381c14783a316c07d8614bdbf84"
+    },
+    {
+      "amount": "19108901573809523810",
+      "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
+      "id": "0x0af99e1590343eb99d3eada42853de20cff992da3aaea7002596aa1c2e7d7662-383",
+      "note": "Fee from @assangedao",
+      "timestamp": "1644148387",
+      "txHash": "0x0af99e1590343eb99d3eada42853de20cff992da3aaea7002596aa1c2e7d7662"
+    },
     {
       "amount": "17923187351904761905",
       "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
@@ -413,22 +429,6 @@
       "note": "Fee from @legendary_dao",
       "timestamp": "1643891493",
       "txHash": "0xe75e9d9c33ebe2084de1a94f43ccc34c3718cc63a12f7d4fe09a740e938f50f5"
-    },
-    {
-      "amount": "557142857142857143",
-      "beneficiary": "0xcc1cb7a5e84ed54267c57902a05ee86ab1b5b78c",
-      "id": "0x19e6e16e9c6c8349c0f86641472281c573081735bd364e80191f8329be1f6479-328",
-      "note": "Fee from @kingpindao",
-      "timestamp": "1643818855",
-      "txHash": "0x19e6e16e9c6c8349c0f86641472281c573081735bd364e80191f8329be1f6479"
-    },
-    {
-      "amount": "26190476190476191",
-      "beneficiary": "0x6e71c73b2c30d1e791ee9370c96a48c588e621ac",
-      "id": "0x020c4368dbf4eabc0d59e79dd640b735f0ff3e29ee459ce2686c6989d4d8be0f-149",
-      "note": "Fee from @financialadvice",
-      "timestamp": "1643753083",
-      "txHash": "0x020c4368dbf4eabc0d59e79dd640b735f0ff3e29ee459ce2686c6989d4d8be0f"
     }
   ],
   "redeemEvents": [

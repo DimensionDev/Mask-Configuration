@@ -18,16 +18,19 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "",
-  "payEvents": [
+  "fundingCycles": [
     {
-      "amount": "1000000000000000",
-      "beneficiary": "0x6635b1d896b6c86d03c9452e01d214a0e4944af8",
-      "id": "0xd0b20c476c654e8f09b9c27d6388e9b23b9bb8ad510b7ce316f030f3607ea03a-414",
-      "note": null,
-      "timestamp": "1640838510",
-      "txHash": "0xd0b20c476c654e8f09b9c27d6388e9b23b9bb8ad510b7ce316f030f3607ea03a"
+      "toETHSymbol": "MKD"
     }
   ],
+  "inWallet": {
+    "eth": "20000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x76ce9775917EfBd0B49B17564251Da3841F85D1F",
+  "totalSupply": "1000",
+  "holdingSymbol": "MKD",
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
