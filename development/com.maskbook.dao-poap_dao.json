@@ -1,7 +1,7 @@
 {
   "createdAt": "1642414035",
   "creator": "0xb8cb17087d7e771af25eb15b0be587fc14a623e4",
-  "currentBalance": "7242230670000000000",
+  "currentBalance": "0",
   "handle": "poapdao",
   "id": "275",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -24,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "60000000000000000",
-    "jbx": "0"
+    "eth": "620000000000000000",
+    "jbx": "36363000000000000000000"
   },
   "tokenAddress": "0xEFd833524CFa07f6EDE9048488f087b72baad3a8",
   "totalSupply": "7242230",
@@ -337,6 +337,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0xb8cb17087d7e771af25eb15b0be587fc14a623e4",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0xb8cb17087d7e771af25eb15b0be587fc14a623e4",
+      "fundingCycleId": "437",
+      "id": "275-0xc67ae63b838aedc19c45f20f94c388fe7521d22aafee141edcaadbff2e2f0613",
+      "netTransferAmount": "6897362542857142857",
+      "timestamp": "1644170474",
+      "txHash": "0xc67ae63b838aedc19c45f20f94c388fe7521d22aafee141edcaadbff2e2f0613"
+    }
+  ],
   "reservesEvents": []
 }
