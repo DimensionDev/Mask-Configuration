@@ -31,5 +31,7 @@ do
     done
 done
 
+cp -a ./constants/. ./production/
+
 rm ./temp/*.json
 rmdir ./temp 
