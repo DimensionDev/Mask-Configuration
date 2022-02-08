@@ -1,11 +1,11 @@
 {
   "createdAt": "1642414035",
   "creator": "0xb8cb17087d7e771af25eb15b0be587fc14a623e4",
-  "currentBalance": "0",
+  "currentBalance": "8000000000000000",
   "handle": "poapdao",
   "id": "275",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "7242230670000000000",
+  "totalPaid": "7250230670000000000",
   "totalRedeemed": "0",
   "uri": "QmWjLNHZC8MM9MJ5sZTVtBgFt9jzu8j3qHww2QwZn1Z3xH",
   "name": "POAPDAO",
@@ -28,9 +28,17 @@
     "jbx": "36363000000000000000000"
   },
   "tokenAddress": "0xEFd833524CFa07f6EDE9048488f087b72baad3a8",
-  "totalSupply": "7242230",
+  "totalSupply": "7250230",
   "holdingSymbol": "POAP",
   "payEvents": [
+    {
+      "amount": "8000000000000000",
+      "beneficiary": "0x3ba90c3f27a412524be2637f1362c80eec008fb9",
+      "id": "0x7c18ccbf8f58a1a5ffe2f557fb0ad41696de1d504e02e2db0c5f9a871ff0dcd9-566",
+      "note": "https://juicebox.money/#/p/chinesewomanfootball",
+      "timestamp": "1644344462",
+      "txHash": "0x7c18ccbf8f58a1a5ffe2f557fb0ad41696de1d504e02e2db0c5f9a871ff0dcd9"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0xe422047cf234e7c91ae89667fcdbd8a5b22bda95",
