@@ -1,11 +1,11 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "34713893085645719569",
+  "currentBalance": "34813893085645719569",
   "handle": "tiles",
   "id": "2",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "131812336800000000000",
+  "totalPaid": "131912336800000000000",
   "totalRedeemed": "6869443714354280431",
   "uri": "QmNnxipn7ooGhX67nUPysoTuFK4xbLJrXw1nKnqTQ6uy7h",
   "name": "TileDAO",
@@ -27,9 +27,17 @@
     "jbx": "591477000000000000000000"
   },
   "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
-  "totalSupply": "110527016",
+  "totalSupply": "110583814",
   "holdingSymbol": "TILE",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x3f105f78359ad80562b4c34296a87b8e66c584c5",
+      "id": "0x651f505c29a66e642b672f9ee540fcd8e712de92aa8daf6fc8dee5a226789576-250",
+      "note": null,
+      "timestamp": "1644389599",
+      "txHash": "0x651f505c29a66e642b672f9ee540fcd8e712de92aa8daf6fc8dee5a226789576"
+    },
     {
       "amount": "160000000000000000",
       "beneficiary": "0xe811f02418646ae93f540ed2877a487be85dd842",
@@ -421,14 +429,6 @@
       "note": "Minted Tile with address 6291539d5891bb8eec18f2de94775708bd493d3e",
       "timestamp": "1634857295",
       "txHash": "0xaa7b5177413bec22e8cd3e98db64f28c1483134a4b5fe6bc078c088116db68f2"
-    },
-    {
-      "amount": "160000000000000000",
-      "beneficiary": "0x304fe5c2f14deddc9960883f35cf50d45b9fac3a",
-      "id": "0x14fd0f47a873394aa733f35b9680e04e50d6ef82b67e7ff0c3a7f81d9c04fc41-156",
-      "note": "Minted Tile with address 2621967812f64fda0ccb2f884410ea92c919282a",
-      "timestamp": "1634570651",
-      "txHash": "0x14fd0f47a873394aa733f35b9680e04e50d6ef82b67e7ff0c3a7f81d9c04fc41"
     }
   ],
   "redeemEvents": [
