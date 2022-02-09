@@ -1,11 +1,11 @@
 {
   "createdAt": "1644358080",
   "creator": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
-  "currentBalance": "0",
+  "currentBalance": "50000000000000000",
   "handle": "daodenver",
   "id": "343",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "50000000000000000",
   "totalRedeemed": "0",
   "uri": "QmaEQf1vXDJyxzGXcyi2fLmkVVwj1AQMeQvVykRaTbdcgj",
   "name": "DAODenver (by DAOPlanet)",
@@ -28,9 +28,18 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "0",
+  "totalSupply": "50000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x94aaf5ceb457057ac4d1588257988d487272984f",
+      "id": "0x1fde518d7247c3d6cf87ebebcac6b73514bdbb1d90a41bdb5056ba420acdd9a1-499",
+      "note": null,
+      "timestamp": "1644382268",
+      "txHash": "0x1fde518d7247c3d6cf87ebebcac6b73514bdbb1d90a41bdb5056ba420acdd9a1"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
