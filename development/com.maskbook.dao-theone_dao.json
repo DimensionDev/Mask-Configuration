@@ -1,11 +1,11 @@
 {
   "createdAt": "1643895694",
   "creator": "0xe3ef5087f6ac0cdf535e91da775a5f57b28062d9",
-  "currentBalance": "0",
+  "currentBalance": "160000000000000000",
   "handle": "theonedao",
   "id": "322",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "160000000000000000",
   "totalRedeemed": "0",
   "uri": "QmWPzuZnAysM2Dns4DxKhvY1d8orNxwY4CaSkSahELpyLq",
   "name": "The One DAO",
@@ -28,9 +28,18 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "0",
+  "totalSupply": "160000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "160000000000000000",
+      "beneficiary": "0x4c06802be3dbae99ac980a878e11be1849f3254a",
+      "id": "0x69843eff5b57e391278aee98eb75137d321e51cf162f0da53b76ff361ef4e15f-651",
+      "note": null,
+      "timestamp": "1644429798",
+      "txHash": "0x69843eff5b57e391278aee98eb75137d321e51cf162f0da53b76ff361ef4e15f"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
