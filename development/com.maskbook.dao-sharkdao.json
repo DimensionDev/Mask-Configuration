@@ -1,11 +1,11 @@
 {
   "createdAt": "1641336336",
   "creator": "0xe3f27deff96fe178e87559f36cbf868b9e75967d",
-  "currentBalance": "17608000000000000000",
+  "currentBalance": "17638000000000000000",
   "handle": "sharkfrens",
   "id": "245",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "17608000000000000000",
+  "totalPaid": "17638000000000000000",
   "totalRedeemed": "0",
   "uri": "QmZefhhpMKUA2yUJt79fQZmwf8NY54noiVyGtNzSVL54cF",
   "name": "SharkFrens",
@@ -31,6 +31,14 @@
   "totalSupply": "1068100762",
   "holdingSymbol": "SHARK",
   "payEvents": [
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0x4bba239c9cc83619228457502227d801e4738ba0",
+      "id": "0x62912a95e6edcd9d3f1efa977cb07aedffb0ef190064aaa1c20aa721a31dcead-105",
+      "note": "Sending best wishes and positive vibes",
+      "timestamp": "1644432347",
+      "txHash": "0x62912a95e6edcd9d3f1efa977cb07aedffb0ef190064aaa1c20aa721a31dcead"
+    },
     {
       "amount": "40000000000000000",
       "beneficiary": "0xe8246f2c113cf6143c2aff779c067c605b821589",
@@ -422,14 +430,6 @@
       "note": null,
       "timestamp": "1641375821",
       "txHash": "0xfed90047f6b9c75aa94e405e8bfaceddff70ecbed2af3e9712bc03472e4c62a6"
-    },
-    {
-      "amount": "200000000000000000",
-      "beneficiary": "0x48af2bd40905f8d48d187ecb3c6bbc19ec21c795",
-      "id": "0x6d30c38513715dd3c3c0593cc9c882982eacc35272107d3ab8d393bde8f3d03b-172",
-      "note": "My thoughts are with your family. Lots of love and strength. 🙏🏻💪🏻",
-      "timestamp": "1641366066",
-      "txHash": "0x6d30c38513715dd3c3c0593cc9c882982eacc35272107d3ab8d393bde8f3d03b"
     }
   ],
   "redeemEvents": [],

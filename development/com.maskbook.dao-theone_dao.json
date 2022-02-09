@@ -1,11 +1,11 @@
 {
   "createdAt": "1643895694",
   "creator": "0xe3ef5087f6ac0cdf535e91da775a5f57b28062d9",
-  "currentBalance": "160000000000000000",
+  "currentBalance": "195000000000000000",
   "handle": "theonedao",
   "id": "322",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "160000000000000000",
+  "totalPaid": "195000000000000000",
   "totalRedeemed": "0",
   "uri": "QmWPzuZnAysM2Dns4DxKhvY1d8orNxwY4CaSkSahELpyLq",
   "name": "The One DAO",
@@ -28,9 +28,25 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "160000",
+  "totalSupply": "195000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "15000000000000000",
+      "beneficiary": "0x27f985e18c00613f9f91688d183f8de39efb43a8",
+      "id": "0x4292bbe2e8a8ed1c9f6054dfd51dc1dcb1f96e9259a81222e062e915cc9aff6b-294",
+      "note": "Can we play bowling in The One?",
+      "timestamp": "1644433584",
+      "txHash": "0x4292bbe2e8a8ed1c9f6054dfd51dc1dcb1f96e9259a81222e062e915cc9aff6b"
+    },
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x335a9f80a40801b4a3db49ed9b9adf4f3a7a0aa6",
+      "id": "0x262c94cad77b1fd4818f76cb7c5a8b8a0ba73007d8491e00865410b3e8d9a7c6-282",
+      "note": null,
+      "timestamp": "1644432381",
+      "txHash": "0x262c94cad77b1fd4818f76cb7c5a8b8a0ba73007d8491e00865410b3e8d9a7c6"
+    },
     {
       "amount": "160000000000000000",
       "beneficiary": "0x4c06802be3dbae99ac980a878e11be1849f3254a",
