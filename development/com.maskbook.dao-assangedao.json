@@ -1,7 +1,7 @@
 {
   "createdAt": "1643927537",
   "creator": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
-  "currentBalance": "1353296465363370622750",
+  "currentBalance": "451000000000000000",
   "handle": "assangedao",
   "id": "323",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -24,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "13304190000000000000000",
-    "jbx": "80686343000000000000000000"
+    "eth": "14592610000000000000000",
+    "jbx": "87478938000000000000000000"
   },
   "tokenAddress": null,
   "totalSupply": "17376067507",
@@ -835,6 +835,26 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
+      "beneficiaryTransferAmount": "5205107972021666",
+      "caller": "0x93eb250013f76dc300304f907ee9850119d66e3a",
+      "fundingCycleId": "534",
+      "id": "323-0x48a5c6ec4b04171320e5913d67f09d8476c15f6b1b25ed431b9e2ecdcc0a9d0f",
+      "netTransferAmount": "5205107972021666",
+      "timestamp": "1644367863",
+      "txHash": "0x48a5c6ec4b04171320e5913d67f09d8476c15f6b1b25ed431b9e2ecdcc0a9d0f"
+    },
+    {
+      "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
+      "beneficiaryTransferAmount": "1288419047619047619047",
+      "caller": "0x1399a4e68d94918025096fcafa1e36059fb10f1e",
+      "fundingCycleId": "534",
+      "id": "323-0x210f839beddfffde4b9a27a7eb1ad2c3bde87d60b240c3cea3ca8a7521e94b1d",
+      "netTransferAmount": "1288419047619047619047",
+      "timestamp": "1644363626",
+      "txHash": "0x210f839beddfffde4b9a27a7eb1ad2c3bde87d60b240c3cea3ca8a7521e94b1d"
+    },
     {
       "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
       "beneficiaryTransferAmount": "77950841904761904761",
