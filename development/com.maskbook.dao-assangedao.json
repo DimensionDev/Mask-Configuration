@@ -28,7 +28,7 @@
     "jbx": "87478938000000000000000000"
   },
   "tokenAddress": "0x59d1e836F7b7210A978b25a855085cc46fd090B5",
-  "totalSupply": "17348729507",
+  "totalSupply": "17347029507",
   "holdingSymbol": "JUSTICE",
   "payEvents": [
     {
@@ -434,6 +434,22 @@
   ],
   "redeemEvents": [
     {
+      "amount": "500000000000000000000000",
+      "beneficiary": "0x291a71b4d5b5d1df97a8769495e72b34c55dbd55",
+      "id": "0x7846a45c710e8eca84d65f95108786729860f9cf1723089b27ec7673c342a7fa-77",
+      "returnAmount": "0",
+      "timestamp": "1644459976",
+      "txHash": "0x7846a45c710e8eca84d65f95108786729860f9cf1723089b27ec7673c342a7fa"
+    },
+    {
+      "amount": "1200000000000000000000000",
+      "beneficiary": "0x905cd8bc04eb69d3f2c4b21bba40ee35ba1f9a4b",
+      "id": "0xc07aa8981750542c8a2824ef9dc645ade0d14108aef82e06cf47e63fdacf3d3a-399",
+      "returnAmount": "0",
+      "timestamp": "1644455926",
+      "txHash": "0xc07aa8981750542c8a2824ef9dc645ade0d14108aef82e06cf47e63fdacf3d3a"
+    },
+    {
       "amount": "10000000000000000000000",
       "beneficiary": "0x0d4220eb5864111dbcc945e8ae77dc542ebb3440",
       "id": "0xfad576f2280092d65cd73f2f3d1131e504d9a91f912f61f7068c90cc88c52609-469",
@@ -816,22 +832,6 @@
       "returnAmount": "0",
       "timestamp": "1644409071",
       "txHash": "0x8bc2a9a4a55d239288c5951bec9d94514971aaa944e81df35731735b91ba48f3"
-    },
-    {
-      "amount": "30000000000000000000000",
-      "beneficiary": "0x2eca585b808e0f7e9de69452318aee58054b97dc",
-      "id": "0x4fe520ed6fc6a56477b4c268b1f729b229b74b2599e77f6161de8bbfcb0350e0-440",
-      "returnAmount": "0",
-      "timestamp": "1644408860",
-      "txHash": "0x4fe520ed6fc6a56477b4c268b1f729b229b74b2599e77f6161de8bbfcb0350e0"
-    },
-    {
-      "amount": "2000000000000000000000000",
-      "beneficiary": "0x826ae401cc182976fc0ffde7b9e2278c524b89bf",
-      "id": "0xaf748f7810b40981d308ea4d32e2fe1717fb3e535f9650c05f519ae0f523a80c-11",
-      "returnAmount": "0",
-      "timestamp": "1644408693",
-      "txHash": "0xaf748f7810b40981d308ea4d32e2fe1717fb3e535f9650c05f519ae0f523a80c"
     }
   ],
   "withdrawEvents": [

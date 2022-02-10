@@ -24,7 +24,7 @@
   ],
   "inWallet": {
     "eth": "6730000000000000000",
-    "jbx": "215128891000000000000000000"
+    "jbx": "262002593000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
   "totalSupply": "2570226714",
@@ -1096,6 +1096,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTicketAmount": "1",
+      "caller": "0x754f37225ce0e30639093af47c16ef057b544b4f",
+      "count": "62464954449047642029181494",
+      "id": "1-0xe438d269ce345db0fd24b202e077759909f1e5759b6491087894f33d6daac0b8",
+      "timestamp": "1644459518",
+      "txHash": "0xe438d269ce345db0fd24b202e077759909f1e5759b6491087894f33d6daac0b8"
+    },
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTicketAmount": "2",
