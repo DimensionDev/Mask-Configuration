@@ -1,7 +1,7 @@
 {
   "createdAt": "1644358080",
   "creator": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
-  "currentBalance": "3108443660000000000",
+  "currentBalance": "0",
   "handle": "daodenver",
   "id": "343",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -24,13 +24,21 @@
     }
   ],
   "inWallet": {
-    "eth": "0",
-    "jbx": "0"
+    "eth": "2960000000000000000",
+    "jbx": "15607000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "3108443",
+  "totalSupply": "3208443",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xe6e8dbf284ecf49b32c417c5dd9b9cbce27dceb2",
+      "id": "0x8039d0134b62e6e9ba4a6e83726c1d5318ab0c2f9e675ba71c8fa8ec21c6dafd-834",
+      "note": null,
+      "timestamp": "1644502947",
+      "txHash": "0x8039d0134b62e6e9ba4a6e83726c1d5318ab0c2f9e675ba71c8fa8ec21c6dafd"
+    },
     {
       "amount": "77777000000000000",
       "beneficiary": "0x82b3167840208ad523bc8ce636d9709274e9256f",
@@ -113,6 +121,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
+      "beneficiaryTransferAmount": "2960422533333333333",
+      "caller": "0xe6e8dbf284ecf49b32c417c5dd9b9cbce27dceb2",
+      "fundingCycleId": "544",
+      "id": "343-0x2b0206b1cc423f83b182619d90ea762aa5d6ddc675e1e29cc86643c758db2335",
+      "netTransferAmount": "2960422533333333333",
+      "timestamp": "1644502149",
+      "txHash": "0x2b0206b1cc423f83b182619d90ea762aa5d6ddc675e1e29cc86643c758db2335"
+    }
+  ],
   "reservesEvents": []
 }
