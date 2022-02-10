@@ -1,11 +1,11 @@
 {
   "createdAt": "1644358080",
   "creator": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
-  "currentBalance": "2900666660000000000",
+  "currentBalance": "3030666660000000000",
   "handle": "daodenver",
   "id": "343",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "2900666660000000000",
+  "totalPaid": "3030666660000000000",
   "totalRedeemed": "0",
   "uri": "QmaEQf1vXDJyxzGXcyi2fLmkVVwj1AQMeQvVykRaTbdcgj",
   "name": "DAODenver (by DAOPlanet)",
@@ -28,9 +28,25 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "2900666",
+  "totalSupply": "3030666",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0xec8e47e050a122970cbb4baf44413f3f070b543d",
+      "id": "0x2238c53efadfc7c5935669924de14281998d20f928aded340ae175c5ad55a971-165",
+      "note": "See you there!",
+      "timestamp": "1644453006",
+      "txHash": "0x2238c53efadfc7c5935669924de14281998d20f928aded340ae175c5ad55a971"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x56b7b097e3baacb780b469cc98dc82ff89cfebbe",
+      "id": "0x6ad64d19530d70fb5ea49a4aabec073317423e6551a16864ecf44ddd6455571c-480",
+      "note": "great lineup and mission",
+      "timestamp": "1644450754",
+      "txHash": "0x6ad64d19530d70fb5ea49a4aabec073317423e6551a16864ecf44ddd6455571c"
+    },
     {
       "amount": "30666660000000000",
       "beneficiary": "0xb4299038b6701f1e3a2c9adf711c45c2099a4507",
