@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6337835513147030307084",
+  "currentBalance": "6337959013147030307084",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6718902614447797153807",
+  "totalPaid": "6719026114447797153807",
   "totalRedeemed": "111113973627352520836",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -27,9 +27,25 @@
     "jbx": "262002593000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2570356983",
+  "totalSupply": "2570383027",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "23500000000000000",
+      "beneficiary": "0x3e99b6781346e40d5583d5b147d2f32d2bb977af",
+      "id": "0x15747a4fe54a41d96cb1fb223f2f6f028c64e9626bf5a2e75139a35fb75b944d-487",
+      "note": null,
+      "timestamp": "1644530127",
+      "txHash": "0x15747a4fe54a41d96cb1fb223f2f6f028c64e9626bf5a2e75139a35fb75b944d"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x6e17029cc7e39a92d225fa3855a64035e325d5af",
+      "id": "0xa9823043cdcae518d9315a205c7bf4f62005efaf57f433dd03f96540c35f5780-429",
+      "note": null,
+      "timestamp": "1644528838",
+      "txHash": "0xa9823043cdcae518d9315a205c7bf4f62005efaf57f433dd03f96540c35f5780"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x49a8a3e764263d38948be39d3217222f177d189b",
@@ -413,22 +429,6 @@
       "note": null,
       "timestamp": "1644236560",
       "txHash": "0x57093a3b32680fc81d0413ad17ed2e6efea076bc7c2ed49b843b4e9541deccc0"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x20a1ba7cb9b4fddb6de2ae0730750a66a28bceca",
-      "id": "0xcc442e4a6d0c3fab8aa9c961d6503969f1f5d7cc53f149e7c52351305fa7f31b-271",
-      "note": null,
-      "timestamp": "1644230472",
-      "txHash": "0xcc442e4a6d0c3fab8aa9c961d6503969f1f5d7cc53f149e7c52351305fa7f31b"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x49d43f74988c31e2df1e751e5f0ee160ecdbc5cf",
-      "id": "0x8837c15a027f43e207c871b6ca83e967d9217fd2231a7f5349cf89d3e3d822a8-480",
-      "note": null,
-      "timestamp": "1644227792",
-      "txHash": "0x8837c15a027f43e207c871b6ca83e967d9217fd2231a7f5349cf89d3e3d822a8"
     }
   ],
   "redeemEvents": [
