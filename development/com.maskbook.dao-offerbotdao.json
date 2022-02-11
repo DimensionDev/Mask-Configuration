@@ -1,7 +1,7 @@
 {
   "createdAt": "1639767871",
   "creator": "0x16bdbd83a85fb2d8c62f5bf4895f7f6adbb22c6e",
-  "currentBalance": "10679000000000000000",
+  "currentBalance": "0",
   "handle": "offerbotdao",
   "id": "197",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -24,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "80000000000000000",
-    "jbx": "139285000000000000000000"
+    "eth": "5220000000000000000",
+    "jbx": "192904000000000000000000"
   },
   "tokenAddress": null,
   "totalSupply": "45181331",
@@ -226,6 +226,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
+      "fundingCycleId": "571",
+      "id": "197-0x53d8bf507c8bb680c9c2862c9ae6f4657b398348e15703fd6d3ba5882fc37c23",
+      "netTransferAmount": "10170476190476190476",
+      "timestamp": "1644607914",
+      "txHash": "0x53d8bf507c8bb680c9c2862c9ae6f4657b398348e15703fd6d3ba5882fc37c23"
+    },
     {
       "beneficiary": "0x291548e6a49ef6fa29d3d2458c7e9fc1c60c397f",
       "beneficiaryTransferAmount": "0",
