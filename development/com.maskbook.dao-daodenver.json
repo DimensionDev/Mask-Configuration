@@ -1,11 +1,11 @@
 {
   "createdAt": "1644358080",
   "creator": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
-  "currentBalance": "1102059820000000000",
+  "currentBalance": "9102059820000000000",
   "handle": "daodenver",
   "id": "343",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "4210503480000000000",
+  "totalPaid": "12210503480000000000",
   "totalRedeemed": "0",
   "uri": "QmaEQf1vXDJyxzGXcyi2fLmkVVwj1AQMeQvVykRaTbdcgj",
   "name": "DAODenver (by DAOPlanet)",
@@ -28,9 +28,17 @@
     "jbx": "15607000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "4210503",
+  "totalSupply": "12210503",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "8000000000000000000",
+      "beneficiary": "0x76a7b3898d598f400d51f00956687b3575c65b45",
+      "id": "0x6ace026221f9d20ccc556183cf3c5bb25140f78aaaa77a1fae90f1e955135df0-464",
+      "note": "hdao.crayon.finance",
+      "timestamp": "1644565242",
+      "txHash": "0x6ace026221f9d20ccc556183cf3c5bb25140f78aaaa77a1fae90f1e955135df0"
+    },
     {
       "amount": "652059820000000000",
       "beneficiary": "0x3c0665e2beb44546b7066532dc4beefc2123ed66",

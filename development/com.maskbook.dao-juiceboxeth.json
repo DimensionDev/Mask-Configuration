@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6329387039158423690569",
+  "currentBalance": "6329397039158423690569",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6719096114447797153807",
+  "totalPaid": "6719106114447797153807",
   "totalRedeemed": "119755947615959137351",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -27,9 +27,17 @@
     "jbx": "262002593000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2565390953",
+  "totalSupply": "2565393061",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x3471581ed044059d3ae7d1cec6e0db4e40d2e3c2",
+      "id": "0x1b79fc471637c88dbe650a8f048cd8811c986ad0dcf2fd76f216b609339727c8-224",
+      "note": "We must consider how Juice Box continues to provide a new solution for DAO treasury management, and the community will launch the DAO governance token JBX on the BSC.Further Juicebox governance experiments will show their strengths.Welcome to the Telegram.",
+      "timestamp": "1644565683",
+      "txHash": "0x1b79fc471637c88dbe650a8f048cd8811c986ad0dcf2fd76f216b609339727c8"
+    },
     {
       "amount": "70000000000000000",
       "beneficiary": "0xd6c6643b1306e723282d74a908ff577c07dbcd5c",
@@ -421,14 +429,6 @@
       "note": "Fee from @assangedao",
       "timestamp": "1644244436",
       "txHash": "0x226e4234d7631b644366f018d3710fc8c8795e7c535688cb0af604cf2e32fc7c"
-    },
-    {
-      "amount": "4383777392380952381",
-      "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
-      "id": "0x5f953f197b5c10bbfbe1c31771f64e8f576a13d96d72f93bd83e55149e9baf77-52",
-      "note": "Fee from @assangedao",
-      "timestamp": "1644237582",
-      "txHash": "0x5f953f197b5c10bbfbe1c31771f64e8f576a13d96d72f93bd83e55149e9baf77"
     }
   ],
   "redeemEvents": [
