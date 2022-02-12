@@ -28,7 +28,7 @@
     "jbx": "0"
   },
   "tokenAddress": "0x167128b0aB1E013f1b8cec69975EA9d26F1D5dcf",
-  "totalSupply": "1261314",
+  "totalSupply": "1258764",
   "holdingSymbol": "BITMOUSE",
   "payEvents": [
     {
@@ -144,7 +144,16 @@
       "txHash": "0xd569265c7882093ec03894b98647af38fc4cc0a5a887761939d408b917b1ef8d"
     }
   ],
-  "redeemEvents": [],
+  "redeemEvents": [
+    {
+      "amount": "2550000000000000000000",
+      "beneficiary": "0x78ee9bfef63fa107f3a61126edb5d057af77795b",
+      "id": "0xe842e4d0f672010ad5f76f5d32c17c381866b550aec847ff68a0d3904f535a70-522",
+      "returnAmount": "0",
+      "timestamp": "1644629770",
+      "txHash": "0xe842e4d0f672010ad5f76f5d32c17c381866b550aec847ff68a0d3904f535a70"
+    }
+  ],
   "withdrawEvents": [],
   "reservesEvents": []
 }
