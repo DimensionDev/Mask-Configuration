@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6332434719139649403061",
+  "currentBalance": "6332534719139649403061",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6722143794429022866299",
+  "totalPaid": "6722243794429022866299",
   "totalRedeemed": "119755947615959137351",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -27,9 +27,17 @@
     "jbx": "262002593000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2566010453",
+  "totalSupply": "2566029432",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x145895b1a27a348baff8873b08a88637d7cf37a9",
+      "id": "0x3337a6b41e48443390bbb860379363b2c51953f5ce217995f464a90afcb4d75c-136",
+      "note": null,
+      "timestamp": "1644755831",
+      "txHash": "0x3337a6b41e48443390bbb860379363b2c51953f5ce217995f464a90afcb4d75c"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x36639672858f058bafbd1acedb3697abcddfe72b",
@@ -421,14 +429,6 @@
       "note": "Fee from @assangedao",
       "timestamp": "1644294766",
       "txHash": "0x3fc1eee171c29c757bb8a6d8a844c6de2d5142f07e00024e96ab973f58da802b"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x79a42fa73fe67c940b7f69c539cc20095df0475d",
-      "id": "0x59000f2f911774b5899f6654af1c9e3d99c3c8667a973144afd6c0f8b44cc3df-197",
-      "note": null,
-      "timestamp": "1644293987",
-      "txHash": "0x59000f2f911774b5899f6654af1c9e3d99c3c8667a973144afd6c0f8b44cc3df"
     }
   ],
   "redeemEvents": [
