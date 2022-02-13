@@ -28,7 +28,7 @@
     "jbx": "87478938000000000000000000"
   },
   "tokenAddress": "0x59d1e836F7b7210A978b25a855085cc46fd090B5",
-  "totalSupply": "17346159507",
+  "totalSupply": "17346154507",
   "holdingSymbol": "JUSTICE",
   "payEvents": [
     {
@@ -434,6 +434,14 @@
   ],
   "redeemEvents": [
     {
+      "amount": "5000000000000000000000",
+      "beneficiary": "0x389919937aeeb220706216c0dba9d0c5afc71168",
+      "id": "0x774270870ebedd58fb885ad69edd19e4954b085cdb9a5f250b3b32d99f3af7cc-158",
+      "returnAmount": "0",
+      "timestamp": "1644741072",
+      "txHash": "0x774270870ebedd58fb885ad69edd19e4954b085cdb9a5f250b3b32d99f3af7cc"
+    },
+    {
       "amount": "100000000000000000000000",
       "beneficiary": "0xa53e750dd31c2bba20251f87e4df6811e6dbb563",
       "id": "0xef0bfe5412a780ebce66ed59dd48040c68b78880bb717b3c77e9687ea3e412bf-53",
@@ -824,14 +832,6 @@
       "returnAmount": "0",
       "timestamp": "1644409472",
       "txHash": "0x98b3a41841e285d4b2d3882b024da150209c3811d040595bf01dd82e2f6dc8d5"
-    },
-    {
-      "amount": "10000000000000000000000",
-      "beneficiary": "0xb59974e8545f26f1d8632f7af1286eb1644da360",
-      "id": "0x2d580cb6c19d8d09d685b2af0067796a7da8c4c203db252df83f3272ae64343f-188",
-      "returnAmount": "0",
-      "timestamp": "1644409427",
-      "txHash": "0x2d580cb6c19d8d09d685b2af0067796a7da8c4c203db252df83f3272ae64343f"
     }
   ],
   "withdrawEvents": [

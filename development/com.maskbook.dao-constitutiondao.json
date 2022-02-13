@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5119795662766354098743",
+  "currentBalance": "5119802936356354098743",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "11613093300172406769962",
+  "totalPaid": "11613100573762406769962",
   "totalRedeemed": "6484180066739081432851",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
@@ -29,9 +29,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5118298145",
+  "totalSupply": "5118305419",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "7273590000000000",
+      "beneficiary": "0x83aa0bf894319f64b7a3cc9598fe59d13f96d3a6",
+      "id": "0xb83e812995304d8d69bc1e0e24bb324046d9db77070a75864f14476975374f5e-246",
+      "note": null,
+      "timestamp": "1644740889",
+      "txHash": "0xb83e812995304d8d69bc1e0e24bb324046d9db77070a75864f14476975374f5e"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0x6dea49b4455191acb8519eeba8a5ad0153cefc87",
@@ -423,14 +431,6 @@
       "note": " ",
       "timestamp": "1638334497",
       "txHash": "0x745873c4490f7f847b920b1c30dfbf0a474697372d9cc3e8c0b17fcf5eeaf554"
-    },
-    {
-      "amount": "1787000000000000000",
-      "beneficiary": "0xf37422a26050b0a2096abe0fcbfb107bdb969b45",
-      "id": "0x13c84e0a29b4c4d8b3ff226a2c7572bd1fcf4aae97daaa2f01a82065dccac829-71",
-      "note": "Crypto is not just a technology, it’s a movement. Gemini has always believed that crypto will redesign society and empower the individual. That's why the Gemini Frontier Fund is proud to support ConstitutionDAO. The Constitution belongs to the people.",
-      "timestamp": "1638327157",
-      "txHash": "0x13c84e0a29b4c4d8b3ff226a2c7572bd1fcf4aae97daaa2f01a82065dccac829"
     }
   ],
   "redeemEvents": [
