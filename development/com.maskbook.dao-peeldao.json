@@ -1,11 +1,11 @@
 {
   "createdAt": "1644187376",
   "creator": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
-  "currentBalance": "0",
+  "currentBalance": "10528971336788201844",
   "handle": "peel",
   "id": "329",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "10528971336788201844",
   "totalRedeemed": "0",
   "uri": "QmUptB8hA21k38FChksgGJ38ATmvMApBUPNvdGbF95sS5a",
   "name": "Peel",
@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10528971336788201844",
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "id": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0-192",
+      "note": "Payout from @juicebox",
+      "timestamp": "1644808677",
+      "txHash": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []

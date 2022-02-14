@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6332656826770383362042",
+  "currentBalance": "6298768924173704244422",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6722365902059756825280",
+  "totalPaid": "6724060297189590781162",
   "totalRedeemed": "119755947615959137351",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
@@ -23,13 +23,21 @@
     }
   ],
   "inWallet": {
-    "eth": "6730000000000000000",
-    "jbx": "262002593000000000000000000"
+    "eth": "6760000000000000000",
+    "jbx": "262163385000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2566052607",
+  "totalSupply": "2566374191",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "1694395129833955882",
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "id": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0-171",
+      "note": "Fee from @juicebox",
+      "timestamp": "1644808677",
+      "txHash": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0xf0a0d0e0744a3095f97ffb0dda426ade9d828661",
@@ -421,14 +429,6 @@
       "note": "https://jbx.mypinata.cloud/ipfs/QmUzwbJ53hHvtMXifK432pDTTBLeDLt4MZM8dij9wKvKhr",
       "timestamp": "1644304091",
       "txHash": "0xc8e8d4824eda8db3729c761fa0c7e933f89ebcadb6b65157adb6af94a5d9b5c5"
-    },
-    {
-      "amount": "8324577853809523810",
-      "beneficiary": "0x7be99ca4e6893ef57cf349ab56307628100fea00",
-      "id": "0x780403fa30e74dde6c9ee730ae87c5dcd473eda20a1c3fa6f71c47b935a944a8-406",
-      "note": "Fee from @assangedao",
-      "timestamp": "1644302740",
-      "txHash": "0x780403fa30e74dde6c9ee730ae87c5dcd473eda20a1c3fa6f71c47b935a944a8"
     }
   ],
   "redeemEvents": [
@@ -834,6 +834,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTransferAmount": "27110322077343303",
+      "caller": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "fundingCycleId": "555",
+      "id": "1-0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0",
+      "netTransferAmount": "33887902596679117620",
+      "timestamp": "1644808677",
+      "txHash": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0"
+    },
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTransferAmount": "46222533339030233628",

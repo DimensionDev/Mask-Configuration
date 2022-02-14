@@ -1,12 +1,12 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5119845786739057738080",
+  "currentBalance": "5119815777961764807155",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "11613173432922406769962",
-  "totalRedeemed": "6484210075516377793514",
+  "totalRedeemed": "6484240084293670724439",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
   "infoUri": "https://constitutiondao.com",
@@ -29,7 +29,7 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5118348278",
+  "totalSupply": "5118318278",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
     {
@@ -436,6 +436,14 @@
   "redeemEvents": [
     {
       "amount": "30000000000000000000000",
+      "beneficiary": "0xb045b9472ab511533f2689c3323ae6910d9aaada",
+      "id": "0xf7853d823aed1de40ab7ca9e5988e736a93461067f92b64abd8970b51d4a49e1-100",
+      "returnAmount": "30008777292930925",
+      "timestamp": "1644807228",
+      "txHash": "0xf7853d823aed1de40ab7ca9e5988e736a93461067f92b64abd8970b51d4a49e1"
+    },
+    {
+      "amount": "30000000000000000000000",
       "beneficiary": "0x55488b04b895f0b1f0093a60a39112a07bae417b",
       "id": "0x660799e5f179691455e08b979909efbce43386f8f80bc47ebf297979049a4fae-65",
       "returnAmount": "30008777296360663",
@@ -825,14 +833,6 @@
       "returnAmount": "136039796708932185",
       "timestamp": "1640721136",
       "txHash": "0xd9a79b5a44e2a56d17039bf9c8133375a30f9bddfcc04a30aefdd23c746d71fa"
-    },
-    {
-      "amount": "100000000000000000000000",
-      "beneficiary": "0x440d6b93be76c7c60fff825feb4162fed7c81c1d",
-      "id": "0x57cf6bf7d9ee5d061f2fa360ef5dd832c03827273e1af55aeec830a07a59844f-212",
-      "returnAmount": "100029262285979548",
-      "timestamp": "1640640414",
-      "txHash": "0x57cf6bf7d9ee5d061f2fa360ef5dd832c03827273e1af55aeec830a07a59844f"
     }
   ],
   "withdrawEvents": [
