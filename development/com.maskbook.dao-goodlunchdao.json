@@ -5,8 +5,8 @@
   "handle": "goodlunchdao",
   "id": "335",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
-  "totalRedeemed": "0",
+  "totalPaid": "20000000000000000",
+  "totalRedeemed": "20000000000000000",
   "uri": "QmXmURYYg7AYpzYZGUqdvj4REwa5rMg4oWehXy5T7L8mMi",
   "name": "Good Lunch DAO",
   "description": "Ever dreamed of dining with the legendary Warren Buffett? This might just be your chance! ‘Good Lunch Dao’ is holding a crowdfunding campaign to enter the auction for this year’s “Power Lunch with Warren Buffett”. Anyone can donate to the fund for a chance to meet Warren! At any time during the first-round funding period (funding up to the 500 ETH milestone) you can use your $GL as proof to redeem 100% of your donated funds.",
@@ -25,14 +25,32 @@
     }
   ],
   "inWallet": {
-    "eth": "50000000000000000",
+    "eth": "40000000000000000",
     "jbx": "0"
   },
   "tokenAddress": "0x06DdB6C234BE26484Cd64c93A56C836E5D7966fD",
   "totalSupply": "0",
   "holdingSymbol": "GL",
-  "payEvents": [],
-  "redeemEvents": [],
+  "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x247d842f6e7947d19f4ef392496a1d53228a7ca4",
+      "id": "0x5d272b0d492632dbdeb2e055d075607c95ef0a6777aa10b3eeca90a653c0a634-203",
+      "note": "Official Over Flow Test:100% redeemable",
+      "timestamp": "1644833665",
+      "txHash": "0x5d272b0d492632dbdeb2e055d075607c95ef0a6777aa10b3eeca90a653c0a634"
+    }
+  ],
+  "redeemEvents": [
+    {
+      "amount": "20000000000000000000000",
+      "beneficiary": "0x247d842f6e7947d19f4ef392496a1d53228a7ca4",
+      "id": "0xfd78c130b2ec4fec2502aa3ea4a8cfbb5cdca12c868c057ff182354bb4de2418-203",
+      "returnAmount": "20000000000000000",
+      "timestamp": "1644833971",
+      "txHash": "0xfd78c130b2ec4fec2502aa3ea4a8cfbb5cdca12c868c057ff182354bb4de2418"
+    }
+  ],
   "withdrawEvents": [],
   "reservesEvents": []
 }
