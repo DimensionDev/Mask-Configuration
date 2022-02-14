@@ -1,11 +1,11 @@
 {
   "createdAt": "1643166229",
   "creator": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-  "currentBalance": "0",
+  "currentBalance": "1014469719769647742",
   "handle": "johnnydao",
   "id": "302",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "1014469719769647742",
   "totalRedeemed": "0",
   "uri": "QmSCc6EDsG66KYgvHdF65GR2z4kav7erM3RD5dG8driFSv",
   "name": "JohnnyDAO",
@@ -28,9 +28,18 @@
     "jbx": "1427027000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "0",
+  "totalSupply": "1014469",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1014469719769647742",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a-328",
+      "note": "Payout from @peel",
+      "timestamp": "1644857838",
+      "txHash": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
