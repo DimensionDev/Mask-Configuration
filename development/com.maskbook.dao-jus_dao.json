@@ -1,11 +1,11 @@
 {
   "createdAt": "1644231005",
   "creator": "0x0025984dc230a3a59178ded3fdfb484c89414f39",
-  "currentBalance": "100000000000000000",
+  "currentBalance": "1000000000000000000",
   "handle": "jus",
   "id": "332",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "100000000000000000",
+  "totalPaid": "1000000000000000000",
   "totalRedeemed": "0",
   "uri": "QmZA1Q6u9t8nay3sp2ZKchQuD3k7pSSabTFsvjV4sboJFx",
   "name": "JusDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "900000000000000000",
+      "beneficiary": "0x61d2b9111f3ca83787006554c8bc2a8b2207a8e8",
+      "id": "0xe21d00fa2e44b089108fab0c802c47a8a37b51587dc680deaf758031870b780e-407",
+      "note": "JUSTICE",
+      "timestamp": "1644812667",
+      "txHash": "0xe21d00fa2e44b089108fab0c802c47a8a37b51587dc680deaf758031870b780e"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x61d2b9111f3ca83787006554c8bc2a8b2207a8e8",
