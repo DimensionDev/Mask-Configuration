@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5119843786739057738080",
+  "currentBalance": "5119845786739057738080",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "11613171432922406769962",
+  "totalPaid": "11613173432922406769962",
   "totalRedeemed": "6484210075516377793514",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
@@ -29,9 +29,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5118346278",
+  "totalSupply": "5118348278",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "2000000000000000",
+      "beneficiary": "0x2debb2dd4b2ce1e6e8e096926173c8a7e2efaba2",
+      "id": "0x88570ab5f00ec4aa52e44b34d62fc9be54e227f178b97b3a7aebf19aec827964-186",
+      "note": "Hancocking ",
+      "timestamp": "1644801466",
+      "txHash": "0x88570ab5f00ec4aa52e44b34d62fc9be54e227f178b97b3a7aebf19aec827964"
+    },
     {
       "amount": "70859160000000000",
       "beneficiary": "0x4fabbc8e8a3c9b876860c9f265bf0802cce9ad5f",
@@ -423,14 +431,6 @@
       "note": "People 4ever",
       "timestamp": "1638384132",
       "txHash": "0x2633f1f23b7a75f759a0a6e3aaf813ff89f15258e6e8763aad817b98d28f3860"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x0a3d1542be5bc209256ae6136f0a3616be51d5db",
-      "id": "0x85c65566cd7fcd1250c6587e319cb328528f0cccda515513691bf1182587581b-425",
-      "note": "We the People, for the People.",
-      "timestamp": "1638383631",
-      "txHash": "0x85c65566cd7fcd1250c6587e319cb328528f0cccda515513691bf1182587581b"
     }
   ],
   "redeemEvents": [
