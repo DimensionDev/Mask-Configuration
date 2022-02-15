@@ -1,11 +1,11 @@
 {
   "createdAt": "1644358080",
   "creator": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
-  "currentBalance": "10672059820000000000",
+  "currentBalance": "10772059820000000000",
   "handle": "daodenver",
   "id": "343",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "13780503480000000000",
+  "totalPaid": "13880503480000000000",
   "totalRedeemed": "0",
   "uri": "QmaEQf1vXDJyxzGXcyi2fLmkVVwj1AQMeQvVykRaTbdcgj",
   "name": "DAODenver (by DAOPlanet)",
@@ -28,9 +28,17 @@
     "jbx": "15607000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "13780503",
+  "totalSupply": "13880503",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xb03f5438f9a243de5c3b830b7841ec315034cd5f",
+      "id": "0x80456c90b0dcd928d1c685748cc7ef5063dd3ecd726db0ec3509d657cd6462f8-93",
+      "note": "greetings from ETHDenver.",
+      "timestamp": "1644880660",
+      "txHash": "0x80456c90b0dcd928d1c685748cc7ef5063dd3ecd726db0ec3509d657cd6462f8"
+    },
     {
       "amount": "500000000000000000",
       "beneficiary": "0xb2108a2c8c695e9a6502d7d437f71d0532972ba4",
