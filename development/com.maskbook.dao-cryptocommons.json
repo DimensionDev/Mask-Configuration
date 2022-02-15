@@ -1,11 +1,11 @@
 {
   "createdAt": "1644801625",
   "creator": "0x544880be7e5dcc0e14173dc6722794dea6fa76d5",
-  "currentBalance": "50000000000000000",
+  "currentBalance": "1050000000000000000",
   "handle": "cryptocommons",
   "id": "380",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "50000000000000000",
+  "totalPaid": "1050000000000000000",
   "totalRedeemed": "0",
   "uri": "QmVmB3kKGYdDDJUEz5Q1HRVAbkg82h6HX1paRBmukGjsbQ",
   "name": "$CAMP DAO",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x96A5775250E85eA52634E452A5D68669F301E63E",
-  "totalSupply": "50000",
+  "totalSupply": "1050000",
   "holdingSymbol": "CAMP",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xeb059fc06826df19b16b110eadef03b80231eb31",
+      "id": "0xc1bcf7d93c4b48e1da0a3ea90fad1eaaaed4b4ce2ea7b919962030c0535de0b1-575",
+      "note": null,
+      "timestamp": "1644888009",
+      "txHash": "0xc1bcf7d93c4b48e1da0a3ea90fad1eaaaed4b4ce2ea7b919962030c0535de0b1"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0x2d3547e5d3c5d188edf9c4e0ba71f11b1b3d45dd",
