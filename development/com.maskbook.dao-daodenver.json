@@ -1,11 +1,11 @@
 {
   "createdAt": "1644358080",
   "creator": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
-  "currentBalance": "10772059820000000000",
+  "currentBalance": "21302059820000000000",
   "handle": "daodenver",
   "id": "343",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "13880503480000000000",
+  "totalPaid": "24410503480000000000",
   "totalRedeemed": "0",
   "uri": "QmaEQf1vXDJyxzGXcyi2fLmkVVwj1AQMeQvVykRaTbdcgj",
   "name": "DAODenver (by DAOPlanet)",
@@ -28,9 +28,25 @@
     "jbx": "15607000000000000000000"
   },
   "tokenAddress": null,
-  "totalSupply": "13880503",
+  "totalSupply": "24410503",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "8700000000000000000",
+      "beneficiary": "0xce4a1e86a5c47cd677338f53da22a91d85cab2c9",
+      "id": "0x8732216f4e2b2b0626de57b2f5432734605a2b74614d70667607c48d59526ef7-63",
+      "note": "From MoonDAO! LFG!",
+      "timestamp": "1644901929",
+      "txHash": "0x8732216f4e2b2b0626de57b2f5432734605a2b74614d70667607c48d59526ef7"
+    },
+    {
+      "amount": "1830000000000000000",
+      "beneficiary": "0x4cd977fdad7acc7b515dfd5637c28afddef8b072",
+      "id": "0x576eb425fb12fe8125695cdefbf4e9b4152e34bc72ef556d64bff54076c293eb-136",
+      "note": "Tender.Finance",
+      "timestamp": "1644901012",
+      "txHash": "0x576eb425fb12fe8125695cdefbf4e9b4152e34bc72ef556d64bff54076c293eb"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0xb03f5438f9a243de5c3b830b7841ec315034cd5f",
