@@ -30,28 +30,8 @@
   "tokenAddress": "0x81c66959e454A5f1B21Ee3E98d6efFa4eF7F2592",
   "totalSupply": "1014469",
   "holdingSymbol": "JOHN",
-  "payEvents": [
-    {
-      "amount": "1014469719769647742",
-      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "id": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a-328",
-      "note": "Payout from @peel",
-      "timestamp": "1644857838",
-      "txHash": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [
-    {
-      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "beneficiaryTransferAmount": "1",
-      "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "fundingCycleId": "536",
-      "id": "302-0x777f1908e76d84150a27bdb0644d01efb89a8ca266be2c905df6186058ca67bd",
-      "netTransferAmount": "912380015519895459",
-      "timestamp": "1644965780",
-      "txHash": "0x777f1908e76d84150a27bdb0644d01efb89a8ca266be2c905df6186058ca67bd"
-    }
-  ],
+  "withdrawEvents": [],
   "reservesEvents": []
 }
