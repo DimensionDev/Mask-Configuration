@@ -1,11 +1,11 @@
 {
   "createdAt": "1645210181",
   "creator": "0x6ef702154e83cbc771191d2b23f574c7c7a36061",
-  "currentBalance": "0",
+  "currentBalance": "17991400000000000",
   "handle": "jeffeth",
   "id": "400",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "17991400000000000",
   "totalRedeemed": "0",
   "uri": "QmS9iC96gx5XZdD2cJRkUuFdnqkk8mxFmV6678UykG9qJm",
   "name": "JeffETH",
@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Let's all have a great time and make a difference in the world. Wagmi!",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "17991400000000000",
+      "beneficiary": "0x9eab9d856a3a667dc4cd10001d59c679c64756e7",
+      "id": "0x49091147fba2bc81535e03e809084b0d07c80e7f2382edd4e964df509786db42-141",
+      "note": null,
+      "timestamp": "1645216709",
+      "txHash": "0x49091147fba2bc81535e03e809084b0d07c80e7f2382edd4e964df509786db42"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
