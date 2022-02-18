@@ -18,36 +18,20 @@
   "version": 3,
   "payButton": "Join Us ",
   "payDisclosure": "",
-  "payEvents": [
+  "fundingCycles": [
     {
-      "amount": "100000000000000000",
-      "beneficiary": "0x2bafdce15e21cd5875cf589a333712de8454a469",
-      "id": "0x15320fa4467f798ef6012eb7463223e3812a9d721e143dc1c8c344b12ae190a1-201",
-      "note": null,
-      "timestamp": "1638806984",
-      "txHash": "0x15320fa4467f798ef6012eb7463223e3812a9d721e143dc1c8c344b12ae190a1"
-    },
-    {
-      "amount": "30000000000000000",
-      "beneficiary": "0xfccf7296b29c33b2ac333242d51d7cd3f7aa37c5",
-      "id": "0xbfb96146966d78273a7631d29335ec8cf0d1bcdc6144d7f195a93a72c99bbbde-310",
-      "note": null,
-      "timestamp": "1638805498",
-      "txHash": "0xbfb96146966d78273a7631d29335ec8cf0d1bcdc6144d7f195a93a72c99bbbde"
+      "toETHSymbol": "VEST"
     }
   ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "1291000000000000000000"
+  },
+  "tokenAddress": "0xF40A263A47f19E5743626EE3837d8dCD7685f1A3",
+  "totalSupply": "130000",
+  "holdingSymbol": "VEST",
+  "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [
-    {
-      "beneficiary": "0x01d2349206a96db3f16a39535b00de278bd3a639",
-      "beneficiaryTransferAmount": "123638929239047815",
-      "caller": "0x2bafdce15e21cd5875cf589a333712de8454a469",
-      "fundingCycleId": "308",
-      "id": "138-0xbf2dcf1f7826747e490d4049ef6f36eecc21222b9d6ee5f46e7d2b82b1e06600",
-      "netTransferAmount": "123638929239047815",
-      "timestamp": "1639546301",
-      "txHash": "0xbf2dcf1f7826747e490d4049ef6f36eecc21222b9d6ee5f46e7d2b82b1e06600"
-    }
-  ],
+  "withdrawEvents": [],
   "reservesEvents": []
 }
