@@ -1,7 +1,7 @@
 {
   "createdAt": "1638310299",
   "creator": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
-  "currentBalance": "1842110000000000000",
+  "currentBalance": "0",
   "handle": "mergedao",
   "id": "120",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -25,7 +25,7 @@
   ],
   "inWallet": {
     "eth": "0",
-    "jbx": "58545000000000000000000"
+    "jbx": "66869000000000000000000"
   },
   "tokenAddress": "0xD746bE8BEAca7E636DBAf22492075F1CC42471C1",
   "totalSupply": "198747098",
@@ -437,6 +437,16 @@
     {
       "beneficiary": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
       "beneficiaryTransferAmount": "0",
+      "caller": "0x8e4a7917f6ceaa04b1a622835e66618115b499d9",
+      "fundingCycleId": "263",
+      "id": "120-0x9c0395a850176b01fa7070119d2d4b5e32af6b020021020ed8356057f8870d1c",
+      "netTransferAmount": "1754390476190476190",
+      "timestamp": "1645227764",
+      "txHash": "0x9c0395a850176b01fa7070119d2d4b5e32af6b020021020ed8356057f8870d1c"
+    },
+    {
+      "beneficiary": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
+      "beneficiaryTransferAmount": "0",
       "caller": "0xd37d3e3dc8c50479c71671be52658c69ad23b1e2",
       "fundingCycleId": "263",
       "id": "120-0x3b7aba3b4a997095f000b73856bf12f3a57dcfb07d500b9f46cb1a20e22f4836",
@@ -596,6 +606,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
+      "beneficiaryTicketAmount": "0",
+      "caller": "0x8e4a7917f6ceaa04b1a622835e66618115b499d9",
+      "count": "3465000000000000000000",
+      "id": "120-0xb6d2dfca0bb87624648f12fea50f250ec0ab6376df40b6338d9a75f18476ed5b",
+      "timestamp": "1645228188",
+      "txHash": "0xb6d2dfca0bb87624648f12fea50f250ec0ab6376df40b6338d9a75f18476ed5b"
+    },
     {
       "beneficiary": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
       "beneficiaryTicketAmount": "0",
