@@ -1,7 +1,7 @@
 {
   "createdAt": "1643397946",
   "creator": "0xb235b4cc9e43a014a7b770c765ea3843e2d38675",
-  "currentBalance": "1854426030000000000",
+  "currentBalance": "105831128748573",
   "handle": "legendary_dao",
   "id": "310",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -318,6 +318,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xb235b4cc9e43a014a7b770c765ea3843e2d38675",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0xb235b4cc9e43a014a7b770c765ea3843e2d38675",
+      "fundingCycleId": "515",
+      "id": "310-0x5df6ed73731c54d90d9c2717f18e5a87a2dcdbccbb55a8775f9a25bdd5f21731",
+      "netTransferAmount": "1766019237020239454",
+      "timestamp": "1645271990",
+      "txHash": "0x5df6ed73731c54d90d9c2717f18e5a87a2dcdbccbb55a8775f9a25bdd5f21731"
+    },
     {
       "beneficiary": "0xb235b4cc9e43a014a7b770c765ea3843e2d38675",
       "beneficiaryTransferAmount": "0",

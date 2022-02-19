@@ -117,6 +117,37 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "fundingCycleId": "393",
+      "id": "244-0xb3e323c083a2c127d7a0b14fd704addc8df7dcbff5b463ef5a9924739287b8b7",
+      "netTransferAmount": "3809523809523809523",
+      "timestamp": "1642717804",
+      "txHash": "0xb3e323c083a2c127d7a0b14fd704addc8df7dcbff5b463ef5a9924739287b8b7"
+    },
+    {
+      "beneficiary": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "fundingCycleId": "393",
+      "id": "244-0x000507855e4832f6b112931ad52e4569d3d0f337148a169186d0e5c35d305bad",
+      "netTransferAmount": "17837714285714285714",
+      "timestamp": "1641937364",
+      "txHash": "0x000507855e4832f6b112931ad52e4569d3d0f337148a169186d0e5c35d305bad"
+    },
+    {
+      "beneficiary": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x24e3b5faa5207a4ca8efde9555e771bc34a16c38",
+      "fundingCycleId": "393",
+      "id": "244-0x29a5c89e6757ccb9e61acc15311782860ffd5e7acda59b82858333b0a1c529b3",
+      "netTransferAmount": "95238095238095238",
+      "timestamp": "1641512281",
+      "txHash": "0x29a5c89e6757ccb9e61acc15311782860ffd5e7acda59b82858333b0a1c529b3"
+    }
+  ],
   "reservesEvents": []
 }
