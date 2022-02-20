@@ -1,7 +1,7 @@
 {
   "createdAt": "1640783670",
   "creator": "0x0f588d86f1982a8fb5fe2660fe1df1b7a1f23684",
-  "currentBalance": "2174480865274016216",
+  "currentBalance": "112769131675462",
   "handle": "cryptoislanddao",
   "id": "233",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -398,6 +398,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x77a91a43170d4b978adb390e11dedc6b02df091c",
+      "beneficiaryTransferAmount": "2070826758230800718",
+      "caller": "0x90e0af83f8061108847828dfbe3e5b94c53f1a8d",
+      "fundingCycleId": "374",
+      "id": "233-0x15cd62ae17c6ac69bd4ac49e25de486fb6abb3d4a80fdd3e6ada9e48666c62fe",
+      "netTransferAmount": "2070826758230800718",
+      "timestamp": "1645310468",
+      "txHash": "0x15cd62ae17c6ac69bd4ac49e25de486fb6abb3d4a80fdd3e6ada9e48666c62fe"
+    },
     {
       "beneficiary": "0x77a91a43170d4b978adb390e11dedc6b02df091c",
       "beneficiaryTransferAmount": "18265231698802396651",
