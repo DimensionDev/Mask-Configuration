@@ -1,12 +1,12 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5119665346651982375027",
+  "currentBalance": "5119565317394339271943",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "11613173432922406769962",
-  "totalRedeemed": "6484390515603453156567",
+  "totalRedeemed": "6484490544861096259651",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
   "infoUri": "https://constitutiondao.com",
@@ -29,7 +29,7 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5118167891",
+  "totalSupply": "5118067891",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
     {
@@ -435,6 +435,14 @@
   ],
   "redeemEvents": [
     {
+      "amount": "100000000000000000000000",
+      "beneficiary": "0x4485ae5f3cdba4a7d8ee3ba8919232b32addc625",
+      "id": "0x1204160907c480e4cb75bfcb3dcc518efa345baba98f9976c9d4d93f8f308c4d-35",
+      "returnAmount": "100029257643103084",
+      "timestamp": "1645389419",
+      "txHash": "0x1204160907c480e4cb75bfcb3dcc518efa345baba98f9976c9d4d93f8f308c4d"
+    },
+    {
       "amount": "40387310000000000000000",
       "beneficiary": "0x80db85303b1771dd8bb4d8a84338a402116514a2",
       "id": "0x5d33115fcbf17db51be45cfcbcaf43a6cfe9166bce3b8728283f43b4c45e5c2e-162",
@@ -825,14 +833,6 @@
       "returnAmount": "50014631142989774",
       "timestamp": "1640856228",
       "txHash": "0x5e099d1cc2d5d8d5b69ba12a4cc692d13c17b41390d63a9ffc5f4d39a855da04"
-    },
-    {
-      "amount": "50000000000000000000000",
-      "beneficiary": "0x49b8fb79be377204ca10fa717cf76ce773113003",
-      "id": "0x83943ffc5d3d89cdba77ef38e8163fb039880f6d19a75f95fec02b6bf46a8f14-80",
-      "returnAmount": "50014631142989774",
-      "timestamp": "1640795318",
-      "txHash": "0x83943ffc5d3d89cdba77ef38e8163fb039880f6d19a75f95fec02b6bf46a8f14"
     }
   ],
   "withdrawEvents": [

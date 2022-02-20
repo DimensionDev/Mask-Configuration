@@ -18,7 +18,24 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xf41aab66e7771bdfccf43953b7843873d9bb74f4",
+      "id": "0x1cf638450513287e970ce92ef418e6adc77c9a8b6eab7addc1f1c29822ef868b-473",
+      "note": "PandaDAO to the mooooooon~",
+      "timestamp": "1645387088",
+      "txHash": "0x1cf638450513287e970ce92ef418e6adc77c9a8b6eab7addc1f1c29822ef868b"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xa62f8abb12094f5651c8ba7222a0dc1034ca4b20",
+      "id": "0x28c07f09b362afc0169e12289e8a4edee471db401d04460af280c376385274fa-476",
+      "note": "What People Want, What Pandas Build ",
+      "timestamp": "1645387002",
+      "txHash": "0x28c07f09b362afc0169e12289e8a4edee471db401d04460af280c376385274fa"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
