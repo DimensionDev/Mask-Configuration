@@ -18,50 +18,8 @@
   "version": 3,
   "payButton": "donate",
   "payDisclosure": "\nThank you for your donation,we are the world!",
-  "payEvents": [
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x631ae5539ca9e8cc1c16dc256f913c6f5366d84e",
-      "id": "0xef532a26dd453f7a2ef5f0909e7390c2ded9f58c2af6edd94a0dcfc12ca597d6-259",
-      "note": null,
-      "timestamp": "1642549354",
-      "txHash": "0xef532a26dd453f7a2ef5f0909e7390c2ded9f58c2af6edd94a0dcfc12ca597d6"
-    },
-    {
-      "amount": "88000000000000000",
-      "beneficiary": "0xc88eb6c8a25e9cd671d04f93793a27621abfa998",
-      "id": "0x089311a068169994327f4f91e3d023c0f74f3d06c0ac2f1c4d3265b723295fb9-312",
-      "note": null,
-      "timestamp": "1642536513",
-      "txHash": "0x089311a068169994327f4f91e3d023c0f74f3d06c0ac2f1c4d3265b723295fb9"
-    },
-    {
-      "amount": "400000000000000000",
-      "beneficiary": "0x5c05faeb0071d9000449fa4a4e0f79ba79ffd522",
-      "id": "0x28edf5e57273ed38a70dee786ea4bb0085eb2efacf848f14404c9645c50067d7-105",
-      "note": "汤加加油！",
-      "timestamp": "1642500660",
-      "txHash": "0x28edf5e57273ed38a70dee786ea4bb0085eb2efacf848f14404c9645c50067d7"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xcfc7d04ad2bd4524d01d1d0b3dd9ba885164c63e",
-      "id": "0xb1d8081a152844efdd0e7cabb30bed9952c9cb0bc545e9b8dad7a79f6b220fad-55",
-      "note": null,
-      "timestamp": "1642474421",
-      "txHash": "0xb1d8081a152844efdd0e7cabb30bed9952c9cb0bc545e9b8dad7a79f6b220fad"
-    }
-  ],
-  "redeemEvents": [
-    {
-      "amount": "99000000000000000000000",
-      "beneficiary": "0x631ae5539ca9e8cc1c16dc256f913c6f5366d84e",
-      "id": "0x406488d0a4933fcf9120d8cee87bfd91f3de1dc9d3e65ab73887dcb47a61b287-153",
-      "returnAmount": "0",
-      "timestamp": "1643714903",
-      "txHash": "0x406488d0a4933fcf9120d8cee87bfd91f3de1dc9d3e65ab73887dcb47a61b287"
-    }
-  ],
+  "payEvents": [],
+  "redeemEvents": [],
   "withdrawEvents": [
     {
       "beneficiary": "0xc0c76ea5c4bb71f32cd08462bb48d43c0ecf85e2",
