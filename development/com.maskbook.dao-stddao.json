@@ -28,9 +28,18 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "0",
+  "totalSupply": "100000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x0c3066afb361ad7983256969fedc269178452376",
+      "id": "0x2af734e16b174b0099ac313c910b4f470908dbd51fc4c9f4afd60d9d99983ae8-126",
+      "note": "Let's cure STDs!   ",
+      "timestamp": "1645361746",
+      "txHash": "0x2af734e16b174b0099ac313c910b4f470908dbd51fc4c9f4afd60d9d99983ae8"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
