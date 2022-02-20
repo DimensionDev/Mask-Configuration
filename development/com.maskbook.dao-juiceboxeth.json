@@ -1,12 +1,12 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6299122060001204998147",
+  "currentBalance": "6299042289663962435061",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "6724820232709122101218",
-  "totalRedeemed": "120162747307989703682",
+  "totalRedeemed": "120242517645232266768",
   "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
   "name": "JuiceboxDAO",
   "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. Receives a 5% fee from all funds withdrawn by Juicebox projects in exchange for $JBX.",
@@ -27,7 +27,7 @@
     "jbx": "262163385000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2566281645",
+  "totalSupply": "2566235218",
   "holdingSymbol": "JBX",
   "payEvents": [
     {
@@ -433,6 +433,14 @@
   ],
   "redeemEvents": [
     {
+      "amount": "46426685760000000000000",
+      "beneficiary": "0x19eade6e4e5cf16fe0b15e47c39ab565fb8e734e",
+      "id": "0x74e06180e6316c8e3c62f51b7dbd2f51ba38e01271d7239579d980246836caa8-41",
+      "returnAmount": "79770337242563086",
+      "timestamp": "1645347163",
+      "txHash": "0x74e06180e6316c8e3c62f51b7dbd2f51ba38e01271d7239579d980246836caa8"
+    },
+    {
       "amount": "225169425936000000000000",
       "beneficiary": "0x84ec1383256f38a4a4f0fc2b4a15eafa255046d3",
       "id": "0x669f82790b6454580437f4ef85d01c5c7d5e2977aedcbe2ab45f66f8929d03ce-386",
@@ -823,14 +831,6 @@
       "returnAmount": "15962661140431697",
       "timestamp": "1638900144",
       "txHash": "0x321900efbe22b4d08bb6d41f08bdaf8ea7fe6018894d160aee8b8f19d62f40bc"
-    },
-    {
-      "amount": "116066714400000000000000",
-      "beneficiary": "0x8d88f384fb251c08805944f0c31e52a2277b530b",
-      "id": "0x992a3d815e4f7862772d6e930b48dcd950614ed79d4504b1af283fe81d907d57-418",
-      "returnAmount": "159618316752718364",
-      "timestamp": "1638800549",
-      "txHash": "0x992a3d815e4f7862772d6e930b48dcd950614ed79d4504b1af283fe81d907d57"
     }
   ],
   "withdrawEvents": [
