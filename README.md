@@ -1,4 +1,4 @@
-# Maskbook-Configuration
+# Mask-Configuration
 
 ## Pattern
 
