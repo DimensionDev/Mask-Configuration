@@ -24,14 +24,34 @@
     }
   ],
   "inWallet": {
-    "eth": "0",
+    "eth": "30000000000000000",
     "jbx": "50000000000000000000"
   },
   "tokenAddress": null,
   "totalSupply": "5000000000010000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x73084e4338a64d73180d039fae40a0e92b105f35",
+      "id": "0x452b6df5bac1b59b30a52496240170a9853fdc05279852267f82eba1f1cd98eb-112",
+      "note": null,
+      "timestamp": "1642167440",
+      "txHash": "0x452b6df5bac1b59b30a52496240170a9853fdc05279852267f82eba1f1cd98eb"
+    }
+  ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x65247c038719c178f00097e3508dab9115a2bfb8",
+      "beneficiaryTransferAmount": "9486248687947479",
+      "caller": "0x65247c038719c178f00097e3508dab9115a2bfb8",
+      "fundingCycleId": "401",
+      "id": "252-0xddddb3a290b989e44efa4353291920ccdac27bc81bd602d644f05b0ccb1ba96f",
+      "netTransferAmount": "9486248687947479",
+      "timestamp": "1644067000",
+      "txHash": "0xddddb3a290b989e44efa4353291920ccdac27bc81bd602d644f05b0ccb1ba96f"
+    }
+  ],
   "reservesEvents": []
 }

@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "64054913630000000000",
+  "currentBalance": "64354913630000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "64054913630000000000",
+  "totalPaid": "64354913630000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "300000000000000000",
+      "beneficiary": "0x1d7e454ab11603667c211b065246062c95da81d8",
+      "id": "0xd10727a182794466202c949f20e2c0081da357d6b82698a5b2e7f190d2c2fadb-368",
+      "note": null,
+      "timestamp": "1645469384",
+      "txHash": "0xd10727a182794466202c949f20e2c0081da357d6b82698a5b2e7f190d2c2fadb"
+    },
     {
       "amount": "120000000000000000",
       "beneficiary": "0x5b0b4804c6de3e6b88f65b130ea8d19fd1fbb96f",
@@ -410,14 +418,6 @@
       "note": "PandaDAO to the mooooooon~",
       "timestamp": "1645387088",
       "txHash": "0x1cf638450513287e970ce92ef418e6adc77c9a8b6eab7addc1f1c29822ef868b"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xa62f8abb12094f5651c8ba7222a0dc1034ca4b20",
-      "id": "0x28c07f09b362afc0169e12289e8a4edee471db401d04460af280c376385274fa-476",
-      "note": "What People Want, What Pandas Build ",
-      "timestamp": "1645387002",
-      "txHash": "0x28c07f09b362afc0169e12289e8a4edee471db401d04460af280c376385274fa"
     }
   ],
   "redeemEvents": [],
