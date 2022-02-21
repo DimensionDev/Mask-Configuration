@@ -30,7 +30,32 @@
   "tokenAddress": "0x1F9d68Aa383Ca840c04fB995cdf44aDE32c59594",
   "totalSupply": "5830000",
   "holdingSymbol": "DOMAIN",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "330000000000000000",
+      "beneficiary": "0x282348138d45c10a8232c8e0dc3cd1fa2d2fe6d0",
+      "id": "0x3670f5699cbe8acecdf00669226fb8892f63b62936f2ff2bb19a4b068fd3253d-627",
+      "note": null,
+      "timestamp": "1645112493",
+      "txHash": "0x3670f5699cbe8acecdf00669226fb8892f63b62936f2ff2bb19a4b068fd3253d"
+    },
+    {
+      "amount": "5000000000000000000",
+      "beneficiary": "0x392027fdc620d397ca27f0c1c3dcb592f27a4dc3",
+      "id": "0xbb05c3a01f06cb3447b0938403ecd586f3d91f9fdd7851deeed4f1f1da5dd6c6-58",
+      "note": null,
+      "timestamp": "1645110677",
+      "txHash": "0xbb05c3a01f06cb3447b0938403ecd586f3d91f9fdd7851deeed4f1f1da5dd6c6"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xaad85dcf013aeec5edbe8b7c0e9ac046fd71d0b0",
+      "id": "0x713199acc6a84b952b4bc51d1efc2fd21a6083da1382e2117b98af998831872d-201",
+      "note": "so i can own .dao ",
+      "timestamp": "1642994108",
+      "txHash": "0x713199acc6a84b952b4bc51d1efc2fd21a6083da1382e2117b98af998831872d"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
