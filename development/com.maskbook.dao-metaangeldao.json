@@ -32,6 +32,17 @@
   "holdingSymbol": "MAD",
   "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x3bcaaeac7fd3dbf1c236ca8e5875b890f10d0b22",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x3bcaaeac7fd3dbf1c236ca8e5875b890f10d0b22",
+      "fundingCycleId": "406",
+      "id": "254-0x8a2eb38d33eaa6e4fc45626631ebc34d0e0b378c4c03c635ced290067fe8d560",
+      "netTransferAmount": "1266666666666666666",
+      "timestamp": "1643501489",
+      "txHash": "0x8a2eb38d33eaa6e4fc45626631ebc34d0e0b378c4c03c635ced290067fe8d560"
+    }
+  ],
   "reservesEvents": []
 }
