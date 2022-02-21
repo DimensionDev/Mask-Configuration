@@ -18,62 +18,8 @@
   "payDisclosure": "By contributing you are receiving governance token. Governance will be on pro rata basis. Owning a governanace token includes the ability to vote and advise on future direction of the DAO. ",
   "tokens": [],
   "version": 3,
-  "payEvents": [
-    {
-      "amount": "250000000000000000",
-      "beneficiary": "0x19cd817bb9fe1e25471cb427807494656edff904",
-      "id": "0xaabcb7089d9ea8b00787bc200ca6618577503e805a00deddd924dfe84f1e57ec-64",
-      "note": null,
-      "timestamp": "1642545688",
-      "txHash": "0xaabcb7089d9ea8b00787bc200ca6618577503e805a00deddd924dfe84f1e57ec"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xe460866cf530e0d15e44d6688a8b2d5a1dc68650",
-      "id": "0x038d3324b01d322c2132c0b691690ea5dd6b3f5e06be055d14f23c377560d787-43",
-      "note": "this will be big",
-      "timestamp": "1642545054",
-      "txHash": "0x038d3324b01d322c2132c0b691690ea5dd6b3f5e06be055d14f23c377560d787"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xffdcdffc260ebec0977d8259eede6daf0d40134b",
-      "id": "0x74080d9c2cf7d58f6d6d1d82040fb12948ed27475b2eee8ece2f48484b10a26a-203",
-      "note": null,
-      "timestamp": "1642544051",
-      "txHash": "0x74080d9c2cf7d58f6d6d1d82040fb12948ed27475b2eee8ece2f48484b10a26a"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x70d86f9e6797f7b41ded25c80d4c9035a552cbd3",
-      "id": "0x8ee4acd07491ab968bf99c41ce44896d3f283564ec2eedd1ae925190a0f639dd-116",
-      "note": "1st lmao",
-      "timestamp": "1642541517",
-      "txHash": "0x8ee4acd07491ab968bf99c41ce44896d3f283564ec2eedd1ae925190a0f639dd"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [
-    {
-      "beneficiary": "0xd560d01cd6b04841676460dbce4233c2f102d29e",
-      "beneficiaryTransferAmount": "2238095238095238095",
-      "caller": "0xd560d01cd6b04841676460dbce4233c2f102d29e",
-      "fundingCycleId": "442",
-      "id": "278-0x7f2dc5415b918c1919792d7cee8f02f10ff5141773822fc5bff9412dc3a7e19c",
-      "netTransferAmount": "2238095238095238095",
-      "timestamp": "1642879483",
-      "txHash": "0x7f2dc5415b918c1919792d7cee8f02f10ff5141773822fc5bff9412dc3a7e19c"
-    }
-  ],
-  "reservesEvents": [
-    {
-      "beneficiary": "0xd560d01cd6b04841676460dbce4233c2f102d29e",
-      "beneficiaryTicketAmount": "235000000000000000000000",
-      "caller": "0x6404063e521320b38cbcdc9a18b1bfe7c8620372",
-      "count": "235000000000000000000000",
-      "id": "278-0x6adde324d12566b13ff497db8e1de38c466baec88b895b8ec39304d7959cb067",
-      "timestamp": "1642668758",
-      "txHash": "0x6adde324d12566b13ff497db8e1de38c466baec88b895b8ec39304d7959cb067"
-    }
-  ]
+  "withdrawEvents": [],
+  "reservesEvents": []
 }

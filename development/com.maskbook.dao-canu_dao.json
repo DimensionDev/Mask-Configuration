@@ -1,7 +1,7 @@
 {
   "createdAt": "1628542822",
   "creator": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
-  "currentBalance": "12041331098500732734",
+  "currentBalance": "10007218598500732734",
   "handle": "canudaocomm",
   "id": "8",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -22,8 +22,8 @@
     }
   ],
   "inWallet": {
-    "eth": "1500000000000000000",
-    "jbx": "4001259000000000000000000"
+    "eth": "1770000000000000000",
+    "jbx": "4010451000000000000000000"
   },
   "tokenAddress": "0x72a5db34ea0804910BEa8Ae0a8C863Ac08CDa401",
   "totalSupply": "23961800",
@@ -404,6 +404,16 @@
     {
       "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
       "beneficiaryTransferAmount": "387450000000000",
+      "caller": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
+      "fundingCycleId": "634",
+      "id": "8-0xb1ede5793094513c0f92adf426226eb3b620c429ff46f8f41382802ead9ae247",
+      "netTransferAmount": "1937250000000000000",
+      "timestamp": "1645457323",
+      "txHash": "0xb1ede5793094513c0f92adf426226eb3b620c429ff46f8f41382802ead9ae247"
+    },
+    {
+      "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
+      "beneficiaryTransferAmount": "387450000000000",
       "caller": "0x60535a6605958fff6cec5b1e92892601efb3473b",
       "fundingCycleId": "559",
       "id": "8-0xa4f641ceffdf2fb5c271f4c4557e987ff1168ac9e365dea47bdabb3a8fb656b7",
@@ -533,6 +543,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
+      "beneficiaryTicketAmount": "126086583424594924414502",
+      "caller": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
+      "count": "1560477517631125302159618",
+      "id": "8-0x3b04cf1696a8bc408526104f6eb804339ae4259dae8c83865b4e766d2d47b00d",
+      "timestamp": "1645457413",
+      "txHash": "0x3b04cf1696a8bc408526104f6eb804339ae4259dae8c83865b4e766d2d47b00d"
+    },
     {
       "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
       "beneficiaryTicketAmount": "174529683475014532390",
