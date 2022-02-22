@@ -30,7 +30,16 @@
   "tokenAddress": "0x2aE12795fCa73732CA1e7e4e0419b95F6Ee02e5f",
   "totalSupply": "100000",
   "holdingSymbol": "CURES",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x0c3066afb361ad7983256969fedc269178452376",
+      "id": "0x2af734e16b174b0099ac313c910b4f470908dbd51fc4c9f4afd60d9d99983ae8-126",
+      "note": "Let's cure STDs!   ",
+      "timestamp": "1645361746",
+      "txHash": "0x2af734e16b174b0099ac313c910b4f470908dbd51fc4c9f4afd60d9d99983ae8"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
