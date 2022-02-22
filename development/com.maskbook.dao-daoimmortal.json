@@ -33,5 +33,15 @@
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
-  "reservesEvents": []
+  "reservesEvents": [
+    {
+      "beneficiary": "0x6392d85531874dbae43c3c35429b2b3b8676febe",
+      "beneficiaryTicketAmount": "27500000000000000000000",
+      "caller": "0x6392d85531874dbae43c3c35429b2b3b8676febe",
+      "count": "27500000000000000000000",
+      "id": "164-0x96c5105929702a4260db2dba05d2b1ad94160aab06f0e076d1771cff93996848",
+      "timestamp": "1639215770",
+      "txHash": "0x96c5105929702a4260db2dba05d2b1ad94160aab06f0e076d1771cff93996848"
+    }
+  ]
 }
