@@ -18,7 +18,40 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",
+      "id": "0x0883184539c4676da800abdd3f917fe46ee22c92b15b60458a7499550a84ac51-302",
+      "note": "Party https://jbx.mypinata.cloud/ipfs/Qmc4xtgTqkm9DxURAjT71g3bgbjdWboLEmh3jU34Yetgb4",
+      "timestamp": "1645433464",
+      "txHash": "0x0883184539c4676da800abdd3f917fe46ee22c92b15b60458a7499550a84ac51"
+    },
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0xc6349bd7b445ebc071099f711e24bdb733804e30",
+      "id": "0x082da4e6a9a703a3ffcd47f6c14fe31e51019ee75d036605aac1079749d3de7e-80",
+      "note": null,
+      "timestamp": "1644952132",
+      "txHash": "0x082da4e6a9a703a3ffcd47f6c14fe31e51019ee75d036605aac1079749d3de7e"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "id": "0x484e2db30d9c39506a0c93c3de50da4a525cbcc8363d2189c68fa83f2557ab48-567",
+      "note": "devs gonna dev",
+      "timestamp": "1644945988",
+      "txHash": "0x484e2db30d9c39506a0c93c3de50da4a525cbcc8363d2189c68fa83f2557ab48"
+    },
+    {
+      "amount": "10528971336788201844",
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "id": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0-192",
+      "note": "Payout from @juicebox",
+      "timestamp": "1644808677",
+      "txHash": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {
