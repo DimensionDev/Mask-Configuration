@@ -1,12 +1,12 @@
 {
   "createdAt": "1641673275",
   "creator": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
-  "currentBalance": "5803794202240435690",
+  "currentBalance": "5096247627337977303",
   "handle": "satrabrunndao",
   "id": "253",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "10447000000000000000",
-  "totalRedeemed": "439228659251103809",
+  "totalRedeemed": "1146775234153562196",
   "uri": "QmcmK3BH3UmeMrSerYtvkfNJ3Z2hWw23VuhA1GkAWwJrhL",
   "name": "Sätra Brunn DAO",
   "infoUri": "https://satrabrunn.xyz/",
@@ -29,7 +29,7 @@
     "jbx": "23453000000000000000000"
   },
   "tokenAddress": "0xf715a86DfB6ed9AE1E421cf14f640aB6b7F5DAdA",
-  "totalSupply": "4856000",
+  "totalSupply": "4164000",
   "holdingSymbol": "STRA",
   "payEvents": [
     {
@@ -434,6 +434,86 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "100000000000000000000000",
+      "beneficiary": "0x47b306c725fe30223663189701e1c336fec2f520",
+      "id": "0xf7f5a8a23fbac38778ba3a4d355b2e980618b32dc33fff60677d19e522163f17-142",
+      "returnAmount": "119518002517307160",
+      "timestamp": "1645518544",
+      "txHash": "0xf7f5a8a23fbac38778ba3a4d355b2e980618b32dc33fff60677d19e522163f17"
+    },
+    {
+      "amount": "60000000000000000000000",
+      "beneficiary": "0x744721603940a476a14758c105ce8507f409de12",
+      "id": "0x58eb153d6742b48e6f40e24592b074a80f010553e951871155b33a56712cf0eb-394",
+      "returnAmount": "71710801510384296",
+      "timestamp": "1645517349",
+      "txHash": "0x58eb153d6742b48e6f40e24592b074a80f010553e951871155b33a56712cf0eb"
+    },
+    {
+      "amount": "25000000000000000000000",
+      "beneficiary": "0x39beb60bc4c1b8b0ebeedc515c7a56e7dfb3a5a9",
+      "id": "0x6b009c029bd2ea25c2ca2230d09c86017271b95035ebc12ade9e627217e2986c-54",
+      "returnAmount": "29879500629326790",
+      "timestamp": "1645516334",
+      "txHash": "0x6b009c029bd2ea25c2ca2230d09c86017271b95035ebc12ade9e627217e2986c"
+    },
+    {
+      "amount": "10000000000000000000000",
+      "beneficiary": "0xd8696bbd8ce60804f0fc9fdbb73b517e72855f2c",
+      "id": "0xe5342172fb5ae4e1c79ab14ddab28afd2037acef65262dd96199ee8161637db1-385",
+      "returnAmount": "11951800251730716",
+      "timestamp": "1645514988",
+      "txHash": "0xe5342172fb5ae4e1c79ab14ddab28afd2037acef65262dd96199ee8161637db1"
+    },
+    {
+      "amount": "30000000000000000000000",
+      "beneficiary": "0x6ac5f5373067bd2154a9fcf376aa1fe022511d1f",
+      "id": "0xc23e86bab185cea7affc01f015bb6b1cfbdb130ec98cc8d9b3d4d07f14a74834-476",
+      "returnAmount": "35855400755192148",
+      "timestamp": "1645513216",
+      "txHash": "0xc23e86bab185cea7affc01f015bb6b1cfbdb130ec98cc8d9b3d4d07f14a74834"
+    },
+    {
+      "amount": "150000000000000000000000",
+      "beneficiary": "0x679d87d8640e66778c3419d164998e720d7495f6",
+      "id": "0xa07743b7a5cda6a5c4c3856318427f89daf8941e6e9521f673bbada2da78b3c3-173",
+      "returnAmount": "179277003775960740",
+      "timestamp": "1645511823",
+      "txHash": "0xa07743b7a5cda6a5c4c3856318427f89daf8941e6e9521f673bbada2da78b3c3"
+    },
+    {
+      "amount": "14500000000000000000000",
+      "beneficiary": "0xee4adcf8f033cb8ca7b725e9a0719855a83b3a58",
+      "id": "0x49690b8ac48fc61ef0f300774fc392d5b8f1fba0f938ed59d1344bbe8215574e-199",
+      "returnAmount": "17330110365009538",
+      "timestamp": "1645511233",
+      "txHash": "0x49690b8ac48fc61ef0f300774fc392d5b8f1fba0f938ed59d1344bbe8215574e"
+    },
+    {
+      "amount": "7500000000000000000000",
+      "beneficiary": "0x7fc8818f5095c1990dc95a0f5d8f986aac937cfb",
+      "id": "0xe4f03fad434af3e58fe2faecb1369bb3ea0d3b65a78ddf3eb116e83e51d09a57-220",
+      "returnAmount": "8963850188798037",
+      "timestamp": "1645511200",
+      "txHash": "0xe4f03fad434af3e58fe2faecb1369bb3ea0d3b65a78ddf3eb116e83e51d09a57"
+    },
+    {
+      "amount": "145000000000000000000000",
+      "beneficiary": "0x7edf69c791924d9e35653122508671433137e791",
+      "id": "0x50c7bf2b5be863df8a04f280f339fab11b33242251fc463c82e5216110e66952-371",
+      "returnAmount": "173301103650095382",
+      "timestamp": "1645510935",
+      "txHash": "0x50c7bf2b5be863df8a04f280f339fab11b33242251fc463c82e5216110e66952"
+    },
+    {
+      "amount": "150000000000000000000000",
+      "beneficiary": "0x3740bd93386a0f754721b269d979cbe1e7c018ab",
+      "id": "0xe3443bec37c37cc8737e1bf36a76b5422edef51fe726e668bd998e4d78a56250-138",
+      "returnAmount": "179277003775960740",
+      "timestamp": "1645507934",
+      "txHash": "0xe3443bec37c37cc8737e1bf36a76b5422edef51fe726e668bd998e4d78a56250"
+    },
     {
       "amount": "50000000000000000000000",
       "beneficiary": "0x153509e78fd04144d482e27716ae14c52d7932b0",

@@ -30,7 +30,16 @@
   "tokenAddress": "0x4c4e09c969B94F8Bf8889418F9aD2a275bb5929f",
   "totalSupply": "100000",
   "holdingSymbol": "VOTE",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x691bdf7b434e393840a15675b26fa7361af5dd6b",
+      "id": "0x350c4f86e20c5cb2ee107571dbb502300114e5a6f532dfedd88d62f3e6a9f927-277",
+      "note": "To the Moon",
+      "timestamp": "1642783829",
+      "txHash": "0x350c4f86e20c5cb2ee107571dbb502300114e5a6f532dfedd88d62f3e6a9f927"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
