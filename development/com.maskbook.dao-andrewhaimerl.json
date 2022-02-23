@@ -1,11 +1,11 @@
 {
   "createdAt": "1645556264",
   "creator": "0xf6310b07f0c7e5fd142b648d448ee75d4fbf82b7",
-  "currentBalance": "50000000000000000",
+  "currentBalance": "55000000000000000",
   "handle": "andrewnef",
   "id": "414",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "5000000000000000",
   "totalRedeemed": "0",
   "uri": "QmPRcaMtWVMKvkEKR3Xo26DK6MsnAH7PT8KyiGLwMtBYEG",
   "name": "ANDREWNEF DAO",
@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "I WANT IN",
   "payDisclosure": "",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0x32203ff3775a7ded59c2e00f62ad9c31f6d63552",
+      "id": "0xbeb2a5d85bcdfe9763d89acb4e19fe2fea52d34f77321a565804ae73d65cf80a-92",
+      "note": "I love Andrew's memes https://jbx.mypinata.cloud/ipfs/QmaQPmcFKS3rmXMXyx592ghZUTTAFaiEuUWhnnsok4fh4Y",
+      "timestamp": "1645599466",
+      "txHash": "0xbeb2a5d85bcdfe9763d89acb4e19fe2fea52d34f77321a565804ae73d65cf80a"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []

@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "76721144920000000000",
+  "currentBalance": "76751144920000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "76721144920000000000",
+  "totalPaid": "76751144920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0xce6dbee54965942094e2282614bba6eafcb367c3",
+      "id": "0xcf42547f2688bcae78e764d3f5a3e2b6baf579e26e3db93975752800bdf13165-316",
+      "note": null,
+      "timestamp": "1645598380",
+      "txHash": "0xcf42547f2688bcae78e764d3f5a3e2b6baf579e26e3db93975752800bdf13165"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x9974e44e8747b615187378bd35bae7acb832ebdf",
@@ -410,14 +418,6 @@
       "note": "0xAA来了，People love Panda\n我现在只想做一个忍者 discord.gg/ninja-dao\n https://jbx.mypinata.cloud/ipfs/QmUKkZSVDNqjNkvPBVUiWK8cEyMj3os9W9bgNhnmqNkhCN",
       "timestamp": "1645462478",
       "txHash": "0x973f30fa57a44d0d716b790f59a51be1aff78a5612aa27e37248c1cc141fd85f"
-    },
-    {
-      "amount": "3000000000000000000",
-      "beneficiary": "0xf0bab8a01708d0997c992b2c44e7d5474a03963e",
-      "id": "0x5a8e435869df5fe7ad793e150c06e79d3185e4e92067f73ef7535fa2985dc80e-499",
-      "note": null,
-      "timestamp": "1645461904",
-      "txHash": "0x5a8e435869df5fe7ad793e150c06e79d3185e4e92067f73ef7535fa2985dc80e"
     }
   ],
   "redeemEvents": [],
