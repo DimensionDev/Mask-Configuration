@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "76751144920000000000",
+  "currentBalance": "77151144920000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "76751144920000000000",
+  "totalPaid": "77151144920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,22 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x48444e5113738e1d0772d2e4ced46a998f7cc7ff",
+      "id": "0x7856cce40419e1d7d63a49dc144574d339c1e8c56b556fb1fb373b55d19aa7ba-38",
+      "note": null,
+      "timestamp": "1645604406",
+      "txHash": "0x7856cce40419e1d7d63a49dc144574d339c1e8c56b556fb1fb373b55d19aa7ba"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x9a47e2895086b90096e735ff7a67e72111736d47",
+      "id": "0xef112143489e0473bcb8c03f24e27fb3b8a3bd8e13ee85dd25ac234f78646bdd-380",
+      "note": null,
+      "timestamp": "1645601098",
+      "txHash": "0xef112143489e0473bcb8c03f24e27fb3b8a3bd8e13ee85dd25ac234f78646bdd"
+    },
     {
       "amount": "30000000000000000",
       "beneficiary": "0xce6dbee54965942094e2282614bba6eafcb367c3",
@@ -402,22 +418,6 @@
       "note": null,
       "timestamp": "1645469384",
       "txHash": "0xd10727a182794466202c949f20e2c0081da357d6b82698a5b2e7f190d2c2fadb"
-    },
-    {
-      "amount": "120000000000000000",
-      "beneficiary": "0x5b0b4804c6de3e6b88f65b130ea8d19fd1fbb96f",
-      "id": "0xc96133421a3da87306d1387e6c0c18e3e7d5a488f8bddd6f68e20c140d817064-174",
-      "note": "我的第一次给了你！",
-      "timestamp": "1645463426",
-      "txHash": "0xc96133421a3da87306d1387e6c0c18e3e7d5a488f8bddd6f68e20c140d817064"
-    },
-    {
-      "amount": "10000000000000000000",
-      "beneficiary": "0x3317ad9eda6942b5a7be5ba83346c0ea82c3c26c",
-      "id": "0x973f30fa57a44d0d716b790f59a51be1aff78a5612aa27e37248c1cc141fd85f-186",
-      "note": "0xAA来了，People love Panda\n我现在只想做一个忍者 discord.gg/ninja-dao\n https://jbx.mypinata.cloud/ipfs/QmUKkZSVDNqjNkvPBVUiWK8cEyMj3os9W9bgNhnmqNkhCN",
-      "timestamp": "1645462478",
-      "txHash": "0x973f30fa57a44d0d716b790f59a51be1aff78a5612aa27e37248c1cc141fd85f"
     }
   ],
   "redeemEvents": [],
