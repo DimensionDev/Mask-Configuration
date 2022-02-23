@@ -1,11 +1,11 @@
 {
   "createdAt": "1642952504",
   "creator": "0x9fb587b08bb31e81be3c63231c3069706ca69260",
-  "currentBalance": "5850000000000000000",
+  "currentBalance": "6850000000000000000",
   "handle": "domaindao",
   "id": "294",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "5850000000000000000",
+  "totalPaid": "6850000000000000000",
   "totalRedeemed": "0",
   "uri": "QmdqrbcES5WNtY8Tgtw2wtsXZ24cyQ1HUWgc6eVgXV4LsG",
   "name": "DomainDAO",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x1F9d68Aa383Ca840c04fB995cdf44aDE32c59594",
-  "totalSupply": "5850000",
+  "totalSupply": "6850000",
   "holdingSymbol": "DOMAIN",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xaa0a56e9d90d0d3c9aae2d5e6b854b4ebc331790",
+      "id": "0xbe6069279ead74d861140d1381b21625837ae55c7b088fd11ec5b8060771cd2b-59",
+      "note": "lfg",
+      "timestamp": "1645574381",
+      "txHash": "0xbe6069279ead74d861140d1381b21625837ae55c7b088fd11ec5b8060771cd2b"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0xc5c096a642bab3a435485f4e1864df179670d4ca",
