@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Thanks for your support",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x07452670bb58ccab5d4548eb6ab9fc29093baa66",
+      "id": "0x50fa5003c65de21f19e34ebc021d6f38cb51388f52f9559bd26ea35d06b528cd-157",
+      "note": null,
+      "timestamp": "1645717499",
+      "txHash": "0x50fa5003c65de21f19e34ebc021d6f38cb51388f52f9559bd26ea35d06b528cd"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
