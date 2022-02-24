@@ -1,11 +1,11 @@
 {
   "createdAt": "1645433470",
   "creator": "0xd91ce0809530744d493cbc4e3b0e0246002638dd",
-  "currentBalance": "4720000000000000000",
+  "currentBalance": "4820000000000000000",
   "handle": "kobereborndao",
   "id": "411",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "4720000000000000000",
+  "totalPaid": "4820000000000000000",
   "totalRedeemed": "0",
   "uri": "QmdUxHr9boqWMgkjouX6ZvroMpDK7BUenmcauAKsekn2AB",
   "name": "KobeRebornDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x8536696b151a9df992ba1fabb9311ed34d11291b",
+      "id": "0x5259ea2f3864ea5a24587e23600f790dbe91e934143a5fd6d657ed16504bc577-662",
+      "note": null,
+      "timestamp": "1645673263",
+      "txHash": "0x5259ea2f3864ea5a24587e23600f790dbe91e934143a5fd6d657ed16504bc577"
+    },
     {
       "amount": "130000000000000000",
       "beneficiary": "0x4a14dbb1cea407357e62ee5bdd2d8febe067a16a",
