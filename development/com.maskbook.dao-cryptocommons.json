@@ -1,11 +1,11 @@
 {
   "createdAt": "1644801625",
   "creator": "0x544880be7e5dcc0e14173dc6722794dea6fa76d5",
-  "currentBalance": "1050000000000000000",
+  "currentBalance": "2050000000000000000",
   "handle": "cryptocommons",
   "id": "380",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "1050000000000000000",
+  "totalPaid": "2050000000000000000",
   "totalRedeemed": "0",
   "uri": "QmVmB3kKGYdDDJUEz5Q1HRVAbkg82h6HX1paRBmukGjsbQ",
   "name": "$CAMP DAO",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x96A5775250E85eA52634E452A5D68669F301E63E",
-  "totalSupply": "1050000",
+  "totalSupply": "2050000",
   "holdingSymbol": "CAMP",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x6003036929c5127ce867b51a127560bd44fcd81f",
+      "id": "0xf26b45099a5a937b4c480f037ce3c8f048a9db9bb7ab6f18d86abe9c794ef243-63",
+      "note": "Bringing land back into stewardship allows for human flourishing again. May we all find our connection around the campfire again!",
+      "timestamp": "1645658219",
+      "txHash": "0xf26b45099a5a937b4c480f037ce3c8f048a9db9bb7ab6f18d86abe9c794ef243"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0xeb059fc06826df19b16b110eadef03b80231eb31",
