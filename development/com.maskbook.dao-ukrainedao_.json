@@ -1,11 +1,11 @@
 {
   "createdAt": "1645723567",
   "creator": "0xe8f7510b567a77287c1f4c8dce44768fe681082a",
-  "currentBalance": "0",
+  "currentBalance": "27913570000000000",
   "handle": "ukraine_dao",
   "id": "431",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "27913570000000000",
   "totalRedeemed": "0",
   "uri": "QmUscAgi2AFdsXsFffyhPoxEqCMrQvdU7s1eARwHv1BYbA",
   "name": "Ukraine DAO",
@@ -18,7 +18,32 @@
   "version": 3,
   "payButton": "CONTRIBUTE",
   "payDisclosure": "Contributing to Ukraine DAO is not an investment—it's a way to support the project. HELP.SAVE.UKRAINE.",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "7913570000000000",
+      "beneficiary": "0xf7d3f970f320bbab050eb51232cb4dab5840bae6",
+      "id": "0x3ff1c73df6e03195164743e2fc1213c0df7ef9a44b86a12dcea234211855a210-331",
+      "note": null,
+      "timestamp": "1645730515",
+      "txHash": "0x3ff1c73df6e03195164743e2fc1213c0df7ef9a44b86a12dcea234211855a210"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x01532c3f785c5218b5595b0e13e3b20b6d501924",
+      "id": "0xd1cba6e8b93936473baa51897b406ddac9afc3e02502dd6297035f719638e96e-526",
+      "note": null,
+      "timestamp": "1645730344",
+      "txHash": "0xd1cba6e8b93936473baa51897b406ddac9afc3e02502dd6297035f719638e96e"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xe8f7510b567a77287c1f4c8dce44768fe681082a",
+      "id": "0xc657bba5e9f698e616ed8c78981beeaea0a08cc481d40c50090f462ab4c3c033-514",
+      "note": null,
+      "timestamp": "1645730215",
+      "txHash": "0xc657bba5e9f698e616ed8c78981beeaea0a08cc481d40c50090f462ab4c3c033"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
