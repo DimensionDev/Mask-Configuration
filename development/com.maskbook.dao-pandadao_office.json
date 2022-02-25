@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "9209000000000000000",
+  "currentBalance": "11249000000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "125219644920000000000",
+  "totalPaid": "127259644920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,30 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "1020000000000000000",
+      "beneficiary": "0xfd6afe0b7da5d870c33490595040fd1a20868caa",
+      "id": "0x86959e7148d2c8691cddbf86797c775bd0b071f3db2bd6f7ec181e65e9d2e189-503",
+      "note": "people help people",
+      "timestamp": "1645761555",
+      "txHash": "0x86959e7148d2c8691cddbf86797c775bd0b071f3db2bd6f7ec181e65e9d2e189"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x74118cc588cc438966724eec79b59df40a18dfd0",
+      "id": "0x5e85cc636a4f71f3d4050ab17273058efe13528c1954ea4d5360697657f39658-88",
+      "note": null,
+      "timestamp": "1645760124",
+      "txHash": "0x5e85cc636a4f71f3d4050ab17273058efe13528c1954ea4d5360697657f39658"
+    },
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0xcccd2d29fb6409bcf514359df0d581748a4d32b1",
+      "id": "0x86e3e4c4093402e107d55a6066d9d2b168f8c6db073c91f068821548e2ee4332-235",
+      "note": "for the people",
+      "timestamp": "1645757732",
+      "txHash": "0x86e3e4c4093402e107d55a6066d9d2b168f8c6db073c91f068821548e2ee4332"
+    },
     {
       "amount": "200000000000000000",
       "beneficiary": "0x066a2edcc0b7278a2cf5bf2a040b4a54a41a9550",
@@ -394,30 +418,6 @@
       "note": null,
       "timestamp": "1645610654",
       "txHash": "0xd747c2945cea6e4409399cc326decf8f8c44807b0ed7ec5203163e3d49cf787b"
-    },
-    {
-      "amount": "110000000000000000",
-      "beneficiary": "0x91dd38fcf410779fb420213a0cb1e94156505bd9",
-      "id": "0xb368def8d55eb8e92723b2faef9e55c73304d5e00af054083beec34443a6ae80-110",
-      "note": null,
-      "timestamp": "1645610123",
-      "txHash": "0xb368def8d55eb8e92723b2faef9e55c73304d5e00af054083beec34443a6ae80"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0x9eb68b7d6879bc7720d5c84ec634531d51d64bf7",
-      "id": "0x9a97865cc04f6c31de52a713a4b16dc890e1e70ad4cc063d8bda321ab0e237c6-257",
-      "note": null,
-      "timestamp": "1645608904",
-      "txHash": "0x9a97865cc04f6c31de52a713a4b16dc890e1e70ad4cc063d8bda321ab0e237c6"
-    },
-    {
-      "amount": "70000000000000000",
-      "beneficiary": "0x60d009f8f49bdbce08c8771d91ae88d3e5d60cd0",
-      "id": "0xfb4c7c3ce9d12e2a124cbbd7d2eb62ba6b8df7c6cd9645f7bf61dc109cb734d8-456",
-      "note": null,
-      "timestamp": "1645606469",
-      "txHash": "0xfb4c7c3ce9d12e2a124cbbd7d2eb62ba6b8df7c6cd9645f7bf61dc109cb734d8"
     }
   ],
   "redeemEvents": [],
