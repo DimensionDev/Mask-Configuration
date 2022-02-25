@@ -30,7 +30,16 @@
   "tokenAddress": "0xc73C9aeCd4aF9be39A0b8549e5dF91226E5F32Fc",
   "totalSupply": "1000",
   "holdingSymbol": "FTRP",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0x32eb5d0db55155e2a32e329c90b62fb6ea16789f",
+      "id": "0x52b76088b34f74e26d0d7c690f96018417e1508493eca3635e5335a2ada7adac-316",
+      "note": null,
+      "timestamp": "1642787041",
+      "txHash": "0x52b76088b34f74e26d0d7c690f96018417e1508493eca3635e5335a2ada7adac"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
