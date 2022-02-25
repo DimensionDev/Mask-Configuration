@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "100000000000000000",
+  "currentBalance": "200000000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "127679644920000000000",
+  "totalPaid": "127779644920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x4daf1f3e75d724ee09871a8464dc67e294997c53",
+      "id": "0xdcec339f6b26c0c998933302b2d73769ba28c831017ff77778d421752c08be44-198",
+      "note": "From https://twitter.com/cryptonerdcn https://jbx.mypinata.cloud/ipfs/Qmce2eBf9e4LrvoH7CF2yfrxNiCtypqQoZRTsMXwTZDyTE",
+      "timestamp": "1645790196",
+      "txHash": "0xdcec339f6b26c0c998933302b2d73769ba28c831017ff77778d421752c08be44"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x456957b136965f33d17e7d669b7381bf2c55e199",
@@ -410,14 +418,6 @@
       "note": null,
       "timestamp": "1645617941",
       "txHash": "0x47bfe24f821d6588699e5e74cb0d99de84a8ab3f10b54f17ba39fc921474ea86"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xcceea676d593f6dff99ff4feb2631a908fbeff59",
-      "id": "0x7cd6033f3ff9dcf75bc0705fb5acf4efe7c4e6e56a18b35097096202ab0d80c9-604",
-      "note": null,
-      "timestamp": "1645616082",
-      "txHash": "0x7cd6033f3ff9dcf75bc0705fb5acf4efe7c4e6e56a18b35097096202ab0d80c9"
     }
   ],
   "redeemEvents": [],
