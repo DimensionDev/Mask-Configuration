@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5119553538008976774710",
+  "currentBalance": "5119590809038976774710",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "11613173432922406769962",
+  "totalPaid": "11613210703952406769962",
   "totalRedeemed": "6484502324246458756884",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
@@ -18,7 +18,52 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "If we fail to win the auction, you will be able to get refunded. If we win, your tokens will serve as governance tokens for ConstitutionDAO.",
+  "overflow": 1,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE"
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
+  "totalSupply": "5118093386",
+  "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xfc1d603f523aeb2f063fef393327ce3f0607d51b",
+      "id": "0x457af3cf34ba10df9b3baaaeec877e84b4747b395d5dd50a82fa2177dfd2fb13-211",
+      "note": null,
+      "timestamp": "1645853916",
+      "txHash": "0x457af3cf34ba10df9b3baaaeec877e84b4747b395d5dd50a82fa2177dfd2fb13"
+    },
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0x9352da25bcef6d369bfd31906618bb437f016950",
+      "id": "0xb9d0636df68437c3cb94c9a2156741541741c0a43d66c3f96952f0cc2a947393-116",
+      "note": null,
+      "timestamp": "1645851293",
+      "txHash": "0xb9d0636df68437c3cb94c9a2156741541741c0a43d66c3f96952f0cc2a947393"
+    },
+    {
+      "amount": "11703580000000000",
+      "beneficiary": "0x0065c4bcaece5b004933b2f225c1c9c64fa0a777",
+      "id": "0x4c8f312f085aea4234d16326c7072d8f08d9c7ca29a4771a52da78309cdaadd9-141",
+      "note": "For the people by the people!",
+      "timestamp": "1645851293",
+      "txHash": "0x4c8f312f085aea4234d16326c7072d8f08d9c7ca29a4771a52da78309cdaadd9"
+    },
+    {
+      "amount": "23567450000000000",
+      "beneficiary": "0x4982c9925cd7d34860aabfd35e17c4284e9cbd03",
+      "id": "0x8f62c38a9d31ef9491a3134dcb1b30dd4ebcf4099788cce6fc553b56e9ab5138-290",
+      "note": null,
+      "timestamp": "1645850310",
+      "txHash": "0x8f62c38a9d31ef9491a3134dcb1b30dd4ebcf4099788cce6fc553b56e9ab5138"
+    },
     {
       "amount": "2000000000000000",
       "beneficiary": "0x2debb2dd4b2ce1e6e8e096926173c8a7e2efaba2",
@@ -386,38 +431,6 @@
       "note": null,
       "timestamp": "1638697489",
       "txHash": "0x06bd4a1e21bd69e13c1c3e35689d66e4ec5d23bd130f85772fdfc2544d180473"
-    },
-    {
-      "amount": "2220000000000000",
-      "beneficiary": "0x22ca086cc77f6a4f1802f4a1efc73a44f995259f",
-      "id": "0x284662c46ba52d82cdcbe700098dce92c94d98a83c6458f49065359b49645710-414",
-      "note": null,
-      "timestamp": "1638679200",
-      "txHash": "0x284662c46ba52d82cdcbe700098dce92c94d98a83c6458f49065359b49645710"
-    },
-    {
-      "amount": "2000000000000000",
-      "beneficiary": "0xd345207409087b7d59d64426a7af65a91381a2f9",
-      "id": "0x214eb122abcadd9503987ae23de8daa1a91979eb905880e3547d74a8e09a1d54-453",
-      "note": null,
-      "timestamp": "1638417039",
-      "txHash": "0x214eb122abcadd9503987ae23de8daa1a91979eb905880e3547d74a8e09a1d54"
-    },
-    {
-      "amount": "690000000000000",
-      "beneficiary": "0x9e184d5baa4e52222fd9e6acd72a9364d7b9166e",
-      "id": "0xda62802b7fbae90fa486b8709f8c4ae219127d6ca39549a0d80e0a40e91990eb-475",
-      "note": "People 4ever4ever",
-      "timestamp": "1638384730",
-      "txHash": "0xda62802b7fbae90fa486b8709f8c4ae219127d6ca39549a0d80e0a40e91990eb"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x9e184d5baa4e52222fd9e6acd72a9364d7b9166e",
-      "id": "0x2633f1f23b7a75f759a0a6e3aaf813ff89f15258e6e8763aad817b98d28f3860-58",
-      "note": "People 4ever",
-      "timestamp": "1638384132",
-      "txHash": "0x2633f1f23b7a75f759a0a6e3aaf813ff89f15258e6e8763aad817b98d28f3860"
     }
   ],
   "redeemEvents": [

@@ -1,11 +1,11 @@
 {
   "createdAt": "1639772291",
   "creator": "0x679d87d8640e66778c3419d164998e720d7495f6",
-  "currentBalance": "1270000000000000000",
+  "currentBalance": "1280000000000000000",
   "handle": "moondao",
   "id": "199",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "2623685607404533194382",
+  "totalPaid": "2623695607404533194382",
   "totalRedeemed": "0",
   "uri": "QmT19N4cp2ESF2iQGJwGvjFsLGEBXr3GsLkfjPBRheyyiz",
   "name": "MoonDAO",
@@ -18,7 +18,27 @@
   "payDisclosure": "$MOONEY is a governance token, there is no expectation of profit. The token will be used to collectively decide the fate of MoonDAO!",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "MOONEY"
+    }
+  ],
+  "inWallet": {
+    "eth": "496710000000000000000",
+    "jbx": "15501639000000000000000000"
+  },
+  "tokenAddress": "0x20d4DB1946859E2Adb0e5ACC2eac58047aD41395",
+  "totalSupply": "2622442107",
+  "holdingSymbol": "MOONEY",
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xea89adbf73323345d0ada1bb0b8795e33fa0328c",
+      "id": "0xa27d45cd011274b2a628164153ba26f1ad028fc11ef2045df68ef09020979eae-252",
+      "note": null,
+      "timestamp": "1645853976",
+      "txHash": "0xa27d45cd011274b2a628164153ba26f1ad028fc11ef2045df68ef09020979eae"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0xf7fad2fa3d75837254bbfecf523b8bd06fa6017a",
@@ -410,14 +430,6 @@
       "note": null,
       "timestamp": "1642362905",
       "txHash": "0xa165debef4ebc72f07724aa8e1e091f26d3c662fe7bb87680537de25a90a9a44"
-    },
-    {
-      "amount": "200000000000000000",
-      "beneficiary": "0x2368556ca881e9b3f02b225ca4c726005b899999",
-      "id": "0xc7f9d28ad0564ae4ab52e2c1be76e7724852ba9bdc4fefdd6e4fc2511b471d29-53",
-      "note": null,
-      "timestamp": "1642362838",
-      "txHash": "0xc7f9d28ad0564ae4ab52e2c1be76e7724852ba9bdc4fefdd6e4fc2511b471d29"
     }
   ],
   "redeemEvents": [

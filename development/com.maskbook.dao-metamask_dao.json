@@ -18,6 +18,18 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "MKD"
+    }
+  ],
+  "inWallet": {
+    "eth": "20000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x76ce9775917EfBd0B49B17564251Da3841F85D1F",
+  "totalSupply": "1000",
+  "holdingSymbol": "MKD",
   "payEvents": [
     {
       "amount": "1000000000000000",
