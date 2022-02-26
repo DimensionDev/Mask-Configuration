@@ -18,18 +18,6 @@
   "payDisclosure": "The owner will never use any reserve tokens issued according to users’ participation.\n\nThe reason for setting the high reserve was to control the distribution of tokens, and the owner will never claim it.\n\nTo trust this, we will deploy multisig to the owner’s account, so that owner have to apply multisig in the HDAO claim process. Also, we will claim once a day at a fixed time and burn those tokens.",
   "tokens": [],
   "version": 3,
-  "fundingCycles": [
-    {
-      "toETHSymbol": "HDAO"
-    }
-  ],
-  "inWallet": {
-    "eth": "800000000000000000",
-    "jbx": "0"
-  },
-  "tokenAddress": "0x69CB21369005b9FaF146Fdca12a5a38507b13807",
-  "totalSupply": "18562110",
-  "holdingSymbol": "HDAO",
   "payEvents": [
     {
       "amount": "500000000000000000",
