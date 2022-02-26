@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "3737100000000000000",
+  "currentBalance": "3787100000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "131316744920000000000",
+  "totalPaid": "131366744920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xd582d8db9873a23dfd33132e6a133a6183a322f9",
+      "id": "0x3dec77d885a3718c2af547910a0715923f7b061fc9a8e65b51edf5af14c0fe09-136",
+      "note": null,
+      "timestamp": "1645891760",
+      "txHash": "0x3dec77d885a3718c2af547910a0715923f7b061fc9a8e65b51edf5af14c0fe09"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0xd15b5fa5370f0c3cc068f107b7691e6dab678799",
@@ -410,17 +418,30 @@
       "note": null,
       "timestamp": "1645627177",
       "txHash": "0xd370bb5596559f4e127bc942fb6c116b40bcafdbd24cd7388fbbf04eba0c6a77"
-    },
-    {
-      "amount": "350000000000000000",
-      "beneficiary": "0x4fb98d1499a24e9c794401e9fb96e9483a43d934",
-      "id": "0xa6dc47f96c5f12ef82470ad778686a7691ca049ea9144dc8e78102fbbb50f59c-279",
-      "note": null,
-      "timestamp": "1645627022",
-      "txHash": "0xa6dc47f96c5f12ef82470ad778686a7691ca049ea9144dc8e78102fbbb50f59c"
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "beneficiaryTransferAmount": "11018095238095238095",
+      "caller": "0xcceea676d593f6dff99ff4feb2631a908fbeff59",
+      "fundingCycleId": "629",
+      "id": "409-0x459aeb9dfe921504632ffcccf9bbe3f74f6a2b189de58857442275f4ef0f8e17",
+      "netTransferAmount": "11018095238095238095",
+      "timestamp": "1645767735",
+      "txHash": "0x459aeb9dfe921504632ffcccf9bbe3f74f6a2b189de58857442275f4ef0f8e17"
+    },
+    {
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "beneficiaryTransferAmount": "110486328495238095238",
+      "caller": "0x66ea9e2c10c15902d709934a816267f55c21ffec",
+      "fundingCycleId": "629",
+      "id": "409-0x7e631f9a9aa8eb8f3fa05f0ef5d5513558cb011d38947f934a4c69d5fee6b6c0",
+      "netTransferAmount": "110486328495238095238",
+      "timestamp": "1645690113",
+      "txHash": "0x7e631f9a9aa8eb8f3fa05f0ef5d5513558cb011d38947f934a4c69d5fee6b6c0"
+    }
+  ],
   "reservesEvents": []
 }
