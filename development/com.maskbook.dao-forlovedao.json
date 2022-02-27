@@ -1,11 +1,11 @@
 {
   "createdAt": "1645951891",
   "creator": "0x5dfa5f5c2a5cbd13d9999e5e47f4aeca3df2a191",
-  "currentBalance": "0",
+  "currentBalance": "1000000000000000",
   "handle": "forlovedao",
   "id": "461",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "1000000000000000",
   "totalRedeemed": "0",
   "uri": "QmY6Cc88Ciwmz6Fgm15Dba6MAN657pQauJ9a1tJcwodn5c",
   "name": "forlovedao",
@@ -28,9 +28,18 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "0",
+  "totalSupply": "1000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xd832c369abe0059f40c27be91c003a9d991b47a3",
+      "id": "0xb4bc80de88be409ca52f0de7f4e28e1d211a46e241a9e8d343e7df2d47dd34fa-189",
+      "note": "go",
+      "timestamp": "1645964850",
+      "txHash": "0xb4bc80de88be409ca52f0de7f4e28e1d211a46e241a9e8d343e7df2d47dd34fa"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
