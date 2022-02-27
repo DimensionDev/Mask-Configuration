@@ -1,17 +1,17 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6306108261634152047244",
+  "currentBalance": "6273663268330794905538",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6731886204679311713401",
+  "totalPaid": "6733508454344479570487",
   "totalRedeemed": "120242517645232266768",
-  "uri": "QmUbGx4cesXcjJTwMancsSTstBj1dUzWUoBWzYXAnNTebx",
+  "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
-  "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. Receives a 5% fee from all funds withdrawn by Juicebox projects in exchange for $JBX.",
+  "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. All projects withdrawing funds from their treasury pay a 5% membership fee and receive JBX at the current issuance rate. JBX members govern the NFT that represents ownership over this treasury.",
   "logoUri": "https://gateway.pinata.cloud/ipfs/QmZZPUuJxCCUitCYYVo6qexkSEwMGJfmKWTct9gpes3yvV",
-  "infoUri": "https://juicebox.money",
+  "infoUri": "https://snapshot.org/#/jbdao.eth",
   "twitter": "juiceboxETH",
   "discord": "https://discord.gg/W9mTVG4QhD",
   "payButton": "Add juice",
@@ -23,13 +23,21 @@
     }
   ],
   "inWallet": {
-    "eth": "6760000000000000000",
-    "jbx": "262163385000000000000000000"
+    "eth": "6780000000000000000",
+    "jbx": "263292318000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2567576288",
+  "totalSupply": "2567853390",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "1622249665167857086",
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "id": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463-132",
+      "note": "Fee from @juicebox",
+      "timestamp": "1645916462",
+      "txHash": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463"
+    },
     {
       "amount": "2380952380952381",
       "beneficiary": "0x5f413541a569d7ce5b79c57671ce505f1448c5e9",
@@ -421,14 +429,6 @@
       "note": null,
       "timestamp": "1644485743",
       "txHash": "0x94a65c60b3778713ef713f42c386621c04da226cb76ba220f0c7f0eefab44c76"
-    },
-    {
-      "amount": "2852387881742090",
-      "beneficiary": "0xae7f458667f1b30746354abc3157907d9f6fd15e",
-      "id": "0x7dd1a7e96249046757c9e668853a46e263bb693158884bc856ba433faa564170-363",
-      "note": "Fee from @sharkdao",
-      "timestamp": "1644477630",
-      "txHash": "0x7dd1a7e96249046757c9e668853a46e263bb693158884bc856ba433faa564170"
     }
   ],
   "redeemEvents": [
@@ -836,6 +836,16 @@
   "withdrawEvents": [
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTransferAmount": "25955994642685722",
+      "caller": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "fundingCycleId": "642",
+      "id": "1-0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463",
+      "netTransferAmount": "32444993303357141706",
+      "timestamp": "1645916462",
+      "txHash": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463"
+    },
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTransferAmount": "27110322077343303",
       "caller": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
       "fundingCycleId": "555",
@@ -1106,6 +1116,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTicketAmount": "990382403969728630298659",
+      "caller": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "count": "1319805975439403825024851",
+      "id": "1-0xb52459819fecad1c17269e7b34324440c0fbbf02c650b9b22a3a6fbf0ca98806",
+      "timestamp": "1645916462",
+      "txHash": "0xb52459819fecad1c17269e7b34324440c0fbbf02c650b9b22a3a6fbf0ca98806"
+    },
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTicketAmount": "1",
