@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "4242100000000000000",
+  "currentBalance": "4243100000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "131821744920000000000",
+  "totalPaid": "131822744920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xd12e276f76a55af8558e149b5efeb6aa3a64ee84",
+      "id": "0xfd18d91560bc65d0bdbf0b95cca7bef52afd6c45a30b2de1c00c9b85f339028f-84",
+      "note": "https://jbx.mypinata.cloud/ipfs/Qmctxc51m7ed4ZVwUUu2CRW9iApF1KMXrRGiCJyQyXBRJy",
+      "timestamp": "1645953283",
+      "txHash": "0xfd18d91560bc65d0bdbf0b95cca7bef52afd6c45a30b2de1c00c9b85f339028f"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0x1af94438e67be80050f79ba61184552dd9038a87",
@@ -410,14 +418,6 @@
       "note": "$JUSTIC love panda",
       "timestamp": "1645678694",
       "txHash": "0x5f99a19284a8feb21d5aff0838a25a26d7e5a9a2ce76707f47f4182dc8ed61a9"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x7290d639a85e8d107a7d8e8e490788e47c49746d",
-      "id": "0xb6eaf5567868f2a8bcffe802fb759f9a7ccda6c8b031f808ee6671dbcff94435-81",
-      "note": null,
-      "timestamp": "1645673005",
-      "txHash": "0xb6eaf5567868f2a8bcffe802fb759f9a7ccda6c8b031f808ee6671dbcff94435"
     }
   ],
   "redeemEvents": [],
