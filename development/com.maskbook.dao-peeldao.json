@@ -1,7 +1,7 @@
 {
   "createdAt": "1644187376",
   "creator": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
-  "currentBalance": "12513687991419156027",
+  "currentBalance": "6796468405949203175",
   "handle": "peel",
   "id": "329",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -64,6 +64,16 @@
   "withdrawEvents": [
     {
       "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
+      "beneficiaryTransferAmount": "871195365404945198",
+      "caller": "0x63a2368f4b509438ca90186cb1c15156713d5834",
+      "fundingCycleId": "699",
+      "id": "329-0xb1b507d87f35ea7fd9f41d4ae5091ed3359d18d9668f2c61bf92f9f75e5cf5f2",
+      "netTransferAmount": "5444971033780907478",
+      "timestamp": "1646007057",
+      "txHash": "0xb1b507d87f35ea7fd9f41d4ae5091ed3359d18d9668f2c61bf92f9f75e5cf5f2"
+    },
+    {
+      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
       "beneficiaryTransferAmount": "862524272860441843",
       "caller": "0x63a2368f4b509438ca90186cb1c15156713d5834",
       "fundingCycleId": "636",
@@ -83,5 +93,15 @@
       "txHash": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a"
     }
   ],
-  "reservesEvents": []
+  "reservesEvents": [
+    {
+      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
+      "beneficiaryTicketAmount": "2844030721084298110348454",
+      "caller": "0x63a2368f4b509438ca90186cb1c15156713d5834",
+      "count": "11362487898858562166793662",
+      "id": "329-0x3e9b527282826450efd66ac488a98a09d4e4ff28eab8188c68efbf555ae014a8",
+      "timestamp": "1646007113",
+      "txHash": "0x3e9b527282826450efd66ac488a98a09d4e4ff28eab8188c68efbf555ae014a8"
+    }
+  ]
 }
