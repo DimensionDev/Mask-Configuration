@@ -1,11 +1,11 @@
 {
   "createdAt": "1645275615",
   "creator": "0x0c3066afb361ad7983256969fedc269178452376",
-  "currentBalance": "1088000000000000000",
+  "currentBalance": "1128000000000000000",
   "handle": "stddao",
   "id": "405",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "1088000000000000000",
+  "totalPaid": "1128000000000000000",
   "totalRedeemed": "0",
   "uri": "QmcHb3A9tE8EDWNueuwmUSmAzfnnuB6Yz62YkN6ME4ExjG",
   "name": "stdDAO",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x2aE12795fCa73732CA1e7e4e0419b95F6Ee02e5f",
-  "totalSupply": "1088000",
+  "totalSupply": "1128000",
   "holdingSymbol": "CURES",
   "payEvents": [
+    {
+      "amount": "40000000000000000",
+      "beneficiary": "0xf9fc4a13cfac4b5906e708e1b55ec4bd8976e3d8",
+      "id": "0xdb6eb9c9345214033bda85da027e1d1d0a6f209f0834c691a9d66e3a1b159716-79",
+      "note": null,
+      "timestamp": "1646048671",
+      "txHash": "0xdb6eb9c9345214033bda85da027e1d1d0a6f209f0834c691a9d66e3a1b159716"
+    },
     {
       "amount": "38000000000000000",
       "beneficiary": "0x7b4297fa00f13f4c9016b61a64156679d626214a",
