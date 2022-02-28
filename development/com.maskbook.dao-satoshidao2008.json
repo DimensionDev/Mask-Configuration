@@ -1,11 +1,11 @@
 {
   "createdAt": "1645773957",
   "creator": "0xbce7b0a0fb13699cd54d7d81a36a5211eb019cf1",
-  "currentBalance": "32911000000000000000",
+  "currentBalance": "33044700000000000000",
   "handle": "satoshidao2008",
   "id": "441",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "32911000000000000000",
+  "totalPaid": "33044700000000000000",
   "totalRedeemed": "0",
   "uri": "QmauW7WRF7WKw2scrtuhn8KaQqs6r7teVcGoJpY6bYQQUw",
   "name": "SatoshiDao",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "32911000",
+  "totalSupply": "33044700",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "133700000000000000",
+      "beneficiary": "0xcc0788dd749183b6e67b14d1084c8209c02d2ef4",
+      "id": "0x44e0f52aea79075f97af17506cd868b4750fbb1ab850bb20081f278b13709557-26",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmSLAGBhj3jkYYYLJvPN34jDCMdsCc8BuATq2s4Frq6SaK",
+      "timestamp": "1646064535",
+      "txHash": "0x44e0f52aea79075f97af17506cd868b4750fbb1ab850bb20081f278b13709557"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x11b986531fed379eb7785ce2e9ac11ec03c97edb",
