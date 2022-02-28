@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6274290006850825048868",
+  "currentBalance": "6274390513928609754664",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6734135192864509713817",
+  "totalPaid": "6734235699942294419613",
   "totalRedeemed": "120242517645232266768",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -27,9 +27,17 @@
     "jbx": "263436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2567960445",
+  "totalSupply": "2567977613",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "100507077784705796",
+      "beneficiary": "0xdfe36eb84cdedbff583452162d66a28fa24fd58e",
+      "id": "0x818b1a737a1e0b398aeecee6f39bc3acd1d242f3dbb00d8845955085fbf6635e-224",
+      "note": "Fee from @wagmistudios",
+      "timestamp": "1646054916",
+      "txHash": "0x818b1a737a1e0b398aeecee6f39bc3acd1d242f3dbb00d8845955085fbf6635e"
+    },
     {
       "amount": "232631991428571429",
       "beneficiary": "0x48c6328b5d8a921bea50a8c8f2a7b139a748ec30",
@@ -421,14 +429,6 @@
       "note": null,
       "timestamp": "1644528838",
       "txHash": "0xa9823043cdcae518d9315a205c7bf4f62005efaf57f433dd03f96540c35f5780"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x49a8a3e764263d38948be39d3217222f177d189b",
-      "id": "0xf9cf2777e365265d5d76a2528d5a34a6cdf7b99c7b44a38d102f7a686749675d-64",
-      "note": null,
-      "timestamp": "1644525318",
-      "txHash": "0xf9cf2777e365265d5d76a2528d5a34a6cdf7b99c7b44a38d102f7a686749675d"
     }
   ],
   "redeemEvents": [
