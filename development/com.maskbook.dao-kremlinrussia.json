@@ -1,7 +1,7 @@
 {
   "createdAt": "1646007864",
   "creator": "0x48c6328b5d8a921bea50a8c8f2a7b139a748ec30",
-  "currentBalance": "4885271820000000000",
+  "currentBalance": "0",
   "handle": "supportrussia",
   "id": "463",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -141,6 +141,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x48c6328b5d8a921bea50a8c8f2a7b139a748ec30",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x48c6328b5d8a921bea50a8c8f2a7b139a748ec30",
+      "fundingCycleId": "700",
+      "id": "463-0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22",
+      "netTransferAmount": "4652639828571428571",
+      "timestamp": "1646029410",
+      "txHash": "0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22"
+    }
+  ],
   "reservesEvents": []
 }

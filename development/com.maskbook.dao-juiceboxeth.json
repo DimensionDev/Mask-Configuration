@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6274057374859396477439",
+  "currentBalance": "6274290006850825048868",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6733902560873081142388",
+  "totalPaid": "6734135192864509713817",
   "totalRedeemed": "120242517645232266768",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -24,12 +24,20 @@
   ],
   "inWallet": {
     "eth": "6780000000000000000",
-    "jbx": "263292318000000000000000000"
+    "jbx": "263436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2567920708",
+  "totalSupply": "2567960445",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "232631991428571429",
+      "beneficiary": "0x48c6328b5d8a921bea50a8c8f2a7b139a748ec30",
+      "id": "0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22-81",
+      "note": "Fee from @supportrussia",
+      "timestamp": "1646029410",
+      "txHash": "0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22"
+    },
     {
       "amount": "272248551689045374",
       "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
@@ -421,14 +429,6 @@
       "note": null,
       "timestamp": "1644525318",
       "txHash": "0xf9cf2777e365265d5d76a2528d5a34a6cdf7b99c7b44a38d102f7a686749675d"
-    },
-    {
-      "amount": "148021126666666667",
-      "beneficiary": "0xb2b314987db9bb8669826dfc9d1edfc14aa456d6",
-      "id": "0x2b0206b1cc423f83b182619d90ea762aa5d6ddc675e1e29cc86643c758db2335-168",
-      "note": "Fee from @daodenver",
-      "timestamp": "1644502149",
-      "txHash": "0x2b0206b1cc423f83b182619d90ea762aa5d6ddc675e1e29cc86643c758db2335"
     }
   ],
   "redeemEvents": [
@@ -1116,6 +1116,15 @@
     }
   ],
   "reservesEvents": [
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTicketAmount": "144135812106362009409227",
+      "caller": "0x8725438282e846fcca969424397d33d10b829342",
+      "count": "192078640866687112752155",
+      "id": "1-0x658df3ebdc9e4aaf10f9528ac77cbc126611f5bcb3d97902e5152447564a8d5c",
+      "timestamp": "1646035891",
+      "txHash": "0x658df3ebdc9e4aaf10f9528ac77cbc126611f5bcb3d97902e5152447564a8d5c"
+    },
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTicketAmount": "990382403969728630298659",
