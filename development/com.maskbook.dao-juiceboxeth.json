@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6273673268330794905538",
+  "currentBalance": "6273785126307707432065",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6733518454344479570487",
+  "totalPaid": "6733630312321392097014",
   "totalRedeemed": "120242517645232266768",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -27,9 +27,17 @@
     "jbx": "263292318000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2567855098",
+  "totalSupply": "2567874205",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "111857976912526527",
+      "beneficiary": "0x82f018c331231f2a27b68ddbdde61429338d86e8",
+      "id": "0x7cfcd6963ca2cf44b042f0988409b57ef887ee173284fe79bdb2606034b0efe0-345",
+      "note": "Fee from @lexicondevils",
+      "timestamp": "1646002411",
+      "txHash": "0x7cfcd6963ca2cf44b042f0988409b57ef887ee173284fe79bdb2606034b0efe0"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0xd12e276f76a55af8558e149b5efeb6aa3a64ee84",
@@ -421,14 +429,6 @@
       "note": "DAO IS FUTURE, JUICEBOX IS ONE OF BUILDERS...",
       "timestamp": "1644491948",
       "txHash": "0x92d5b7859f266f636dc54ab1c5fab16cfb731396c3917c8d34222a581e3ee005"
-    },
-    {
-      "amount": "96862500000000000",
-      "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
-      "id": "0xa4f641ceffdf2fb5c271f4c4557e987ff1168ac9e365dea47bdabb3a8fb656b7-74",
-      "note": "Fee from @canudaocomm",
-      "timestamp": "1644490595",
-      "txHash": "0xa4f641ceffdf2fb5c271f4c4557e987ff1168ac9e365dea47bdabb3a8fb656b7"
     }
   ],
   "redeemEvents": [
