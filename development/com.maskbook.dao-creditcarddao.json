@@ -1,17 +1,17 @@
 {
-  "createdAt": "1642753849",
+  "createdAt": "1642532097",
   "creator": "0xc09895495f4e74b045f20c1cf4a5cbec9995ed72",
-  "currentBalance": "330000000000000000",
-  "handle": "ccdao",
-  "id": "288",
+  "currentBalance": "0",
+  "handle": "creditcarddao",
+  "id": "280",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "330000000000000000",
+  "totalPaid": "0",
   "totalRedeemed": "0",
-  "uri": "QmbdGFmECfzmpkhtNviRDJVP7XeaCLUtfFE5txV5qu5hFc",
+  "uri": "QmS8b2vTPJom49utMg1tCHrs13ugqZg56no7jnorg5ervU",
   "name": "Credit Card DAO",
-  "description": "💳 Let's create a better credit card. Credit Card DAO will create the first card with custom, community-generated rewards, meaning the perks and rewards are proposed by you–the customers–and will come from brands that you actually like. Why are we doing this? Because existing credit card rewards suck! Airline miles are worth nothing, Marriott hotels are gross, and cash-back programs have hidden limits. Every contribution to our DAO of .05 ETH or more will get v1 of the credit card!",
+  "description": "💳 Let's create a better credit card. Credit Card DAO will create the first card with custom, community-generated rewards, meaning the perks and rewards are proposed by you–the customers–and will come from brands that you actually like.\n\nWhy are we doing this? Because existing credit card rewards suck! Airline miles are worth nothing, Marriott hotels are gross, and cash-back programs have hidden limits. Every contribution to our DAO of .02 ETH or more will get v1 of the credit card!",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/Qma1Szrdo6iehjcebcfJp8kHeRbnwhe4waiWNFjHkoHNmS",
-  "infoUri": "https://www.creditcarddao.com/",
+  "infoUri": "https://www.creditcarddao.com",
   "twitter": "creditcarddao",
   "discord": "https://discord.gg/KwyfJ9ef",
   "payButton": "Contribute",
@@ -30,64 +30,7 @@
   "tokenAddress": null,
   "totalSupply": "0",
   "holdingSymbol": "Tokens",
-  "payEvents": [
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
-      "id": "0x053c813e72c83682d8506f2ae7821c13fb9ad1706bfbf96fb5c2ee71dc767488-44",
-      "note": null,
-      "timestamp": "1643236599",
-      "txHash": "0x053c813e72c83682d8506f2ae7821c13fb9ad1706bfbf96fb5c2ee71dc767488"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0x37dca28346c6c44d3eaa6b7808c4275610aea5be",
-      "id": "0x2b4d559cb94a99da794162a0eafa7499bcecece1a55798f0b8c6847dab80ab37-318",
-      "note": null,
-      "timestamp": "1642810526",
-      "txHash": "0x2b4d559cb94a99da794162a0eafa7499bcecece1a55798f0b8c6847dab80ab37"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xf73fe15cfb88ea3c7f301f16ade3c02564aca407",
-      "id": "0x0fd0fd8a62469c594e16ab2c18be249a2efcf9389bad4c3836ba36d12e74e224-119",
-      "note": null,
-      "timestamp": "1642789151",
-      "txHash": "0x0fd0fd8a62469c594e16ab2c18be249a2efcf9389bad4c3836ba36d12e74e224"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x7d0068d0d8fc2aa15d897448b348fa9b30f6d4c9",
-      "id": "0xdfe8a1ab085cc6dfafd528e74b56096ac0cdbfd8932a80e83b1ab7a230c9ab17-673",
-      "note": "lfg!",
-      "timestamp": "1642788773",
-      "txHash": "0xdfe8a1ab085cc6dfafd528e74b56096ac0cdbfd8932a80e83b1ab7a230c9ab17"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0x84728ddc20aa0c502225c6d66d636fb3ee4aba48",
-      "id": "0x59b3151c9c29c108a2a226e8c4ed62aeec202769a292319c2d167acc98b96f21-309",
-      "note": "lets go!!",
-      "timestamp": "1642788544",
-      "txHash": "0x59b3151c9c29c108a2a226e8c4ed62aeec202769a292319c2d167acc98b96f21"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xd9c4475e2dd89a9a0ad0c1e9a1e1bb28df7ba298",
-      "id": "0x4f7ae7161afeab3c5b13da8077a868d49e7e576e4dd37c9c1b61d836e62da89f-168",
-      "note": "lfg",
-      "timestamp": "1642787557",
-      "txHash": "0x4f7ae7161afeab3c5b13da8077a868d49e7e576e4dd37c9c1b61d836e62da89f"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xc09895495f4e74b045f20c1cf4a5cbec9995ed72",
-      "id": "0x2f5b08b0f925b5a68aae634187790a262f14a36b35b20bcbb8a38dbccef67ded-716",
-      "note": "Let's do this!",
-      "timestamp": "1642754526",
-      "txHash": "0x2f5b08b0f925b5a68aae634187790a262f14a36b35b20bcbb8a38dbccef67ded"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []

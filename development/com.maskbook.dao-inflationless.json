@@ -1,28 +1,23 @@
 {
-  "createdAt": "1639415013",
+  "createdAt": "1639407903",
   "creator": "0x16dd167eecfd4a02ba1c8910e318c34412fdbe80",
-  "currentBalance": "15090000000000000000",
-  "handle": "inflationless",
-  "id": "181",
+  "currentBalance": "0",
+  "handle": "inflationlessdao",
+  "id": "180",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "15090000000000000000",
+  "totalPaid": "0",
   "totalRedeemed": "0",
-  "uri": "QmbotaSTw8Qcqd26ykihsBhUMJKDzggMZ3t9je8RdFrGVf",
-  "name": "inflationlessDAO",
-  "description": "We are aiming to be the largest contributor CitaDAO.io's Genesis building tokenization - 56 Queen St Cardiff IRO. We shall rent out the building to the rent seekers!! We will own real estate to fight inflation!!",
-  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmRbSpYbTfcCGX5tGsP42Vcrkr5KVUNCcYf64wVcT1MbjF",
+  "uri": "QmNd6gGc9JZpxUf6TEi4gVfzvYD8X3vfjGbQK6MiUxzdcz",
+  "name": "InflationlessDAO",
   "infoUri": "inflationlessdao.com",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmRbSpYbTfcCGX5tGsP42Vcrkr5KVUNCcYf64wVcT1MbjF",
+  "description": "we beat inflation",
   "twitter": "inflationless",
-  "discord": "bit.ly/inflationless",
-  "payButton": "Contribute",
-  "payDisclosure": "The fund will be used to commit to CitaDAO.io real estate tokenization project, 56 Queen St Cardiff IRO - we shall rent out the building to the rent seekers!",
-  "tokens": [
-    {
-      "type": "erc20",
-      "value": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    }
-  ],
+  "discord": "",
+  "tokens": [],
   "version": 3,
+  "payButton": "Contribute",
+  "payDisclosure": "",
   "fundingCycles": [
     {
       "toETHSymbol": "BRRR"
@@ -35,56 +30,7 @@
   "tokenAddress": "0x43150d00bdbec321daf85850Bd36439553C1D561",
   "totalSupply": "15090000",
   "holdingSymbol": "BRRR",
-  "payEvents": [
-    {
-      "amount": "500000000000000000",
-      "beneficiary": "0x72f56f903ff4ebdf8e16977679649ef9e60a9598",
-      "id": "0x56871a46332ade1a21803d08f53fedc1398ad2a27bb9b5f698e473a4f9f65bce-135",
-      "note": "Let's buy a bank together! 加油 CitaDAO🏰! KNIGHT to the moon 🚀. I want to win the airdrop!",
-      "timestamp": "1644377994",
-      "txHash": "0x56871a46332ade1a21803d08f53fedc1398ad2a27bb9b5f698e473a4f9f65bce"
-    },
-    {
-      "amount": "900000000000000000",
-      "beneficiary": "0x3ee56c9e3a5740dcc789060d5db410e03c81a21d",
-      "id": "0x23073ac588b49e32afbe240993ff564b0a7688e269c3379270e399dbde1a2444-166",
-      "note": null,
-      "timestamp": "1644265268",
-      "txHash": "0x23073ac588b49e32afbe240993ff564b0a7688e269c3379270e399dbde1a2444"
-    },
-    {
-      "amount": "900000000000000000",
-      "beneficiary": "0xed797ee0d9f6941544be760ed7675c04b380cad7",
-      "id": "0xcf62048a73d135e85a91b2fc117adcb821969c48e70bb8b4d8a135d5fe8579f8-269",
-      "note": null,
-      "timestamp": "1644013348",
-      "txHash": "0xcf62048a73d135e85a91b2fc117adcb821969c48e70bb8b4d8a135d5fe8579f8"
-    },
-    {
-      "amount": "10000000000000000000",
-      "beneficiary": "0x9b5535af9845742d7ac73afdc4a5c07af89b98d6",
-      "id": "0xd9e1fa4dc68e03d432273af7d6aaf62a9378a1ff0187e1feaa50dbaec57e27f7-356",
-      "note": null,
-      "timestamp": "1640664408",
-      "txHash": "0xd9e1fa4dc68e03d432273af7d6aaf62a9378a1ff0187e1feaa50dbaec57e27f7"
-    },
-    {
-      "amount": "2100000000000000000",
-      "beneficiary": "0xdc8469b2bc10a57e1f65c8a6610df8b75cf366eb",
-      "id": "0xb6c95364468936128fb67a2882eb1791dac4f6d9d57a8d72b44b44fe1397a02f-345",
-      "note": "let us accomplish what ConstitutionDAO was unable to -- be the first DAO to buy a real world asset!",
-      "timestamp": "1640246124",
-      "txHash": "0xb6c95364468936128fb67a2882eb1791dac4f6d9d57a8d72b44b44fe1397a02f"
-    },
-    {
-      "amount": "690000000000000000",
-      "beneficiary": "0xdc8469b2bc10a57e1f65c8a6610df8b75cf366eb",
-      "id": "0x1520754da34d20035ed7899bab9d1829a70f6ef4610fca4a2f00d206cb22d6eb-156",
-      "note": "excited to support. LFG!!! LFG!!",
-      "timestamp": "1640242203",
-      "txHash": "0x1520754da34d20035ed7899bab9d1829a70f6ef4610fca4a2f00d206cb22d6eb"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []

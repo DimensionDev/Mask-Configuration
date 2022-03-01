@@ -1,11 +1,11 @@
 {
   "createdAt": "1641336336",
   "creator": "0xe3f27deff96fe178e87559f36cbf868b9e75967d",
-  "currentBalance": "17638000000000000000",
+  "currentBalance": "18638000000000000000",
   "handle": "sharkfrens",
   "id": "245",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "17638000000000000000",
+  "totalPaid": "18638000000000000000",
   "totalRedeemed": "0",
   "uri": "QmZefhhpMKUA2yUJt79fQZmwf8NY54noiVyGtNzSVL54cF",
   "name": "SharkFrens",
@@ -31,6 +31,14 @@
   "totalSupply": "1068161040",
   "holdingSymbol": "SHARK",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x008c84421da5527f462886cec43d2717b686a7e4",
+      "id": "0x03130d60d382bbfcd4929ebf14b4f37a39db9098437484f94b04b0560f99c04c-80",
+      "note": "Love from a Noun",
+      "timestamp": "1646159637",
+      "txHash": "0x03130d60d382bbfcd4929ebf14b4f37a39db9098437484f94b04b0560f99c04c"
+    },
     {
       "amount": "30000000000000000",
       "beneficiary": "0x4bba239c9cc83619228457502227d801e4738ba0",
@@ -422,14 +430,6 @@
       "note": "You and your family are in my thoughts. Your little man's got this. 💪 ",
       "timestamp": "1641376887",
       "txHash": "0x41a595bc4e790952e1ad407706715847388b04c41f0cb40904f1d41bf383a21e"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x021edd67d43b365a6401a5ee704aa6f264f3f4e4",
-      "id": "0xfed90047f6b9c75aa94e405e8bfaceddff70ecbed2af3e9712bc03472e4c62a6-545",
-      "note": null,
-      "timestamp": "1641375821",
-      "txHash": "0xfed90047f6b9c75aa94e405e8bfaceddff70ecbed2af3e9712bc03472e4c62a6"
     }
   ],
   "redeemEvents": [],

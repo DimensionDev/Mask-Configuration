@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "4873300000000000000",
+  "currentBalance": "4903300000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "132452944920000000000",
+  "totalPaid": "132482944920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "30000000000000000",
+      "beneficiary": "0x3ff32bd56ed577adb7215117ac23f3b6a08ed823",
+      "id": "0x2b1c99f59e23996f538ad3a207453b18ca8d54f72a63f478f14a1ec0de00c155-330",
+      "note": null,
+      "timestamp": "1646159605",
+      "txHash": "0x2b1c99f59e23996f538ad3a207453b18ca8d54f72a63f478f14a1ec0de00c155"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0xefdd7383676bb2c253812e31e4765192f0123989",
@@ -410,14 +418,6 @@
       "note": "中国人不骗中国人！",
       "timestamp": "1645692562",
       "txHash": "0x280446fd0832f4a6c893a01bbf4d114412c238c4172523aa18f5abce2fcc32ff"
-    },
-    {
-      "amount": "6000000000000000000",
-      "beneficiary": "0x5a8be49aa3b1ef48fab395a9891bb543ef266666",
-      "id": "0x6db3367c09b70fb38b9563086f090d408b7fa956d08e39cf46ece20cd995c584-77",
-      "note": "愿世界和平  https://jbx.mypinata.cloud/ipfs/QmSzuKDbCnW27yjJq1zq5QXqEEjzTuJmUztJ6bwZqLExLb",
-      "timestamp": "1645689993",
-      "txHash": "0x6db3367c09b70fb38b9563086f090d408b7fa956d08e39cf46ece20cd995c584"
     }
   ],
   "redeemEvents": [
