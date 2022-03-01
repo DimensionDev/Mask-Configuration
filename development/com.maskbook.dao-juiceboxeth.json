@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6274391513928609754664",
+  "currentBalance": "6274444371071466897522",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6734236699942294419613",
+  "totalPaid": "6734289557085151562471",
   "totalRedeemed": "120242517645232266768",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -27,9 +27,17 @@
     "jbx": "263436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2567977784",
+  "totalSupply": "2567986812",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "52857142857142858",
+      "beneficiary": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
+      "id": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c-142",
+      "note": "Fee from @defikingdomsguild",
+      "timestamp": "1646114062",
+      "txHash": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c"
+    },
     {
       "amount": "1000000000000000",
       "beneficiary": "0xd12e276f76a55af8558e149b5efeb6aa3a64ee84",
@@ -421,14 +429,6 @@
       "note": null,
       "timestamp": "1644554158",
       "txHash": "0x3d85e7f53bb7f678cd095b0ad3f95aefcb1800e72ce3f559b5338a4bfcadf7d3"
-    },
-    {
-      "amount": "23500000000000000",
-      "beneficiary": "0x3e99b6781346e40d5583d5b147d2f32d2bb977af",
-      "id": "0x15747a4fe54a41d96cb1fb223f2f6f028c64e9626bf5a2e75139a35fb75b944d-487",
-      "note": null,
-      "timestamp": "1644530127",
-      "txHash": "0x15747a4fe54a41d96cb1fb223f2f6f028c64e9626bf5a2e75139a35fb75b944d"
     }
   ],
   "redeemEvents": [

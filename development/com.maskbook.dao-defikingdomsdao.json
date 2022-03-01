@@ -1,7 +1,7 @@
 {
   "createdAt": "1642083158",
   "creator": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
-  "currentBalance": "1110000000000000000",
+  "currentBalance": "0",
   "handle": "defikingdomsguild",
   "id": "264",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -24,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "90000000000000000",
-    "jbx": "0"
+    "eth": "0",
+    "jbx": "4514000000000000000000"
   },
   "tokenAddress": "0xBE001a2185FbFB1605B8d247BBF6Af745aB77f2D",
   "totalSupply": "1110000",
@@ -57,6 +57,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
+      "beneficiaryTransferAmount": "1057142857142857142",
+      "caller": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
+      "fundingCycleId": "432",
+      "id": "264-0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c",
+      "netTransferAmount": "1057142857142857142",
+      "timestamp": "1646114062",
+      "txHash": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c"
+    }
+  ],
   "reservesEvents": []
 }
