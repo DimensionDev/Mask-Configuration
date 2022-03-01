@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "4773300000000000000",
+  "currentBalance": "4873300000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "132352944920000000000",
+  "totalPaid": "132452944920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xefdd7383676bb2c253812e31e4765192f0123989",
+      "id": "0xc15d7559aefce8300e764d58f4fa1058955ab68d00ca88d7d5dcfeae33e13367-204",
+      "note": "婷姐 牛逼",
+      "timestamp": "1646134609",
+      "txHash": "0xc15d7559aefce8300e764d58f4fa1058955ab68d00ca88d7d5dcfeae33e13367"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0x2982e4c8c04cc3bd9ada3891053448af823c84fe",
@@ -410,14 +418,6 @@
       "note": "愿世界和平  https://jbx.mypinata.cloud/ipfs/QmSzuKDbCnW27yjJq1zq5QXqEEjzTuJmUztJ6bwZqLExLb",
       "timestamp": "1645689993",
       "txHash": "0x6db3367c09b70fb38b9563086f090d408b7fa956d08e39cf46ece20cd995c584"
-    },
-    {
-      "amount": "2000000000000000000",
-      "beneficiary": "0x66ea9e2c10c15902d709934a816267f55c21ffec",
-      "id": "0x935a2aa3e314688fe300c6758fa72e0402ce4aef82fd4a9149a6f078fc2193bb-124",
-      "note": null,
-      "timestamp": "1645689609",
-      "txHash": "0x935a2aa3e314688fe300c6758fa72e0402ce4aef82fd4a9149a6f078fc2193bb"
     }
   ],
   "redeemEvents": [
