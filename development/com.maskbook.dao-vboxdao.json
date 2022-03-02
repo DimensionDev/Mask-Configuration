@@ -1,11 +1,11 @@
 {
   "createdAt": "1645727464",
   "creator": "0x2c003eab85b2eb421e29502421cf3f04b686f632",
-  "currentBalance": "250000000000000000",
+  "currentBalance": "750000000000000000",
   "handle": "vboxdao",
   "id": "434",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "250000000000000000",
+  "totalPaid": "750000000000000000",
   "totalRedeemed": "0",
   "uri": "QmU6UBkgkfCQyRZjaifhWauA2WASPr49Zgu33wu87JitQS",
   "name": "VboxDAO",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "250000",
+  "totalSupply": "750000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0x211470f2dbb667a233e1bb1e35ffb6b916fca016",
+      "id": "0xde0495e75b45e2cda380aa86e5774da2128b7ef3d924d739a11aae990e18fe52-506",
+      "note": null,
+      "timestamp": "1646221286",
+      "txHash": "0xde0495e75b45e2cda380aa86e5774da2128b7ef3d924d739a11aae990e18fe52"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0xd7bfb61810c2b768914a02ffebbc374b5bdd830e",
