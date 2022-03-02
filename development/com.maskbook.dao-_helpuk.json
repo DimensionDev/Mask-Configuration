@@ -30,7 +30,16 @@
   "tokenAddress": "0x356D97F168f77fc5afADb750207895A0aeeee8e3",
   "totalSupply": "1000000",
   "holdingSymbol": "HELP",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x05be06b424448052193d53db8955d246a8dbb98a",
+      "id": "0x722b674db6eb966300c4a6cc982eef76d107e479b0c80e21010dcb509393fac7-554",
+      "note": null,
+      "timestamp": "1638891424",
+      "txHash": "0x722b674db6eb966300c4a6cc982eef76d107e479b0c80e21010dcb509393fac7"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {

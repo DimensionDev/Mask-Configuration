@@ -30,7 +30,16 @@
   "tokenAddress": null,
   "totalSupply": "7363",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "7363430000000000",
+      "beneficiary": "0xe31070bee3e147eae95c1fd7d907ccc34f540fea",
+      "id": "0xc2910dc33864fae4e9ec7276c6a89e05b00f1a972530b14bcfd8d769014a02b1-188",
+      "note": "For Juul pods ",
+      "timestamp": "1645824999",
+      "txHash": "0xc2910dc33864fae4e9ec7276c6a89e05b00f1a972530b14bcfd8d769014a02b1"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
