@@ -30,7 +30,32 @@
   "tokenAddress": null,
   "totalSupply": "750000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0x211470f2dbb667a233e1bb1e35ffb6b916fca016",
+      "id": "0xde0495e75b45e2cda380aa86e5774da2128b7ef3d924d739a11aae990e18fe52-506",
+      "note": null,
+      "timestamp": "1646221286",
+      "txHash": "0xde0495e75b45e2cda380aa86e5774da2128b7ef3d924d739a11aae990e18fe52"
+    },
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0xd7bfb61810c2b768914a02ffebbc374b5bdd830e",
+      "id": "0x4be4ae1e76bae07744a851c4bdbc6866826aa186844f900f0716cf9ff64860b9-549",
+      "note": null,
+      "timestamp": "1646118033",
+      "txHash": "0x4be4ae1e76bae07744a851c4bdbc6866826aa186844f900f0716cf9ff64860b9"
+    },
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x3f1b7b72f777fada524acca3b78cd804fb7ea24a",
+      "id": "0x67b5f33bf708929286097fb3c224023796fe9120727321bee76d073f2f01dfa7-412",
+      "note": null,
+      "timestamp": "1645888220",
+      "txHash": "0x67b5f33bf708929286097fb3c224023796fe9120727321bee76d073f2f01dfa7"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
