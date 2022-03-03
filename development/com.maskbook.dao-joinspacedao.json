@@ -18,20 +18,28 @@
   "payDisclosure": "Let's go to fucking space.",
   "tokens": [],
   "version": 3,
-  "fundingCycles": [
+  "payEvents": [
     {
-      "toETHSymbol": "PEOPLE"
+      "amount": "250000000000000000",
+      "beneficiary": "0x8103d95b48075e6f9d61f235bde30edd93326fc4",
+      "id": "0x0b0ab17f3fcbbf2ec8eb352363e27e7e28041cb022c674b34821d9f3e7bbd09a-544",
+      "note": "Let's go to fucking space!",
+      "timestamp": "1642127317",
+      "txHash": "0x0b0ab17f3fcbbf2ec8eb352363e27e7e28041cb022c674b34821d9f3e7bbd09a"
     }
   ],
-  "inWallet": {
-    "eth": "18880000000000000000",
-    "jbx": "1255000000000000000000"
-  },
-  "tokenAddress": null,
-  "totalSupply": "250000",
-  "holdingSymbol": "Tokens",
-  "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
+      "fundingCycleId": "420",
+      "id": "265-0xf1432e075c39fdfdfae9201eca1130432e5a2014519273082210377ad1f45347",
+      "netTransferAmount": "238095238095238095",
+      "timestamp": "1644398048",
+      "txHash": "0xf1432e075c39fdfdfae9201eca1130432e5a2014519273082210377ad1f45347"
+    }
+  ],
   "reservesEvents": []
 }
