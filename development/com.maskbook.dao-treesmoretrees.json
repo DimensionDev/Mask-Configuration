@@ -30,7 +30,24 @@
   "tokenAddress": null,
   "totalSupply": "2000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0x0566daf04d83f18b4ee6eb1a0bbd6521b461f78e",
+      "id": "0x454cf7b3ea1a5755587f2882a3e3f4d2c02cabef4ce2ee74d93fab6c3d0784d7-257",
+      "note": "Jan 25, 2022: Still works (ONM).",
+      "timestamp": "1643094578",
+      "txHash": "0x454cf7b3ea1a5755587f2882a3e3f4d2c02cabef4ce2ee74d93fab6c3d0784d7"
+    },
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0x0566daf04d83f18b4ee6eb1a0bbd6521b461f78e",
+      "id": "0x3913e5916590a16a0a443c6a2dbaf7608081d42716dd7d06a30490eb7caa1647-265",
+      "note": null,
+      "timestamp": "1642959143",
+      "txHash": "0x3913e5916590a16a0a443c6a2dbaf7608081d42716dd7d06a30490eb7caa1647"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
