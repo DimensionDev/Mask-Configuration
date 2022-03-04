@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6149353958211523546419",
+  "currentBalance": "6149436482021047355943",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6734309959591342038662",
+  "totalPaid": "6734392483400865848186",
   "totalRedeemed": "245353333011366094062",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -23,13 +23,21 @@
     }
   ],
   "inWallet": {
-    "eth": "6780000000000000000",
+    "eth": "5780000000000000000",
     "jbx": "263436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2514090297",
+  "totalSupply": "2514104394",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "82523809523809524",
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "id": "0x5e804cc79663534657e82d7173e2061dba15f5ad8dcf730938f61c2bb86f5a8e-135",
+      "note": "Fee from @tiles",
+      "timestamp": "1646412847",
+      "txHash": "0x5e804cc79663534657e82d7173e2061dba15f5ad8dcf730938f61c2bb86f5a8e"
+    },
     {
       "amount": "20402506190476191",
       "beneficiary": "0xef8b00e9ee74b1e4a710e414fc0df27083e14738",
@@ -421,14 +429,6 @@
       "note": null,
       "timestamp": "1644570237",
       "txHash": "0xf658b40fbfad9d348a7227f5cb1392da86a57e5f6ab48e24e6d246bd5d8e3a2d"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x3471581ed044059d3ae7d1cec6e0db4e40d2e3c2",
-      "id": "0x1b79fc471637c88dbe650a8f048cd8811c986ad0dcf2fd76f216b609339727c8-224",
-      "note": "We must consider how Juice Box continues to provide a new solution for DAO treasury management, and the community will launch the DAO governance token JBX on the BSC.Further Juicebox governance experiments will show their strengths.Welcome to the Telegram.",
-      "timestamp": "1644565683",
-      "txHash": "0x1b79fc471637c88dbe650a8f048cd8811c986ad0dcf2fd76f216b609339727c8"
     }
   ],
   "redeemEvents": [
