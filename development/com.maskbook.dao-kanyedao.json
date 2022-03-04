@@ -18,28 +18,7 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "Please see kanyebeardao.com for details of this DAO",
-  "fundingCycles": [
-    {
-      "toETHSymbol": "YE"
-    }
-  ],
-  "inWallet": {
-    "eth": "600000000000000000",
-    "jbx": "64481000000000000000000"
-  },
-  "tokenAddress": "0xb9A255D352308d3AB3a995c847d3c352498D580b",
-  "totalSupply": "1000000",
-  "holdingSymbol": "YE",
-  "payEvents": [
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x6cc098f33f36b698887b29c1b3207198c499aa0e",
-      "id": "0x289ed2c54975c1f0e56365011b9cf6dabac644d0ac9419813d36d524aaec1674-560",
-      "note": null,
-      "timestamp": "1637259426",
-      "txHash": "0x289ed2c54975c1f0e56365011b9cf6dabac644d0ac9419813d36d524aaec1674"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
