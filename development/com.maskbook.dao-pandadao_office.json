@@ -20,6 +20,14 @@
   "version": 3,
   "payEvents": [
     {
+      "amount": "600000000000000000",
+      "beneficiary": "0xa5ca45d866748772368552b4e483943bf8d348e2",
+      "id": "0xce460d1219807b61b3c55d7c55e47d3bc6351aecf76fe6f741d55d460b2eb260-380",
+      "note": null,
+      "timestamp": "1646403642",
+      "txHash": "0xce460d1219807b61b3c55d7c55e47d3bc6351aecf76fe6f741d55d460b2eb260"
+    },
+    {
       "amount": "200000000000000000",
       "beneficiary": "0xbd655196ec5657ef4641ef793ac464573309ab36",
       "id": "0x4d4b129676f1e40fd3ac91ef6374cee93ca3d424cb11f288d67dfe1c35e7d3f1-96",
@@ -410,14 +418,6 @@
       "note": null,
       "timestamp": "1645702770",
       "txHash": "0xc348228f8206f6ad4a99e7dbd6c8879ee9a369deca23afcf6d5ea326d9638dee"
-    },
-    {
-      "amount": "35000000000000000",
-      "beneficiary": "0xa22226c594e48ed0bb28bc067b5bd8c0f1f92139",
-      "id": "0x02da956766517b6de1abf69052d37521fc795e9fbf8b4fa71e9071bec3869169-457",
-      "note": null,
-      "timestamp": "1645701786",
-      "txHash": "0x02da956766517b6de1abf69052d37521fc795e9fbf8b4fa71e9071bec3869169"
     }
   ],
   "redeemEvents": [
