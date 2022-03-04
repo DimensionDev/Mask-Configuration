@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6149436482021047355943",
+  "currentBalance": "6149698864720645723136",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6734392483400865848186",
+  "totalPaid": "6734654866100464215379",
   "totalRedeemed": "245353333011366094062",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -27,9 +27,25 @@
     "jbx": "263436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2514104394",
+  "totalSupply": "2514149212",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "9540000000000",
+      "beneficiary": "0x3ff32bd56ed577adb7215117ac23f3b6a08ed823",
+      "id": "0x7c269b7c2104f2e00e1d8912c21e69f70f03f8806811abd850b6ce577a79fa98-419",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmfKAU5fNmabXwvUEAvDpSZuLZe2HZTb8UEeekRKiY2Fsy",
+      "timestamp": "1646428577",
+      "txHash": "0x7c269b7c2104f2e00e1d8912c21e69f70f03f8806811abd850b6ce577a79fa98"
+    },
+    {
+      "amount": "262373159598367193",
+      "beneficiary": "0xb6d15df63a329579ed97d2671e22f3f145064167",
+      "id": "0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2-109",
+      "note": "Fee from @satellitedao",
+      "timestamp": "1646421766",
+      "txHash": "0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2"
+    },
     {
       "amount": "82523809523809524",
       "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
@@ -413,22 +429,6 @@
       "note": "Let's see what surprise will juicebox make",
       "timestamp": "1644594520",
       "txHash": "0xc66ce359e32b932ba52537c7c68c9ee9a332c5f49fc4d9b942250391632fd16b"
-    },
-    {
-      "amount": "96632362178093444",
-      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
-      "id": "0xf46ec74edad4eb54148afc8b7b38e5ecd41628853098afaf27047a7b183024ea-182",
-      "note": "Fee from @slice",
-      "timestamp": "1644594440",
-      "txHash": "0xf46ec74edad4eb54148afc8b7b38e5ecd41628853098afaf27047a7b183024ea"
-    },
-    {
-      "amount": "300000000000000000",
-      "beneficiary": "0x15237b9fc8c244246abee701f07e42185c5111c3",
-      "id": "0xf658b40fbfad9d348a7227f5cb1392da86a57e5f6ab48e24e6d246bd5d8e3a2d-124",
-      "note": null,
-      "timestamp": "1644570237",
-      "txHash": "0xf658b40fbfad9d348a7227f5cb1392da86a57e5f6ab48e24e6d246bd5d8e3a2d"
     }
   ],
   "redeemEvents": [

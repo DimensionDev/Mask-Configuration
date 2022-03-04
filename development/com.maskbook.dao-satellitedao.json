@@ -1,7 +1,7 @@
 {
   "createdAt": "1643445630",
   "creator": "0xb6d15df63a329579ed97d2671e22f3f145064167",
-  "currentBalance": "5510151810000000000",
+  "currentBalance": "315458434288953",
   "handle": "satellitedao",
   "id": "313",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -24,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "180000000000000000",
-    "jbx": "0"
+    "eth": "0",
+    "jbx": "22408000000000000000000"
   },
   "tokenAddress": "0x82cc33BE85a1DA91e8A8Fe4eC50dc5eE84976658",
   "totalSupply": "5510151",
@@ -137,6 +137,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0xb6d15df63a329579ed97d2671e22f3f145064167",
+      "beneficiaryTransferAmount": "5247463191967343854",
+      "caller": "0xb6d15df63a329579ed97d2671e22f3f145064167",
+      "fundingCycleId": "495",
+      "id": "313-0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2",
+      "netTransferAmount": "5247463191967343854",
+      "timestamp": "1646421766",
+      "txHash": "0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2"
+    }
+  ],
   "reservesEvents": []
 }
