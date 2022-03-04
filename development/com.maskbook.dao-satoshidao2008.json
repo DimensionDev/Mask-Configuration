@@ -1,11 +1,11 @@
 {
   "createdAt": "1645773957",
   "creator": "0xbce7b0a0fb13699cd54d7d81a36a5211eb019cf1",
-  "currentBalance": "70160600100000000000",
+  "currentBalance": "70770600100000000000",
   "handle": "satoshidao2008",
   "id": "441",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "70160600100000000000",
+  "totalPaid": "70770600100000000000",
   "totalRedeemed": "0",
   "uri": "QmauW7WRF7WKw2scrtuhn8KaQqs6r7teVcGoJpY6bYQQUw",
   "name": "SatoshiDao",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "70160600",
+  "totalSupply": "70770600",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "610000000000000000",
+      "beneficiary": "0x730a0aeb9f2513fb706fca2f169228433c2299ed",
+      "id": "0x62e797c2cbcf4b968b3657ad1e892c861e754a7e7a96f8b25c834939d32d7bba-174",
+      "note": null,
+      "timestamp": "1646366909",
+      "txHash": "0x62e797c2cbcf4b968b3657ad1e892c861e754a7e7a96f8b25c834939d32d7bba"
+    },
     {
       "amount": "740000000000000000",
       "beneficiary": "0x9fe6fb13aad30e03e0d0635e35a4b53362e5092e",
@@ -422,14 +430,6 @@
       "note": "顶多割10%，冲鸭，死了算了",
       "timestamp": "1646210514",
       "txHash": "0xdeedbef63654f4e18c99ea57e6c0ecadaad992313f3904b3438f19a4eca622e5"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0xad84bcdec64083bd7ef276afbaf58fa977010e1f",
-      "id": "0x5ddca924913970385f80d6f97ab180c576de4ce9a7fed9c6ab6d17d9b7552869-536",
-      "note": null,
-      "timestamp": "1646210413",
-      "txHash": "0x5ddca924913970385f80d6f97ab180c576de4ce9a7fed9c6ab6d17d9b7552869"
     }
   ],
   "redeemEvents": [],

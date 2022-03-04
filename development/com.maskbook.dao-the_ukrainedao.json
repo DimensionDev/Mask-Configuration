@@ -1,11 +1,11 @@
 {
   "createdAt": "1645723567",
   "creator": "0xe8f7510b567a77287c1f4c8dce44768fe681082a",
-  "currentBalance": "1520254520000000000",
+  "currentBalance": "1530254520000000000",
   "handle": "ukraine_dao",
   "id": "431",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "1520254520000000000",
+  "totalPaid": "1530254520000000000",
   "totalRedeemed": "0",
   "uri": "QmadSQaZo9LyitShSr86FewjtoF5NvvZDze8vPK4k7F2Ri",
   "name": "Ukraine DAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 4,
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xb49c54edfe1cfe5ac83e74b179474f6224d0763f",
+      "id": "0x3731f405bdf6208831cd94a268c151969f68e89ad01d35b58bd0d99e1d09de84-212",
+      "note": null,
+      "timestamp": "1646363655",
+      "txHash": "0x3731f405bdf6208831cd94a268c151969f68e89ad01d35b58bd0d99e1d09de84"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x85e9e4618f7fed90f551fba97b41b661d9fe7edc",
