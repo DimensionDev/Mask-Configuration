@@ -420,7 +420,47 @@
       "txHash": "0x574e2cb8c3381aef7193ed88187d0c0df05143fadfb07affd6545b7b45d1decb"
     }
   ],
-  "redeemEvents": [],
-  "withdrawEvents": [],
-  "reservesEvents": []
+  "redeemEvents": [
+    {
+      "amount": "10000000000000000000000",
+      "beneficiary": "0x2982e4c8c04cc3bd9ada3891053448af823c84fe",
+      "id": "0x461055f90c889ff8cee9be1855c3bccb37a489abc8de53c82525b167e838ec65-325",
+      "returnAmount": "0",
+      "timestamp": "1646031511",
+      "txHash": "0x461055f90c889ff8cee9be1855c3bccb37a489abc8de53c82525b167e838ec65"
+    }
+  ],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "beneficiaryTransferAmount": "11018095238095238095",
+      "caller": "0xcceea676d593f6dff99ff4feb2631a908fbeff59",
+      "fundingCycleId": "629",
+      "id": "409-0x459aeb9dfe921504632ffcccf9bbe3f74f6a2b189de58857442275f4ef0f8e17",
+      "netTransferAmount": "11018095238095238095",
+      "timestamp": "1645767735",
+      "txHash": "0x459aeb9dfe921504632ffcccf9bbe3f74f6a2b189de58857442275f4ef0f8e17"
+    },
+    {
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "beneficiaryTransferAmount": "110486328495238095238",
+      "caller": "0x66ea9e2c10c15902d709934a816267f55c21ffec",
+      "fundingCycleId": "629",
+      "id": "409-0x7e631f9a9aa8eb8f3fa05f0ef5d5513558cb011d38947f934a4c69d5fee6b6c0",
+      "netTransferAmount": "110486328495238095238",
+      "timestamp": "1645690113",
+      "txHash": "0x7e631f9a9aa8eb8f3fa05f0ef5d5513558cb011d38947f934a4c69d5fee6b6c0"
+    }
+  ],
+  "reservesEvents": [
+    {
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "beneficiaryTicketAmount": "65911372460000000000000000",
+      "caller": "0xabfb34151d5bef4f93191c9fb1b09edb5782b88e",
+      "count": "65911372460000000000000000",
+      "id": "409-0xc3bcbc097015c15ca08a4bd1ed3d19c3a1dbbb73a846841bf37983390c2673dd",
+      "timestamp": "1645960335",
+      "txHash": "0xc3bcbc097015c15ca08a4bd1ed3d19c3a1dbbb73a846841bf37983390c2673dd"
+    }
+  ]
 }
