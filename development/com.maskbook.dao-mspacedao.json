@@ -18,7 +18,16 @@
   "payDisclosure": "Contributing to MySpaceDAO is not an investment. It's a way to support the project. Any value or utility of the tokens you receive is determined by MySpaceDAO.",
   "tokens": [],
   "version": 4,
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x6b880a44608164d05dbf7ecec81c44f69166f07c",
+      "id": "0x55b409b5b269f0d5a0b66006352a5cd63ff4753e3674545003b0d29c0f71e508-264",
+      "note": null,
+      "timestamp": "1645936404",
+      "txHash": "0x55b409b5b269f0d5a0b66006352a5cd63ff4753e3674545003b0d29c0f71e508"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
