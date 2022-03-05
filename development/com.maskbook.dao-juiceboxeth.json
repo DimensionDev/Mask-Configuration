@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6150098864720645723136",
+  "currentBalance": "6150098964720645723136",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6735054866100464215379",
+  "totalPaid": "6735054966100464215379",
   "totalRedeemed": "245353333011366094062",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -27,9 +27,17 @@
     "jbx": "263436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2514217537",
+  "totalSupply": "2514217555",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "100000000000000",
+      "beneficiary": "0xd12e276f76a55af8558e149b5efeb6aa3a64ee84",
+      "id": "0x46d3e8f0d6fbfca94fbe48e05aab494dd4bf73039576a64e1f3e434aa3eb11f6-323",
+      "note": "https://jbx.mypinata.cloud/ipfs/Qmctxc51m7ed4ZVwUUu2CRW9iApF1KMXrRGiCJyQyXBRJy",
+      "timestamp": "1646480188",
+      "txHash": "0x46d3e8f0d6fbfca94fbe48e05aab494dd4bf73039576a64e1f3e434aa3eb11f6"
+    },
     {
       "amount": "400000000000000000",
       "beneficiary": "0x9500f0f246b0aa4215d99262fb7d5780ae13c177",
@@ -421,14 +429,6 @@
       "note": "Fee from @offerbotdao",
       "timestamp": "1644607914",
       "txHash": "0x53d8bf507c8bb680c9c2862c9ae6f4657b398348e15703fd6d3ba5882fc37c23"
-    },
-    {
-      "amount": "150000000000000000",
-      "beneficiary": "0x5dde39fb89a24d948d43500967695e9a2b095676",
-      "id": "0x2b80307b868239ab15e50d246e6c96c60701e7766e8a5773dd6ffd6023d459ae-527",
-      "note": null,
-      "timestamp": "1644603904",
-      "txHash": "0x2b80307b868239ab15e50d246e6c96c60701e7766e8a5773dd6ffd6023d459ae"
     }
   ],
   "redeemEvents": [
