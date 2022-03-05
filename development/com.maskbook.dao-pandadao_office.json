@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "6814800000000000000",
+  "currentBalance": "6824800000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "134394444920000000000",
+  "totalPaid": "134404444920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xe6d020a24bd7698f912cadeb63543667ef4a6de9",
+      "id": "0x44755320a492b10b6df51d74bc1e680a6ed65fcbddc16c04bd2fc94418f4acda-21",
+      "note": "Welcome to join McDonald's DAO.  https://juicebox.money/#/p/mcdonaldsdao https://jbx.mypinata.cloud/ipfs/QmcF8szLwzgHxRCNKtqmAbKS35q5rGcLANcSrUyD3Yg99W https://jbx.mypinata.cloud/ipfs/QmYQgS9sJUkwDhTjj5TgGfWE8pFh9rBDou5dN5LzzAxtQQ",
+      "timestamp": "1646470090",
+      "txHash": "0x44755320a492b10b6df51d74bc1e680a6ed65fcbddc16c04bd2fc94418f4acda"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0xda38ab0dd8eaee36daa1fbae9d49780650352952",
@@ -410,14 +418,6 @@
       "note": null,
       "timestamp": "1645746187",
       "txHash": "0xf9f3fd167ba653791468ac1f48ae7a85513eda3d43deb14ab0bb4908aecf211e"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x7126775c0b4d4690b3d3bfcd1749a942def8a41f",
-      "id": "0x574e2cb8c3381aef7193ed88187d0c0df05143fadfb07affd6545b7b45d1decb-311",
-      "note": "freedom",
-      "timestamp": "1645745936",
-      "txHash": "0x574e2cb8c3381aef7193ed88187d0c0df05143fadfb07affd6545b7b45d1decb"
     }
   ],
   "redeemEvents": [
