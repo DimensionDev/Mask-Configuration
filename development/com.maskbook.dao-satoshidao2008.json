@@ -1,11 +1,11 @@
 {
   "createdAt": "1645773957",
   "creator": "0xbce7b0a0fb13699cd54d7d81a36a5211eb019cf1",
-  "currentBalance": "72429600100000000000",
+  "currentBalance": "73339600100000000000",
   "handle": "satoshidao2008",
   "id": "441",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "72429600100000000000",
+  "totalPaid": "73339600100000000000",
   "totalRedeemed": "0",
   "uri": "QmauW7WRF7WKw2scrtuhn8KaQqs6r7teVcGoJpY6bYQQUw",
   "name": "SatoshiDao",
@@ -28,9 +28,25 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "72429600",
+  "totalSupply": "73339600",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "900000000000000000",
+      "beneficiary": "0x0c6601a278ecc08a675609828a42058390c2e5f0",
+      "id": "0x0582f003b1aab99b92051a23cf589c91658c08e547d483fc6b10737330a24c0f-159",
+      "note": null,
+      "timestamp": "1646489109",
+      "txHash": "0x0582f003b1aab99b92051a23cf589c91658c08e547d483fc6b10737330a24c0f"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xab6eaa7f32a98682e2502b3500ad8d58a90e091b",
+      "id": "0x19fcfee6aca32e844e3888b9ce47bbc8a51c9b5e0f2b8d8088eaafa3a05ccda6-255",
+      "note": null,
+      "timestamp": "1646486201",
+      "txHash": "0x19fcfee6aca32e844e3888b9ce47bbc8a51c9b5e0f2b8d8088eaafa3a05ccda6"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x9d70090e048f12ad4e8abdebc596892f0f55e612",
@@ -414,22 +430,6 @@
       "note": null,
       "timestamp": "1646211421",
       "txHash": "0xc99ecd59ed4edb0cbf03ac132c554b4720312dc99ed8aef4ca533eedff33a3c3"
-    },
-    {
-      "amount": "200000000000000000",
-      "beneficiary": "0x9fe6fb13aad30e03e0d0635e35a4b53362e5092e",
-      "id": "0x606495104e417dfca552eb8e88a85e28b6727efe8478cfaa8af8703308a96b14-141",
-      "note": null,
-      "timestamp": "1646211421",
-      "txHash": "0x606495104e417dfca552eb8e88a85e28b6727efe8478cfaa8af8703308a96b14"
-    },
-    {
-      "amount": "330000000000000000",
-      "beneficiary": "0x730a0aeb9f2513fb706fca2f169228433c2299ed",
-      "id": "0x1039d18d7a16b0bd9b579deb2e90902043f1f8c8936fff85a32a7c7085c17156-370",
-      "note": null,
-      "timestamp": "1646211374",
-      "txHash": "0x1039d18d7a16b0bd9b579deb2e90902043f1f8c8936fff85a32a7c7085c17156"
     }
   ],
   "redeemEvents": [],
