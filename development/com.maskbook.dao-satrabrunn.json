@@ -1,12 +1,12 @@
 {
   "createdAt": "1641673275",
   "creator": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
-  "currentBalance": "3222802937879187570",
+  "currentBalance": "3163043936620533990",
   "handle": "satrabrunndao",
   "id": "253",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "10447000000000000000",
-  "totalRedeemed": "3020219923612351929",
+  "totalRedeemed": "3079978924871005509",
   "uri": "QmcmK3BH3UmeMrSerYtvkfNJ3Z2hWw23VuhA1GkAWwJrhL",
   "name": "Sätra Brunn DAO",
   "infoUri": "https://satrabrunn.xyz/",
@@ -29,7 +29,7 @@
     "jbx": "23453000000000000000000"
   },
   "tokenAddress": "0xf715a86DfB6ed9AE1E421cf14f640aB6b7F5DAdA",
-  "totalSupply": "2696500",
+  "totalSupply": "2646500",
   "holdingSymbol": "STRA",
   "payEvents": [
     {
@@ -434,6 +434,14 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "50000000000000000000000",
+      "beneficiary": "0x11aec066ff84697a2ca7b5d6bf277468c62e4710",
+      "id": "0xd7bd8668c617260c4aebe5adb3ad322d7ce65e045f3274b240623da9e2446ded-68",
+      "returnAmount": "59759001258653580",
+      "timestamp": "1646557361",
+      "txHash": "0xd7bd8668c617260c4aebe5adb3ad322d7ce65e045f3274b240623da9e2446ded"
+    },
     {
       "amount": "10000000000000000000000",
       "beneficiary": "0xe70eb4b69dd109b849c25ddffbcea5ac2649ae04",
