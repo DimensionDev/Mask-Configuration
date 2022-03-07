@@ -1,11 +1,11 @@
 {
   "createdAt": "1646448856",
   "creator": "0x0da7f509eaa3b43a7e38d75c303342d731816999",
-  "currentBalance": "20000000000000000",
+  "currentBalance": "40000000000000000",
   "handle": "peacedaoio",
   "id": "496",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "20000000000000000",
+  "totalPaid": "40000000000000000",
   "totalRedeemed": "0",
   "uri": "QmRNGua7PVToXjo5T8tTNdqyER72BVTtBP1pb6aJpzcDwE",
   "name": "PeaceDAO",
@@ -28,26 +28,9 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "20000",
+  "totalSupply": "40000",
   "holdingSymbol": "Tokens",
-  "payEvents": [
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x0d0cabcd65a48ba5df106dc61b880f37457b7379",
-      "id": "0xe7e23b8a87d0e96ce3fbb56cf0d74f9650b8bff29a3fbafa01308784d5d3c424-368",
-      "note": null,
-      "timestamp": "1646645406",
-      "txHash": "0xe7e23b8a87d0e96ce3fbb56cf0d74f9650b8bff29a3fbafa01308784d5d3c424"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0xc33944e99ad6bfad1bc8386743e8219d7f49eaf5",
-      "id": "0x0501f6808225de6e44f97b1f96bb1eafcf50a17c51e1eb0c64d68d68fd67df0d-423",
-      "note": null,
-      "timestamp": "1646638022",
-      "txHash": "0x0501f6808225de6e44f97b1f96bb1eafcf50a17c51e1eb0c64d68d68fd67df0d"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
