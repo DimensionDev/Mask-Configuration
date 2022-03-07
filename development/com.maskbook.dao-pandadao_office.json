@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "7344800000000000000",
+  "currentBalance": "7389800000000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "134924444920000000000",
+  "totalPaid": "134969444920000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "45000000000000000",
+      "beneficiary": "0xfb20296c74fa81ffe62c55201079dc987d1a4ebb",
+      "id": "0x6df3d1c9af6115d54b02fbfcde0692d3ec695749f28535147c3b754e005d8ebd-98",
+      "note": null,
+      "timestamp": "1646620545",
+      "txHash": "0x6df3d1c9af6115d54b02fbfcde0692d3ec695749f28535147c3b754e005d8ebd"
+    },
     {
       "amount": "420000000000000000",
       "beneficiary": "0xa2148c91a152c6174c18b92da0f6bfde45fa7f3b",
@@ -410,14 +418,6 @@
       "note": "囊中羞涩，但是也支持一下",
       "timestamp": "1645753803",
       "txHash": "0x5f6129f2d1d48fd14dfb61d637dfbcf39a47778d2e256c2dace451b1e45cafd5"
-    },
-    {
-      "amount": "400000000000000000",
-      "beneficiary": "0x78bd6011b5f42a0fb1bc9a80f618953c9fcf29ef",
-      "id": "0x3f70061fea4f8e48226d30c0f971a75cf6796ca54157903050072f1d1f3ff075-278",
-      "note": null,
-      "timestamp": "1645752727",
-      "txHash": "0x3f70061fea4f8e48226d30c0f971a75cf6796ca54157903050072f1d1f3ff075"
     }
   ],
   "redeemEvents": [
