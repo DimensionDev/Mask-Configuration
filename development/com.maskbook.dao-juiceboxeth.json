@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6150380834050545082157",
+  "currentBalance": "6150385595955306986919",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6735336835430363574400",
+  "totalPaid": "6735341597335125479162",
   "totalRedeemed": "245353333011366094062",
   "uri": "Qmd2aoqUmzoLHGhYg1RMs9dpkHauTo3cmYheXqeooTZDRD",
   "name": "JuiceboxDAO",
@@ -27,9 +27,17 @@
     "jbx": "263436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2514265702",
+  "totalSupply": "2514266515",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "4761904761904762",
+      "beneficiary": "0x706807ea8d43c5bf899c12b23224731e6f7945c2",
+      "id": "0x7c5a9a90b77fc24d60d84fa36ca1592da30c53b2c991d8454c868a9d57fbec08-434",
+      "note": "Fee from @shamrocklotterydao",
+      "timestamp": "1646635203",
+      "txHash": "0x7c5a9a90b77fc24d60d84fa36ca1592da30c53b2c991d8454c868a9d57fbec08"
+    },
     {
       "amount": "281869329899359021",
       "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
@@ -421,14 +429,6 @@
       "note": "Fee from @tiles",
       "timestamp": "1644648258",
       "txHash": "0xd3bc63f5f40395cc1ef580f10b4268a9f4a31f5df31dba4be2592492f715f739"
-    },
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0x832fd366b1a574d26072ed10dd733662c15590b2",
-      "id": "0xd6b22a0fd36f0e4f4bd4636e4b6b63857d99a1d386699dc89605c69dc0d86214-111",
-      "note": null,
-      "timestamp": "1644623148",
-      "txHash": "0xd6b22a0fd36f0e4f4bd4636e4b6b63857d99a1d386699dc89605c69dc0d86214"
     }
   ],
   "redeemEvents": [
