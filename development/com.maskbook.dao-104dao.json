@@ -18,6 +18,18 @@
   "version": 3,
   "payButton": "Contribute for the auction",
   "payDisclosure": "In case we lost the auction, all funds will go back to contributors from Juicebox.",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE"
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
