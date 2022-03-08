@@ -1,11 +1,11 @@
 {
   "createdAt": "1644292588",
   "creator": "0x8888d0f9be5178fe0d6b1e706308ae009de2b5ee",
-  "currentBalance": "0",
+  "currentBalance": "3442930000000000",
   "handle": "burmadao",
   "id": "337",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "3442930000000000",
   "totalRedeemed": "0",
   "uri": "Qmbgu7YnNv9pq5Vxg1qdYBkcwL5iBvwXPNhK46D5zCxm4H",
   "name": "BurmaDAO",
@@ -20,17 +20,26 @@
   "version": 4,
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE"
+      "toETHSymbol": "BUK"
     }
   ],
   "inWallet": {
     "eth": "0",
     "jbx": "0"
   },
-  "tokenAddress": null,
-  "totalSupply": "0",
-  "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "tokenAddress": "0x120E6897035D0d7324D5E16DE4B7b77ABFeFE71a",
+  "totalSupply": "3442",
+  "holdingSymbol": "BUK",
+  "payEvents": [
+    {
+      "amount": "3442930000000000",
+      "beneficiary": "0x8888d0f9be5178fe0d6b1e706308ae009de2b5ee",
+      "id": "0x105f0b8bb4cc7ca197e70c10409f50a38368d57e93172db8452c4188deb6184a-124",
+      "note": "#rugthejunta https://jbx.mypinata.cloud/ipfs/QmfRBcfFGpvt4Hyc71CfU76ZwZjthnzCkARa6M8r1ZmvXD",
+      "timestamp": "1646734103",
+      "txHash": "0x105f0b8bb4cc7ca197e70c10409f50a38368d57e93172db8452c4188deb6184a"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
