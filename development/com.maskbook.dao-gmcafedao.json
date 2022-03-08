@@ -24,13 +24,22 @@
     }
   ],
   "inWallet": {
-    "eth": "4640000000000000000",
+    "eth": "3370000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,
   "totalSupply": "400000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "400000000000000000",
+      "beneficiary": "0xcc171fca9baa7d9a3e13d4560e56019161e9d131",
+      "id": "0x5dcaa65960651352e842d9b22ccbc5662fe5242ebbf1d2bfc05a40fc7108c0d7-315",
+      "note": null,
+      "timestamp": "1642821944",
+      "txHash": "0x5dcaa65960651352e842d9b22ccbc5662fe5242ebbf1d2bfc05a40fc7108c0d7"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
