@@ -18,6 +18,19 @@
   "payDisclosure": "The fund you paid will be used for purchasing valuable TOKENs that's worth for a longterm holding. Once THE Liquidation happens, \nevery $HOLD token holder will get a relative portion of TOKENs from THE Vault.\nBut you can go sell $HOLD any time at Sushiswap: https://bit.ly/3p7IVWu",
   "tokens": [],
   "version": 3,
+  "overflow": 1,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "HOLD"
+    }
+  ],
+  "inWallet": {
+    "eth": "1970000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x07B68e17D3253cBcFC1520f1B1E8ef75B0d1f6d2",
+  "totalSupply": "3170607",
+  "holdingSymbol": "HOLD",
   "payEvents": [
     {
       "amount": "2000000000000000000",
