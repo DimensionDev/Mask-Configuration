@@ -1,11 +1,11 @@
 {
   "createdAt": "1645773957",
   "creator": "0xbce7b0a0fb13699cd54d7d81a36a5211eb019cf1",
-  "currentBalance": "73749600100000000000",
+  "currentBalance": "73949600100000000000",
   "handle": "satoshidao2008",
   "id": "441",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "73749600100000000000",
+  "totalPaid": "73949600100000000000",
   "totalRedeemed": "0",
   "uri": "QmauW7WRF7WKw2scrtuhn8KaQqs6r7teVcGoJpY6bYQQUw",
   "name": "SatoshiDao",
@@ -28,9 +28,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "73749600",
+  "totalSupply": "73949600",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x0263c008ae1f84ff6ec1f7b041775a22831e8d31",
+      "id": "0xc1ae93caf45b4a4f3cbe22572968b7fe28c607360f061e3434de78ae351e86ad-178",
+      "note": null,
+      "timestamp": "1646810185",
+      "txHash": "0xc1ae93caf45b4a4f3cbe22572968b7fe28c607360f061e3434de78ae351e86ad"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x4d822667c5f383921f6115472f3fe3d05fa03e75",
@@ -422,14 +430,6 @@
       "note": null,
       "timestamp": "1646211611",
       "txHash": "0x242b2f1e8c3deea2e84ce2b0e8c45e065fe4f3145241b3828ab8c427b69be588"
-    },
-    {
-      "amount": "990000000000000000",
-      "beneficiary": "0xc6b65f4ac41c003a1546114ee11722b86c7a902b",
-      "id": "0x9dbd7ff3324070c6e6c5ccb0a8041f5905510200c88d0efadb092f35cd705ac6-396",
-      "note": null,
-      "timestamp": "1646211512",
-      "txHash": "0x9dbd7ff3324070c6e6c5ccb0a8041f5905510200c88d0efadb092f35cd705ac6"
     }
   ],
   "redeemEvents": [],
