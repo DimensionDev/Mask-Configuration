@@ -1,11 +1,11 @@
 {
   "createdAt": "1646884895",
   "creator": "0x312fb697fc2f31cc4cb2677d8650b3cf2ed5e16e",
-  "currentBalance": "0",
+  "currentBalance": "100000000000000000",
   "handle": "justinsundao",
   "id": "510",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "100000000000000000",
   "totalRedeemed": "0",
   "uri": "QmUEnjtZFGhWpNcctJVBfPff4srJ9Tqu9cduQvr4ihVgWE",
   "name": "save justinsun dao",
@@ -19,7 +19,16 @@
   "archived": false,
   "payButton": "",
   "payDisclosure": "",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xeac8465cae35f6b2f0588ab4dbc07b3af85f67f1",
+      "id": "0x95782bac82b81ea11dbf286d55b140a0a113c3ff32f3b3a3188a9a1013bdbace-175",
+      "note": "lowb 与孙割同在",
+      "timestamp": "1646889788",
+      "txHash": "0x95782bac82b81ea11dbf286d55b140a0a113c3ff32f3b3a3188a9a1013bdbace"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
