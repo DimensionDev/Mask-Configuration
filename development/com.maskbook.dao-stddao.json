@@ -1,11 +1,11 @@
 {
   "createdAt": "1645275615",
   "creator": "0x0c3066afb361ad7983256969fedc269178452376",
-  "currentBalance": "1528000000000000000",
+  "currentBalance": "1788000000000000000",
   "handle": "stddao",
   "id": "405",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "1528000000000000000",
+  "totalPaid": "1788000000000000000",
   "totalRedeemed": "0",
   "uri": "QmcHb3A9tE8EDWNueuwmUSmAzfnnuB6Yz62YkN6ME4ExjG",
   "name": "stdDAO",
@@ -28,9 +28,33 @@
     "jbx": "0"
   },
   "tokenAddress": "0x2aE12795fCa73732CA1e7e4e0419b95F6Ee02e5f",
-  "totalSupply": "1528000",
+  "totalSupply": "1788000",
   "holdingSymbol": "CURES",
   "payEvents": [
+    {
+      "amount": "70000000000000000",
+      "beneficiary": "0x1124faacc998921314bc652c0a2cc3e66357c4d7",
+      "id": "0x8a9f95ee3d705e66b372522bf110492cc3dc64dd7e4d07738f1ebbe416027ff2-309",
+      "note": null,
+      "timestamp": "1646917383",
+      "txHash": "0x8a9f95ee3d705e66b372522bf110492cc3dc64dd7e4d07738f1ebbe416027ff2"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xd61a1e378962277c1c43a7df4ee0e1556459f60a",
+      "id": "0xbbe799359022714b581b46e647dbcd8ccb55a340e3a298ace7ef9ac25b12dfaa-486",
+      "note": "Cure them all! 🙌",
+      "timestamp": "1646916521",
+      "txHash": "0xbbe799359022714b581b46e647dbcd8ccb55a340e3a298ace7ef9ac25b12dfaa"
+    },
+    {
+      "amount": "90000000000000000",
+      "beneficiary": "0xc0b26c630280762eccad2bf0532330d0efc3b4c1",
+      "id": "0xc277ba2c97c6978ddb02c339010876dabc8b7e2c387a7ab19718c347a5de6495-310",
+      "note": "👍🏽👍🏽",
+      "timestamp": "1646916359",
+      "txHash": "0xc277ba2c97c6978ddb02c339010876dabc8b7e2c387a7ab19718c347a5de6495"
+    },
     {
       "amount": "200000000000000000",
       "beneficiary": "0x40f163c7f8a3b1bb9d54d84cebb5da729458d2f2",
