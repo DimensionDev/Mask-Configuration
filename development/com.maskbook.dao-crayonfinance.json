@@ -432,24 +432,7 @@
       "txHash": "0x4521d62e254bcd1694b2bcbe5cbb6e949630c0e7001d3a15515583bd930f1c6f"
     }
   ],
-  "redeemEvents": [
-    {
-      "amount": "300125000000000000000000000",
-      "beneficiary": "0x76a7b3898d598f400d51f00956687b3575c65b45",
-      "id": "0xd5645ade6400f032b138c9a0ba4ef310f3f1c04429566292f4c8690895c4ffe5-109",
-      "returnAmount": "0",
-      "timestamp": "1643933394",
-      "txHash": "0xd5645ade6400f032b138c9a0ba4ef310f3f1c04429566292f4c8690895c4ffe5"
-    },
-    {
-      "amount": "609418409600000000000000000",
-      "beneficiary": "0x76a7b3898d598f400d51f00956687b3575c65b45",
-      "id": "0xa3c3837556270d89d8872d2d70446479404ec136680f9366b358d880231cc1b7-380",
-      "returnAmount": "0",
-      "timestamp": "1643358782",
-      "txHash": "0xa3c3837556270d89d8872d2d70446479404ec136680f9366b358d880231cc1b7"
-    }
-  ],
+  "redeemEvents": [],
   "withdrawEvents": [
     {
       "beneficiary": "0x76a7b3898d598f400d51f00956687b3575c65b45",
@@ -492,24 +475,5 @@
       "txHash": "0x5e59d3796ad75a4dd6c4497ebb7b48837074b9f08d96bdcfa8214b14c497b489"
     }
   ],
-  "reservesEvents": [
-    {
-      "beneficiary": "0x76a7b3898d598f400d51f00956687b3575c65b45",
-      "beneficiaryTicketAmount": "300125000000000000000000000",
-      "caller": "0x76a7b3898d598f400d51f00956687b3575c65b45",
-      "count": "300125000000000000000000000",
-      "id": "303-0xe4745288e046673e91ad36861c17bf84bc9644a777180c64f3e553c7dddbf10d",
-      "timestamp": "1643933289",
-      "txHash": "0xe4745288e046673e91ad36861c17bf84bc9644a777180c64f3e553c7dddbf10d"
-    },
-    {
-      "beneficiary": "0x76a7b3898d598f400d51f00956687b3575c65b45",
-      "beneficiaryTicketAmount": "609418409600000000000000000",
-      "caller": "0x76a7b3898d598f400d51f00956687b3575c65b45",
-      "count": "609418409600000000000000000",
-      "id": "303-0x8826b015d7044528921e533bca78dc38920efb4629e1f87c0e57bc99e8634d58",
-      "timestamp": "1643358485",
-      "txHash": "0x8826b015d7044528921e533bca78dc38920efb4629e1f87c0e57bc99e8634d58"
-    }
-  ]
+  "reservesEvents": []
 }
