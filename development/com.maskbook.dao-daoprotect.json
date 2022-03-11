@@ -1,11 +1,11 @@
 {
   "createdAt": "1646952582",
   "creator": "0x74f0178db3e51c3bb8315ee6232927f863c6f43a",
-  "currentBalance": "239140840000000000",
+  "currentBalance": "249140840000000000",
   "handle": "protect",
   "id": "516",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "239140840000000000",
+  "totalPaid": "249140840000000000",
   "totalRedeemed": "0",
   "uri": "QmQZiLcy11ZGsoVhY72Je1UgegnkS8pjT8oPc7BFAruEnZ",
   "name": "Wealth Protect DAO",
@@ -19,6 +19,22 @@
   "tokens": [],
   "version": 4,
   "payEvents": [
+    {
+      "amount": "80000000000000000",
+      "beneficiary": "0x4ef4a4f25c1aabc2f3f9f7e3e38f9088f4ed9176",
+      "id": "0x7456725f9adc542704c7cfc0b02d2126963f39e611c92385b0a892f228b15c1a-721",
+      "note": null,
+      "timestamp": "1647026448",
+      "txHash": "0x7456725f9adc542704c7cfc0b02d2126963f39e611c92385b0a892f228b15c1a"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x74f0178db3e51c3bb8315ee6232927f863c6f43a",
+      "id": "0x64775d3bec4b1be94cb2620733b0a6c925cac18eda7f7800c764e5eac662fbe6-247",
+      "note": null,
+      "timestamp": "1647021506",
+      "txHash": "0x64775d3bec4b1be94cb2620733b0a6c925cac18eda7f7800c764e5eac662fbe6"
+    },
     {
       "amount": "19140840000000000",
       "beneficiary": "0xde417d011408dc8d6b42cfe2bf505d9e774f7682",
