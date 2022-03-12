@@ -1,7 +1,7 @@
 {
   "createdAt": "1640165735",
   "creator": "0xdc10eba5a79886940ee98bea0a80f3acd3510d3d",
-  "currentBalance": "25000000000000000",
+  "currentBalance": "209719073385928",
   "handle": "aerithdao",
   "id": "213",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -24,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "20000000000000000",
-    "jbx": "188000000000000000000"
+    "eth": "0",
+    "jbx": "288000000000000000000"
   },
   "tokenAddress": null,
   "totalSupply": "25000",
@@ -41,6 +41,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0xdc10eba5a79886940ee98bea0a80f3acd3510d3d",
+      "beneficiaryTransferAmount": "23609791358680068",
+      "caller": "0xdc10eba5a79886940ee98bea0a80f3acd3510d3d",
+      "fundingCycleId": "773",
+      "id": "213-0x0e4e5ae2f1755f7eb0d97870b188772c7aa590fb9caff4caf146879db27e565a",
+      "netTransferAmount": "23609791358680068",
+      "timestamp": "1647053833",
+      "txHash": "0x0e4e5ae2f1755f7eb0d97870b188772c7aa590fb9caff4caf146879db27e565a"
+    }
+  ],
   "reservesEvents": []
 }

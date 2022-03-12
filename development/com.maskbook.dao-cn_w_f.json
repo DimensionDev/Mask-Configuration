@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10000000000000",
+      "beneficiary": "0x3ba90c3f27a412524be2637f1362c80eec008fb9",
+      "id": "0x64d9e4d5247578a6157d5b3b364875ddd55df803d44ffe344dbf5f07abc521f2-242",
+      "note": "支持中国女子足球https://juicebox.money/#/p/chinesewomanfootball",
+      "timestamp": "1644163291",
+      "txHash": "0x64d9e4d5247578a6157d5b3b364875ddd55df803d44ffe344dbf5f07abc521f2"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
