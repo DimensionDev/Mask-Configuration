@@ -1,11 +1,11 @@
 {
   "createdAt": "1647047087",
   "creator": "0x2ecc7cda88bfed0e3383116cccf45e33b4c51adf",
-  "currentBalance": "0",
+  "currentBalance": "407752270000000000",
   "handle": "buychelseafcdao",
   "id": "519",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "407752270000000000",
   "totalRedeemed": "0",
   "uri": "QmdV2jKcFb1eipE2PfrczbiFpDb7WmwjX9HKpKNmcQNByP",
   "name": "Buy Chelsea FC DAO",
@@ -29,9 +29,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "7752",
+  "totalSupply": "407752",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "400000000000000000",
+      "beneficiary": "0x995286623038b234574174fd5f0e3d7aaa7dacf3",
+      "id": "0xe01176be089df0a08029a948b2b50c09d8e0d5c111205e0fc667b6df0fceb7d0-530",
+      "note": null,
+      "timestamp": "1647051849",
+      "txHash": "0xe01176be089df0a08029a948b2b50c09d8e0d5c111205e0fc667b6df0fceb7d0"
+    },
     {
       "amount": "7752270000000000",
       "beneficiary": "0x183bf96df20b4035e2deb419cbfc5f461de7f63a",
