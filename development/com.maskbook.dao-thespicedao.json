@@ -658,48 +658,7 @@
       "txHash": "0xd94d39014792f76d4feadc8a288d3b6ca03a2ceac6c21fad7efd32702fa75205"
     }
   ],
-  "withdrawEvents": [
-    {
-      "beneficiary": "0x1175185e62db6cea2517d14297333a63908c0cac",
-      "beneficiaryTransferAmount": "2487140020989680972216",
-      "caller": "0xb520f068a908a1782a543aacc3847adb77a04778",
-      "fundingCycleId": "216",
-      "id": "52-0x7eed5c120a138147eb7d2241bb9a5a72feeb834346cd21288532b26238c27717",
-      "netTransferAmount": "2487140020989680972216",
-      "timestamp": "1638290337",
-      "txHash": "0x7eed5c120a138147eb7d2241bb9a5a72feeb834346cd21288532b26238c27717"
-    },
-    {
-      "beneficiary": "0x1175185e62db6cea2517d14297333a63908c0cac",
-      "beneficiaryTransferAmount": "50000000000000000000",
-      "caller": "0x1175185e62db6cea2517d14297333a63908c0cac",
-      "fundingCycleId": "214",
-      "id": "52-0x186c5c6aa3e547f94ccc111343e0a371a8df72e74f25aea0d346c90234d7318a",
-      "netTransferAmount": "50000000000000000000",
-      "timestamp": "1638286344",
-      "txHash": "0x186c5c6aa3e547f94ccc111343e0a371a8df72e74f25aea0d346c90234d7318a"
-    },
-    {
-      "beneficiary": "0x1175185e62db6cea2517d14297333a63908c0cac",
-      "beneficiaryTransferAmount": "1446101793443143826810",
-      "caller": "0xd3241d6860a445ce0a3d9f3c4231ac93a9ab058e",
-      "fundingCycleId": "198",
-      "id": "52-0xa596ab3173bffb08d6388b85a872405eefe57fd483617c6553ee46e2b24ce516",
-      "netTransferAmount": "1446101793443143826810",
-      "timestamp": "1638257683",
-      "txHash": "0xa596ab3173bffb08d6388b85a872405eefe57fd483617c6553ee46e2b24ce516"
-    },
-    {
-      "beneficiary": "0x1175185e62db6cea2517d14297333a63908c0cac",
-      "beneficiaryTransferAmount": "376135615957074584527",
-      "caller": "0xeaf0942cffcca408d6d4e77438345aca2e6af489",
-      "fundingCycleId": "145",
-      "id": "52-0xe0e62f9f5da4470dfcd2f38633e49e11dd6d6de463e9c0eb11125ad8670aa116",
-      "netTransferAmount": "376135615957074584527",
-      "timestamp": "1637734040",
-      "txHash": "0xe0e62f9f5da4470dfcd2f38633e49e11dd6d6de463e9c0eb11125ad8670aa116"
-    }
-  ],
+  "withdrawEvents": [],
   "reservesEvents": [
     {
       "beneficiary": "0x1175185e62db6cea2517d14297333a63908c0cac",
