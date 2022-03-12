@@ -1,12 +1,12 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6144699420329059336004",
+  "currentBalance": "6143909051416249092470",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "6737911140692191747644",
-  "totalRedeemed": "253609051994680013459",
+  "totalRedeemed": "254399420907490256993",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
   "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. All projects withdrawing funds from their treasury pay a 2.5% membership fee and receive JBX at the current issuance rate. JBX members govern the NFT that represents ownership over this treasury.",
@@ -27,10 +27,419 @@
     "jbx": "163436454000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2511153817",
+  "totalSupply": "2510813817",
   "holdingSymbol": "JBX",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1180489567934004",
+      "beneficiary": "0xdc10eba5a79886940ee98bea0a80f3acd3510d3d",
+      "id": "0x0e4e5ae2f1755f7eb0d97870b188772c7aa590fb9caff4caf146879db27e565a-49",
+      "note": "Fee from @aerithdao",
+      "timestamp": "1647053833",
+      "txHash": "0x0e4e5ae2f1755f7eb0d97870b188772c7aa590fb9caff4caf146879db27e565a"
+    },
+    {
+      "amount": "82523809523809524",
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "id": "0x8a9b7e5c4d4ba08eba56ca17f82b521c67b19b7389dcef8a8d89c32dfcdc838f-555",
+      "note": "Fee from @tiles",
+      "timestamp": "1646961290",
+      "txHash": "0x8a9b7e5c4d4ba08eba56ca17f82b521c67b19b7389dcef8a8d89c32dfcdc838f"
+    },
+    {
+      "amount": "476190476190477",
+      "beneficiary": "0x542720007c57642c4356f62534aeac846f7920bf",
+      "id": "0x21107cb25ac2d17b9193b5ce27f8e5e6a44a16169f4fcd93688b8761fa49a711-123",
+      "note": "Fee from @fkopenseadao",
+      "timestamp": "1646944726",
+      "txHash": "0x21107cb25ac2d17b9193b5ce27f8e5e6a44a16169f4fcd93688b8761fa49a711"
+    },
+    {
+      "amount": "26056430659900855",
+      "beneficiary": "0x16dd167eecfd4a02ba1c8910e318c34412fdbe80",
+      "id": "0x5d264d05324d782d732e9b169f2692332cc8b6b752ec97ce9c3a5ffa6c610c41-584",
+      "note": "Fee from @inflationless",
+      "timestamp": "1646894739",
+      "txHash": "0x5d264d05324d782d732e9b169f2692332cc8b6b752ec97ce9c3a5ffa6c610c41"
+    },
+    {
+      "amount": "158090586491438472",
+      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "id": "0x8077e48c018678242b6760793e665c6d853c66f6136f8296428415e218723cae-85",
+      "note": "Fee from @slice",
+      "timestamp": "1646876606",
+      "txHash": "0x8077e48c018678242b6760793e665c6d853c66f6136f8296428415e218723cae"
+    },
+    {
+      "amount": "100000000000000",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x642ccff26e50d76ea543fde5579b0269c2d01abe13cf1715067f8333131ffc0b-269",
+      "note": null,
+      "timestamp": "1646797658",
+      "txHash": "0x642ccff26e50d76ea543fde5579b0269c2d01abe13cf1715067f8333131ffc0b"
+    },
+    {
+      "amount": "7222265316307217",
+      "beneficiary": "0xae7f458667f1b30746354abc3157907d9f6fd15e",
+      "id": "0x08f15951dd2c9ab5b09c9ee98cd96739278b900d705cf4b8f9ba01b59456b037-250",
+      "note": "Fee from @sharkdao",
+      "timestamp": "1646766760",
+      "txHash": "0x08f15951dd2c9ab5b09c9ee98cd96739278b900d705cf4b8f9ba01b59456b037"
+    },
+    {
+      "amount": "194464492198494208",
+      "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
+      "id": "0x91e0eef2060420458c0f6f67e8dbb1e8c72eaea1aed144ad7ffe2a3536f6b2e8-277",
+      "note": "Fee from @canudaocomm",
+      "timestamp": "1646706858",
+      "txHash": "0x91e0eef2060420458c0f6f67e8dbb1e8c72eaea1aed144ad7ffe2a3536f6b2e8"
+    },
+    {
+      "amount": "2099429092832193725",
+      "beneficiary": "0x16dd167eecfd4a02ba1c8910e318c34412fdbe80",
+      "id": "0x761aef906a8f7f69e421c33ae4b81e4199b175a19c553f8f73aa95296cc8f074-283",
+      "note": "Fee from @inflationless",
+      "timestamp": "1646678326",
+      "txHash": "0x761aef906a8f7f69e421c33ae4b81e4199b175a19c553f8f73aa95296cc8f074"
+    },
+    {
+      "amount": "4761904761904762",
+      "beneficiary": "0x706807ea8d43c5bf899c12b23224731e6f7945c2",
+      "id": "0x7c5a9a90b77fc24d60d84fa36ca1592da30c53b2c991d8454c868a9d57fbec08-434",
+      "note": "Fee from @shamrocklotterydao",
+      "timestamp": "1646635203",
+      "txHash": "0x7c5a9a90b77fc24d60d84fa36ca1592da30c53b2c991d8454c868a9d57fbec08"
+    },
+    {
+      "amount": "281869329899359021",
+      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
+      "id": "0x3c545498cee93d763cc4637997175a0e11c3b9145784489fa41de8eb91cc53e8-359",
+      "note": "Fee from @peel",
+      "timestamp": "1646620653",
+      "txHash": "0x3c545498cee93d763cc4637997175a0e11c3b9145784489fa41de8eb91cc53e8"
+    },
+    {
+      "amount": "100000000000000",
+      "beneficiary": "0xd12e276f76a55af8558e149b5efeb6aa3a64ee84",
+      "id": "0x46d3e8f0d6fbfca94fbe48e05aab494dd4bf73039576a64e1f3e434aa3eb11f6-323",
+      "note": "https://jbx.mypinata.cloud/ipfs/Qmctxc51m7ed4ZVwUUu2CRW9iApF1KMXrRGiCJyQyXBRJy",
+      "timestamp": "1646480188",
+      "txHash": "0x46d3e8f0d6fbfca94fbe48e05aab494dd4bf73039576a64e1f3e434aa3eb11f6"
+    },
+    {
+      "amount": "400000000000000000",
+      "beneficiary": "0x9500f0f246b0aa4215d99262fb7d5780ae13c177",
+      "id": "0x29e73b0d3952e4b181bc2bd1c6bbef94dd78a7dea75f75a0190e1c4a38ae2833-256",
+      "note": null,
+      "timestamp": "1646448062",
+      "txHash": "0x29e73b0d3952e4b181bc2bd1c6bbef94dd78a7dea75f75a0190e1c4a38ae2833"
+    },
+    {
+      "amount": "9540000000000",
+      "beneficiary": "0x3ff32bd56ed577adb7215117ac23f3b6a08ed823",
+      "id": "0x7c269b7c2104f2e00e1d8912c21e69f70f03f8806811abd850b6ce577a79fa98-419",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmfKAU5fNmabXwvUEAvDpSZuLZe2HZTb8UEeekRKiY2Fsy",
+      "timestamp": "1646428577",
+      "txHash": "0x7c269b7c2104f2e00e1d8912c21e69f70f03f8806811abd850b6ce577a79fa98"
+    },
+    {
+      "amount": "262373159598367193",
+      "beneficiary": "0xb6d15df63a329579ed97d2671e22f3f145064167",
+      "id": "0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2-109",
+      "note": "Fee from @satellitedao",
+      "timestamp": "1646421766",
+      "txHash": "0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2"
+    },
+    {
+      "amount": "82523809523809524",
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "id": "0x5e804cc79663534657e82d7173e2061dba15f5ad8dcf730938f61c2bb86f5a8e-135",
+      "note": "Fee from @tiles",
+      "timestamp": "1646412847",
+      "txHash": "0x5e804cc79663534657e82d7173e2061dba15f5ad8dcf730938f61c2bb86f5a8e"
+    },
+    {
+      "amount": "20402506190476191",
+      "beneficiary": "0xef8b00e9ee74b1e4a710e414fc0df27083e14738",
+      "id": "0x6369971e8f858b8c33a7a03749d868a9c88e6ba9adcaaf880dbd5c96a00e37dd-653",
+      "note": "Fee from @whiskydao",
+      "timestamp": "1646344355",
+      "txHash": "0x6369971e8f858b8c33a7a03749d868a9c88e6ba9adcaaf880dbd5c96a00e37dd"
+    },
+    {
+      "amount": "52857142857142858",
+      "beneficiary": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
+      "id": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c-142",
+      "note": "Fee from @defikingdomsguild",
+      "timestamp": "1646114062",
+      "txHash": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c"
+    },
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xd12e276f76a55af8558e149b5efeb6aa3a64ee84",
+      "id": "0xf1f95f02f9a8beb73e331fc71028e4c4f82d19230950bfb16267bd8fa89ba78d-149",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmPqtLh6v2bdYSHfgysFWETDPk2KfVdkWTYShr5qJwj1Ym",
+      "timestamp": "1646101276",
+      "txHash": "0xf1f95f02f9a8beb73e331fc71028e4c4f82d19230950bfb16267bd8fa89ba78d"
+    },
+    {
+      "amount": "100507077784705796",
+      "beneficiary": "0xdfe36eb84cdedbff583452162d66a28fa24fd58e",
+      "id": "0x818b1a737a1e0b398aeecee6f39bc3acd1d242f3dbb00d8845955085fbf6635e-224",
+      "note": "Fee from @wagmistudios",
+      "timestamp": "1646054916",
+      "txHash": "0x818b1a737a1e0b398aeecee6f39bc3acd1d242f3dbb00d8845955085fbf6635e"
+    },
+    {
+      "amount": "232631991428571429",
+      "beneficiary": "0x48c6328b5d8a921bea50a8c8f2a7b139a748ec30",
+      "id": "0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22-81",
+      "note": "Fee from @supportrussia",
+      "timestamp": "1646029410",
+      "txHash": "0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22"
+    },
+    {
+      "amount": "272248551689045374",
+      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
+      "id": "0xb1b507d87f35ea7fd9f41d4ae5091ed3359d18d9668f2c61bf92f9f75e5cf5f2-363",
+      "note": "Fee from @peel",
+      "timestamp": "1646007057",
+      "txHash": "0xb1b507d87f35ea7fd9f41d4ae5091ed3359d18d9668f2c61bf92f9f75e5cf5f2"
+    },
+    {
+      "amount": "111857976912526527",
+      "beneficiary": "0x82f018c331231f2a27b68ddbdde61429338d86e8",
+      "id": "0x7cfcd6963ca2cf44b042f0988409b57ef887ee173284fe79bdb2606034b0efe0-345",
+      "note": "Fee from @lexicondevils",
+      "timestamp": "1646002411",
+      "txHash": "0x7cfcd6963ca2cf44b042f0988409b57ef887ee173284fe79bdb2606034b0efe0"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xd12e276f76a55af8558e149b5efeb6aa3a64ee84",
+      "id": "0xe61485cee3b174310693fdb2761ed82fb41da44029769176a50260ddb662ae52-208",
+      "note": "https://jbx.mypinata.cloud/ipfs/Qmctxc51m7ed4ZVwUUu2CRW9iApF1KMXrRGiCJyQyXBRJy",
+      "timestamp": "1645952997",
+      "txHash": "0xe61485cee3b174310693fdb2761ed82fb41da44029769176a50260ddb662ae52"
+    },
+    {
+      "amount": "1622249665167857086",
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "id": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463-132",
+      "note": "Fee from @juicebox",
+      "timestamp": "1645916462",
+      "txHash": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463"
+    },
+    {
+      "amount": "2380952380952381",
+      "beneficiary": "0x5f413541a569d7ce5b79c57671ce505f1448c5e9",
+      "id": "0xc29be9e652d86e897819b887be91d0b6baae42a20757212bdfb545732db5ee6f-447",
+      "note": "Fee from @oureadao",
+      "timestamp": "1645899917",
+      "txHash": "0xc29be9e652d86e897819b887be91d0b6baae42a20757212bdfb545732db5ee6f"
+    },
+    {
+      "amount": "47619047619047620",
+      "beneficiary": "0xf5812ffa3c3edbce272564ff8750ff3383a18baa",
+      "id": "0x0aae58e55d36dec019afb0ca9594fad9a6b3d5084b6d56babb838db17f9dc34a-493",
+      "note": "Fee from @fightforukraine",
+      "timestamp": "1645893103",
+      "txHash": "0x0aae58e55d36dec019afb0ca9594fad9a6b3d5084b6d56babb838db17f9dc34a"
+    },
+    {
+      "amount": "476190476190477",
+      "beneficiary": "0xce3730dc61a1c96ede5343d968d5222f90f3dffe",
+      "id": "0xbfacb035cb4421b823f20cb7707f5f274953012ac017800619cf6c499e389336-737",
+      "note": "Fee from @rarefinddao",
+      "timestamp": "1645879481",
+      "txHash": "0xbfacb035cb4421b823f20cb7707f5f274953012ac017800619cf6c499e389336"
+    },
+    {
+      "amount": "8718733333333334",
+      "beneficiary": "0xea187222fc5659948708aa76fad7417f6e473f9f",
+      "id": "0x3bb22f58ee2bae270012028e17dc486b32a7393a74efdf57e5faefa7e2526b46-339",
+      "note": "Fee from @afro",
+      "timestamp": "1645833065",
+      "txHash": "0x3bb22f58ee2bae270012028e17dc486b32a7393a74efdf57e5faefa7e2526b46"
+    },
+    {
+      "amount": "550904761904761905",
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "id": "0x459aeb9dfe921504632ffcccf9bbe3f74f6a2b189de58857442275f4ef0f8e17-412",
+      "note": "Fee from @pandadao",
+      "timestamp": "1645767735",
+      "txHash": "0x459aeb9dfe921504632ffcccf9bbe3f74f6a2b189de58857442275f4ef0f8e17"
+    },
+    {
+      "amount": "82523809523809524",
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "id": "0x9f8eec23ce04b9e72d9177fce8f891ad602e45b2b38fcac62967963e24384cdb-174",
+      "note": "Fee from @tiles",
+      "timestamp": "1645748637",
+      "txHash": "0x9f8eec23ce04b9e72d9177fce8f891ad602e45b2b38fcac62967963e24384cdb"
+    },
+    {
+      "amount": "47605500409640717",
+      "beneficiary": "0x0025984dc230a3a59178ded3fdfb484c89414f39",
+      "id": "0xd3690444c58153a4dd7521d02aef93d1826433690d316c06c4f357099afc2b8d-328",
+      "note": "Fee from @jus",
+      "timestamp": "1645698417",
+      "txHash": "0xd3690444c58153a4dd7521d02aef93d1826433690d316c06c4f357099afc2b8d"
+    },
+    {
+      "amount": "5524316424761904762",
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "id": "0x7e631f9a9aa8eb8f3fa05f0ef5d5513558cb011d38947f934a4c69d5fee6b6c0-52",
+      "note": "Fee from @pandadao",
+      "timestamp": "1645690113",
+      "txHash": "0x7e631f9a9aa8eb8f3fa05f0ef5d5513558cb011d38947f934a4c69d5fee6b6c0"
+    },
+    {
+      "amount": "145696768446646065",
+      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "id": "0x37877513529380abcb8fa3ed7ffd95c7cfde24c0141b67d0ad9ff5f299c2f0ee-599",
+      "note": "Fee from @slice",
+      "timestamp": "1645662318",
+      "txHash": "0x37877513529380abcb8fa3ed7ffd95c7cfde24c0141b67d0ad9ff5f299c2f0ee"
+    },
+    {
+      "amount": "38584610000000000",
+      "beneficiary": "0xf6310b07f0c7e5fd142b648d448ee75d4fbf82b7",
+      "id": "0x20526a7e01b1ea9f96fde5e9d85b0cf9ca2301265e665e6d714aa76814f94e3d-458",
+      "note": "hi",
+      "timestamp": "1645553628",
+      "txHash": "0x20526a7e01b1ea9f96fde5e9d85b0cf9ca2301265e665e6d714aa76814f94e3d"
+    },
+    {
+      "amount": "384610000000000",
+      "beneficiary": "0xf6310b07f0c7e5fd142b648d448ee75d4fbf82b7",
+      "id": "0x5c2d38b29a5cb36753e89a595075d3e5aa7a316a3e6c0c2af2c92904c40f5278-442",
+      "note": null,
+      "timestamp": "1645529342",
+      "txHash": "0x5c2d38b29a5cb36753e89a595075d3e5aa7a316a3e6c0c2af2c92904c40f5278"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x56e8bd20021a361c5fe2d73e825fa237c5850d04",
+      "id": "0xa79b106b6f0adcf74df4bc945b546bbf516f8a20e388a5b2954b0534d08bd95f-410",
+      "note": null,
+      "timestamp": "1645476925",
+      "txHash": "0xa79b106b6f0adcf74df4bc945b546bbf516f8a20e388a5b2954b0534d08bd95f"
+    },
+    {
+      "amount": "269538835268888076",
+      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
+      "id": "0x4fed450be8d4e3356c76f28a9ea7bbbc0fb3cdaadfdea46f4b0bbfafa40bdfb5-140",
+      "note": "Fee from @peel",
+      "timestamp": "1645467560",
+      "txHash": "0x4fed450be8d4e3356c76f28a9ea7bbbc0fb3cdaadfdea46f4b0bbfafa40bdfb5"
+    },
+    {
+      "amount": "96862500000000000",
+      "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
+      "id": "0xb1ede5793094513c0f92adf426226eb3b620c429ff46f8f41382802ead9ae247-363",
+      "note": "Fee from @canudaocomm",
+      "timestamp": "1645457323",
+      "txHash": "0xb1ede5793094513c0f92adf426226eb3b620c429ff46f8f41382802ead9ae247"
+    },
+    {
+      "amount": "82523809523809524",
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "id": "0x9e4df62c8e5c364ad51a2eebb8a785661a6d935ebe09399984cb77e44da9ece1-480",
+      "note": "Fee from @tiles",
+      "timestamp": "1645413778",
+      "txHash": "0x9e4df62c8e5c364ad51a2eebb8a785661a6d935ebe09399984cb77e44da9ece1"
+    },
+    {
+      "amount": "47619047619047620",
+      "beneficiary": "0xdc5d2d95cd48865b9d8d9b44827a4a85a65f2970",
+      "id": "0xf7708b2b6e70a9fe76e522be153c53560983d3431c8941f2bae8ae1ab3be7116-232",
+      "note": "Fee from @hyperspace",
+      "timestamp": "1645394959",
+      "txHash": "0xf7708b2b6e70a9fe76e522be153c53560983d3431c8941f2bae8ae1ab3be7116"
+    },
+    {
+      "amount": "110216368921580178",
+      "beneficiary": "0x82f018c331231f2a27b68ddbdde61429338d86e8",
+      "id": "0x496350ba02f5043c036322fabf3ac68f5bbf1104e03d79c325f5cc0b3a6fe135-109",
+      "note": "Fee from @lexicondevils",
+      "timestamp": "1645393119",
+      "txHash": "0x496350ba02f5043c036322fabf3ac68f5bbf1104e03d79c325f5cc0b3a6fe135"
+    },
+    {
+      "amount": "103541337911540036",
+      "beneficiary": "0x77a91a43170d4b978adb390e11dedc6b02df091c",
+      "id": "0x15cd62ae17c6ac69bd4ac49e25de486fb6abb3d4a80fdd3e6ada9e48666c62fe-35",
+      "note": "Fee from @cryptoislanddao",
+      "timestamp": "1645310468",
+      "txHash": "0x15cd62ae17c6ac69bd4ac49e25de486fb6abb3d4a80fdd3e6ada9e48666c62fe"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xaa398440c592a7d22d7a343dc2e7d303325b35ba",
+      "id": "0x2b1b17e9e469b6f1d41516fa85e4f351109a67714b118bacf2229bfa1236e81f-463",
+      "note": null,
+      "timestamp": "1645281207",
+      "txHash": "0x2b1b17e9e469b6f1d41516fa85e4f351109a67714b118bacf2229bfa1236e81f"
+    },
+    {
+      "amount": "88300961851011973",
+      "beneficiary": "0xb235b4cc9e43a014a7b770c765ea3843e2d38675",
+      "id": "0x5df6ed73731c54d90d9c2717f18e5a87a2dcdbccbb55a8775f9a25bdd5f21731-481",
+      "note": "Fee from @legendary_dao",
+      "timestamp": "1645271990",
+      "txHash": "0x5df6ed73731c54d90d9c2717f18e5a87a2dcdbccbb55a8775f9a25bdd5f21731"
+    },
+    {
+      "amount": "67261904761904762",
+      "beneficiary": "0xace4d6e4b859d9cce8aa77b23ad99405de7df49c",
+      "id": "0x593702b06b20aa4dc228fa5feb3b02aa9813694c419bae3b534d911f91440d8f-267",
+      "note": "Fee from @crpdpro",
+      "timestamp": "1645258717",
+      "txHash": "0x593702b06b20aa4dc228fa5feb3b02aa9813694c419bae3b534d911f91440d8f"
+    },
+    {
+      "amount": "87719523809523810",
+      "beneficiary": "0xdaa20d146f3971276c04ef34ddf72c1865b3470c",
+      "id": "0x9c0395a850176b01fa7070119d2d4b5e32af6b020021020ed8356057f8870d1c-121",
+      "note": "Fee from @mergedao",
+      "timestamp": "1645227764",
+      "txHash": "0x9c0395a850176b01fa7070119d2d4b5e32af6b020021020ed8356057f8870d1c"
+    },
+    {
+      "amount": "952380952380953",
+      "beneficiary": "0x4cd57c7247ae75672a29b7a1dfd38116e25c1964",
+      "id": "0x16fa37155d56e4e884402aaca0c4f7eac0f139f38d967df259241a967e3f0072-2",
+      "note": "Fee from @sandwich",
+      "timestamp": "1645204436",
+      "txHash": "0x16fa37155d56e4e884402aaca0c4f7eac0f139f38d967df259241a967e3f0072"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x4d822667c5f383921f6115472f3fe3d05fa03e75",
+      "id": "0x4db4b3eb3dbc02c165f1ed35e5bebf245c7f2f00fdf8c2e2e309fc7cd421d821-453",
+      "note": "love the juice",
+      "timestamp": "1645072740",
+      "txHash": "0x4db4b3eb3dbc02c165f1ed35e5bebf245c7f2f00fdf8c2e2e309fc7cd421d821"
+    },
+    {
+      "amount": "15000000000000000",
+      "beneficiary": "0x3e99b6781346e40d5583d5b147d2f32d2bb977af",
+      "id": "0xdbd84b6bffa56cde409fb6dc59691c88f9c7d8715f648ac1074549ebe759b8bd-240",
+      "note": null,
+      "timestamp": "1645061508",
+      "txHash": "0xdbd84b6bffa56cde409fb6dc59691c88f9c7d8715f648ac1074549ebe759b8bd"
+    }
+  ],
   "redeemEvents": [
+    {
+      "amount": "340000000000000000000000",
+      "beneficiary": "0x3f5d2058971dfd0103e3bf5e423620b5a42db357",
+      "id": "0x491bad657026b1fa14990a9352a17fa43c4eefd554bc874457f0eecb53b97b13-309",
+      "returnAmount": "790368912810243534",
+      "timestamp": "1647060353",
+      "txHash": "0x491bad657026b1fa14990a9352a17fa43c4eefd554bc874457f0eecb53b97b13"
+    },
     {
       "amount": "352945416430811464865882",
       "beneficiary": "0x3af4ea5614f21e23b2398a62e1e20fe3d8b2fb7f",
@@ -422,14 +831,6 @@
       "returnAmount": "17560571802575358043",
       "timestamp": "1640168609",
       "txHash": "0x6abba210eadba95b1d7a8da9470ca8a6a83e9c525796ec80f9343343a5e5832c"
-    },
-    {
-      "amount": "17177873731200000000000",
-      "beneficiary": "0xccc0a85779662a384b232655245564d12aa5688f",
-      "id": "0x0c105b4fd48a4447fce49a254174fc217e857542339f0181dbb54f807f11ac73-308",
-      "returnAmount": "23626883795072895",
-      "timestamp": "1640162490",
-      "txHash": "0x0c105b4fd48a4447fce49a254174fc217e857542339f0181dbb54f807f11ac73"
     }
   ],
   "withdrawEvents": [
