@@ -1,12 +1,12 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6045651689919366386298",
+  "currentBalance": "6042147534572038602272",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6739146039230584221130",
-  "totalRedeemed": "308375942862460656205",
+  "totalPaid": "6739151039230584221130",
+  "totalRedeemed": "311885098209788440231",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
   "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. All projects withdrawing funds from their treasury pay a 2.5% membership fee and receive JBX at the current issuance rate. JBX members govern the NFT that represents ownership over this treasury.",
@@ -27,9 +27,17 @@
     "jbx": "163521786000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2487781282",
+  "totalSupply": "2486262051",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0x03a5bdbd5a37ee782e9203811d227342c3fcfb73",
+      "id": "0xece8a713b3a570c555efc3acd4aa0d0e5c5b908320ddc048ac89c402ae47ee27-169",
+      "note": "爱你一万年",
+      "timestamp": "1647182714",
+      "txHash": "0xece8a713b3a570c555efc3acd4aa0d0e5c5b908320ddc048ac89c402ae47ee27"
+    },
     {
       "amount": "124758585214308109",
       "beneficiary": "0x82f018c331231f2a27b68ddbdde61429338d86e8",
@@ -421,17 +429,33 @@
       "note": "Fee from @mergedao",
       "timestamp": "1645227764",
       "txHash": "0x9c0395a850176b01fa7070119d2d4b5e32af6b020021020ed8356057f8870d1c"
-    },
-    {
-      "amount": "952380952380953",
-      "beneficiary": "0x4cd57c7247ae75672a29b7a1dfd38116e25c1964",
-      "id": "0x16fa37155d56e4e884402aaca0c4f7eac0f139f38d967df259241a967e3f0072-2",
-      "note": "Fee from @sandwich",
-      "timestamp": "1645204436",
-      "txHash": "0x16fa37155d56e4e884402aaca0c4f7eac0f139f38d967df259241a967e3f0072"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "600000000000000000000000",
+      "beneficiary": "0x84d7eb1ed1ba424b67f6f3fe3cd7a38386a28342",
+      "id": "0x37d8822e07fdccbc5943304a10874a96cb1582588bc9f5bf30b0219f29fa9a61-171",
+      "returnAmount": "1385204965130509948",
+      "timestamp": "1647183719",
+      "txHash": "0x37d8822e07fdccbc5943304a10874a96cb1582588bc9f5bf30b0219f29fa9a61"
+    },
+    {
+      "amount": "460000000000000000000000",
+      "beneficiary": "0x84d7eb1ed1ba424b67f6f3fe3cd7a38386a28342",
+      "id": "0x4d276401045a442fe281ab62fe2723b1ceda2d94a7b9aa41cb05ac67ce7e04dc-35",
+      "returnAmount": "1061980101062748463",
+      "timestamp": "1647178243",
+      "txHash": "0x4d276401045a442fe281ab62fe2723b1ceda2d94a7b9aa41cb05ac67ce7e04dc"
+    },
+    {
+      "amount": "460000000000000000000000",
+      "beneficiary": "0x84d7eb1ed1ba424b67f6f3fe3cd7a38386a28342",
+      "id": "0x5bd6f5d50b12078736bd74c052dc3271be7840f98bf5a0efebd1fc1596a60c8e-26",
+      "returnAmount": "1061970281134525615",
+      "timestamp": "1647177361",
+      "txHash": "0x5bd6f5d50b12078736bd74c052dc3271be7840f98bf5a0efebd1fc1596a60c8e"
+    },
     {
       "amount": "194931000000000000000000",
       "beneficiary": "0x849a2bda720e3657274d9448d9043b0987773a44",
@@ -807,30 +831,6 @@
       "returnAmount": "1655643705540321502",
       "timestamp": "1643183859",
       "txHash": "0xe9a56d28166b831d83dcbd62588d8a88f7eb36e98af630fd3222ccbba77c3d35"
-    },
-    {
-      "amount": "4642668576000000000000000",
-      "beneficiary": "0xb68b790d117a1c24081a090ffa25f62ae379b532",
-      "id": "0xc9e343b1e0071ddbc8fb8e7136ca30bca9857fa15aadde18219e0a3fff9e7fbc-267",
-      "returnAmount": "7527740844771695714",
-      "timestamp": "1643181670",
-      "txHash": "0xc9e343b1e0071ddbc8fb8e7136ca30bca9857fa15aadde18219e0a3fff9e7fbc"
-    },
-    {
-      "amount": "62000000000000000000000",
-      "beneficiary": "0xed35dfbd84f62d72689dd37dbd306df6c898b6b3",
-      "id": "0x710a61f0e445788e758fb9842b8ec24e3a8e1bf113eb8e3ab4519bba1a62f5ec-31",
-      "returnAmount": "100527595877385437",
-      "timestamp": "1643157729",
-      "txHash": "0x710a61f0e445788e758fb9842b8ec24e3a8e1bf113eb8e3ab4519bba1a62f5ec"
-    },
-    {
-      "amount": "860106686265490337708943",
-      "beneficiary": "0xc0d02d63a607c089e8a4534f22efae1d6235f9da",
-      "id": "0x29f704a984977cb26bc4d46a446eb461d263a84b341bbb105857d2af79d8280e-339",
-      "returnAmount": "1394332988805153995",
-      "timestamp": "1643062718",
-      "txHash": "0x29f704a984977cb26bc4d46a446eb461d263a84b341bbb105857d2af79d8280e"
     }
   ],
   "withdrawEvents": [
