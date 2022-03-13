@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5119052177618428776440",
+  "currentBalance": "5119067952118428776440",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "11613249841612406769962",
+  "totalPaid": "11613265616112406769962",
   "totalRedeemed": "6485080093327006755154",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
@@ -29,9 +29,25 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5117554924",
+  "totalSupply": "5117570698",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "5774500000000000",
+      "beneficiary": "0x78141a9cce00b2c562f87deb026a955bdbcd9d92",
+      "id": "0xaeb616f96e0a1fcf189df5818d39ca0468e9b2fe1b8d5eaced57155bc90e5de4-224",
+      "note": null,
+      "timestamp": "1647160411",
+      "txHash": "0xaeb616f96e0a1fcf189df5818d39ca0468e9b2fe1b8d5eaced57155bc90e5de4"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x7aa10a6f796ea1a681015a49fd037bd1e90cc760",
+      "id": "0x527535a980ebe795a9ee29cad15da2bc2d0902b4fac26cb2061ac79aa444142c-355",
+      "note": "We the people…",
+      "timestamp": "1647160399",
+      "txHash": "0x527535a980ebe795a9ee29cad15da2bc2d0902b4fac26cb2061ac79aa444142c"
+    },
     {
       "amount": "3000000000000000",
       "beneficiary": "0xc52fd1e3ed6a994769285e5f3f62b0dc97edc805",
@@ -415,22 +431,6 @@
       "note": "The constitution is a beautiful work",
       "timestamp": "1638913234",
       "txHash": "0x7baa72905a232edbbd3601e736a07f966eaf9d0503c7ac0e2005d2546a492609"
-    },
-    {
-      "amount": "2361730000000000",
-      "beneficiary": "0x9159d55239f5d52424b4775f7ecd2f76f0f560e5",
-      "id": "0xe2cac1bd8acaa1c29356d08181b5550f3170175fdc444355fc429a57ee8a60f2-469",
-      "note": null,
-      "timestamp": "1638913135",
-      "txHash": "0xe2cac1bd8acaa1c29356d08181b5550f3170175fdc444355fc429a57ee8a60f2"
-    },
-    {
-      "amount": "231000000000000",
-      "beneficiary": "0x349474312701562cfebb8af6af7e3752f0255743",
-      "id": "0x21d8adcd8f420bde8467fd0a89d262cecbd1379219606c80036dd1cf6731add2-76",
-      "note": "For the people!",
-      "timestamp": "1638908666",
-      "txHash": "0x21d8adcd8f420bde8467fd0a89d262cecbd1379219606c80036dd1cf6731add2"
     }
   ],
   "redeemEvents": [
