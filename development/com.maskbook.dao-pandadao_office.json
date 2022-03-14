@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "9577756520000000000",
+  "currentBalance": "10727756520000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "137157401440000000000",
+  "totalPaid": "138307401440000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,22 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x999999818d382b66bee3bf05a955ffc997cd0b01",
+      "id": "0xbe17ae5ba76c66c79579fe38c19cd834060e0d81027ff28e3ba4c10cbffdeefb-237",
+      "note": "fighting",
+      "timestamp": "1647252349",
+      "txHash": "0xbe17ae5ba76c66c79579fe38c19cd834060e0d81027ff28e3ba4c10cbffdeefb"
+    },
+    {
+      "amount": "150000000000000000",
+      "beneficiary": "0xf62aadadf80f0cee151af3851a9b3866255c6cd4",
+      "id": "0x3a0b4cf3e000138dc7af84e90e56b11dc0954c50aa69c436f1e713be3ed3446f-186",
+      "note": null,
+      "timestamp": "1647249214",
+      "txHash": "0x3a0b4cf3e000138dc7af84e90e56b11dc0954c50aa69c436f1e713be3ed3446f"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0x100348342a6053ea13eea348c5e3d0f5783a6e36",
@@ -402,22 +418,6 @@
       "note": null,
       "timestamp": "1645886252",
       "txHash": "0x927e1c9e19edde823fcf76bd652a9ed24eb99b23f5a9ca98c48ec953658254e1"
-    },
-    {
-      "amount": "60000000000000000",
-      "beneficiary": "0x8c300f3c605c336c79f75f44bb6e0edf457ec95e",
-      "id": "0x7552f78b7387cb531f7a0a78fc4bea98b36a079c51dc5d97bfc3233e7c9cb05b-255",
-      "note": "$people love panda",
-      "timestamp": "1645864358",
-      "txHash": "0x7552f78b7387cb531f7a0a78fc4bea98b36a079c51dc5d97bfc3233e7c9cb05b"
-    },
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0xd6594f21b3dd012fa99b7808b61f583c18b988fa",
-      "id": "0xc2ee1cb28481a9e5df5ef156ab64dc13798a3903d8440d2a4a09ad51ba81d5bb-625",
-      "note": null,
-      "timestamp": "1645848616",
-      "txHash": "0xc2ee1cb28481a9e5df5ef156ab64dc13798a3903d8440d2a4a09ad51ba81d5bb"
     }
   ],
   "redeemEvents": [
