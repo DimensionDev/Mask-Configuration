@@ -1,11 +1,11 @@
 {
   "createdAt": "1646645585",
   "creator": "0x1222c55609df8b1697e235fd33edec065ffb4714",
-  "currentBalance": "0",
+  "currentBalance": "1000000000000000000",
   "handle": "kartdao",
   "id": "504",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
+  "totalPaid": "1000000000000000000",
   "totalRedeemed": "0",
   "uri": "Qmb8PYH1MTUmRQvrFoqt9N44Gg81foo1u2LpRmmew1DiPH",
   "name": "KartDAO",
@@ -24,13 +24,22 @@
     }
   ],
   "inWallet": {
-    "eth": "370000000000000000",
+    "eth": "160000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "0",
+  "totalSupply": "1000000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x1222c55609df8b1697e235fd33edec065ffb4714",
+      "id": "0xac688128a3387d2ba98a57ad91438d1ae895383e9e7a06a024acce6c4e562e9e-166",
+      "note": "1등! ㅎㅎ",
+      "timestamp": "1647219514",
+      "txHash": "0xac688128a3387d2ba98a57ad91438d1ae895383e9e7a06a024acce6c4e562e9e"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
