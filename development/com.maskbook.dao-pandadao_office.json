@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "11727756520000000000",
+  "currentBalance": "11734556520000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "139307401440000000000",
+  "totalPaid": "139314201440000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "6800000000000000",
+      "beneficiary": "0x5d1cc71e27650b7a7d3aeb304fc9eb26a4cf2414",
+      "id": "0x9034479089b1555601cd114e4b63c88483000301aa622980788c393005fea0d0-406",
+      "note": null,
+      "timestamp": "1647267536",
+      "txHash": "0x9034479089b1555601cd114e4b63c88483000301aa622980788c393005fea0d0"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x5c8e386af4e25e790e6fcd5482c9cbb3423fa35b",
@@ -410,14 +418,6 @@
       "note": "关注嘉然，顿顿解馋",
       "timestamp": "1645895919",
       "txHash": "0xadc4a4dfc9d98da320f8c2af52f05f529ec0a4d9cfceec5c3a4f630b34e49053"
-    },
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0xd582d8db9873a23dfd33132e6a133a6183a322f9",
-      "id": "0x3dec77d885a3718c2af547910a0715923f7b061fc9a8e65b51edf5af14c0fe09-136",
-      "note": null,
-      "timestamp": "1645891760",
-      "txHash": "0x3dec77d885a3718c2af547910a0715923f7b061fc9a8e65b51edf5af14c0fe09"
     }
   ],
   "redeemEvents": [
