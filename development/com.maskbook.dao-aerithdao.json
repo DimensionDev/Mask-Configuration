@@ -30,28 +30,8 @@
   "tokenAddress": null,
   "totalSupply": "25000",
   "holdingSymbol": "Tokens",
-  "payEvents": [
-    {
-      "amount": "25000000000000000",
-      "beneficiary": "0xdc10eba5a79886940ee98bea0a80f3acd3510d3d",
-      "id": "0x9ca2edd053102b9b091dbeef825f79fa8671beb464088531681f01c67a844c61-210",
-      "note": "let's get cheeky bro",
-      "timestamp": "1640165952",
-      "txHash": "0x9ca2edd053102b9b091dbeef825f79fa8671beb464088531681f01c67a844c61"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [
-    {
-      "beneficiary": "0xdc10eba5a79886940ee98bea0a80f3acd3510d3d",
-      "beneficiaryTransferAmount": "23609791358680068",
-      "caller": "0xdc10eba5a79886940ee98bea0a80f3acd3510d3d",
-      "fundingCycleId": "773",
-      "id": "213-0x0e4e5ae2f1755f7eb0d97870b188772c7aa590fb9caff4caf146879db27e565a",
-      "netTransferAmount": "23609791358680068",
-      "timestamp": "1647053833",
-      "txHash": "0x0e4e5ae2f1755f7eb0d97870b188772c7aa590fb9caff4caf146879db27e565a"
-    }
-  ],
+  "withdrawEvents": [],
   "reservesEvents": []
 }
