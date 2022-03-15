@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5119067952118428776440",
+  "currentBalance": "5119068887608428776440",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "11613265616112406769962",
+  "totalPaid": "11613266551602406769962",
   "totalRedeemed": "6485080093327006755154",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
@@ -29,9 +29,25 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5117570698",
+  "totalSupply": "5117571634",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "236440000000000",
+      "beneficiary": "0xde8ea5928f3bc6da2a9f0193c48edfb92c0fb736",
+      "id": "0xb82b2cc853b227193db95af0643b11cde065a31f04e424d23c864eb812a3b6d0-156",
+      "note": null,
+      "timestamp": "1647344192",
+      "txHash": "0xb82b2cc853b227193db95af0643b11cde065a31f04e424d23c864eb812a3b6d0"
+    },
+    {
+      "amount": "699050000000000",
+      "beneficiary": "0xde8ea5928f3bc6da2a9f0193c48edfb92c0fb736",
+      "id": "0xac0274a054ae2de531b920fc331b949de94fb804552a019befd66c561825fb15-157",
+      "note": null,
+      "timestamp": "1647344192",
+      "txHash": "0xac0274a054ae2de531b920fc331b949de94fb804552a019befd66c561825fb15"
+    },
     {
       "amount": "5774500000000000",
       "beneficiary": "0x78141a9cce00b2c562f87deb026a955bdbcd9d92",
@@ -415,22 +431,6 @@
       "note": "For Liberty. ",
       "timestamp": "1639088876",
       "txHash": "0xbce0d8c616e4043895b5cb9031f26dd8f412848520e8318bc36506c1644a0346"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x06d769d6fd47e8db4b35e0be76c345bd095a9f3e",
-      "id": "0x241b3a8f97fb2b4c1e8a6c24827c424b82c7511c93e469b8430d6e0ecc35add8-566",
-      "note": "For freedom",
-      "timestamp": "1639077632",
-      "txHash": "0x241b3a8f97fb2b4c1e8a6c24827c424b82c7511c93e469b8430d6e0ecc35add8"
-    },
-    {
-      "amount": "1000000000000000",
-      "beneficiary": "0x7f335b139a79618058e32bba80e6fa61fe24ac37",
-      "id": "0x7baa72905a232edbbd3601e736a07f966eaf9d0503c7ac0e2005d2546a492609-246",
-      "note": "The constitution is a beautiful work",
-      "timestamp": "1638913234",
-      "txHash": "0x7baa72905a232edbbd3601e736a07f966eaf9d0503c7ac0e2005d2546a492609"
     }
   ],
   "redeemEvents": [
