@@ -1,11 +1,11 @@
 {
   "createdAt": "1643166229",
   "creator": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-  "currentBalance": "3515828914274385883",
+  "currentBalance": "4685606539547821402",
   "handle": "johnnydao",
   "id": "302",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "4473827930570276115",
+  "totalPaid": "5643605555843711634",
   "totalRedeemed": "0",
   "uri": "QmcRXUNTEuXKzqPezAtjDP13vyfwrws5WpbzaDyw9QugNK",
   "name": "JohnnyDAO",
@@ -24,13 +24,21 @@
     }
   ],
   "inWallet": {
-    "eth": "1740000000000000000",
+    "eth": "1730000000000000000",
     "jbx": "1810034000000000000000000"
   },
   "tokenAddress": "0x81c66959e454A5f1B21Ee3E98d6efFa4eF7F2592",
-  "totalSupply": "4473827",
+  "totalSupply": "5643605",
   "holdingSymbol": "JOHN",
   "payEvents": [
+    {
+      "amount": "1169777625273435519",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0xe3b507320a749cb12e29759ba5533353b39de9807b9493474e923baa172de34a-126",
+      "note": "Payout from @peel",
+      "timestamp": "1647314728",
+      "txHash": "0xe3b507320a749cb12e29759ba5533353b39de9807b9493474e923baa172de34a"
+    },
     {
       "amount": "1183851185577307887",
       "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",

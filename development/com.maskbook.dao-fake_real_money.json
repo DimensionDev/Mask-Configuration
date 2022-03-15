@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "They money you are contributing will be put into a treasury, managed by a DAO, and used to purchase Steve Pikelny's \"Fake Internet Money\" with the goal of creating a new global currency. \n\nThis is an art project with serious real goals. It is not affiliated with Steve Pikelny. \n\n",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xe8d848debb3a3e12aa815b15900c8e020b863f31",
+      "id": "0x9a2ceaec470cb849c3f3370ba247b02a34bdf507793605a30fd99c6cff318477-120",
+      "note": "Lets get this started!",
+      "timestamp": "1644709585",
+      "txHash": "0x9a2ceaec470cb849c3f3370ba247b02a34bdf507793605a30fd99c6cff318477"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
