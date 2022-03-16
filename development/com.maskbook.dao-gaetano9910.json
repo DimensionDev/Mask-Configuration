@@ -20,7 +20,12 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE"
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "60 days",
+      "start": "2-27-22 3:00am",
+      "end": "4-28-22 3:00am",
+      "discount": 0.02
     }
   ],
   "inWallet": {
