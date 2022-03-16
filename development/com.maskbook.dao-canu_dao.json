@@ -414,7 +414,16 @@
       "txHash": "0xb6b27797f55b815beae224e337236836540a207db7408bb3c170b1acd5c56dc4"
     }
   ],
-  "redeemEvents": [],
+  "redeemEvents": [
+    {
+      "amount": "2983935241528270760358054",
+      "beneficiary": "0xd337fccaec6ea113baacca3a41eb8766706a0706",
+      "id": "0x70cb0f6c8c35f4a841475eb1e9907fe153307e43f41c129c3f0971f1b15ef913-480",
+      "returnAmount": "360542432607839023",
+      "timestamp": "1642528310",
+      "txHash": "0x70cb0f6c8c35f4a841475eb1e9907fe153307e43f41c129c3f0971f1b15ef913"
+    }
+  ],
   "withdrawEvents": [
     {
       "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
