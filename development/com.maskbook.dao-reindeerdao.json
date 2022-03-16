@@ -18,6 +18,18 @@
   "version": 3,
   "payButton": "SLED",
   "payDisclosure": "Funds go to support training reindeers for pulling the sled next Christmas. Gifters may receive airdrops",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "SLED"
+    }
+  ],
+  "inWallet": {
+    "eth": "50000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0xe6A0C31cc86c306863faB4B0C83dE92a45CB4e35",
+  "totalSupply": "10000",
+  "holdingSymbol": "SLED",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
