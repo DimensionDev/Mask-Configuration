@@ -1,7 +1,7 @@
 {
   "createdAt": "1643166229",
   "creator": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-  "currentBalance": "4685606539547821402",
+  "currentBalance": "3564088495013240889",
   "handle": "johnnydao",
   "id": "302",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -24,8 +24,8 @@
     }
   ],
   "inWallet": {
-    "eth": "1730000000000000000",
-    "jbx": "1810034000000000000000000"
+    "eth": "650000000000000000",
+    "jbx": "1814139000000000000000000"
   },
   "tokenAddress": "0x81c66959e454A5f1B21Ee3E98d6efFa4eF7F2592",
   "totalSupply": "5643605",
@@ -74,6 +74,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "beneficiaryTransferAmount": "1",
+      "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "fundingCycleId": "791",
+      "id": "302-0x73aaae75ad8d821fe0bdc4cd15011a00b6f6aa7808879faf28daf05bb63dc99b",
+      "netTransferAmount": "1068112423366267155",
+      "timestamp": "1647436761",
+      "txHash": "0x73aaae75ad8d821fe0bdc4cd15011a00b6f6aa7808879faf28daf05bb63dc99b"
+    },
     {
       "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
       "beneficiaryTransferAmount": "1",

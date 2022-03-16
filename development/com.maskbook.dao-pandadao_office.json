@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "11884556520000000000",
+  "currentBalance": "11889556520000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "139464201440000000000",
+  "totalPaid": "139469201440000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "5000000000000000",
+      "beneficiary": "0xb31cd320abb14e39d65eff7dacfdd18308a8403a",
+      "id": "0x0cedb6333a49b6fa8711414dec91d20f4213b56086aa6450e42576fa4651e351-555",
+      "note": null,
+      "timestamp": "1647429571",
+      "txHash": "0x0cedb6333a49b6fa8711414dec91d20f4213b56086aa6450e42576fa4651e351"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0x80b026c2a1c9110addb04b6e54c99c1a0f9b9db5",
@@ -410,14 +418,6 @@
       "note": "无敌欧皇",
       "timestamp": "1645936374",
       "txHash": "0xbcfa2ea110d5cb1a497b75d361cf7f09ccfa590f67f95e69f347c3817e115c85"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xedab32b56a168ee87f5cadb7a4251dfca1c6cda3",
-      "id": "0x5b7dcf15da0309cece727e4bbb0d1b6cd3cf737fabb2291696e0b7ed30622045-102",
-      "note": null,
-      "timestamp": "1645914657",
-      "txHash": "0x5b7dcf15da0309cece727e4bbb0d1b6cd3cf737fabb2291696e0b7ed30622045"
     }
   ],
   "redeemEvents": [
