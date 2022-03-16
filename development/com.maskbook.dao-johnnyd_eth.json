@@ -1,12 +1,12 @@
 {
   "createdAt": "1643166229",
   "creator": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-  "currentBalance": "3564088495013240889",
+  "currentBalance": "0",
   "handle": "johnnydao",
   "id": "302",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "totalPaid": "5643605555843711634",
-  "totalRedeemed": "0",
+  "totalRedeemed": "3564088495013240889",
   "uri": "QmcRXUNTEuXKzqPezAtjDP13vyfwrws5WpbzaDyw9QugNK",
   "name": "JohnnyDAO",
   "description": "Frontend engineer @JuiceboxDAO / @Peel. Donating 10% of my pre-tax income to the most effective charities (Givewell Maximum Impact fund). \nI receive my paycheck through this project, which splits 10% of all payments to Givewell and 90% to my perso (see 'Funding Distribution' below). ",
@@ -24,11 +24,11 @@
     }
   ],
   "inWallet": {
-    "eth": "650000000000000000",
+    "eth": "1190000000000000000",
     "jbx": "1814139000000000000000000"
   },
   "tokenAddress": "0x81c66959e454A5f1B21Ee3E98d6efFa4eF7F2592",
-  "totalSupply": "5643605",
+  "totalSupply": "0",
   "holdingSymbol": "JOHN",
   "payEvents": [
     {
@@ -72,7 +72,16 @@
       "txHash": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a"
     }
   ],
-  "redeemEvents": [],
+  "redeemEvents": [
+    {
+      "amount": "5643605555843711634000000",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0xaeec32577aa2f32dfcd7e7d7ec4b56a32703bdafccebeac5180e0ac20feed0da-339",
+      "returnAmount": "3564088495013240889",
+      "timestamp": "1647439071",
+      "txHash": "0xaeec32577aa2f32dfcd7e7d7ec4b56a32703bdafccebeac5180e0ac20feed0da"
+    }
+  ],
   "withdrawEvents": [
     {
       "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
@@ -95,5 +104,15 @@
       "txHash": "0x777f1908e76d84150a27bdb0644d01efb89a8ca266be2c905df6186058ca67bd"
     }
   ],
-  "reservesEvents": []
+  "reservesEvents": [
+    {
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "beneficiaryTicketAmount": "5643605555843711634000000",
+      "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "count": "5643605555843711634000000",
+      "id": "302-0xf7215cbd31c8e85bcd3416ed3304f1f250e5c6e5c7aada44cd64080fbca78288",
+      "timestamp": "1647438230",
+      "txHash": "0xf7215cbd31c8e85bcd3416ed3304f1f250e5c6e5c7aada44cd64080fbca78288"
+    }
+  ]
 }
