@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "CONTRIBUTE",
   "payDisclosure": "Contribute ETH to the UsersDAO via Juicebox. The funds will be used to Help DAO organizations accumulate much more users. (Do not send UsersDAO other assets. All other assets will be considered a donation to the DAO's treasury— to be governed by UsersDAO — and are not eligible for refunds.)\nInvest with the risk you can afford",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xabbd8ae4c7b6a062f8f18616f670a0a871ff1c5f",
+      "id": "0xd812c13e17540bc9a86eecfd8691a543fed8b94d070f1d9bd8307bab1db3af87-544",
+      "note": null,
+      "timestamp": "1644420946",
+      "txHash": "0xd812c13e17540bc9a86eecfd8691a543fed8b94d070f1d9bd8307bab1db3af87"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
