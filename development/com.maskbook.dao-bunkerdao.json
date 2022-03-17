@@ -36,7 +36,16 @@
   "tokenAddress": "0xE99AA899Ec4B5F8d61237de3A9b636406198d264",
   "totalSupply": "10000",
   "holdingSymbol": "PEACE",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xd96016a743ee9766ac319c56a37a79c3b0087897",
+      "id": "0xa6458c194f26b7c1d322e1f60a8b95731fcb50a70a8a532f1d8839a809390ddf-329",
+      "note": null,
+      "timestamp": "1646602692",
+      "txHash": "0xa6458c194f26b7c1d322e1f60a8b95731fcb50a70a8a532f1d8839a809390ddf"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
