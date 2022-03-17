@@ -18,6 +18,23 @@
   "payDisclosure": "You are now a Digital Vigilante (DiVi)",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "5000000000000000000",
+      "duration": "45 days",
+      "start": "2-28-22 6:59pm",
+      "end": "4-14-22 6:59pm",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "40000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

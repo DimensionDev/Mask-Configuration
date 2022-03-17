@@ -33,44 +33,8 @@
   "tokenAddress": "0xBE001a2185FbFB1605B8d247BBF6Af745aB77f2D",
   "totalSupply": "1110000",
   "holdingSymbol": "DFKG",
-  "payEvents": [
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0xa1b741a1719f4cd5e91d18ff28148d155dba1cad",
-      "id": "0xe5f7f40af84ae2a8e5f855047550f304588b560b67b4803d16895eef4f024e9b-218",
-      "note": "Hello World",
-      "timestamp": "1642091209",
-      "txHash": "0xe5f7f40af84ae2a8e5f855047550f304588b560b67b4803d16895eef4f024e9b"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0xdfc87b21ae573a75eae499cd280eada937278a94",
-      "id": "0x1bfe307c5d011c42486496a099dffb561b2ab57b8c28186abf89307c1f1054e8-528",
-      "note": null,
-      "timestamp": "1642091179",
-      "txHash": "0x1bfe307c5d011c42486496a099dffb561b2ab57b8c28186abf89307c1f1054e8"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
-      "id": "0x2a35737c05fb530c737de0b1dcb88593750b14b8404d617c95cd4b15528212ce-154",
-      "note": "Hello World",
-      "timestamp": "1642087058",
-      "txHash": "0x2a35737c05fb530c737de0b1dcb88593750b14b8404d617c95cd4b15528212ce"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
-  "withdrawEvents": [
-    {
-      "beneficiary": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
-      "beneficiaryTransferAmount": "1057142857142857142",
-      "caller": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
-      "fundingCycleId": "432",
-      "id": "264-0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c",
-      "netTransferAmount": "1057142857142857142",
-      "timestamp": "1646114062",
-      "txHash": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c"
-    }
-  ],
+  "withdrawEvents": [],
   "reservesEvents": []
 }
