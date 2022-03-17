@@ -18,88 +18,7 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 4,
-  "payEvents": [
-    {
-      "amount": "387670000000000",
-      "beneficiary": "0x0028c35095d34c9c8a3bc84cb8542cb182fcfa8e",
-      "id": "0x389cdcf09451ae5e592f7d60da0d6b3bb15d8c760f1ce44911d974213d909efe-84",
-      "note": null,
-      "timestamp": "1647262441",
-      "txHash": "0x389cdcf09451ae5e592f7d60da0d6b3bb15d8c760f1ce44911d974213d909efe"
-    },
-    {
-      "amount": "11905140857882645499",
-      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
-      "id": "0xa0b7d803f790df016b221663eee6775aa7369f2f6e148bea343ea60b4e315784-483",
-      "note": "Payout from @juicebox",
-      "timestamp": "1647115867",
-      "txHash": "0xa0b7d803f790df016b221663eee6775aa7369f2f6e148bea343ea60b4e315784"
-    },
-    {
-      "amount": "500000000000000000",
-      "beneficiary": "0xd8c479e32a38977539e46b3bc00f5dea85cc5237",
-      "id": "0x8138ef6ebee6bb9da13692e435366150e00ca8424c24dd8302606aabdd3012b4-139",
-      "note": null,
-      "timestamp": "1646801925",
-      "txHash": "0x8138ef6ebee6bb9da13692e435366150e00ca8424c24dd8302606aabdd3012b4"
-    },
-    {
-      "amount": "5000000000000000000",
-      "beneficiary": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",
-      "id": "0x28e43649602e6103bbaac4d93babcd4885f31477674f057124efc9824f971fcb-316",
-      "note": "I dream of psychedelic peels. https://jbx.mypinata.cloud/ipfs/Qme5Lq2FXXpFwZcmoVd8dyFPZexbUx7jQ1wynS4mfpMviK",
-      "timestamp": "1646368461",
-      "txHash": "0x28e43649602e6103bbaac4d93babcd4885f31477674f057124efc9824f971fcb"
-    },
-    {
-      "amount": "100000000000000",
-      "beneficiary": "0x0028c35095d34c9c8a3bc84cb8542cb182fcfa8e",
-      "id": "0xede62bf40463fba3e8e5c63fdacfe728bd24628ce556f42dabb6fb8407b3e604-333",
-      "note": null,
-      "timestamp": "1646352703",
-      "txHash": "0xede62bf40463fba3e8e5c63fdacfe728bd24628ce556f42dabb6fb8407b3e604"
-    },
-    {
-      "amount": "10687380794125842477",
-      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
-      "id": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463-151",
-      "note": "Payout from @juicebox",
-      "timestamp": "1645916462",
-      "txHash": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",
-      "id": "0x0883184539c4676da800abdd3f917fe46ee22c92b15b60458a7499550a84ac51-302",
-      "note": "Party https://jbx.mypinata.cloud/ipfs/Qmc4xtgTqkm9DxURAjT71g3bgbjdWboLEmh3jU34Yetgb4",
-      "timestamp": "1645433464",
-      "txHash": "0x0883184539c4676da800abdd3f917fe46ee22c92b15b60458a7499550a84ac51"
-    },
-    {
-      "amount": "30000000000000000",
-      "beneficiary": "0xc6349bd7b445ebc071099f711e24bdb733804e30",
-      "id": "0x082da4e6a9a703a3ffcd47f6c14fe31e51019ee75d036605aac1079749d3de7e-80",
-      "note": null,
-      "timestamp": "1644952132",
-      "txHash": "0x082da4e6a9a703a3ffcd47f6c14fe31e51019ee75d036605aac1079749d3de7e"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
-      "id": "0x484e2db30d9c39506a0c93c3de50da4a525cbcc8363d2189c68fa83f2557ab48-567",
-      "note": "devs gonna dev",
-      "timestamp": "1644945988",
-      "txHash": "0x484e2db30d9c39506a0c93c3de50da4a525cbcc8363d2189c68fa83f2557ab48"
-    },
-    {
-      "amount": "10528971336788201844",
-      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
-      "id": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0-192",
-      "note": "Payout from @juicebox",
-      "timestamp": "1644808677",
-      "txHash": "0x06329aeb3f8fe20517348a5f5a305289239e0ee183c783aa93e2cf79dbf0d5f0"
-    }
-  ],
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [
     {
@@ -153,15 +72,5 @@
       "txHash": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a"
     }
   ],
-  "reservesEvents": [
-    {
-      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
-      "beneficiaryTicketAmount": "2844030721084298110348454",
-      "caller": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-      "count": "11362487898858562166793662",
-      "id": "329-0x3e9b527282826450efd66ac488a98a09d4e4ff28eab8188c68efbf555ae014a8",
-      "timestamp": "1646007113",
-      "txHash": "0x3e9b527282826450efd66ac488a98a09d4e4ff28eab8188c68efbf555ae014a8"
-    }
-  ]
+  "reservesEvents": []
 }

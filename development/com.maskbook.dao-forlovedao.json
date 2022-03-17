@@ -20,11 +20,16 @@
   "payDisclosure": "",
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE"
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "7 days",
+      "start": "3-13-22 8:56am",
+      "end": "3-20-22 8:56am",
+      "discount": 0
     }
   ],
   "inWallet": {
-    "eth": "40000000000000000",
+    "eth": "50000000000000000",
     "jbx": "0"
   },
   "tokenAddress": null,

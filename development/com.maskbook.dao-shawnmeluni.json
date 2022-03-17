@@ -20,7 +20,12 @@
   "version": 3,
   "fundingCycles": [
     {
-      "toETHSymbol": "WLD"
+      "toETHSymbol": "WLD",
+      "target": "2000000000000000000",
+      "duration": "14 days",
+      "start": "3-3-22 5:10am",
+      "end": "3-17-22 5:10am",
+      "discount": 0.1
     }
   ],
   "inWallet": {
