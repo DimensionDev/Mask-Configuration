@@ -34,42 +34,8 @@
   "tokenAddress": null,
   "totalSupply": "0",
   "holdingSymbol": "Tokens",
-  "payEvents": [
-    {
-      "amount": "25500000000000000000",
-      "beneficiary": "0x77ad10313a7b902b327f28496fa553a61fd55555",
-      "id": "0xc06da2a91330193a0cf5b7d35871fa48a21918adc1950d63829e442630ffc116-458",
-      "note": "We're All Gonna Buy A Diamond!",
-      "timestamp": "1642802237",
-      "txHash": "0xc06da2a91330193a0cf5b7d35871fa48a21918adc1950d63829e442630ffc116"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x3240a2045cf653b0e242a4172fdde71ca7a84aa0",
-      "id": "0x3697bf905a3c45b48804825ff10f6bb28d09732d880dcaa081d37939aae28377-759",
-      "note": "Superb idea! WAGBAD",
-      "timestamp": "1642749224",
-      "txHash": "0x3697bf905a3c45b48804825ff10f6bb28d09732d880dcaa081d37939aae28377"
-    }
-  ],
-  "redeemEvents": [
-    {
-      "amount": "100000000000000000000000",
-      "beneficiary": "0x3240a2045cf653b0e242a4172fdde71ca7a84aa0",
-      "id": "0x571baa6e3f05a4f12f69905c4cd7025f2a5b7a29c6931e323a53bb0dba1c5c48-144",
-      "returnAmount": "100000000000000000",
-      "timestamp": "1643520323",
-      "txHash": "0x571baa6e3f05a4f12f69905c4cd7025f2a5b7a29c6931e323a53bb0dba1c5c48"
-    },
-    {
-      "amount": "25500000000000000000000000",
-      "beneficiary": "0x77ad10313a7b902b327f28496fa553a61fd55555",
-      "id": "0x186df5b8d6d841a6f736882336c20530cad6ef35ae15a57b93fd1ce3223668a9-256",
-      "returnAmount": "25500000000000000000",
-      "timestamp": "1643500525",
-      "txHash": "0x186df5b8d6d841a6f736882336c20530cad6ef35ae15a57b93fd1ce3223668a9"
-    }
-  ],
+  "payEvents": [],
+  "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
 }
