@@ -40,7 +40,16 @@
   "tokenAddress": "0x56657e7c2022FBA3bD66424f38B84CB16F2fd890",
   "totalSupply": "1000",
   "holdingSymbol": "NATLME",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xb799ae92b2f6131b4b53f7031defe4fdaa4d9b73",
+      "id": "0x1c33fd7d0435ac835a5ebe2be93e84bfe1a09dce3079970ebd9921b783ab0e22-131",
+      "note": null,
+      "timestamp": "1643607192",
+      "txHash": "0x1c33fd7d0435ac835a5ebe2be93e84bfe1a09dce3079970ebd9921b783ab0e22"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
