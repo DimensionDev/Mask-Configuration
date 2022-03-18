@@ -18,6 +18,23 @@
   "payDisclosure": "Paying HostelDAO is not an investment—it's a way to support the project. Any value or utility of the tokens you receive is determined by HostelDAO.",
   "tokens": [],
   "version": 4,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "30 days",
+      "start": "3-13-22 6:07pm",
+      "end": "4-12-22 6:07pm",
+      "discount": 0.1
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

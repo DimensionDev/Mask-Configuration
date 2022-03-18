@@ -35,7 +35,48 @@
   "tokenAddress": "0x81c66959e454A5f1B21Ee3E98d6efFa4eF7F2592",
   "totalSupply": "0",
   "holdingSymbol": "JOHN",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1169777625273435519",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0xe3b507320a749cb12e29759ba5533353b39de9807b9493474e923baa172de34a-126",
+      "note": "Payout from @peel",
+      "timestamp": "1647314728",
+      "txHash": "0xe3b507320a749cb12e29759ba5533353b39de9807b9493474e923baa172de34a"
+    },
+    {
+      "amount": "1183851185577307887",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x3c545498cee93d763cc4637997175a0e11c3b9145784489fa41de8eb91cc53e8-363",
+      "note": "Payout from @peel",
+      "timestamp": "1646620653",
+      "txHash": "0x3c545498cee93d763cc4637997175a0e11c3b9145784489fa41de8eb91cc53e8"
+    },
+    {
+      "amount": "1143443917093990570",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0xb1b507d87f35ea7fd9f41d4ae5091ed3359d18d9668f2c61bf92f9f75e5cf5f2-367",
+      "note": "Payout from @peel",
+      "timestamp": "1646007057",
+      "txHash": "0xb1b507d87f35ea7fd9f41d4ae5091ed3359d18d9668f2c61bf92f9f75e5cf5f2"
+    },
+    {
+      "amount": "1132063108129329916",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x4fed450be8d4e3356c76f28a9ea7bbbc0fb3cdaadfdea46f4b0bbfafa40bdfb5-144",
+      "note": "Payout from @peel",
+      "timestamp": "1645467560",
+      "txHash": "0x4fed450be8d4e3356c76f28a9ea7bbbc0fb3cdaadfdea46f4b0bbfafa40bdfb5"
+    },
+    {
+      "amount": "1014469719769647742",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a-328",
+      "note": "Payout from @peel",
+      "timestamp": "1644857838",
+      "txHash": "0x09a81b8044fc2ad96584f5621f2f365aad701f29cb99495950abb5b468b4198a"
+    }
+  ],
   "redeemEvents": [
     {
       "amount": "5643605555843711634000000",
