@@ -18,6 +18,23 @@
   "payDisclosure": "This is not financial advice and there is a risk with any investment with potential for loss.",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "60 days",
+      "start": "2-27-22 3:00am",
+      "end": "4-28-22 3:00am",
+      "discount": 0.02
+    }
+  ],
+  "inWallet": {
+    "eth": "30000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
