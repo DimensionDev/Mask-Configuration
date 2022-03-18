@@ -1,11 +1,11 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "27568893085645719569",
+  "currentBalance": "27728893085645719569",
   "handle": "tiles",
   "id": "2",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "133332336800000000000",
+  "totalPaid": "133492336800000000000",
   "totalRedeemed": "6869443714354280431",
   "uri": "QmNnxipn7ooGhX67nUPysoTuFK4xbLJrXw1nKnqTQ6uy7h",
   "name": "TileDAO",
@@ -22,8 +22,8 @@
       "toETHSymbol": "TILE",
       "target": "1733000000000000000",
       "duration": "7 days",
-      "start": "3-10-22 10:30pm",
-      "end": "3-17-22 10:30pm",
+      "start": "3-17-22 10:30pm",
+      "end": "3-24-22 10:30pm",
       "discount": 0.02
     }
   ],
@@ -32,9 +32,17 @@
     "jbx": "629937000000000000000000"
   },
   "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
-  "totalSupply": "111343483",
+  "totalSupply": "111423985",
   "holdingSymbol": "TILE",
   "payEvents": [
+    {
+      "amount": "160000000000000000",
+      "beneficiary": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",
+      "id": "0x42e7cc73b847d9c32129508b31b9c8c45722d58fe7b1cc9724ca011801759df2-419",
+      "note": "Minted Tile with address 0000255555552555555505656555255555552555",
+      "timestamp": "1647566482",
+      "txHash": "0x42e7cc73b847d9c32129508b31b9c8c45722d58fe7b1cc9724ca011801759df2"
+    },
     {
       "amount": "160000000000000000",
       "beneficiary": "0x8e6faf6b3cee5a32d1aa22f2095e4269f11dbd08",
@@ -426,14 +434,6 @@
       "note": "Minted Tile with address 20eb6d553870d833c9ee7f8747318bd118d0fe7c",
       "timestamp": "1635942493",
       "txHash": "0x8fac99823fa3e72bcba1d372685ccc07e57a1fce18ec720c068e40fbd093782c"
-    },
-    {
-      "amount": "160000000000000000",
-      "beneficiary": "0x9a672b41a9869e27f711ac82eadc4e568a5d2365",
-      "id": "0x475d949773dbf3ecb95d3fccc656768784be171306bf4ac6ef3709e2c35f2c4f-338",
-      "note": "Minted Tile with address 95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
-      "timestamp": "1635897418",
-      "txHash": "0x475d949773dbf3ecb95d3fccc656768784be171306bf4ac6ef3709e2c35f2c4f"
     }
   ],
   "redeemEvents": [
