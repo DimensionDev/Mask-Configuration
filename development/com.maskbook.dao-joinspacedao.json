@@ -33,7 +33,16 @@
   "tokenAddress": null,
   "totalSupply": "250000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "250000000000000000",
+      "beneficiary": "0x8103d95b48075e6f9d61f235bde30edd93326fc4",
+      "id": "0x0b0ab17f3fcbbf2ec8eb352363e27e7e28041cb022c674b34821d9f3e7bbd09a-544",
+      "note": "Let's go to fucking space!",
+      "timestamp": "1642127317",
+      "txHash": "0x0b0ab17f3fcbbf2ec8eb352363e27e7e28041cb022c674b34821d9f3e7bbd09a"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {
