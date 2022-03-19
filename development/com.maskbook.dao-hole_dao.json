@@ -33,7 +33,16 @@
   "tokenAddress": null,
   "totalSupply": "6899",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10615000000000000",
+      "beneficiary": "0xcc9f38e801fdad609ec04d373b887060c939bf32",
+      "id": "0x07cb5587a69d10a4570485dbd4c1d80205d9e1dab2ce7811f6dfed03db3f5e71-461",
+      "note": "https://jbx.mypinata.cloud/ipfs/QmXcTVj8ifSFK1xewrgS1UphG8ad97FxbEoDB71pAj6Dcy",
+      "timestamp": "1637458417",
+      "txHash": "0x07cb5587a69d10a4570485dbd4c1d80205d9e1dab2ce7811f6dfed03db3f5e71"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
