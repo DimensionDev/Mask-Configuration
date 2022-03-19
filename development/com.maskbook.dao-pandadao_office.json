@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "17130556520000000000",
+  "currentBalance": "17150556520000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "144710201440000000000",
+  "totalPaid": "144730201440000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x123bcdffc5cc7fdd30a9a2fcd99d4897a6bf41ae",
+      "id": "0x4646085b0ed2e3e9124832593c88694a14ee4062e39d8548454ab69dadc36463-190",
+      "note": null,
+      "timestamp": "1647644733",
+      "txHash": "0x4646085b0ed2e3e9124832593c88694a14ee4062e39d8548454ab69dadc36463"
+    },
     {
       "amount": "30000000000000000",
       "beneficiary": "0xd5804b64392ef41c029d465757c91e153d0bb9fb",
@@ -410,14 +418,6 @@
       "note": "钻石手",
       "timestamp": "1646403681",
       "txHash": "0xfcb7b0224603c5a3cd4e818a6b95f81d625c75e0c9811a77332b1eb32b8b8cfc"
-    },
-    {
-      "amount": "600000000000000000",
-      "beneficiary": "0xa5ca45d866748772368552b4e483943bf8d348e2",
-      "id": "0xce460d1219807b61b3c55d7c55e47d3bc6351aecf76fe6f741d55d460b2eb260-380",
-      "note": null,
-      "timestamp": "1646403642",
-      "txHash": "0xce460d1219807b61b3c55d7c55e47d3bc6351aecf76fe6f741d55d460b2eb260"
     }
   ],
   "redeemEvents": [
