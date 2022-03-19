@@ -1,11 +1,11 @@
 {
   "createdAt": "1636939918",
   "creator": "0xb1c95ac257029d11f3f64ac67b2307a426699322",
-  "currentBalance": "5118968858351318009943",
+  "currentBalance": "5118969858351318009943",
   "handle": "constitutiondao",
   "id": "36",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "11613266551602406769962",
+  "totalPaid": "11613267551602406769962",
   "totalRedeemed": "6485180122584117521651",
   "uri": "QmW4WhXEHB55zxn5xAab4gBv6rT4nBckiMkfDujhgWW8TA",
   "name": "ConstitutionDAO",
@@ -32,9 +32,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
-  "totalSupply": "5117471634",
+  "totalSupply": "5117472634",
   "holdingSymbol": "PEOPLE",
   "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0x6ea092d556acb16d1e21526e7f7400cb028f8b39",
+      "id": "0x8b6a5cf43396625174da8eb6664cbb3d59789589925fabd45c6b30a1a4990660-357",
+      "note": "FTW",
+      "timestamp": "1647682753",
+      "txHash": "0x8b6a5cf43396625174da8eb6664cbb3d59789589925fabd45c6b30a1a4990660"
+    },
     {
       "amount": "236440000000000",
       "beneficiary": "0xde8ea5928f3bc6da2a9f0193c48edfb92c0fb736",
@@ -426,14 +434,6 @@
       "note": null,
       "timestamp": "1639100400",
       "txHash": "0xc491bc4e6c743ecf016507bc2d69e923a4992fd9e5006b3dc29a1c37fae56737"
-    },
-    {
-      "amount": "9859140000000000",
-      "beneficiary": "0x52274e9b163234ce6d5a8084ee05a44143915695",
-      "id": "0xbce0d8c616e4043895b5cb9031f26dd8f412848520e8318bc36506c1644a0346-69",
-      "note": "For Liberty. ",
-      "timestamp": "1639088876",
-      "txHash": "0xbce0d8c616e4043895b5cb9031f26dd8f412848520e8318bc36506c1644a0346"
     }
   ],
   "redeemEvents": [
