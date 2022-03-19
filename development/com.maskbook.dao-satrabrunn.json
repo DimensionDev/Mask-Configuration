@@ -662,6 +662,17 @@
       "txHash": "0x89fc437144d72c558302bf18e310adbbb1be2a7b5008095007dbecf800b8aba8"
     }
   ],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
+      "beneficiaryTransferAmount": "358739382486055299",
+      "caller": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
+      "fundingCycleId": "404",
+      "id": "253-0x4b0fae90cbb2069840dca60877baa2f3323441fe49f717ff6f1fabdbdaa6d34b",
+      "netTransferAmount": "4003787750960438572",
+      "timestamp": "1642464841",
+      "txHash": "0x4b0fae90cbb2069840dca60877baa2f3323441fe49f717ff6f1fabdbdaa6d34b"
+    }
+  ],
   "reservesEvents": []
 }
