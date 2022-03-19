@@ -18,6 +18,21 @@
   "version": 3,
   "payButton": "Buy",
   "payDisclosure": "You can get 1ETH=1,000,000 DogeKing from the juicebox , and if you pay 200USDT or 0.2ETH,you will get additional 100 Millions DogeKing Coins from official wallet. If you pay 1ETH ,you will get 500M DogeKing Coins.  Because of the juicebox’s maximum is just 1ETH=1,000,000, so you will get additional coins from official wallet of DogeKing.",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "DOGEKING",
+      "target": "15000000000000000000000",
+      "duration": "Not set ",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "2530000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": "0xd9B4E7EE58C8836394147830273C0D8E562Cca14",
+  "totalSupply": "12000000000010000",
+  "holdingSymbol": "DOGEKING",
   "payEvents": [
     {
       "amount": "10000000000000000",

@@ -18,6 +18,23 @@
   "payDisclosure": "",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "0XP",
+      "target": "0",
+      "duration": "90 days",
+      "start": "2-8-22 2:32pm",
+      "end": "5-9-22 2:32pm",
+      "discount": 0.05
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x13Ee166CeE91fE756792eEC5D06b31621B39588c",
+  "totalSupply": "10000",
+  "holdingSymbol": "0XP",
   "payEvents": [
     {
       "amount": "10000000000000000",

@@ -18,6 +18,21 @@
   "version": 3,
   "payButton": "Fund NovelDAO",
   "payDisclosure": "Thanks for being part of NovelDAO!",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "Not set ",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "80000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "1000000000",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

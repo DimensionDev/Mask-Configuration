@@ -18,16 +18,22 @@
   "version": 3,
   "payButton": "Join BlablaBlock to BUIDL.",
   "payDisclosure": "",
-  "payEvents": [
+  "fundingCycles": [
     {
-      "amount": "10000000000000000",
-      "beneficiary": "0x188d75f3216bf989b1461a19ffd3c79f7cfc1fbd",
-      "id": "0x296b77f8accd18a9a3a5ca4085698675aa8f7d6f6d74a8b7b561b9cb47d0aeae-189",
-      "note": "Start to BUIDL!!!",
-      "timestamp": "1641369286",
-      "txHash": "0x296b77f8accd18a9a3a5ca4085698675aa8f7d6f6d74a8b7b561b9cb47d0aeae"
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "Not set ",
+      "discount": 0
     }
   ],
+  "inWallet": {
+    "eth": "180000000000000000",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "10000",
+  "holdingSymbol": "Tokens",
+  "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
