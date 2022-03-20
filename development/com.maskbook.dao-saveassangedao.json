@@ -18,6 +18,23 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Congratulations, you did the right thing.LFG",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "300000000000000000000",
+      "duration": "7 days",
+      "start": "3-14-22 11:05am",
+      "end": "3-21-22 11:05am",
+      "discount": 0.05
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

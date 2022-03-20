@@ -34,7 +34,40 @@
   "tokenAddress": "0x07B68e17D3253cBcFC1520f1B1E8ef75B0d1f6d2",
   "totalSupply": "3170607",
   "holdingSymbol": "HOLD",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "2000000000000000000",
+      "beneficiary": "0xa28b5a10f6b1c8ba8450c0e26985aa118b541118",
+      "id": "0xa20b1c9b8d01c4d61134c6919b54942d0b73e816959974791bcb2daee52d6ffe-418",
+      "note": "Would love to see how this VentureDao works.",
+      "timestamp": "1638276680",
+      "txHash": "0xa20b1c9b8d01c4d61134c6919b54942d0b73e816959974791bcb2daee52d6ffe"
+    },
+    {
+      "amount": "500000000000000000",
+      "beneficiary": "0xb411b974c0ac75c88e5039ea0bf63a84aa7b5377",
+      "id": "0x38cad1ba04d62ecc7f60a5c4b01547ea9f2a323042e86973b1bdb94a9607a0e4-511",
+      "note": "Can we use VAULT ETH to play Radio Raca?",
+      "timestamp": "1638273504",
+      "txHash": "0x38cad1ba04d62ecc7f60a5c4b01547ea9f2a323042e86973b1bdb94a9607a0e4"
+    },
+    {
+      "amount": "22896900000000000",
+      "beneficiary": "0x34234f2ab33bcc4c896ae3c17b8c6627d26076b1",
+      "id": "0x49f3ce1e1d7ef38b8a68fc3c66f60456091ffbb22b9f475250203c6fa77fbb61-427",
+      "note": null,
+      "timestamp": "1638253651",
+      "txHash": "0x49f3ce1e1d7ef38b8a68fc3c66f60456091ffbb22b9f475250203c6fa77fbb61"
+    },
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0xc45e28ffbaa9afd811c37494a07c49a6d16a727d",
+      "id": "0x473e727ace8dd92359b3f7ffb58cfe50d2577462ffdf1d7263aa9aa161d69350-123",
+      "note": "Sounds exciting...am I the first contributor?",
+      "timestamp": "1638250293",
+      "txHash": "0x473e727ace8dd92359b3f7ffb58cfe50d2577462ffdf1d7263aa9aa161d69350"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {

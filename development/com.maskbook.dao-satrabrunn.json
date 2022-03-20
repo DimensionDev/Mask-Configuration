@@ -32,7 +32,7 @@
     "jbx": "23453000000000000000000"
   },
   "tokenAddress": "0xf715a86DfB6ed9AE1E421cf14f640aB6b7F5DAdA",
-  "totalSupply": "2106500",
+  "totalSupply": "2061500",
   "holdingSymbol": "STRA",
   "payEvents": [
     {
@@ -437,6 +437,14 @@
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "45000000000000000000000",
+      "beneficiary": "0xca9895092d8dce6043136f8fc5d149bbeb34a791",
+      "id": "0x674bfb4ce67ae567ec990eac2bdaa181861f3301a1205b8ef306bffb93d95e22-317",
+      "returnAmount": "53783101132788222",
+      "timestamp": "1647768104",
+      "txHash": "0x674bfb4ce67ae567ec990eac2bdaa181861f3301a1205b8ef306bffb93d95e22"
+    },
     {
       "amount": "40000000000000000000000",
       "beneficiary": "0xa9bbc7693b47116220b3d5d0cdf85fa2c801be3d",

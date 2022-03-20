@@ -1,7 +1,7 @@
 {
   "createdAt": "1646896711",
   "creator": "0x2129aca537d011b9698b937581d80601633ba4b0",
-  "currentBalance": "155500000000000000",
+  "currentBalance": "0",
   "handle": "bitcoindao",
   "id": "511",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -101,6 +101,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x2129aca537d011b9698b937581d80601633ba4b0",
+      "beneficiaryTransferAmount": "151707317073170731",
+      "caller": "0x2129aca537d011b9698b937581d80601633ba4b0",
+      "fundingCycleId": "761",
+      "id": "511-0x5f38defe4ef21d0cfa47888ea82568f2551ac098ec32c4b587a86c4c0369a809",
+      "netTransferAmount": "151707317073170731",
+      "timestamp": "1647767546",
+      "txHash": "0x5f38defe4ef21d0cfa47888ea82568f2551ac098ec32c4b587a86c4c0369a809"
+    }
+  ],
   "reservesEvents": []
 }
