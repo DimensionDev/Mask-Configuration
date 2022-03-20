@@ -23,6 +23,23 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "Welcome Onboard.",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "NATLME",
+      "target": "105500000000000000000000",
+      "duration": "15 days",
+      "start": "3-17-22 4:00am",
+      "end": "4-1-22 4:00am",
+      "discount": 0.1
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x56657e7c2022FBA3bD66424f38B84CB16F2fd890",
+  "totalSupply": "1000",
+  "holdingSymbol": "NATLME",
   "payEvents": [
     {
       "amount": "1000000000000000",

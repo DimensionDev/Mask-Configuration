@@ -1,11 +1,11 @@
 {
   "createdAt": "1645798544",
   "creator": "0xf33b25f308b80ec3454d396cd309915318818f04",
-  "currentBalance": "2000000000000000",
+  "currentBalance": "4000000000000000",
   "handle": "savethepeacedao",
   "id": "445",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "2000000000000000",
+  "totalPaid": "4000000000000000",
   "totalRedeemed": "0",
   "uri": "QmNnuvb1UqXT4YvQikWQ1EXaoAD7Hjpz16WWfTCAwfQyyf",
   "name": "SaveThePeaceDAO",
@@ -29,13 +29,21 @@
     }
   ],
   "inWallet": {
-    "eth": "10000000000000000",
+    "eth": "0",
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "2000",
+  "totalSupply": "4000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "2000000000000000",
+      "beneficiary": "0xf33b25f308b80ec3454d396cd309915318818f04",
+      "id": "0x95dea3988968a9f2296aa541705051049defde9e6928c64ce498d8b10dcd29b9-549",
+      "note": null,
+      "timestamp": "1647799712",
+      "txHash": "0x95dea3988968a9f2296aa541705051049defde9e6928c64ce498d8b10dcd29b9"
+    },
     {
       "amount": "2000000000000000",
       "beneficiary": "0xaf9fe2258f7d3672656b6d47de75a5cddaab9689",
