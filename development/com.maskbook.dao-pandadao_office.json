@@ -20,6 +20,14 @@
   "version": 3,
   "payEvents": [
     {
+      "amount": "10000000000000000",
+      "beneficiary": "0xb0f89409cdffe2b43220f37f6e30a3c0609fb76d",
+      "id": "0xbbb7799c14601ceda330006d213b3ff6fe104d66f26ddd7a100756d736f479df-398",
+      "note": "Buidl and Hodl",
+      "timestamp": "1647796831",
+      "txHash": "0xbbb7799c14601ceda330006d213b3ff6fe104d66f26ddd7a100756d736f479df"
+    },
+    {
       "amount": "20000000000000000",
       "beneficiary": "0x2ed0f4e9769591d8eff038abd884187c8101c7f3",
       "id": "0x48e099f8193c7bda69700a2f4267893f277f68d463b431b8364a8994e3571292-345",
@@ -410,14 +418,6 @@
       "note": "多久支付代币",
       "timestamp": "1647337960",
       "txHash": "0xdae113c9972e8ebd0dda5c6689b971abdbc60ccf4d1a1d800110bf4afd011c89"
-    },
-    {
-      "amount": "6800000000000000",
-      "beneficiary": "0x5d1cc71e27650b7a7d3aeb304fc9eb26a4cf2414",
-      "id": "0x9034479089b1555601cd114e4b63c88483000301aa622980788c393005fea0d0-406",
-      "note": null,
-      "timestamp": "1647267536",
-      "txHash": "0x9034479089b1555601cd114e4b63c88483000301aa622980788c393005fea0d0"
     }
   ],
   "redeemEvents": [
