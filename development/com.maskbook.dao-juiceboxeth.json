@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6023328424687084604467",
+  "currentBalance": "6023337948496608413991",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6743737618470410841681",
+  "totalPaid": "6743747142279934651205",
   "totalRedeemed": "335290787334569058587",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
@@ -32,9 +32,17 @@
     "jbx": "164099856000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2476834526",
+  "totalSupply": "2476835990",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "9523809523809524",
+      "beneficiary": "0x3f13aa064469c8b6a7e608e732d64796ff8e62c0",
+      "id": "0x7c823140c5bf3a73a7e8a0e179d9fca8fc245f2a8e03f7118a4bed90e3619e21-245",
+      "note": "Fee from @donate2ukrainegetannft",
+      "timestamp": "1647753588",
+      "txHash": "0x7c823140c5bf3a73a7e8a0e179d9fca8fc245f2a8e03f7118a4bed90e3619e21"
+    },
     {
       "amount": "571428571433334",
       "beneficiary": "0xd157bc43016e1c245bd2ac92bbbd3f5445000001",
@@ -426,14 +434,6 @@
       "note": null,
       "timestamp": "1645529342",
       "txHash": "0x5c2d38b29a5cb36753e89a595075d3e5aa7a316a3e6c0c2af2c92904c40f5278"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x56e8bd20021a361c5fe2d73e825fa237c5850d04",
-      "id": "0xa79b106b6f0adcf74df4bc945b546bbf516f8a20e388a5b2954b0534d08bd95f-410",
-      "note": null,
-      "timestamp": "1645476925",
-      "txHash": "0xa79b106b6f0adcf74df4bc945b546bbf516f8a20e388a5b2954b0534d08bd95f"
     }
   ],
   "redeemEvents": [
