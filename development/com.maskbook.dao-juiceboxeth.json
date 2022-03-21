@@ -1,12 +1,12 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6023624286926264237275",
+  "currentBalance": "6023597312281338958629",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "6744033480709590474489",
-  "totalRedeemed": "335290787334569058587",
+  "totalRedeemed": "335317761979494337233",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
   "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. All projects withdrawing funds from their treasury pay a 2.5% membership fee and receive JBX at the current issuance rate. JBX members govern the NFT that represents ownership over this treasury.",
@@ -32,7 +32,7 @@
     "jbx": "164099856000000000000000000"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2476880010",
+  "totalSupply": "2476868334",
   "holdingSymbol": "JBX",
   "payEvents": [
     {
@@ -438,6 +438,14 @@
   ],
   "redeemEvents": [
     {
+      "amount": "11675600429600000000000",
+      "beneficiary": "0xfcfa4369eaa965ac4e36f1dd9fd2852c6542b0f7",
+      "id": "0x29e474af262ed44b5c5b02992d122a80d868d9274738a2bc3fd5f1e65fa664ce-162",
+      "returnAmount": "26974644925278646",
+      "timestamp": "1647834099",
+      "txHash": "0x29e474af262ed44b5c5b02992d122a80d868d9274738a2bc3fd5f1e65fa664ce"
+    },
+    {
       "amount": "204802479712923972576369",
       "beneficiary": "0x7c3f14075f6477fea1af6cf59f325afdfcd3ddf7",
       "id": "0x30b06f789110a54aff3bcc76ce76d4efa387ec9a80142dd3dc9e6d5e9b3ee4fc-28",
@@ -828,14 +836,6 @@
       "returnAmount": "2417366781802065843",
       "timestamp": "1646852910",
       "txHash": "0x22d992b8f89bb6a5443fe962a526404ae9bacd99c02f4270ba0b16e99419ca99"
-    },
-    {
-      "amount": "53900000000000000000000000",
-      "beneficiary": "0x754f37225ce0e30639093af47c16ef057b544b4f",
-      "id": "0xf64af0f5070b1ab457e5101a1a3342f7adf384659b32ea3f26151e863d86d70e-453",
-      "returnAmount": "125110815366133827294",
-      "timestamp": "1646142142",
-      "txHash": "0xf64af0f5070b1ab457e5101a1a3342f7adf384659b32ea3f26151e863d86d70e"
     }
   ],
   "withdrawEvents": [

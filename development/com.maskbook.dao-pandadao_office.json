@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "26603691520000000000",
+  "currentBalance": "26623691520000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "154183336440000000000",
+  "totalPaid": "154203336440000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,22 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xf4b2d2d9d18168a6bcb43ad7a807ee44a4fd58e7",
+      "id": "0x4a1fc925effc64ccab833e75741495df69d770299ddab4ce508e6c0ff02c4fc4-575",
+      "note": null,
+      "timestamp": "1647843217",
+      "txHash": "0x4a1fc925effc64ccab833e75741495df69d770299ddab4ce508e6c0ff02c4fc4"
+    },
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0x978ee9c737b2e761d8f3d94efca4057bf655c1f2",
+      "id": "0xff82359385e2a00da87397643588e5e9a762df6400944825e199c1f7a634ac4c-522",
+      "note": "may PandaDao doing great!",
+      "timestamp": "1647838140",
+      "txHash": "0xff82359385e2a00da87397643588e5e9a762df6400944825e199c1f7a634ac4c"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0xb0f89409cdffe2b43220f37f6e30a3c0609fb76d",
@@ -402,22 +418,6 @@
       "note": null,
       "timestamp": "1647429571",
       "txHash": "0x0cedb6333a49b6fa8711414dec91d20f4213b56086aa6450e42576fa4651e351"
-    },
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0x80b026c2a1c9110addb04b6e54c99c1a0f9b9db5",
-      "id": "0xaee9c4e439b88ea77f968bb31cc88fe0c8f18285496c35888c8bd753040b8b53-107",
-      "note": null,
-      "timestamp": "1647401814",
-      "txHash": "0xaee9c4e439b88ea77f968bb31cc88fe0c8f18285496c35888c8bd753040b8b53"
-    },
-    {
-      "amount": "100000000000000000",
-      "beneficiary": "0x0f23d2fe3b99c176c535aefcd6fbb40fe71db7b2",
-      "id": "0xdae113c9972e8ebd0dda5c6689b971abdbc60ccf4d1a1d800110bf4afd011c89-205",
-      "note": "多久支付代币",
-      "timestamp": "1647337960",
-      "txHash": "0xdae113c9972e8ebd0dda5c6689b971abdbc60ccf4d1a1d800110bf4afd011c89"
     }
   ],
   "redeemEvents": [
