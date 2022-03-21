@@ -18,7 +18,16 @@
   "payDisclosure": "Thank you for funding the USNetworkDAO.",
   "tokens": [],
   "version": 3,
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0x7be14d84bff9c13d4fc60b5a5ab94c33c8977f06",
+      "id": "0x5d44c7b2800959292f7b46157ce2582b58aa5656b084c1fb88f514df71907401-115",
+      "note": null,
+      "timestamp": "1645293150",
+      "txHash": "0x5d44c7b2800959292f7b46157ce2582b58aa5656b084c1fb88f514df71907401"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
