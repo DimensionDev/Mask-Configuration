@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "26865924700000000000",
+  "currentBalance": "26885924700000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "154445569620000000000",
+  "totalPaid": "154465569620000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x63b0e562c7b74498127e55aef673323c6b115c9a",
+      "id": "0xbec06d43ae78730ce35a692a08e36d4f07c1909828c75d214fa7585762d1abeb-324",
+      "note": null,
+      "timestamp": "1647883298",
+      "txHash": "0xbec06d43ae78730ce35a692a08e36d4f07c1909828c75d214fa7585762d1abeb"
+    },
     {
       "amount": "220000000000000000",
       "beneficiary": "0x5f8b95dc9c4ead88357c169458d6947448c1c64f",
@@ -410,14 +418,6 @@
       "note": "LZQZ.nft",
       "timestamp": "1647480641",
       "txHash": "0x07e3d238765e6cded5e1b0ef2b1008c8187e8a12da9ec3967f6d5610008e2ec3"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0x16c9fa65966c7ee4c795f42612eb4d3b0f161e30",
-      "id": "0xccad91197debf4f8f944a7614d88c72c5054bed649d8c42406d99a78ee7d24bc-248",
-      "note": null,
-      "timestamp": "1647459440",
-      "txHash": "0xccad91197debf4f8f944a7614d88c72c5054bed649d8c42406d99a78ee7d24bc"
     }
   ],
   "redeemEvents": [
