@@ -18,17 +18,19 @@
   "version": 3,
   "payButton": "Fuck Putin",
   "payDisclosure": "All funds will be converted into fiat and sent to Ukraine armed forces bank account ",
-  "payEvents": [
+  "payEvents": [],
+  "redeemEvents": [],
+  "withdrawEvents": [
     {
-      "amount": "1000000000000000000",
       "beneficiary": "0xf5812ffa3c3edbce272564ff8750ff3383a18baa",
-      "id": "0x9f74d981dd9c228fd64920aa50d4fcbf4f9306d98e6bc0d5b5219a83dfdaf5cb-30",
-      "note": "fightforukraine",
-      "timestamp": "1645748570",
-      "txHash": "0x9f74d981dd9c228fd64920aa50d4fcbf4f9306d98e6bc0d5b5219a83dfdaf5cb"
+      "beneficiaryTransferAmount": "0",
+      "caller": "0xf5812ffa3c3edbce272564ff8750ff3383a18baa",
+      "fundingCycleId": "667",
+      "id": "439-0x0aae58e55d36dec019afb0ca9594fad9a6b3d5084b6d56babb838db17f9dc34a",
+      "netTransferAmount": "952380952380952380",
+      "timestamp": "1645893103",
+      "txHash": "0x0aae58e55d36dec019afb0ca9594fad9a6b3d5084b6d56babb838db17f9dc34a"
     }
   ],
-  "redeemEvents": [],
-  "withdrawEvents": [],
   "reservesEvents": []
 }

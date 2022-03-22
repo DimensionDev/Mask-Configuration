@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "26885924700000000000",
+  "currentBalance": "26905924700000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "154465569620000000000",
+  "totalPaid": "154485569620000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x1a180c84cdaee0ac0da53cd9097e9d6032f1a67e",
+      "id": "0xdda41d1355a07ce2a9597e946d16b5c1a26498a5d95b151c2eb728b0be13b2b6-107",
+      "note": null,
+      "timestamp": "1647910963",
+      "txHash": "0xdda41d1355a07ce2a9597e946d16b5c1a26498a5d95b151c2eb728b0be13b2b6"
+    },
     {
       "amount": "20000000000000000",
       "beneficiary": "0x63b0e562c7b74498127e55aef673323c6b115c9a",
@@ -410,14 +418,6 @@
       "note": null,
       "timestamp": "1647493851",
       "txHash": "0x55f074d542b9ff961c0b7db95aaac70576a869e8cf823ed454624edfae5f8ada"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0xb69689e6a6b2877f07db4172951c7b34d70ddc92",
-      "id": "0x07e3d238765e6cded5e1b0ef2b1008c8187e8a12da9ec3967f6d5610008e2ec3-98",
-      "note": "LZQZ.nft",
-      "timestamp": "1647480641",
-      "txHash": "0x07e3d238765e6cded5e1b0ef2b1008c8187e8a12da9ec3967f6d5610008e2ec3"
     }
   ],
   "redeemEvents": [
@@ -452,5 +452,15 @@
       "txHash": "0x7e631f9a9aa8eb8f3fa05f0ef5d5513558cb011d38947f934a4c69d5fee6b6c0"
     }
   ],
-  "reservesEvents": []
+  "reservesEvents": [
+    {
+      "beneficiary": "0x11517ae3326667c350eff7dcf9f220058617c665",
+      "beneficiaryTicketAmount": "65911372460000000000000000",
+      "caller": "0xabfb34151d5bef4f93191c9fb1b09edb5782b88e",
+      "count": "65911372460000000000000000",
+      "id": "409-0xc3bcbc097015c15ca08a4bd1ed3d19c3a1dbbb73a846841bf37983390c2673dd",
+      "timestamp": "1645960335",
+      "txHash": "0xc3bcbc097015c15ca08a4bd1ed3d19c3a1dbbb73a846841bf37983390c2673dd"
+    }
+  ]
 }
