@@ -36,7 +36,16 @@
   "tokenAddress": null,
   "totalSupply": "10000",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "10000000000000000",
+      "beneficiary": "0xb1ca4096d1b72dbe23a1e74e644ccd64e9f19928",
+      "id": "0xc569dc32ca07b0ac6fe8c6b9bad3f734cbe7e56e4ad45aa93815d573510b9b7c-257",
+      "note": "WE WILL MAKE HISTORY TOGETHER.",
+      "timestamp": "1647798085",
+      "txHash": "0xc569dc32ca07b0ac6fe8c6b9bad3f734cbe7e56e4ad45aa93815d573510b9b7c"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
