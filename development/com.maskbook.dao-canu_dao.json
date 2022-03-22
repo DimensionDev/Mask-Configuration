@@ -1,7 +1,7 @@
 {
   "createdAt": "1628542822",
   "creator": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
-  "currentBalance": "12315802188154698900",
+  "currentBalance": "8885114302441809970",
   "handle": "canudaocomm",
   "id": "8",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -21,8 +21,8 @@
       "toETHSymbol": "CND",
       "target": "0",
       "duration": "15 days",
-      "start": "3-7-22 9:00pm",
-      "end": "3-22-22 9:00pm",
+      "start": "3-22-22 9:00pm",
+      "end": "4-6-22 9:00pm",
       "discount": 0
     }
   ],
@@ -430,6 +430,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
+      "beneficiaryTransferAmount": "67960293355074373",
+      "caller": "0xf7253a0e87e39d2cd6365919d4a3d56d431d0041",
+      "fundingCycleId": "820",
+      "id": "8-0x5203d07df20ee8a729f82098d6ebc96209b150566c25aaf034f82991fbd08d00",
+      "netTransferAmount": "3267321795917037076",
+      "timestamp": "1647986608",
+      "txHash": "0x5203d07df20ee8a729f82098d6ebc96209b150566c25aaf034f82991fbd08d00"
+    },
     {
       "beneficiary": "0x3e4dc9496ff9c8383b453042645bc003015a058f",
       "beneficiaryTransferAmount": "80897228754573596",
