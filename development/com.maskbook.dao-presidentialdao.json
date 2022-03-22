@@ -1,24 +1,23 @@
 {
   "createdAt": "1647797871",
   "creator": "0xb1ca4096d1b72dbe23a1e74e644ccd64e9f19928",
-  "currentBalance": "160000000000000000",
+  "currentBalance": "556000000000000000",
   "handle": "presidentialdao",
   "id": "542",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "160000000000000000",
+  "totalPaid": "556000000000000000",
   "totalRedeemed": "0",
-  "uri": "QmUdPcfSyUiDZKPrRpFk6zNqJ8tWuxBBvaVHojdJJ29vuG",
-  "name": "PresidentialDao",
-  "infoUri": "https://presidentialdao.co/",
-  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmQQMQt4sH7Qw9cvKdvNrundp8rcQM1dU1yK5ipkmwjgzw",
+  "uri": "QmcrMPvhoPkLXpRKwqxH6Namkapz7XNLni6m7r7RGVZjWq",
+  "name": "PresidentialDAO",
   "description": "The original intention of Presidential DAO is to achieve an unprecedented feat. We will raise funds to help vote in the DAO to elect a member who embraces Web3.0 support to run for president, help him set up a research committee to prepare for the election campaign, and gain access to local government and voter support.",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmQQMQt4sH7Qw9cvKdvNrundp8rcQM1dU1yK5ipkmwjgzw",
+  "infoUri": "https://presidentialdao.co/",
   "twitter": "PresidentialDAO",
   "discord": "https://discord.gg/ctNuykVTqf",
-  "tokens": [],
-  "version": 4,
-  "archived": false,
   "payButton": "",
   "payDisclosure": "WE WILL MAKE HISTORY TOGETHER.",
+  "tokens": [],
+  "version": 4,
   "fundingCycles": [
     {
       "toETHSymbol": "PEOPLE",
@@ -34,9 +33,25 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "360000",
+  "totalSupply": "556000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "96000000000000000",
+      "beneficiary": "0x188aaf665b2e0a2f7b6b4dbc1d5004657d104132",
+      "id": "0xa42d8486c1daa3d8e623c46dd5aa3f5e559eacbd14ae69deb7dbf119da781bda-196",
+      "note": null,
+      "timestamp": "1647972056",
+      "txHash": "0xa42d8486c1daa3d8e623c46dd5aa3f5e559eacbd14ae69deb7dbf119da781bda"
+    },
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x086ae1358fc00fcbc32d48ae831bf90558550181",
+      "id": "0x17652dbfc22d8d4170f28211cdcd3e54520dc92969728f5542c9a5ca342a69e8-274",
+      "note": null,
+      "timestamp": "1647971306",
+      "txHash": "0x17652dbfc22d8d4170f28211cdcd3e54520dc92969728f5542c9a5ca342a69e8"
+    },
     {
       "amount": "200000000000000000",
       "beneficiary": "0x767065ebdd77a964d0cc8eae6998a1821866672c",
