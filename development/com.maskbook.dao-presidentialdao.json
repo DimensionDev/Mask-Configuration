@@ -1,11 +1,11 @@
 {
   "createdAt": "1647797871",
   "creator": "0xb1ca4096d1b72dbe23a1e74e644ccd64e9f19928",
-  "currentBalance": "10000000000000000",
+  "currentBalance": "160000000000000000",
   "handle": "presidentialdao",
   "id": "542",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "10000000000000000",
+  "totalPaid": "160000000000000000",
   "totalRedeemed": "0",
   "uri": "QmUdPcfSyUiDZKPrRpFk6zNqJ8tWuxBBvaVHojdJJ29vuG",
   "name": "PresidentialDao",
@@ -34,9 +34,25 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "10000",
+  "totalSupply": "360000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "200000000000000000",
+      "beneficiary": "0x767065ebdd77a964d0cc8eae6998a1821866672c",
+      "id": "0x004fa3f2df8a5973c510ba9c7f97db11a16eea4baba34ba57dfb3685bad60703-424",
+      "note": null,
+      "timestamp": "1647962807",
+      "txHash": "0x004fa3f2df8a5973c510ba9c7f97db11a16eea4baba34ba57dfb3685bad60703"
+    },
+    {
+      "amount": "150000000000000000",
+      "beneficiary": "0x51ceb0212c459d33f2abd2ef42aa032148c63ff7",
+      "id": "0xd1b7d35a8e7362cf2245a7ba7dc98499712b638a68d189a0a9d3b6a9cc87d405-315",
+      "note": "Come on",
+      "timestamp": "1647961007",
+      "txHash": "0xd1b7d35a8e7362cf2245a7ba7dc98499712b638a68d189a0a9d3b6a9cc87d405"
+    },
     {
       "amount": "10000000000000000",
       "beneficiary": "0xb1ca4096d1b72dbe23a1e74e644ccd64e9f19928",
