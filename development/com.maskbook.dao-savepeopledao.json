@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "People Help People",
   "payDisclosure": "The community will appreciate you",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xdea3b7a1ee454d622b72a67dc6c9aa1da04a98c3",
+      "id": "0x830a34a061e2e462ef58e676466451b201bb7c1cf9d420458c61aa1feef30828-202",
+      "note": null,
+      "timestamp": "1646188911",
+      "txHash": "0x830a34a061e2e462ef58e676466451b201bb7c1cf9d420458c61aa1feef30828"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
