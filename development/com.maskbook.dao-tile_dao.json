@@ -1,12 +1,12 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "25995893085645719569",
+  "currentBalance": "25987494066803927909",
   "handle": "tiles",
   "id": "2",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "133492336800000000000",
-  "totalRedeemed": "6869443714354280431",
+  "totalRedeemed": "6877842733196072091",
   "uri": "QmNnxipn7ooGhX67nUPysoTuFK4xbLJrXw1nKnqTQ6uy7h",
   "name": "TileDAO",
   "description": "Receives all revenue from the Tiles primary sale.",
@@ -32,7 +32,7 @@
     "jbx": "0"
   },
   "tokenAddress": "0x2C4d4B06eb217af6420E326Cf2600C2673e7CaBC",
-  "totalSupply": "111423985",
+  "totalSupply": "111351985",
   "holdingSymbol": "TILE",
   "payEvents": [
     {
@@ -438,6 +438,14 @@
   ],
   "redeemEvents": [
     {
+      "amount": "72000000000000000000000",
+      "beneficiary": "0xc9e55fd6dfc84d6acab8419062a98fcbe797d60f",
+      "id": "0x0057fd2bfed216ed28c64e68f953ce90994deec1c898eb0d769a747a457cc96f-330",
+      "returnAmount": "8399018841791660",
+      "timestamp": "1647990912",
+      "txHash": "0x0057fd2bfed216ed28c64e68f953ce90994deec1c898eb0d769a747a457cc96f"
+    },
+    {
       "amount": "1128494069078928000000000",
       "beneficiary": "0xd337fccaec6ea113baacca3a41eb8766706a0706",
       "id": "0xa29c2fb9e38206eb512647f38a91ce777571f40c0a5972759f3a2bc638b5fdeb-76",
@@ -828,14 +836,6 @@
       "returnAmount": "26267389820274163",
       "timestamp": "1626982016",
       "txHash": "0xc0e654fab8eb25363a3e667ec6f015722c61fc90f64da70d29e50936faaa221d"
-    },
-    {
-      "amount": "98000000000000000000000",
-      "beneficiary": "0xcbedb07f3df22e9ee0c801917563050ecea2b27b",
-      "id": "0x2ddda7d71f1533adca757d187066c31aa60afe8d605fa49207a6c779109c11a5-207",
-      "returnAmount": "47636511757061024",
-      "timestamp": "1626961969",
-      "txHash": "0x2ddda7d71f1533adca757d187066c31aa60afe8d605fa49207a6c779109c11a5"
     }
   ],
   "withdrawEvents": [
