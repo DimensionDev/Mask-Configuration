@@ -34,8 +34,26 @@
   "tokenAddress": "0x06DdB6C234BE26484Cd64c93A56C836E5D7966fD",
   "totalSupply": "0",
   "holdingSymbol": "GL",
-  "payEvents": [],
-  "redeemEvents": [],
+  "payEvents": [
+    {
+      "amount": "20000000000000000",
+      "beneficiary": "0x247d842f6e7947d19f4ef392496a1d53228a7ca4",
+      "id": "0x5d272b0d492632dbdeb2e055d075607c95ef0a6777aa10b3eeca90a653c0a634-203",
+      "note": "Official Over Flow Test:100% redeemable",
+      "timestamp": "1644833665",
+      "txHash": "0x5d272b0d492632dbdeb2e055d075607c95ef0a6777aa10b3eeca90a653c0a634"
+    }
+  ],
+  "redeemEvents": [
+    {
+      "amount": "20000000000000000000000",
+      "beneficiary": "0x247d842f6e7947d19f4ef392496a1d53228a7ca4",
+      "id": "0xfd78c130b2ec4fec2502aa3ea4a8cfbb5cdca12c868c057ff182354bb4de2418-203",
+      "returnAmount": "20000000000000000",
+      "timestamp": "1644833971",
+      "txHash": "0xfd78c130b2ec4fec2502aa3ea4a8cfbb5cdca12c868c057ff182354bb4de2418"
+    }
+  ],
   "withdrawEvents": [],
   "reservesEvents": []
 }
