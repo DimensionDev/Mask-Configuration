@@ -35,7 +35,16 @@
   "tokenAddress": "0xfcb0D5c98413e77f296231540310f1A327FfE9B2",
   "totalSupply": "100000",
   "holdingSymbol": "LUD",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0x2ee4b636099142c14e8462b42fcaf91d3e8c3934",
+      "id": "0x5c8265dcc936342cd10d77f4fd131362b0a9c7cdd6d9ee5b3b838248b5f8f5d0-291",
+      "note": "Root",
+      "timestamp": "1642752860",
+      "txHash": "0x5c8265dcc936342cd10d77f4fd131362b0a9c7cdd6d9ee5b3b838248b5f8f5d0"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []
