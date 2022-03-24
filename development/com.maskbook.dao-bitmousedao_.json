@@ -1,7 +1,7 @@
 {
   "createdAt": "1643096487",
   "creator": "0x93abaea0972cd9f77cd819c2642b0e6ac328ec51",
-  "currentBalance": "1906072640000000000",
+  "currentBalance": "0",
   "handle": "bitmousedao",
   "id": "299",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -183,6 +183,17 @@
       "txHash": "0xe842e4d0f672010ad5f76f5d32c17c381866b550aec847ff68a0d3904f535a70"
     }
   ],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x93abaea0972cd9f77cd819c2642b0e6ac328ec51",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x93abaea0972cd9f77cd819c2642b0e6ac328ec51",
+      "fundingCycleId": "826",
+      "id": "299-0x568e594df803a9290cc6bd3d0de5df572026e521757e94dadb5c8723d57c5b8f",
+      "netTransferAmount": "1815307276190476190",
+      "timestamp": "1648094414",
+      "txHash": "0x568e594df803a9290cc6bd3d0de5df572026e521757e94dadb5c8723d57c5b8f"
+    }
+  ],
   "reservesEvents": []
 }
