@@ -18,6 +18,21 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Thanks for your support. For ChainNews. ",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "1000000000000000000000",
+      "duration": "Not set ",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "1000000",
+  "holdingSymbol": "Tokens",
   "payEvents": [
     {
       "amount": "1000000000000000000",
