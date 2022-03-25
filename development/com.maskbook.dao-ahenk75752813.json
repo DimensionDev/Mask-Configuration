@@ -18,6 +18,23 @@
   "payDisclosure": "An Ethereum will receive 1,000,000\ncorresponding c-sale tokens. All tokens will be distributed except for 5% left to the developer for project development. Holding tokens will win new dividends in each coinlist. The amount of dividends is directly proportional to the number of tokens",
   "tokens": [],
   "version": 3,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "100000000000000000000",
+      "duration": "5 days",
+      "start": "3-21-22 4:21am",
+      "end": "3-26-22 4:21am",
+      "discount": 0.03
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
