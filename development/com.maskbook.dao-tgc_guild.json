@@ -18,6 +18,23 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "investors will get a TGC token as prove of early contribution, 1 USD= 1 TGC Token. TGC tokens are minted on the matic network.  We will send TGC tokens to the donation address manually in one day （We are usding smart contracts because we want to maximize the amount of money we can spend on game assets.)\n\nAll the money we receive will be used to buy the game assets.Investment profits will regularly repurchase TGC tokens from the market.",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "30 days",
+      "start": "2-26-22 7:00am",
+      "end": "3-28-22 7:00am",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

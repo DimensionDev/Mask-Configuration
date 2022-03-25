@@ -1,11 +1,11 @@
 {
   "createdAt": "1648187593",
   "creator": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
-  "currentBalance": "22220000000000000",
+  "currentBalance": "1022220000000000000",
   "handle": "dogeconvoy",
   "id": "552",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "22220000000000000",
+  "totalPaid": "1022220000000000000",
   "totalRedeemed": "0",
   "uri": "QmQUVY81VpULBmjE4GRLxAo3CLh7BW87GmaPyhsZjeCS24",
   "name": "Doge Convoy",
@@ -34,9 +34,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "22220",
+  "totalSupply": "1022220",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x7c6fb6ddab3aab751c03dbb0680045d7094a0e69",
+      "id": "0xe6c3317505f9e958e1765725efc37ab40df288827230a5962e381a0017382dfc-262",
+      "note": "LFG to the moon",
+      "timestamp": "1648199891",
+      "txHash": "0xe6c3317505f9e958e1765725efc37ab40df288827230a5962e381a0017382dfc"
+    },
     {
       "amount": "22220000000000000",
       "beneficiary": "0xfd6b2d4793b6d29a74643ba634701464d5d45c4b",
