@@ -1,11 +1,11 @@
 {
   "createdAt": "1647323625",
   "creator": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",
-  "currentBalance": "14695059200000000000",
+  "currentBalance": "15095059200000000000",
   "handle": "peace",
   "id": "528",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "14695059200000000000",
+  "totalPaid": "15095059200000000000",
   "totalRedeemed": "0",
   "uri": "QmQFAArzKd99MbUhXTUcPAegYNFDQ4UYxg94CL5VfoYWNg",
   "name": "Peace DAO Movement",
@@ -19,6 +19,22 @@
   "tokens": [],
   "version": 4,
   "payEvents": [
+    {
+      "amount": "100000000000000000",
+      "beneficiary": "0xa4e6c2b6264652444b3f0cc1bb37496ae916931c",
+      "id": "0x9a323b29d4e4200488e3cf626e6ed8da1dd588a3361a1fbd2196a30850ec7086-312",
+      "note": null,
+      "timestamp": "1648159677",
+      "txHash": "0x9a323b29d4e4200488e3cf626e6ed8da1dd588a3361a1fbd2196a30850ec7086"
+    },
+    {
+      "amount": "300000000000000000",
+      "beneficiary": "0xcd276dd88ef713878af68486bae83d748ea16cf8",
+      "id": "0xa8cb370837b3a5f55d272b8f901e8597bf20866fabc92e03f32641c199dce441-98",
+      "note": null,
+      "timestamp": "1648158058",
+      "txHash": "0xa8cb370837b3a5f55d272b8f901e8597bf20866fabc92e03f32641c199dce441"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x5d95baebb8412ad827287240a5c281e3bb30d27e",

@@ -1,7 +1,7 @@
 {
   "createdAt": "1626388216",
   "creator": "0x63a2368f4b509438ca90186cb1c15156713d5834",
-  "currentBalance": "25987494066803927909",
+  "currentBalance": "24254494066803927909",
   "handle": "tiles",
   "id": "2",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -22,8 +22,8 @@
       "toETHSymbol": "TILE",
       "target": "1733000000000000000",
       "duration": "7 days",
-      "start": "3-17-22 10:30pm",
-      "end": "3-24-22 10:30pm",
+      "start": "3-24-22 10:30pm",
+      "end": "3-31-22 10:30pm",
       "discount": 0.02
     }
   ],
@@ -839,6 +839,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
+      "beneficiaryTransferAmount": "1",
+      "caller": "0x7cc4e967242e1cad92152d47ae0bb9169e97d553",
+      "fundingCycleId": "831",
+      "id": "2-0xccf33a7ce92bdcda42a62452aa3e76541f2d103e3df383406cd2464422490f48",
+      "netTransferAmount": "1650476190476190476",
+      "timestamp": "1648162864",
+      "txHash": "0xccf33a7ce92bdcda42a62452aa3e76541f2d103e3df383406cd2464422490f48"
+    },
     {
       "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
       "beneficiaryTransferAmount": "1",
