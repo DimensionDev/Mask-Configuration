@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6018177705866867478897",
+  "currentBalance": "6018286680793353865653",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6744469844275022480223",
+  "totalPaid": "6744578819201508866979",
   "totalRedeemed": "341173731959397822699",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
@@ -32,9 +32,25 @@
     "jbx": "0"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2474400788",
+  "totalSupply": "2474417541",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "68974926486386756",
+      "beneficiary": "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff",
+      "id": "0x4026c8f2833c15105c9048131bf651be75c444227af9a939bb8c49cd8305eece-655",
+      "note": "Fee from @slice",
+      "timestamp": "1648170402",
+      "txHash": "0x4026c8f2833c15105c9048131bf651be75c444227af9a939bb8c49cd8305eece"
+    },
+    {
+      "amount": "40000000000000000",
+      "beneficiary": "0x0ae2b017fea73623942698084c6a5339ed204281",
+      "id": "0xc04874fc3a03f7f43053400dca5feb1e43622454cc0a5a8c316b37bc1780965b-94",
+      "note": null,
+      "timestamp": "1648169313",
+      "txHash": "0xc04874fc3a03f7f43053400dca5feb1e43622454cc0a5a8c316b37bc1780965b"
+    },
     {
       "amount": "82523809523809524",
       "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
@@ -418,22 +434,6 @@
       "note": "Fee from @juicebox",
       "timestamp": "1645916462",
       "txHash": "0x5281f4050ede054072a2588672d1c87f156339abbef7a2073925be296d93e463"
-    },
-    {
-      "amount": "2380952380952381",
-      "beneficiary": "0x5f413541a569d7ce5b79c57671ce505f1448c5e9",
-      "id": "0xc29be9e652d86e897819b887be91d0b6baae42a20757212bdfb545732db5ee6f-447",
-      "note": "Fee from @oureadao",
-      "timestamp": "1645899917",
-      "txHash": "0xc29be9e652d86e897819b887be91d0b6baae42a20757212bdfb545732db5ee6f"
-    },
-    {
-      "amount": "47619047619047620",
-      "beneficiary": "0xf5812ffa3c3edbce272564ff8750ff3383a18baa",
-      "id": "0x0aae58e55d36dec019afb0ca9594fad9a6b3d5084b6d56babb838db17f9dc34a-493",
-      "note": "Fee from @fightforukraine",
-      "timestamp": "1645893103",
-      "txHash": "0x0aae58e55d36dec019afb0ca9594fad9a6b3d5084b6d56babb838db17f9dc34a"
     }
   ],
   "redeemEvents": [
