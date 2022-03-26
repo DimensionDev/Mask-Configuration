@@ -18,6 +18,23 @@
   "version": 3,
   "payButton": "Contribute",
   "payDisclosure": "",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "ORPHAN",
+      "target": "0",
+      "duration": "30 days",
+      "start": "2022-03-12 4:10pm",
+      "end": "2022-04-11 4:10pm",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": "0x27d4BDa30dee93e7eF09Bb7965531ffC8E69a497",
+  "totalSupply": "0",
+  "holdingSymbol": "ORPHAN",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
