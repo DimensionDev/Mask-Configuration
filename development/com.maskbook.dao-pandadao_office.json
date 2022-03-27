@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "41669924700000000000",
+  "currentBalance": "41749924700000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "169249569620000000000",
+  "totalPaid": "169329569620000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "80000000000000000",
+      "beneficiary": "0xca0bddda9e73776065150f45db6587d12734f541",
+      "id": "0x8e26f41595c48e02f6af8df870e787adac62fafa1e7c46629fb17d506f13d919-112",
+      "note": "支持熊猫哥，支持国产项目",
+      "timestamp": "1648345541",
+      "txHash": "0x8e26f41595c48e02f6af8df870e787adac62fafa1e7c46629fb17d506f13d919"
+    },
     {
       "amount": "300000000000000000",
       "beneficiary": "0x2b052a626d1d74514e3b3fc29537e3fbb1526113",
@@ -410,14 +418,6 @@
       "note": null,
       "timestamp": "1647767564",
       "txHash": "0x48e099f8193c7bda69700a2f4267893f277f68d463b431b8364a8994e3571292"
-    },
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0x3d2f7088c218a3c182a3cb6d251e70d4ef611b88",
-      "id": "0xf55b6a8d0df833c08e478e465d31bb0845f149ea809a87762815108e61088358-277",
-      "note": null,
-      "timestamp": "1647766218",
-      "txHash": "0xf55b6a8d0df833c08e478e465d31bb0845f149ea809a87762815108e61088358"
     }
   ],
   "redeemEvents": [

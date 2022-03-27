@@ -1,13 +1,13 @@
 {
   "createdAt": "1640533213",
   "creator": "0x084b9292ed286d1d73989fd3b665a87c349e4f5b",
-  "currentBalance": "525000000000000000",
-  "handle": "blockbusterdao",
+  "currentBalance": "301973174086680",
+  "handle": "notblockbusterdao",
   "id": "222",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "totalPaid": "525000000000000000",
   "totalRedeemed": "0",
-  "uri": "QmeFccdzay4edUR5fcBa3og2H2ieCAGoQoMtyzkWqtc91h",
+  "uri": "QmaR4UjBgvDLVXvsnDKH1WU6UFDZtc1V73h5qxgEs2VHEL",
   "name": "BlockbusterDAO",
   "infoUri": "blockbusterdao.com ",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmaAirEyoAhGqrzBKSdZkhTyWu5wDpKgP9XZsPoSPVCdgn",
@@ -15,26 +15,10 @@
   "twitter": "blockbusterdao",
   "discord": "",
   "tokens": [],
-  "version": 3,
+  "version": 4,
   "payButton": "Participate",
   "payDisclosure": "",
-  "fundingCycles": [
-    {
-      "toETHSymbol": "PEOPLE",
-      "target": "0",
-      "duration": "30 days",
-      "start": "2022-03-26 3:40pm",
-      "end": "2022-04-25 3:40pm",
-      "discount": 0.03
-    }
-  ],
-  "inWallet": {
-    "eth": "0",
-    "jbx": "0"
-  },
-  "tokenAddress": null,
-  "totalSupply": "525000",
-  "holdingSymbol": "Tokens",
+  "archived": true,
   "payEvents": [
     {
       "amount": "150000000000000000",
@@ -70,6 +54,27 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
-  "reservesEvents": []
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x084b9292ed286d1d73989fd3b665a87c349e4f5b",
+      "beneficiaryTransferAmount": "388676309776376553",
+      "caller": "0xba405659489325db06d013cd94651779c2c4e485",
+      "fundingCycleId": "838",
+      "id": "222-0xac21c788c12c97e41e00b5e9358e02fcda6c748c394d58ffb4feb2935a7c62f6",
+      "netTransferAmount": "499712406500869828",
+      "timestamp": "1648348812",
+      "txHash": "0xac21c788c12c97e41e00b5e9358e02fcda6c748c394d58ffb4feb2935a7c62f6"
+    }
+  ],
+  "reservesEvents": [
+    {
+      "beneficiary": "0x084b9292ed286d1d73989fd3b665a87c349e4f5b",
+      "beneficiaryTicketAmount": "173250000000000000000000",
+      "caller": "0xba405659489325db06d013cd94651779c2c4e485",
+      "count": "173250000000000000000000",
+      "id": "222-0x9b9a28fbc8d499073ad3987c746b109e300a7c39c5d852b69f083117875036f5",
+      "timestamp": "1648348867",
+      "txHash": "0x9b9a28fbc8d499073ad3987c746b109e300a7c39c5d852b69f083117875036f5"
+    }
+  ]
 }
