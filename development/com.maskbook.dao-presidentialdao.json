@@ -1,11 +1,11 @@
 {
   "createdAt": "1647797871",
   "creator": "0xb1ca4096d1b72dbe23a1e74e644ccd64e9f19928",
-  "currentBalance": "3064000000000000000",
+  "currentBalance": "5064000000000000000",
   "handle": "presidentialdao",
   "id": "542",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "3064000000000000000",
+  "totalPaid": "5064000000000000000",
   "totalRedeemed": "0",
   "uri": "QmcrMPvhoPkLXpRKwqxH6Namkapz7XNLni6m7r7RGVZjWq",
   "name": "PresidentialDAO",
@@ -33,9 +33,17 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "3064000",
+  "totalSupply": "5064000",
   "holdingSymbol": "Tokens",
   "payEvents": [
+    {
+      "amount": "2000000000000000000",
+      "beneficiary": "0x5c36c6c3b91568254ba5209fab89bb34bea461e6",
+      "id": "0x53f9a6071fee2facb731232ea1ccc2c90390335f7cc721089472ef1d9f8ba3dd-294",
+      "note": "Strong support for @VitalikButerin's run for president of Ukraine",
+      "timestamp": "1648401444",
+      "txHash": "0x53f9a6071fee2facb731232ea1ccc2c90390335f7cc721089472ef1d9f8ba3dd"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x85c49b171197ffdf7836fae27b3ae25dbd67997f",

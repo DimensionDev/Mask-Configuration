@@ -1,12 +1,12 @@
 {
   "createdAt": "1643226756",
   "creator": "0x6c60585a2a36e8d4d98ba70b384fb464137be875",
-  "currentBalance": "38639120000000000",
+  "currentBalance": "0",
   "handle": "kyriedao",
   "id": "304",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "totalPaid": "38639120000000000",
-  "totalRedeemed": "0",
+  "totalRedeemed": "38639120000000000",
   "uri": "QmYtRSrjy6GFUgY2D12BKDCLpXhLPZQx1Fv72W7DsQbx9k",
   "name": "Kyrie DAO",
   "infoUri": "kyriedao.com",
@@ -32,7 +32,7 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "38639",
+  "totalSupply": "0",
   "holdingSymbol": "Tokens",
   "payEvents": [
     {
@@ -44,7 +44,16 @@
       "txHash": "0x898ff435f804f376ba2b91b5bc0fc6cf86f6c809a4ac69f6d9194738b55adbf3"
     }
   ],
-  "redeemEvents": [],
+  "redeemEvents": [
+    {
+      "amount": "38639120000000000000000",
+      "beneficiary": "0x6c60585a2a36e8d4d98ba70b384fb464137be875",
+      "id": "0x7e0ae7d55298984ffa15ad8e6b98ec1fb0453d066cc63ea9bed7a1e252a43879-381",
+      "returnAmount": "38639120000000000",
+      "timestamp": "1648396332",
+      "txHash": "0x7e0ae7d55298984ffa15ad8e6b98ec1fb0453d066cc63ea9bed7a1e252a43879"
+    }
+  ],
   "withdrawEvents": [],
   "reservesEvents": []
 }
