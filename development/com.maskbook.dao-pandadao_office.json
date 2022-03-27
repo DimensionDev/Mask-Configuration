@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "41749924700000000000",
+  "currentBalance": "41789924700000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "169329569620000000000",
+  "totalPaid": "169369569620000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "40000000000000000",
+      "beneficiary": "0xd35b776290f94e9aefb43a85321a0d9681540605",
+      "id": "0x0586f9f8ada9cb933555ee2630ed57ecea72d920173d42bdf257a512ca529e78-160",
+      "note": null,
+      "timestamp": "1648350990",
+      "txHash": "0x0586f9f8ada9cb933555ee2630ed57ecea72d920173d42bdf257a512ca529e78"
+    },
     {
       "amount": "80000000000000000",
       "beneficiary": "0xca0bddda9e73776065150f45db6587d12734f541",
@@ -410,14 +418,6 @@
       "note": "Buidl and Hodl",
       "timestamp": "1647796831",
       "txHash": "0xbbb7799c14601ceda330006d213b3ff6fe104d66f26ddd7a100756d736f479df"
-    },
-    {
-      "amount": "20000000000000000",
-      "beneficiary": "0x2ed0f4e9769591d8eff038abd884187c8101c7f3",
-      "id": "0x48e099f8193c7bda69700a2f4267893f277f68d463b431b8364a8994e3571292-345",
-      "note": null,
-      "timestamp": "1647767564",
-      "txHash": "0x48e099f8193c7bda69700a2f4267893f277f68d463b431b8364a8994e3571292"
     }
   ],
   "redeemEvents": [
