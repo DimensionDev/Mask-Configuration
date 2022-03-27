@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "6018461457512919948798",
+  "currentBalance": "5981161381732750961928",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6744753595921074950124",
+  "totalPaid": "6745686097815579174796",
   "totalRedeemed": "341173731959397822699",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
@@ -32,9 +32,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2474443961",
+  "totalSupply": "2474572981",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "932501894504224672",
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "id": "0xde0a960051ad1bc39594bc766417c6f63bef9e52f4045022ef206c468ea4525a-222",
+      "note": "Fee from @juicebox",
+      "timestamp": "1648414161",
+      "txHash": "0xde0a960051ad1bc39594bc766417c6f63bef9e52f4045022ef206c468ea4525a"
+    },
     {
       "amount": "3758131491505802",
       "beneficiary": "0xae7f458667f1b30746354abc3157907d9f6fd15e",
@@ -426,14 +434,6 @@
       "note": "Fee from @wagmistudios",
       "timestamp": "1646054916",
       "txHash": "0x818b1a737a1e0b398aeecee6f39bc3acd1d242f3dbb00d8845955085fbf6635e"
-    },
-    {
-      "amount": "232631991428571429",
-      "beneficiary": "0x48c6328b5d8a921bea50a8c8f2a7b139a748ec30",
-      "id": "0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22-81",
-      "note": "Fee from @supportrussia",
-      "timestamp": "1646029410",
-      "txHash": "0xf3e30f2fbe33f12a212c91c605c4ec057005c77d1aca546aaa42934de9b91c22"
     }
   ],
   "redeemEvents": [
@@ -839,6 +839,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
+      "beneficiaryTransferAmount": "22380045468101400",
+      "caller": "0x823b92d6a4b2aed4b15675c7917c9f922ea8adad",
+      "fundingCycleId": "823",
+      "id": "1-0xde0a960051ad1bc39594bc766417c6f63bef9e52f4045022ef206c468ea4525a",
+      "netTransferAmount": "37300075780168986870",
+      "timestamp": "1648414161",
+      "txHash": "0xde0a960051ad1bc39594bc766417c6f63bef9e52f4045022ef206c468ea4525a"
+    },
     {
       "beneficiary": "0xaf28bcb48c40dbc86f52d459a6562f658fc94b1e",
       "beneficiaryTransferAmount": "31083918688988639",
