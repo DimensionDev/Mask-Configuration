@@ -1,7 +1,7 @@
 {
   "createdAt": "1645687489",
   "creator": "0x7c787f81b3da1e4a2683d4609d79695db82c39ca",
-  "currentBalance": "100000000000000000",
+  "currentBalance": "0",
   "handle": "maskdogenftdao",
   "id": "425",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -29,6 +29,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x7c787f81b3da1e4a2683d4609d79695db82c39ca",
+      "beneficiaryTransferAmount": "95238095238095238",
+      "caller": "0x7c787f81b3da1e4a2683d4609d79695db82c39ca",
+      "fundingCycleId": "839",
+      "id": "425-0x4aeb159a8223632c4e1bf72cf80d1197cbaeadcd38ed031d7c3c9f14b9bf6321",
+      "netTransferAmount": "95238095238095238",
+      "timestamp": "1648458244",
+      "txHash": "0x4aeb159a8223632c4e1bf72cf80d1197cbaeadcd38ed031d7c3c9f14b9bf6321"
+    }
+  ],
   "reservesEvents": []
 }
