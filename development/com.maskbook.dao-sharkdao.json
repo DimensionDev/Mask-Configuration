@@ -1,11 +1,11 @@
 {
   "createdAt": "1641336336",
   "creator": "0xe3f27deff96fe178e87559f36cbf868b9e75967d",
-  "currentBalance": "18638000000000000000",
+  "currentBalance": "21116488390000000000",
   "handle": "sharkfrens",
   "id": "245",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "18638000000000000000",
+  "totalPaid": "21116488390000000000",
   "totalRedeemed": "0",
   "uri": "QmZefhhpMKUA2yUJt79fQZmwf8NY54noiVyGtNzSVL54cF",
   "name": "SharkFrens",
@@ -34,6 +34,14 @@
   "totalSupply": "1068872118",
   "holdingSymbol": "SHARK",
   "payEvents": [
+    {
+      "amount": "2478488390000000000",
+      "beneficiary": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
+      "id": "0xcfa274452dfd4fe5f7c266d451ec046177ee2732cf8f43db9568873aef2ef538-416",
+      "note": "From Sätra Brunn DAO",
+      "timestamp": "1648427927",
+      "txHash": "0xcfa274452dfd4fe5f7c266d451ec046177ee2732cf8f43db9568873aef2ef538"
+    },
     {
       "amount": "1000000000000000000",
       "beneficiary": "0x008c84421da5527f462886cec43d2717b686a7e4",
@@ -425,14 +433,6 @@
       "note": null,
       "timestamp": "1641384124",
       "txHash": "0x2cf809c4088c3a93f718545525d53ef05fba47dbf4f9037aceeae4f9e8ba8872"
-    },
-    {
-      "amount": "50000000000000000",
-      "beneficiary": "0x34724d71ce674fcd4d06e60dd1baa88c14d36b75",
-      "id": "0x41a595bc4e790952e1ad407706715847388b04c41f0cb40904f1d41bf383a21e-27",
-      "note": "You and your family are in my thoughts. Your little man's got this. 💪 ",
-      "timestamp": "1641376887",
-      "txHash": "0x41a595bc4e790952e1ad407706715847388b04c41f0cb40904f1d41bf383a21e"
     }
   ],
   "redeemEvents": [],

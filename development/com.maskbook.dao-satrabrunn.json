@@ -1,7 +1,7 @@
 {
   "createdAt": "1641673275",
   "creator": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
-  "currentBalance": "2428008221139094956",
+  "currentBalance": "40486928971874",
   "handle": "satrabrunndao",
   "id": "253",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
@@ -686,6 +686,16 @@
     }
   ],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
+      "beneficiaryTransferAmount": "2368749008985485933",
+      "caller": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
+      "fundingCycleId": "821",
+      "id": "253-0xb35fbcf46745562b7f0f3f53ecea37396194585df9c729c3e26c659fc7a250a5",
+      "netTransferAmount": "2368749008985485933",
+      "timestamp": "1648427740",
+      "txHash": "0xb35fbcf46745562b7f0f3f53ecea37396194585df9c729c3e26c659fc7a250a5"
+    },
     {
       "beneficiary": "0x97de90b0f5f17fdefd5d46958bbccf3cb9f6460f",
       "beneficiaryTransferAmount": "358739382486055299",
