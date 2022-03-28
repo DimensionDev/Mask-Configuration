@@ -1,12 +1,12 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5980767426782797318689",
+  "currentBalance": "5978701827572450141588",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6745750078445565716707",
-  "totalRedeemed": "341631667539338007849",
+  "totalPaid": "6745751078445565716707",
+  "totalRedeemed": "343698266749685184950",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
   "description": "Supports projects built using the Juicebox protocol, and the development of the protocol itself. All projects withdrawing funds from their treasury pay a 2.5% membership fee and receive JBX at the current issuance rate. JBX members govern the NFT that represents ownership over this treasury.",
@@ -32,9 +32,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2474382402",
+  "totalSupply": "2473482540",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "1000000000000000",
+      "beneficiary": "0xe6d020a24bd7698f912cadeb63543667ef4a6de9",
+      "id": "0xedb5ae36c449c95d65a382000030ec98d5c611365375ded2fb97c6f97b406e0e-73",
+      "note": "fee from @mcdonaldsdao https://jbx.mypinata.cloud/ipfs/QmYQgS9sJUkwDhTjj5TgGfWE8pFh9rBDou5dN5LzzAxtQQ",
+      "timestamp": "1648472623",
+      "txHash": "0xedb5ae36c449c95d65a382000030ec98d5c611365375ded2fb97c6f97b406e0e"
+    },
     {
       "amount": "4761904761904762",
       "beneficiary": "0x7c787f81b3da1e4a2683d4609d79695db82c39ca",
@@ -426,17 +434,17 @@
       "note": "Fee from @whiskydao",
       "timestamp": "1646344355",
       "txHash": "0x6369971e8f858b8c33a7a03749d868a9c88e6ba9adcaaf880dbd5c96a00e37dd"
-    },
-    {
-      "amount": "52857142857142858",
-      "beneficiary": "0x4c68a425f8214c4980e56d66b2e27a9408b51a41",
-      "id": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c-142",
-      "note": "Fee from @defikingdomsguild",
-      "timestamp": "1646114062",
-      "txHash": "0x77b24b4f4851feacacbeca552063b8b3562e5f67e482a59616eb204f76823e6c"
     }
   ],
   "redeemEvents": [
+    {
+      "amount": "900000000000000000000000",
+      "beneficiary": "0x84d7eb1ed1ba424b67f6f3fe3cd7a38386a28342",
+      "id": "0xa59f18f53d622aedb45bbc58614da6d3760e657df5114a1c3ae40668aae9064d-74",
+      "returnAmount": "2066599210347177101",
+      "timestamp": "1648472722",
+      "txHash": "0xa59f18f53d622aedb45bbc58614da6d3760e657df5114a1c3ae40668aae9064d"
+    },
     {
       "amount": "199431000000000000000000",
       "beneficiary": "0x4b771e3421d4fbecc6eb67a26af77aca85ef2ac3",
@@ -828,14 +836,6 @@
       "returnAmount": "790368912810243534",
       "timestamp": "1647060353",
       "txHash": "0x491bad657026b1fa14990a9352a17fa43c4eefd554bc874457f0eecb53b97b13"
-    },
-    {
-      "amount": "352945416430811464865882",
-      "beneficiary": "0x3af4ea5614f21e23b2398a62e1e20fe3d8b2fb7f",
-      "id": "0x732a51dbeff0ffce8effc247b0ef7c5dfa063622ab01d99a72ba4544ebdf02c2-49",
-      "returnAmount": "820456249098178319",
-      "timestamp": "1647057536",
-      "txHash": "0x732a51dbeff0ffce8effc247b0ef7c5dfa063622ab01d99a72ba4544ebdf02c2"
     }
   ],
   "withdrawEvents": [
