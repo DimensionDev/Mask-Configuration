@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5976622082488378389508",
+  "currentBalance": "5976745594683500340728",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6745967651842996266455",
+  "totalPaid": "6746091164038118217675",
   "totalRedeemed": "345994585231187486778",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
@@ -32,9 +32,17 @@
     "jbx": "0"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2472512505",
+  "totalSupply": "2472529594",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "123512195121951220",
+      "beneficiary": "0xb1ca4096d1b72dbe23a1e74e644ccd64e9f19928",
+      "id": "0xd4ef5635372848b8894d79dc6096e240695070e28cbfef5c1745d40bec6afc9d-147",
+      "note": "Fee from @presidentialdao",
+      "timestamp": "1648545774",
+      "txHash": "0xd4ef5635372848b8894d79dc6096e240695070e28cbfef5c1745d40bec6afc9d"
+    },
     {
       "amount": "212711780381627429",
       "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
@@ -426,14 +434,6 @@
       "note": null,
       "timestamp": "1646448062",
       "txHash": "0x29e73b0d3952e4b181bc2bd1c6bbef94dd78a7dea75f75a0190e1c4a38ae2833"
-    },
-    {
-      "amount": "9540000000000",
-      "beneficiary": "0x3ff32bd56ed577adb7215117ac23f3b6a08ed823",
-      "id": "0x7c269b7c2104f2e00e1d8912c21e69f70f03f8806811abd850b6ce577a79fa98-419",
-      "note": "https://jbx.mypinata.cloud/ipfs/QmfKAU5fNmabXwvUEAvDpSZuLZe2HZTb8UEeekRKiY2Fsy",
-      "timestamp": "1646428577",
-      "txHash": "0x7c269b7c2104f2e00e1d8912c21e69f70f03f8806811abd850b6ce577a79fa98"
     }
   ],
   "redeemEvents": [
