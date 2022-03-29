@@ -1,11 +1,11 @@
 {
   "createdAt": "1626376773",
   "creator": "0xac43e14c018490d045a774008648c701cda8c6b3",
-  "currentBalance": "5978704266596840385491",
+  "currentBalance": "5978918400969880691336",
   "handle": "juicebox",
   "id": "1",
   "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
-  "totalPaid": "6745753517469955960610",
+  "totalPaid": "6745967651842996266455",
   "totalRedeemed": "343698266749685184950",
   "uri": "QmToqoMoakcVuGbELoJYRfWY5N7qr3Jawxq3xH6u3tbPiv",
   "name": "JuiceboxDAO",
@@ -32,9 +32,25 @@
     "jbx": "0"
   },
   "tokenAddress": "0x3abF2A4f8452cCC2CF7b4C1e4663147600646f66",
-  "totalSupply": "2473482878",
+  "totalSupply": "2473512505",
   "holdingSymbol": "JBX",
   "payEvents": [
+    {
+      "amount": "212711780381627429",
+      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
+      "id": "0x9db046fa5e75b9581f7981c781ac035d4417b3e133a767286d74055a0b76af35-412",
+      "note": "Fee from @peel",
+      "timestamp": "1648509983",
+      "txHash": "0x9db046fa5e75b9581f7981c781ac035d4417b3e133a767286d74055a0b76af35"
+    },
+    {
+      "amount": "1422592658678416",
+      "beneficiary": "0x8e4e926b5d3f7bca0f7d8639647f5785f5c29e9a",
+      "id": "0x48b0157ed0cbb8cdb7bb3d95a1a4cd62dd10f2b76ba0420b39f96d3c8ee853cd-463",
+      "note": "Fee from @thriveestatexdao",
+      "timestamp": "1648500277",
+      "txHash": "0x48b0157ed0cbb8cdb7bb3d95a1a4cd62dd10f2b76ba0420b39f96d3c8ee853cd"
+    },
     {
       "amount": "2439024390243903",
       "beneficiary": "0x312fb697fc2f31cc4cb2677d8650b3cf2ed5e16e",
@@ -418,22 +434,6 @@
       "note": "https://jbx.mypinata.cloud/ipfs/QmfKAU5fNmabXwvUEAvDpSZuLZe2HZTb8UEeekRKiY2Fsy",
       "timestamp": "1646428577",
       "txHash": "0x7c269b7c2104f2e00e1d8912c21e69f70f03f8806811abd850b6ce577a79fa98"
-    },
-    {
-      "amount": "262373159598367193",
-      "beneficiary": "0xb6d15df63a329579ed97d2671e22f3f145064167",
-      "id": "0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2-109",
-      "note": "Fee from @satellitedao",
-      "timestamp": "1646421766",
-      "txHash": "0xf2086d43ca57755b14728861630ea8aabd03339ab9eb2966110de0b76e4312f2"
-    },
-    {
-      "amount": "82523809523809524",
-      "beneficiary": "0xeef4038a8da28b84e919958f8f210bc2b385974d",
-      "id": "0x5e804cc79663534657e82d7173e2061dba15f5ad8dcf730938f61c2bb86f5a8e-135",
-      "note": "Fee from @tiles",
-      "timestamp": "1646412847",
-      "txHash": "0x5e804cc79663534657e82d7173e2061dba15f5ad8dcf730938f61c2bb86f5a8e"
     }
   ],
   "redeemEvents": [

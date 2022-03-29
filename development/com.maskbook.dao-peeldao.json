@@ -1,7 +1,7 @@
 {
   "createdAt": "1644187376",
   "creator": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
-  "currentBalance": "16515875790072130297",
+  "currentBalance": "12048928402057954293",
   "handle": "peel",
   "id": "329",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -110,6 +110,16 @@
   ],
   "redeemEvents": [],
   "withdrawEvents": [
+    {
+      "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
+      "beneficiaryTransferAmount": "680677697221207774",
+      "caller": "0xe16a238d207b9ac8b419c7a866b0de013c73357b",
+      "fundingCycleId": "843",
+      "id": "329-0x9db046fa5e75b9581f7981c781ac035d4417b3e133a767286d74055a0b76af35",
+      "netTransferAmount": "4254235607632548575",
+      "timestamp": "1648509983",
+      "txHash": "0x9db046fa5e75b9581f7981c781ac035d4417b3e133a767286d74055a0b76af35"
+    },
     {
       "beneficiary": "0x0e9d15e28e3de9bb3cf64ffbc2f2f49da9ac545b",
       "beneficiaryTransferAmount": "798947967169256849",
