@@ -18,6 +18,23 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "30 days",
+      "start": "2022-03-25 2:27pm",
+      "end": "2022-04-24 2:27pm",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
