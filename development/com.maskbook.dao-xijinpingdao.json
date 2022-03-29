@@ -18,6 +18,23 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "DYOR",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "8 days",
+      "start": "2022-03-28 4:19am",
+      "end": "2022-04-05 4:19am",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "0",
+  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],
