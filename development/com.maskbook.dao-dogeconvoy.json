@@ -36,7 +36,24 @@
   "tokenAddress": null,
   "totalSupply": "1022220",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "amount": "1000000000000000000",
+      "beneficiary": "0x7c6fb6ddab3aab751c03dbb0680045d7094a0e69",
+      "id": "0xe6c3317505f9e958e1765725efc37ab40df288827230a5962e381a0017382dfc-262",
+      "note": "LFG to the moon",
+      "timestamp": "1648199891",
+      "txHash": "0xe6c3317505f9e958e1765725efc37ab40df288827230a5962e381a0017382dfc"
+    },
+    {
+      "amount": "22220000000000000",
+      "beneficiary": "0xfd6b2d4793b6d29a74643ba634701464d5d45c4b",
+      "id": "0x7e07bb84ab09de133a53fa0ca715a8fafe3b4711f3b6591e3a8424b95fc3738a-325",
+      "note": "WOW WOW WOW ",
+      "timestamp": "1648189413",
+      "txHash": "0x7e07bb84ab09de133a53fa0ca715a8fafe3b4711f3b6591e3a8424b95fc3738a"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [
     {
