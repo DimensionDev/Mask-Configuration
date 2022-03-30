@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "43825601700000000000",
+  "currentBalance": "44975601700000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "171405246620000000000",
+  "totalPaid": "172555246620000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "1150000000000000000",
+      "beneficiary": "0x50e20be1f82009ba9debb907859ed080ce5bbc41",
+      "id": "0x3559e6caa442a14c1378d6f7eb2b50306e33b1a8f952a4e30cbeb8f0f189922b-194",
+      "note": null,
+      "timestamp": "1648610383",
+      "txHash": "0x3559e6caa442a14c1378d6f7eb2b50306e33b1a8f952a4e30cbeb8f0f189922b"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0xa14aea49fd40d0a92b1cae8497d02b33a07dd872",
@@ -410,14 +418,6 @@
       "note": "我从未觉得人间美好，直到你来了。",
       "timestamp": "1648098492",
       "txHash": "0x53240d22f253386199e25e7d3d73fa57ac3eda8abcfadd428ff03c8f5b17fb95"
-    },
-    {
-      "amount": "10000000000000000",
-      "beneficiary": "0x1dc95af598849bc744d942851570574afcd43d87",
-      "id": "0x21a3599b96a1d0d3132bed32345cd3e11651a7cb890e3f1c6ad4c7bd47ecbb52-8",
-      "note": null,
-      "timestamp": "1648083708",
-      "txHash": "0x21a3599b96a1d0d3132bed32345cd3e11651a7cb890e3f1c6ad4c7bd47ecbb52"
     }
   ],
   "redeemEvents": [
