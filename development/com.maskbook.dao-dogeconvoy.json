@@ -1,7 +1,7 @@
 {
   "createdAt": "1648187593",
   "creator": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
-  "currentBalance": "1022220000000000000",
+  "currentBalance": "772220000000000000",
   "handle": "dogeconvoy",
   "id": "552",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
@@ -55,6 +55,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "beneficiaryTransferAmount": "189707317073170733",
+      "caller": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "fundingCycleId": "832",
+      "id": "552-0x948b5cdbd4b51c5e8b173b36a489400a7222df1fb4a073a2da59caca02583cf0",
+      "netTransferAmount": "243902439024390243",
+      "timestamp": "1648617559",
+      "txHash": "0x948b5cdbd4b51c5e8b173b36a489400a7222df1fb4a073a2da59caca02583cf0"
+    }
+  ],
   "reservesEvents": []
 }
