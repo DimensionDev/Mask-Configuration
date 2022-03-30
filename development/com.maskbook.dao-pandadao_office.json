@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "45405601700000000000",
+  "currentBalance": "60405601700000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "172985246620000000000",
+  "totalPaid": "187985246620000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "15000000000000000000",
+      "beneficiary": "0x8d3906457fcbab8e327b7a910f3b7ef2c8999999",
+      "id": "0x2727932f0f6f9350302ff44d90276d6ae62dae1cf302b36ca9002705e183a046-67",
+      "note": null,
+      "timestamp": "1648677286",
+      "txHash": "0x2727932f0f6f9350302ff44d90276d6ae62dae1cf302b36ca9002705e183a046"
+    },
     {
       "amount": "50000000000000000",
       "beneficiary": "0xb056c674127a3f7aaebdecb539dbd9d7423cffce",
@@ -410,14 +418,6 @@
       "note": null,
       "timestamp": "1648102339",
       "txHash": "0x6f8b1e34eae81db6e0fd0cae8a71574e2a7c36c574c00ce557b0f4e744d839f8"
-    },
-    {
-      "amount": "1000000000000000000",
-      "beneficiary": "0x0be0f09adc19334286027ed281b612a49893cd9a",
-      "id": "0x78dde291b8bca9d11abd6f3a1a09a76da36101bee3e631b80081a7a550090991-436",
-      "note": "Coinbase Seed Round",
-      "timestamp": "1648101588",
-      "txHash": "0x78dde291b8bca9d11abd6f3a1a09a76da36101bee3e631b80081a7a550090991"
     }
   ],
   "redeemEvents": [
