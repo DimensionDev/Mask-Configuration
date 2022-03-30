@@ -1,11 +1,11 @@
 {
   "createdAt": "1645385999",
   "creator": "0x11517ae3326667c350eff7dcf9f220058617c665",
-  "currentBalance": "45105601700000000000",
+  "currentBalance": "45155601700000000000",
   "handle": "pandadao",
   "id": "409",
   "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "172685246620000000000",
+  "totalPaid": "172735246620000000000",
   "totalRedeemed": "0",
   "uri": "QmSxmX8FC2QEFxfMcuQwRx2NkAr58SXCKJxQpkjevW7zYc",
   "name": "PandaDAO",
@@ -19,6 +19,14 @@
   "tokens": [],
   "version": 3,
   "payEvents": [
+    {
+      "amount": "50000000000000000",
+      "beneficiary": "0x47e345856f91d73fbba6fc181cc60cd7e6d31778",
+      "id": "0x941935f0e52b04bd92d6428c7b22e2bdcbca22aaf0b4c5774c6c293492e64d89-376",
+      "note": "赌了 https://jbx.mypinata.cloud/ipfs/QmVCLQLxKe7oNuPaaQWmR1gRZGwttg7NRdBbmnX2WbimzR",
+      "timestamp": "1648628227",
+      "txHash": "0x941935f0e52b04bd92d6428c7b22e2bdcbca22aaf0b4c5774c6c293492e64d89"
+    },
     {
       "amount": "100000000000000000",
       "beneficiary": "0x01d3a43d6e198325e3a4fd38478c05f3ae8d1e7e",
@@ -410,14 +418,6 @@
       "note": null,
       "timestamp": "1648101070",
       "txHash": "0x86fa0a52f845bc2ef3d8b18df9a08aab840967dd386bce4c7c8fe68427c11839"
-    },
-    {
-      "amount": "2100000000000000000",
-      "beneficiary": "0x59f69f26cca28f198e42f358c7af3e890637cd56",
-      "id": "0x0593d110b50ef7caaac5dce6a63c6fd7da4dfc21165939ef474596c9731bbae3-62",
-      "note": null,
-      "timestamp": "1648100155",
-      "txHash": "0x0593d110b50ef7caaac5dce6a63c6fd7da4dfc21165939ef474596c9731bbae3"
     }
   ],
   "redeemEvents": [

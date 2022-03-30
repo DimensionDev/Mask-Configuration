@@ -18,6 +18,23 @@
   "version": 3,
   "payButton": "Join POAPDAO",
   "payDisclosure": "POAPDAO welcomes you to join",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "POAP",
+      "target": "210000000000000000000",
+      "duration": "45 days",
+      "start": "2022-03-03 10:07am",
+      "end": "2022-04-17 10:07am",
+      "discount": 0.01
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": "0xEFd833524CFa07f6EDE9048488f087b72baad3a8",
+  "totalSupply": "7250230",
+  "holdingSymbol": "POAP",
   "payEvents": [
     {
       "amount": "8000000000000000",
