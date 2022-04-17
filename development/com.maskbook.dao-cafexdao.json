@@ -1,13 +1,13 @@
 {
-  "createdAt": "1642998479",
-  "creator": "0x28c173b8f20488eef1b0f48df8453a2f59c38337",
-  "currentBalance": "100000000000000000",
-  "handle": "cafexdao",
   "id": "296",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "handle": "cafexdao",
+  "creator": "0x28c173b8f20488eef1b0f48df8453a2f59c38337",
+  "createdAt": "1642998479",
+  "uri": "QmXFBQVZwu3arDu7spEEoHnKUuFbzsG4Pch8aD4ryakRFV",
+  "currentBalance": "100000000000000000",
   "totalPaid": "100000000000000000",
   "totalRedeemed": "0",
-  "uri": "QmXFBQVZwu3arDu7spEEoHnKUuFbzsG4Pch8aD4ryakRFV",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "CafeX DAO",
   "infoUri": "cafexdao.com",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/Qmf3Q3bpxaXatXZqmMPUeFGhjh8DfSFMbrjUv8yyvHxz1h",
@@ -23,8 +23,8 @@
       "toETHSymbol": "CAFEX",
       "target": "0",
       "duration": "14 days",
-      "start": "2022-03-21 4:27am",
-      "end": "2022-04-04 4:27am",
+      "start": "2022-04-04 4:27am",
+      "end": "2022-04-18 4:27am",
       "discount": 0
     }
   ],
@@ -37,9 +37,9 @@
   "holdingSymbol": "CAFEX",
   "payEvents": [
     {
+      "id": "0x65b363aadb416f2879f0978b671430ada2bf58ad8ec83041c20b77d1ab0f47e5-132",
       "amount": "100000000000000000",
       "beneficiary": "0x28c173b8f20488eef1b0f48df8453a2f59c38337",
-      "id": "0x65b363aadb416f2879f0978b671430ada2bf58ad8ec83041c20b77d1ab0f47e5-132",
       "note": "We gonna sip the robotic java! https://cafexapp.com/",
       "timestamp": "1642998718",
       "txHash": "0x65b363aadb416f2879f0978b671430ada2bf58ad8ec83041c20b77d1ab0f47e5"

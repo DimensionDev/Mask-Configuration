@@ -1,13 +1,13 @@
 {
-  "createdAt": "1645796071",
-  "creator": "0x95d9a7a6cadf8564b3c93c1c4d850335e00c8ec3",
-  "currentBalance": "0",
-  "handle": "turtlecasedao",
   "id": "444",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
-  "totalRedeemed": "0",
+  "handle": "turtlecasedao",
+  "creator": "0x95d9a7a6cadf8564b3c93c1c4d850335e00c8ec3",
+  "createdAt": "1645796071",
   "uri": "QmSFS2x5fWdrkj3zgDKmeeq3nBmUVuLHer5xADQEmHknyX",
+  "currentBalance": "10000000000000000",
+  "totalPaid": "10000000000000000",
+  "totalRedeemed": "0",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "TurtleCaseDao",
   "infoUri": "https://turtlecase.xyz/",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmagEgbUhXHiEMygAXqvjnY1VcAPy7p3kwsg8N85DeF76u",
@@ -18,7 +18,16 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "Never stop exploring the NFT's possibilities of impossibility. ",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "id": "0x7ead1b7b5e41965b13d1b509e8a71e93b53e074064c5f8bfb2fbf7cce03dbb43-318",
+      "amount": "10000000000000000",
+      "beneficiary": "0x50bd1d1d160928a1c5923646a8474036e3c91c7d",
+      "note": "Wonderful work!",
+      "timestamp": "1649175773",
+      "txHash": "0x7ead1b7b5e41965b13d1b509e8a71e93b53e074064c5f8bfb2fbf7cce03dbb43"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []

@@ -1,13 +1,13 @@
 {
-  "createdAt": "1647900058",
-  "creator": "0x96dfe24b6acf58fd2e9fd6fa6adad03b9d095e80",
-  "currentBalance": "0",
-  "handle": "daoflick",
   "id": "545",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "0",
-  "totalRedeemed": "0",
+  "handle": "daoflick",
+  "creator": "0x96dfe24b6acf58fd2e9fd6fa6adad03b9d095e80",
+  "createdAt": "1647900058",
   "uri": "QmWtDPP6boBVYq699L3CRNo9eeY5TMZWN9V1qWBB5YyMWb",
+  "currentBalance": "996510000000000",
+  "totalPaid": "996510000000000",
+  "totalRedeemed": "0",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "DAOflick",
   "infoUri": "www.daoflick.com",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmXB9WRnkBwPF5DY3QnvNbLnHsDhSDUgvVpW4wt9iyq6D6",
@@ -34,9 +34,18 @@
     "jbx": "0"
   },
   "tokenAddress": null,
-  "totalSupply": "0",
+  "totalSupply": "996",
   "holdingSymbol": "Tokens",
-  "payEvents": [],
+  "payEvents": [
+    {
+      "id": "0x4dcad262120265b07814d3caa8218665de78c318c10e4286f97175e3e62cf50e-63",
+      "amount": "996510000000000",
+      "beneficiary": "0x96dfe24b6acf58fd2e9fd6fa6adad03b9d095e80",
+      "note": "Invest in yourself first. ",
+      "timestamp": "1649803364",
+      "txHash": "0x4dcad262120265b07814d3caa8218665de78c318c10e4286f97175e3e62cf50e"
+    }
+  ],
   "redeemEvents": [],
   "withdrawEvents": [],
   "reservesEvents": []

@@ -1,13 +1,13 @@
 {
-  "createdAt": "1642754697",
-  "creator": "0x56a57f248fd5fa5042f32f83dcbf0677c4ecf8b4",
-  "currentBalance": "0",
-  "handle": "pandao",
   "id": "289",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "handle": "pandao",
+  "creator": "0x56a57f248fd5fa5042f32f83dcbf0677c4ecf8b4",
+  "createdAt": "1642754697",
+  "uri": "QmU7tCuGm53PNYaSEAk5aq9meFADt12cYdVTX5N11WrGM9",
+  "currentBalance": "0",
   "totalPaid": "0",
   "totalRedeemed": "0",
-  "uri": "QmU7tCuGm53PNYaSEAk5aq9meFADt12cYdVTX5N11WrGM9",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "PandaDao",
   "infoUri": "https://pandao.club/",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmcpXqaf8D6WfSYy6vYFHzrkZHV9BBoZNNBrpaPhZfKmeK",
@@ -20,7 +20,7 @@
   "payDisclosure": "Thank you on behalf of panda!",
   "fundingCycles": [
     {
-      "toETHSymbol": "PEOPLE",
+      "toETHSymbol": "PANDA",
       "target": "0",
       "duration": "Not set ",
       "discount": 0
@@ -30,9 +30,9 @@
     "eth": "0",
     "jbx": "0"
   },
-  "tokenAddress": null,
-  "totalSupply": "187975246",
-  "holdingSymbol": "Tokens",
+  "tokenAddress": "0x3cBb7f5d7499Af626026E96a2f05df806F2200DC",
+  "totalSupply": "1892154905",
+  "holdingSymbol": "PANDA",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

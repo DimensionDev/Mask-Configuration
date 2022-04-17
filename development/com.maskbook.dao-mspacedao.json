@@ -1,13 +1,13 @@
 {
-  "createdAt": "1646957800",
-  "creator": "0x6b880a44608164d05dbf7ecec81c44f69166f07c",
-  "currentBalance": "26000000000000000",
-  "handle": "myspacedao",
   "id": "517",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "handle": "myspacedao",
+  "creator": "0x6b880a44608164d05dbf7ecec81c44f69166f07c",
+  "createdAt": "1646957800",
+  "uri": "QmNyFZSFd6D3PHg2camJAgmSvBxrLwE1VMekhMhcRm8Aau",
+  "currentBalance": "0",
   "totalPaid": "26000000000000000",
   "totalRedeemed": "0",
-  "uri": "QmNyFZSFd6D3PHg2camJAgmSvBxrLwE1VMekhMhcRm8Aau",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "MySpaceDAO",
   "infoUri": "https://myspacedao.net/",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmVbAxcY2QCL3BCdsVbHj4khZCkZsaqGjz5fPNBijv5sjN",
@@ -45,6 +45,17 @@
     }
   ],
   "redeemEvents": [],
-  "withdrawEvents": [],
+  "withdrawEvents": [
+    {
+      "beneficiary": "0x6b880a44608164d05dbf7ecec81c44f69166f07c",
+      "beneficiaryTransferAmount": "0",
+      "caller": "0x6b880a44608164d05dbf7ecec81c44f69166f07c",
+      "fundingCycleId": "769",
+      "id": "517-0x4cc4147e17fee4cb615bf651a686ddfccf99bdccd4b1707a9d1b42d3e8e5a88b",
+      "netTransferAmount": "25365853658536585",
+      "timestamp": "1649457885",
+      "txHash": "0x4cc4147e17fee4cb615bf651a686ddfccf99bdccd4b1707a9d1b42d3e8e5a88b"
+    }
+  ],
   "reservesEvents": []
 }

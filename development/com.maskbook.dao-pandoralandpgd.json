@@ -1,13 +1,13 @@
 {
-  "createdAt": "1640442432",
-  "creator": "0xe181c3e16df0aeba644542e5602941f348483e34",
-  "currentBalance": "0",
-  "handle": "pandoraland",
   "id": "220",
-  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "handle": "pandoraland",
+  "creator": "0xe181c3e16df0aeba644542e5602941f348483e34",
+  "createdAt": "1640442432",
+  "uri": "QmeP5JnioLv9Zh4oCF4HB11zsigatLZTX1L1ZBK5Mj9Ui5",
+  "currentBalance": "0",
   "totalPaid": "0",
   "totalRedeemed": "0",
-  "uri": "QmeP5JnioLv9Zh4oCF4HB11zsigatLZTX1L1ZBK5Mj9Ui5",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "name": "PandoraLand",
   "infoUri": "https://pandora.land",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmTP7U8TgMi6MfHYznzz2N5nSVtVxb83K74Xg3m95KmzA3",
@@ -18,23 +18,6 @@
   "version": 3,
   "payButton": "",
   "payDisclosure": "",
-  "fundingCycles": [
-    {
-      "toETHSymbol": "PEOPLE",
-      "target": "0",
-      "duration": "30 days",
-      "start": "2022-03-25 2:27pm",
-      "end": "2022-04-24 2:27pm",
-      "discount": 0
-    }
-  ],
-  "inWallet": {
-    "eth": "0",
-    "jbx": "0"
-  },
-  "tokenAddress": null,
-  "totalSupply": "0",
-  "holdingSymbol": "Tokens",
   "payEvents": [],
   "redeemEvents": [],
   "withdrawEvents": [],

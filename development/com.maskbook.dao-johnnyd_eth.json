@@ -1,23 +1,23 @@
 {
-  "createdAt": "1643166229",
-  "creator": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-  "currentBalance": "1942008684512484810",
-  "handle": "johnnydao",
   "id": "302",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "7585614240356196444",
+  "handle": "johnnydao",
+  "creator": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+  "createdAt": "1643166229",
+  "uri": "QmXWpqy3PiBkiHUCoVBSem1Ea1TWQmd4NeVgTiZxLqi2Go",
+  "currentBalance": "242231861082358",
+  "totalPaid": "9382937957012952310",
   "totalRedeemed": "3564088495013240889",
-  "uri": "QmcRXUNTEuXKzqPezAtjDP13vyfwrws5WpbzaDyw9QugNK",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "JohnnyDAO",
-  "description": "Frontend engineer @JuiceboxDAO / @Peel. Donating 10% of my pre-tax income to the most effective charities (Givewell Maximum Impact fund). \nI receive my paycheck through this project, which splits 10% of all payments to Givewell and 90% to my perso (see 'Funding Distribution' below). ",
-  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmbEzakKBsYqWhEt8A8Q1cn1cu3ZAsVSDGjQzkhGsCdtop",
+  "description": "Frontend engineer @JuiceboxDAO / @Peel. Donating 10% of my pre-tax income to the most effective charities (Givewell Maximum Impact fund). \n\nI receive my paycheck through this project, which splits 10% of all payments to Givewell and 90% to my personal wallet (see 'Funding Distribution' below). ",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmQfwzfqdkNhsr8Sfa3XzVEVnQ7rZYdT6QshytZ3WQP2kv",
   "infoUri": "https://www.givewell.org/top-charities",
   "twitter": "johnnyD_eth",
   "discord": "https://discord.gg/XvmfY4Hkcz",
   "payButton": "Pay",
   "payDisclosure": "47% of your payment will go to JohnnyD, 10% to Givewell, 38% to the taxman and 5% to fees 💸",
   "tokens": [],
-  "version": 3,
+  "version": 4,
   "fundingCycles": [
     {
       "toETHSymbol": "JOHN",
@@ -33,9 +33,25 @@
     "jbx": "0"
   },
   "tokenAddress": "0x81c66959e454A5f1B21Ee3E98d6efFa4eF7F2592",
-  "totalSupply": "1942008",
+  "totalSupply": "3739332",
   "holdingSymbol": "JOHN",
   "payEvents": [
+    {
+      "amount": "938456270678133452",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x4002f9977dc633d0dd5e72843ad4456b8aad3b4ef602c5496791e26560411add-426",
+      "note": "Payout from @peel",
+      "timestamp": "1649638027",
+      "txHash": "0x4002f9977dc633d0dd5e72843ad4456b8aad3b4ef602c5496791e26560411add"
+    },
+    {
+      "amount": "858867445978622414",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "id": "0x87486ebaf34129581dbeb8ea9a9e51507cb87a6c700fc5bd65e5af268b1d2a68-280",
+      "note": "Payout from @peel",
+      "timestamp": "1649065322",
+      "txHash": "0x87486ebaf34129581dbeb8ea9a9e51507cb87a6c700fc5bd65e5af268b1d2a68"
+    },
     {
       "amount": "893389477602835200",
       "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
@@ -105,35 +121,45 @@
   ],
   "withdrawEvents": [
     {
+      "id": "302-0x041e7cc86d62bd0f4d5b7193aa94bb7f439688aefffa959687607126fde2423d",
+      "netTransferAmount": "3647892848105520310",
+      "fundingCycleId": "792",
+      "timestamp": "1649675939",
+      "txHash": "0x041e7cc86d62bd0f4d5b7193aa94bb7f439688aefffa959687607126fde2423d",
       "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "beneficiaryTransferAmount": "1",
       "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "fundingCycleId": "791",
-      "id": "302-0x73aaae75ad8d821fe0bdc4cd15011a00b6f6aa7808879faf28daf05bb63dc99b",
-      "netTransferAmount": "1068112423366267155",
-      "timestamp": "1647436761",
-      "txHash": "0x73aaae75ad8d821fe0bdc4cd15011a00b6f6aa7808879faf28daf05bb63dc99b"
+      "beneficiaryTransferAmount": "0"
     },
     {
+      "id": "302-0x73aaae75ad8d821fe0bdc4cd15011a00b6f6aa7808879faf28daf05bb63dc99b",
+      "netTransferAmount": "1068112423366267155",
+      "fundingCycleId": "791",
+      "timestamp": "1647436761",
+      "txHash": "0x73aaae75ad8d821fe0bdc4cd15011a00b6f6aa7808879faf28daf05bb63dc99b",
       "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "beneficiaryTransferAmount": "1",
       "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "fundingCycleId": "536",
+      "beneficiaryTransferAmount": "1"
+    },
+    {
       "id": "302-0x777f1908e76d84150a27bdb0644d01efb89a8ca266be2c905df6186058ca67bd",
       "netTransferAmount": "912380015519895459",
+      "fundingCycleId": "536",
       "timestamp": "1644965780",
-      "txHash": "0x777f1908e76d84150a27bdb0644d01efb89a8ca266be2c905df6186058ca67bd"
+      "txHash": "0x777f1908e76d84150a27bdb0644d01efb89a8ca266be2c905df6186058ca67bd",
+      "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
+      "beneficiaryTransferAmount": "1"
     }
   ],
   "reservesEvents": [
     {
+      "id": "302-0xf7215cbd31c8e85bcd3416ed3304f1f250e5c6e5c7aada44cd64080fbca78288",
+      "count": "5643605555843711634000000",
       "beneficiary": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
       "beneficiaryTicketAmount": "5643605555843711634000000",
-      "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad",
-      "count": "5643605555843711634000000",
-      "id": "302-0xf7215cbd31c8e85bcd3416ed3304f1f250e5c6e5c7aada44cd64080fbca78288",
       "timestamp": "1647438230",
-      "txHash": "0xf7215cbd31c8e85bcd3416ed3304f1f250e5c6e5c7aada44cd64080fbca78288"
+      "txHash": "0xf7215cbd31c8e85bcd3416ed3304f1f250e5c6e5c7aada44cd64080fbca78288",
+      "caller": "0xf0fe43a75ff248fd2e75d33fa1ebde71c6d1abad"
     }
   ]
 }

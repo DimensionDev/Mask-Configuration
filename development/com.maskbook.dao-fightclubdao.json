@@ -1,0 +1,52 @@
+{
+  "id": "596",
+  "handle": "fightclubdao",
+  "creator": "0xf9b5c269d8e9bba606da41df216d707c8971a84a",
+  "createdAt": "1650162832",
+  "uri": "Qmefbyq5ceLMeri76syAak5HFNBi83DGHR7SJLrTegHmLE",
+  "currentBalance": "10000000000000000",
+  "totalPaid": "10000000000000000",
+  "totalRedeemed": "0",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "name": "FightClubDAO",
+  "infoUri": "https://f2e.live/",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmWe6mqV12g3uVJqyREqAmEDmPKtQYsjnfwKcThWdkaidE",
+  "description": "Fight 2 Earn. Bringing combat culture to web3.",
+  "twitter": "fightclubdao",
+  "discord": "https://discord.gg/xbhreFJTFQ",
+  "tokens": [],
+  "version": 4,
+  "archived": false,
+  "payButton": "Fight",
+  "payDisclosure": "You are taking part in building the first ever F2E platform",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "10000000000000000000",
+      "duration": "15 days",
+      "start": "2022-04-17 2:33am",
+      "end": "2022-05-02 2:33am",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "10000",
+  "holdingSymbol": "Tokens",
+  "payEvents": [
+    {
+      "id": "0xf32a96c06b933ec94c4ee68e2915088d8481a243251b2882a7ce2adb182a497b-555",
+      "amount": "10000000000000000",
+      "beneficiary": "0xf9b5c269d8e9bba606da41df216d707c8971a84a",
+      "note": "FIGHT ME",
+      "timestamp": "1650163225",
+      "txHash": "0xf32a96c06b933ec94c4ee68e2915088d8481a243251b2882a7ce2adb182a497b"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
+}

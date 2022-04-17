@@ -1,13 +1,13 @@
 {
-  "createdAt": "1642126542",
-  "creator": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
-  "currentBalance": "0",
-  "handle": "joinspacedao",
   "id": "265",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "handle": "joinspacedao",
+  "creator": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
+  "createdAt": "1642126542",
+  "uri": "QmYk1EifXn4nPfwxbPt51ewRmYtNpweR4CvAGnt1NDTcQ3",
+  "currentBalance": "0",
   "totalPaid": "250000000000000000",
   "totalRedeemed": "0",
-  "uri": "QmYk1EifXn4nPfwxbPt51ewRmYtNpweR4CvAGnt1NDTcQ3",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "Space DAO",
   "description": "We reserved 8 seats on a vessel going to space in 2024. Join the DAO for a chance to climb aboard.",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmdHphdXjWAbCD7UQP946HYqrm1QKBGPXD6WBspsJ8zz3P",
@@ -46,14 +46,14 @@
   "redeemEvents": [],
   "withdrawEvents": [
     {
-      "beneficiary": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
-      "beneficiaryTransferAmount": "0",
-      "caller": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
-      "fundingCycleId": "420",
       "id": "265-0xf1432e075c39fdfdfae9201eca1130432e5a2014519273082210377ad1f45347",
       "netTransferAmount": "238095238095238095",
+      "fundingCycleId": "420",
       "timestamp": "1644398048",
-      "txHash": "0xf1432e075c39fdfdfae9201eca1130432e5a2014519273082210377ad1f45347"
+      "txHash": "0xf1432e075c39fdfdfae9201eca1130432e5a2014519273082210377ad1f45347",
+      "beneficiary": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
+      "caller": "0xe6445bd1d9674fe7fbedad2f56f3b1eaea1b029e",
+      "beneficiaryTransferAmount": "0"
     }
   ],
   "reservesEvents": []

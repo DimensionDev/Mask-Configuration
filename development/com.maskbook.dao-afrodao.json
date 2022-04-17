@@ -1,13 +1,13 @@
 {
-  "createdAt": "1641108633",
-  "creator": "0xfdbb2e2f9b2b40e0ba723fcda1cb2c6c972e95a1",
-  "currentBalance": "0",
-  "handle": "afro",
   "id": "240",
-  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "handle": "afro",
+  "creator": "0xfdbb2e2f9b2b40e0ba723fcda1cb2c6c972e95a1",
+  "createdAt": "1641108633",
+  "uri": "QmevdeJWUCwnREmwCRBv7jjFsZ8MT4cRDDF5VSMxqEot95",
+  "currentBalance": "0",
   "totalPaid": "183093400000000000",
   "totalRedeemed": "0",
-  "uri": "QmevdeJWUCwnREmwCRBv7jjFsZ8MT4cRDDF5VSMxqEot95",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "name": "AFRO",
   "infoUri": "afrodao.us/afrodao",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmZtLLYk9SKGuxQPdorSRmkmWErWhmijYQii6CBPfcYi7P",
@@ -63,14 +63,14 @@
   "redeemEvents": [],
   "withdrawEvents": [
     {
-      "beneficiary": "0xea187222fc5659948708aa76fad7417f6e473f9f",
-      "beneficiaryTransferAmount": "174374666666666666",
-      "caller": "0xfdbb2e2f9b2b40e0ba723fcda1cb2c6c972e95a1",
-      "fundingCycleId": "385",
       "id": "240-0x3bb22f58ee2bae270012028e17dc486b32a7393a74efdf57e5faefa7e2526b46",
       "netTransferAmount": "174374666666666666",
+      "fundingCycleId": "385",
       "timestamp": "1645833065",
-      "txHash": "0x3bb22f58ee2bae270012028e17dc486b32a7393a74efdf57e5faefa7e2526b46"
+      "txHash": "0x3bb22f58ee2bae270012028e17dc486b32a7393a74efdf57e5faefa7e2526b46",
+      "beneficiary": "0xea187222fc5659948708aa76fad7417f6e473f9f",
+      "caller": "0xfdbb2e2f9b2b40e0ba723fcda1cb2c6c972e95a1",
+      "beneficiaryTransferAmount": "174374666666666666"
     }
   ],
   "reservesEvents": []

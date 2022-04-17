@@ -1,0 +1,58 @@
+{
+  "id": "570",
+  "handle": "flipflip",
+  "creator": "0x814436b0079c03d815a2758c0a777066a411cae2",
+  "createdAt": "1649022282",
+  "uri": "QmTtcGWiNDQkc2pNWrxtHP3kSnvvaa4tbKw2imAFzhM6cP",
+  "currentBalance": "20000000000000000",
+  "totalPaid": "20000000000000000",
+  "totalRedeemed": "0",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "name": "FlipFlip DAO",
+  "infoUri": "https://flipresell.com",
+  "logoUri": "https://jbx.mypinata.cloud/ipfs/QmYes2AdrWhqELST4Wm6b1cYhNnUWXibbj2veakohrRu6V",
+  "description": "Supports projects and the resell commmunity, and the development of the DAO itself. Members govern what our community will issue and do moving forward. Together.",
+  "twitter": "FlipFlip",
+  "discord": "https://discord.gg/FlipFlip",
+  "tokens": [],
+  "version": 4,
+  "archived": false,
+  "payButton": "",
+  "payDisclosure": "Paying FlipFlipDAO is not an investment. It's a way to support the project. Any value or utility of the tokens you receive is determined by FlipFlipDAO. Thank you for your support.",
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "0",
+      "duration": "Not set ",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "20000",
+  "holdingSymbol": "Tokens",
+  "payEvents": [
+    {
+      "id": "0x4bc667b29c474a4882b269c22f616602e90dc7a54b246411f40ba103fe529656-439",
+      "amount": "10000000000000000",
+      "beneficiary": "0x814436b0079c03d815a2758c0a777066a411cae2",
+      "note": null,
+      "timestamp": "1649022645",
+      "txHash": "0x4bc667b29c474a4882b269c22f616602e90dc7a54b246411f40ba103fe529656"
+    },
+    {
+      "id": "0x6cb92dd5accb7f7a5e9cae9c901bb51a294468ce8c9f4cd71d096baa740a5ae6-340",
+      "amount": "10000000000000000",
+      "beneficiary": "0xb22f69079beaad42d42969bbc58771681ef19bc7",
+      "note": null,
+      "timestamp": "1649022428",
+      "txHash": "0x6cb92dd5accb7f7a5e9cae9c901bb51a294468ce8c9f4cd71d096baa740a5ae6"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
+}

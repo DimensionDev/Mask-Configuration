@@ -1,13 +1,13 @@
 {
-  "createdAt": "1648217835",
-  "creator": "0x48608c06a7eda2c0aed3769576c37f83cd9f25a5",
-  "currentBalance": "1000000000000000",
-  "handle": "civilworlddao",
   "id": "554",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
-  "totalPaid": "1000000000000000",
-  "totalRedeemed": "0",
+  "handle": "civilworlddao",
+  "creator": "0x48608c06a7eda2c0aed3769576c37f83cd9f25a5",
+  "createdAt": "1648217835",
   "uri": "QmWn6yQxYei4wKrA4NgBy4dhxvPdu4nUkPns1dCuK3GJpj",
+  "currentBalance": "13293420000000000",
+  "totalPaid": "13293420000000000",
+  "totalRedeemed": "0",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "CivilWorldDAO",
   "infoUri": "civilworlddao.org",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmV2Snr5Ng5xNXEtddCgpYxoVRALCh6DnmXk6F6zFf3bXX",
@@ -32,9 +32,33 @@
     "jbx": "0"
   },
   "tokenAddress": "0xE595D143eEf58603d0cA22486468FDD10470ecf3",
-  "totalSupply": "1000",
+  "totalSupply": "12013793",
   "holdingSymbol": "CWT",
   "payEvents": [
+    {
+      "amount": "9307100000000000",
+      "beneficiary": "0xb14a4b6f160f37214e95a4538a690445c63728cb",
+      "id": "0x8197dcd70e266238b38bf7815ba833b85d2275074417364c39bc91d3a4186808-355",
+      "note": null,
+      "timestamp": "1649262534",
+      "txHash": "0x8197dcd70e266238b38bf7815ba833b85d2275074417364c39bc91d3a4186808"
+    },
+    {
+      "amount": "1493160000000000",
+      "beneficiary": "0xb14a4b6f160f37214e95a4538a690445c63728cb",
+      "id": "0x547b61b42e4157f53fc2f4953d9ff56204c6f4d8650b50f52b17624e7d84cbd4-262",
+      "note": null,
+      "timestamp": "1649215330",
+      "txHash": "0x547b61b42e4157f53fc2f4953d9ff56204c6f4d8650b50f52b17624e7d84cbd4"
+    },
+    {
+      "amount": "1493160000000000",
+      "beneficiary": "0x3a7f34d0fb17161c8c9bbefb59faca97abe0d9f7",
+      "id": "0xfdb5e2af32d854a897f4cf83d81c2fed26c0a148245a6c4bc62e5512284bee6b-180",
+      "note": null,
+      "timestamp": "1649214961",
+      "txHash": "0xfdb5e2af32d854a897f4cf83d81c2fed26c0a148245a6c4bc62e5512284bee6b"
+    },
     {
       "amount": "1000000000000000",
       "beneficiary": "0x48608c06a7eda2c0aed3769576c37f83cd9f25a5",

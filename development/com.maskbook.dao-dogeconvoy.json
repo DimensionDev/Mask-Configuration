@@ -1,13 +1,13 @@
 {
-  "createdAt": "1648187593",
-  "creator": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
-  "currentBalance": "772220000000000000",
-  "handle": "dogeconvoy",
   "id": "552",
-  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "handle": "dogeconvoy",
+  "creator": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+  "createdAt": "1648187593",
+  "uri": "QmQUVY81VpULBmjE4GRLxAo3CLh7BW87GmaPyhsZjeCS24",
+  "currentBalance": "0",
   "totalPaid": "1022220000000000000",
   "totalRedeemed": "0",
-  "uri": "QmQUVY81VpULBmjE4GRLxAo3CLh7BW87GmaPyhsZjeCS24",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
   "name": "Doge Convoy",
   "infoUri": "http://dogeconvoy.fun",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/QmUPfFtXu9r2FrHdCcqMXq2E26AKSPDD7U4aPue2GEZcnQ",
@@ -24,8 +24,8 @@
       "toETHSymbol": "PEOPLE",
       "target": "11000000000000000000",
       "duration": "11 days",
-      "start": "2022-03-25 5:53am",
-      "end": "2022-04-05 5:53am",
+      "start": "2022-04-16 5:53am",
+      "end": "2022-04-27 5:53am",
       "discount": 0.11
     }
   ],
@@ -38,17 +38,17 @@
   "holdingSymbol": "Tokens",
   "payEvents": [
     {
+      "id": "0xe6c3317505f9e958e1765725efc37ab40df288827230a5962e381a0017382dfc-262",
       "amount": "1000000000000000000",
       "beneficiary": "0x7c6fb6ddab3aab751c03dbb0680045d7094a0e69",
-      "id": "0xe6c3317505f9e958e1765725efc37ab40df288827230a5962e381a0017382dfc-262",
       "note": "LFG to the moon",
       "timestamp": "1648199891",
       "txHash": "0xe6c3317505f9e958e1765725efc37ab40df288827230a5962e381a0017382dfc"
     },
     {
+      "id": "0x7e07bb84ab09de133a53fa0ca715a8fafe3b4711f3b6591e3a8424b95fc3738a-325",
       "amount": "22220000000000000",
       "beneficiary": "0xfd6b2d4793b6d29a74643ba634701464d5d45c4b",
-      "id": "0x7e07bb84ab09de133a53fa0ca715a8fafe3b4711f3b6591e3a8424b95fc3738a-325",
       "note": "WOW WOW WOW ",
       "timestamp": "1648189413",
       "txHash": "0x7e07bb84ab09de133a53fa0ca715a8fafe3b4711f3b6591e3a8424b95fc3738a"
@@ -57,15 +57,35 @@
   "redeemEvents": [],
   "withdrawEvents": [
     {
-      "beneficiary": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
-      "beneficiaryTransferAmount": "189707317073170733",
-      "caller": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "id": "552-0x63caa7c1bef4b2ac33c59776a931882f86492dd359f507c40890fd9f72a626e0",
+      "netTransferAmount": "753385365853658536",
       "fundingCycleId": "832",
+      "timestamp": "1648848095",
+      "txHash": "0x63caa7c1bef4b2ac33c59776a931882f86492dd359f507c40890fd9f72a626e0",
+      "beneficiary": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "caller": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "beneficiaryTransferAmount": "585983137560975610"
+    },
+    {
       "id": "552-0x948b5cdbd4b51c5e8b173b36a489400a7222df1fb4a073a2da59caca02583cf0",
       "netTransferAmount": "243902439024390243",
+      "fundingCycleId": "832",
       "timestamp": "1648617559",
-      "txHash": "0x948b5cdbd4b51c5e8b173b36a489400a7222df1fb4a073a2da59caca02583cf0"
+      "txHash": "0x948b5cdbd4b51c5e8b173b36a489400a7222df1fb4a073a2da59caca02583cf0",
+      "beneficiary": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "caller": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "beneficiaryTransferAmount": "189707317073170733"
     }
   ],
-  "reservesEvents": []
+  "reservesEvents": [
+    {
+      "id": "552-0xb87a1b661dea8996057024d322ee71077df03e175f2db73cadd22675103e68c7",
+      "count": "511110000000000000000000",
+      "beneficiary": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04",
+      "beneficiaryTicketAmount": "482998950000000000000000",
+      "timestamp": "1648878728",
+      "txHash": "0xb87a1b661dea8996057024d322ee71077df03e175f2db73cadd22675103e68c7",
+      "caller": "0x793fffeaacd228bcb122cbfc308e700ab0a6ee04"
+    }
+  ]
 }

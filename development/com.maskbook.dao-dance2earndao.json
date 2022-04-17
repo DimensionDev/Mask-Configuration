@@ -1,0 +1,66 @@
+{
+  "id": "577",
+  "handle": "dance2earndao",
+  "creator": "0x65f35c80b35c35dcc916d6f3dffeb80aaa8f73b7",
+  "createdAt": "1649472240",
+  "uri": "QmPdjytS9tvRMFjjNNrALtosGcDJLUCmU6TmMbwJASHyhG",
+  "currentBalance": "46400000000000000",
+  "totalPaid": "46400000000000000",
+  "totalRedeemed": "0",
+  "terminal": "0x981c8ecd009e3e84ee1ff99266bf1461a12e5c68",
+  "name": "Dance2EarnDAO",
+  "description": "Dance 2 Earn. Bringing dance culture to web3.",
+  "infoUri": "https://dance2earn.xyz",
+  "twitter": "dance2earnDAO",
+  "discord": "https://discord.gg/rnsTbgZfzw",
+  "payButton": "Dance",
+  "payDisclosure": "Thank you for supporting the first D2E platform on web3!",
+  "tokens": [],
+  "version": 4,
+  "fundingCycles": [
+    {
+      "toETHSymbol": "PEOPLE",
+      "target": "90000000000000000000",
+      "duration": "15 days",
+      "start": "2022-04-09 2:44am",
+      "end": "2022-04-24 2:44am",
+      "discount": 0
+    }
+  ],
+  "inWallet": {
+    "eth": "0",
+    "jbx": "0"
+  },
+  "tokenAddress": null,
+  "totalSupply": "46400",
+  "holdingSymbol": "Tokens",
+  "payEvents": [
+    {
+      "id": "0x2190d03f0f78ac2479cbdfe7488abf12948dd65f95cd04a774481a80a1159dd5-359",
+      "amount": "10000000000000000",
+      "beneficiary": "0xecf47f07b005971a44d91d5bda419c0be687efbf",
+      "note": "lets dance 👾",
+      "timestamp": "1649992884",
+      "txHash": "0x2190d03f0f78ac2479cbdfe7488abf12948dd65f95cd04a774481a80a1159dd5"
+    },
+    {
+      "id": "0x5282711571d5f89ee0b55978c6ed216a418bbb50bcdb7a9ba597230c79c213b7-78",
+      "amount": "30000000000000000",
+      "beneficiary": "0x56350ae4c9b83b5022f8011bdfa0ddff895b14c2",
+      "note": null,
+      "timestamp": "1649557227",
+      "txHash": "0x5282711571d5f89ee0b55978c6ed216a418bbb50bcdb7a9ba597230c79c213b7"
+    },
+    {
+      "id": "0xbe64a11c2c1c71c64501564199c117d436dcf5ca22b74668d9bebc5b6919ee04-312",
+      "amount": "6400000000000000",
+      "beneficiary": "0x65f35c80b35c35dcc916d6f3dffeb80aaa8f73b7",
+      "note": null,
+      "timestamp": "1649546868",
+      "txHash": "0xbe64a11c2c1c71c64501564199c117d436dcf5ca22b74668d9bebc5b6919ee04"
+    }
+  ],
+  "redeemEvents": [],
+  "withdrawEvents": [],
+  "reservesEvents": []
+}

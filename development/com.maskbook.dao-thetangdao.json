@@ -1,13 +1,13 @@
 {
-  "createdAt": "1638286994",
-  "creator": "0x7406df6af1d29a55eb9913255e22776641dab39f",
-  "currentBalance": "215458709782550",
-  "handle": "tangdao",
   "id": "118",
-  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
+  "handle": "tangdao",
+  "creator": "0x7406df6af1d29a55eb9913255e22776641dab39f",
+  "createdAt": "1638286994",
+  "uri": "QmVrUPrcdK8dVbEmm6iMC4nTBCqRvh5iJUVMNZnhok7tjY",
+  "currentBalance": "215458709782550",
   "totalPaid": "9900000000000000000",
   "totalRedeemed": "0",
-  "uri": "QmVrUPrcdK8dVbEmm6iMC4nTBCqRvh5iJUVMNZnhok7tjY",
+  "terminal": "0xd569d3cce55b71a8a3f3c418c329a66e5f714431",
   "name": "TANGDAO",
   "infoUri": "https://tangdao.gitbook.io",
   "logoUri": "https://jbx.mypinata.cloud/ipfs/Qmd4H3GchgFFGiN19DRQqumn6cUSAH6Nwjhitwk4gKGLru",
@@ -87,14 +87,14 @@
   "redeemEvents": [],
   "withdrawEvents": [
     {
-      "beneficiary": "0x7406df6af1d29a55eb9913255e22776641dab39f",
-      "beneficiaryTransferAmount": "9899784541290217450",
-      "caller": "0x7406df6af1d29a55eb9913255e22776641dab39f",
-      "fundingCycleId": "215",
       "id": "118-0x545ec80e5dd577e95c6e8aa865f48016c72a3da9c353937e10550a20ed0b25ab",
       "netTransferAmount": "9899784541290217450",
+      "fundingCycleId": "215",
       "timestamp": "1638867488",
-      "txHash": "0x545ec80e5dd577e95c6e8aa865f48016c72a3da9c353937e10550a20ed0b25ab"
+      "txHash": "0x545ec80e5dd577e95c6e8aa865f48016c72a3da9c353937e10550a20ed0b25ab",
+      "beneficiary": "0x7406df6af1d29a55eb9913255e22776641dab39f",
+      "caller": "0x7406df6af1d29a55eb9913255e22776641dab39f",
+      "beneficiaryTransferAmount": "9899784541290217450"
     }
   ],
   "reservesEvents": []
